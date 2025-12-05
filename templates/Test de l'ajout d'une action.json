@@ -1,0 +1,16 @@
+{
+  "id": "703bd422-b400-4915-86da-e6f570bc6664",
+  "name": "Test de l\u0027ajout d\u0027une action",
+  "platform": "Windows",
+  "commandPattern": "test",
+  "parameters": [
+    {
+      "name": "param1",
+      "label": "Nouveau param\u00E8tre",
+      "type": "string",
+      "defaultValue": "1",
+      "required": false,
+      "description": ""
+    }
+  ]
+}
