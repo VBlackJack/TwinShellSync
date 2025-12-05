@@ -1,0 +1,7 @@
+{
+  "id": "34e8d90c-c558-4ac8-812d-d90f16a24690",
+  "name": "Disable-SettingsSync",
+  "platform": "Windows",
+  "commandPattern": "New-Item -Path \u0027HKCU:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\SettingSync\\Groups\\Windows\u0027 -Force | Out-Null; Set-ItemProperty -Path \u0027HKCU:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\SettingSync\\Groups\\Windows\u0027 -Name \u0027Enabled\u0027 -Type DWord -Value 0; New-Item -Path \u0027HKCU:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\SettingSync\\Groups\\Accessibility\u0027 -Force | Out-Null; Set-ItemProperty -Path \u0027HKCU:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\SettingSync\\Groups\\Accessibility\u0027 -Name \u0027Enabled\u0027 -Type DWord -Value 0",
+  "parameters": []
+}

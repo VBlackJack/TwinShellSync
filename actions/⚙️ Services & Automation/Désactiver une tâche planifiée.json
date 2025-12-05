@@ -1,0 +1,27 @@
+{
+  "id": "39936be3-4962-4f3f-89b5-fae2e5e046bc",
+  "title": "D\u00E9sactiver une t\u00E2che planifi\u00E9e",
+  "description": "D\u00E9sactive une t\u00E2che planifi\u00E9e pour emp\u00EAcher son ex\u00E9cution automatique",
+  "category": "\u2699\uFE0F Services \u0026 Automation",
+  "platform": "Windows",
+  "level": "Info",
+  "tags": [
+    "taskscheduler",
+    "disable",
+    "deactivate",
+    "automation",
+    "windows"
+  ],
+  "windowsTemplateId": "1f035e21-ffac-4f4d-8d96-928eede5b92f",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Change l\u0027\u00E9tat \u00E0 Disabled. La t\u00E2che ne s\u0027ex\u00E9cutera plus jusqu\u0027\u00E0 r\u00E9activation.",
+  "links": [
+    {
+      "title": "Disable-ScheduledTask Documentation",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/scheduledtasks/disable-scheduledtask"
+    }
+  ],
+  "isUserCreated": false
+}

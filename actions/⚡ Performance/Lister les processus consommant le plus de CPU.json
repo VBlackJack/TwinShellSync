@@ -1,0 +1,26 @@
+{
+  "id": "1e4d7536-2688-40f5-8489-e4872445330b",
+  "title": "Lister les processus consommant le plus de CPU",
+  "description": "Affiche les processus class\u00E9s par utilisation CPU d\u00E9croissante",
+  "category": "\u26A1 Performance",
+  "platform": "Windows",
+  "level": "Info",
+  "tags": [
+    "performance",
+    "processes",
+    "cpu",
+    "top"
+  ],
+  "windowsTemplateId": "c2f40f62-5947-40cd-9f41-ef7597d423ae",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "CPU = temps CPU cumul\u00E9 depuis le d\u00E9marrage du processus. WorkingSet = m\u00E9moire RAM utilis\u00E9e. Triez par WS pour voir l\u0027utilisation m\u00E9moire.",
+  "links": [
+    {
+      "title": "Get-Process Documentation",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-process"
+    }
+  ],
+  "isUserCreated": false
+}

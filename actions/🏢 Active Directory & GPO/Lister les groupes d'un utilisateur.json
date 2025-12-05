@@ -1,0 +1,26 @@
+{
+  "id": "62b1e907-521a-49fe-948f-17dd9c2c5b15",
+  "title": "Lister les groupes d\u0027un utilisateur",
+  "description": "Affiche tous les groupes Active Directory dont un utilisateur est membre.",
+  "category": "\uD83C\uDFE2 Active Directory \u0026 GPO",
+  "platform": "Windows",
+  "level": "Info",
+  "tags": [
+    "ad",
+    "user",
+    "groups",
+    "membership"
+  ],
+  "windowsTemplateId": "539eafee-98f3-4995-8ee8-3decaae35a8d",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Affiche les groupes directs et indirects (imbriqu\u00E9s). Utile pour l\u0027audit des permissions.",
+  "links": [
+    {
+      "title": "Documentation Get-ADPrincipalGroupMembership",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/activedirectory/get-adprincipalgroupmembership"
+    }
+  ],
+  "isUserCreated": false
+}

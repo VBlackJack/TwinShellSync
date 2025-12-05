@@ -1,0 +1,32 @@
+{
+  "id": "efe266ac-c9b2-4a97-8c0a-9d71b4fbe7ed",
+  "name": "ansible-playbook",
+  "platform": "Windows",
+  "commandPattern": "ansible-playbook {playbookPath} -i {inventory} --limit \u0022{hostPattern}\u0022",
+  "parameters": [
+    {
+      "name": "playbookPath",
+      "label": "Chemin du playbook",
+      "type": "string",
+      "defaultValue": "site.yml",
+      "required": true,
+      "description": "Chemin vers le fichier playbook YAML"
+    },
+    {
+      "name": "inventory",
+      "label": "Inventaire",
+      "type": "string",
+      "defaultValue": "inventory.ini",
+      "required": true,
+      "description": "Fichier d\u0027inventaire des h\u00F4tes"
+    },
+    {
+      "name": "hostPattern",
+      "label": "Pattern d\u0027h\u00F4tes",
+      "type": "string",
+      "defaultValue": "webservers",
+      "required": true,
+      "description": "Pattern pour limiter les h\u00F4tes cibl\u00E9s"
+    }
+  ]
+}

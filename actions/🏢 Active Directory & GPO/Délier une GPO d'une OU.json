@@ -1,0 +1,26 @@
+{
+  "id": "6c5714f6-30e6-49bb-aa22-43f8e15dec39",
+  "title": "D\u00E9lier une GPO d\u0027une OU",
+  "description": "Supprime le lien entre une GPO et une unit\u00E9 d\u0027organisation.",
+  "category": "\uD83C\uDFE2 Active Directory \u0026 GPO",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "gpo",
+    "unlink",
+    "ou",
+    "group-policy"
+  ],
+  "windowsTemplateId": "38a35917-bda7-4afd-9921-ed3fa8efd62d",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Supprime uniquement le lien, pas la GPO elle-m\u00EAme. La GPO reste disponible pour d\u0027autres liens.",
+  "links": [
+    {
+      "title": "Documentation Remove-GPLink",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/grouppolicy/remove-gplink"
+    }
+  ],
+  "isUserCreated": false
+}

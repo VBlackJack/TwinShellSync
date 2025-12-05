@@ -1,0 +1,22 @@
+{
+  "id": "dfa04e5b-646e-4985-988a-04c2827cc0b3",
+  "title": "D\u00E9sactiver Internet Explorer",
+  "description": "D\u00E9sactive le composant Internet Explorer (IE11) de Windows.",
+  "category": "\uD83D\uDCBB Windows Optimization",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "debloat",
+    "internet-explorer",
+    "ie11",
+    "legacy",
+    "windows"
+  ],
+  "windowsTemplateId": "ca9e2a35-1fdb-4f73-8701-653cc9e78309",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "D\u00E9sactive IE11. Certaines applications legacy peuvent n\u00E9cessiter IE. N\u00E9cessite des droits administrateur.",
+  "links": [],
+  "isUserCreated": false
+}

@@ -1,0 +1,28 @@
+{
+  "id": "702c758b-8cfb-459b-a5c4-8289d04f24d0",
+  "title": "\u00C9diter un fichier chiffr\u00E9 avec Ansible Vault",
+  "description": "Ouvre un fichier chiffr\u00E9 dans l\u0027\u00E9diteur pour modification",
+  "category": "\u2699\uFE0F Services \u0026 Automation",
+  "platform": "Both",
+  "level": "Run",
+  "tags": [
+    "ansible",
+    "vault",
+    "edit",
+    "encryption",
+    "security"
+  ],
+  "windowsTemplateId": "8e9e7894-4cf5-4cd5-9b92-adcfd78b007f",
+  "linuxTemplateId": "d3a36ec8-9739-4b3e-81f5-d10e231d04da",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Le fichier est automatiquement d\u00E9chiffr\u00E9 pour l\u0027\u00E9dition et rechiffr\u00E9 \u00E0 la sauvegarde.",
+  "links": [
+    {
+      "title": "Ansible Vault",
+      "url": "https://docs.ansible.com/ansible/latest/user_guide/vault.html"
+    }
+  ],
+  "isUserCreated": false
+}

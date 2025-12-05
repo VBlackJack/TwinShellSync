@@ -1,0 +1,25 @@
+{
+  "id": "ea66dbec-0efe-4ba7-9995-01e9a8da361a",
+  "title": "Limiter l\u0027utilisation CPU de Defender",
+  "description": "Configure la limite maximale d\u0027utilisation CPU pour les analyses Windows Defender.",
+  "category": "\uD83D\uDD12 Security \u0026 Encryption",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "defender",
+    "performance",
+    "cpu"
+  ],
+  "windowsTemplateId": "b689f24a-4302-45fa-ab9f-0b34c2d983e0",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Par d\u00E9faut: 50% CPU. Recommandations: PC gaming/streaming: 10-15%, PC bureautique: 25%, PC serveur/d\u00E9di\u00E9: 50-100%. Plus la limite est basse: analyses plus longues mais PC plus fluide. Plus la limite est haute: analyses rapides mais ralentissements possibles.",
+  "links": [
+    {
+      "title": "Defender Performance Tuning",
+      "url": "https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/configure-advanced-scan-types-microsoft-defender-antivirus"
+    }
+  ],
+  "isUserCreated": false
+}

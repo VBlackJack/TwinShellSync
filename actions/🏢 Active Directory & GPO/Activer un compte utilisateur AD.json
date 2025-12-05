@@ -1,0 +1,26 @@
+{
+  "id": "fadd8d82-a06c-405f-aeae-29fd800c390c",
+  "title": "Activer un compte utilisateur AD",
+  "description": "Active un compte utilisateur Active Directory qui a \u00E9t\u00E9 d\u00E9sactiv\u00E9.",
+  "category": "\uD83C\uDFE2 Active Directory \u0026 GPO",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "ad",
+    "enable",
+    "account",
+    "user"
+  ],
+  "windowsTemplateId": "cc5650aa-0148-4347-96ea-43cfc1eadb7d",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "N\u00E9cessite des droits d\u0027administration AD. L\u0027utilisateur pourra se connecter imm\u00E9diatement apr\u00E8s activation.",
+  "links": [
+    {
+      "title": "Documentation Enable-ADAccount",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/activedirectory/enable-adaccount"
+    }
+  ],
+  "isUserCreated": false
+}

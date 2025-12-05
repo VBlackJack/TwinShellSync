@@ -1,0 +1,26 @@
+{
+  "id": "2b6b3cff-d9bf-4828-a869-0cdf881c82f3",
+  "title": "Lister l\u0027inventaire Ansible",
+  "description": "Affiche la liste compl\u00E8te des h\u00F4tes dans l\u0027inventaire Ansible",
+  "category": "\u2699\uFE0F Services \u0026 Automation",
+  "platform": "Both",
+  "level": "Info",
+  "tags": [
+    "ansible",
+    "inventory",
+    "hosts"
+  ],
+  "windowsTemplateId": "f4a13516-797c-4b93-9cd0-306934464c0b",
+  "linuxTemplateId": "abc679dd-77bf-408a-94d3-c36c70fb2746",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Utilisez --graph pour une vue hi\u00E9rarchique de l\u0027inventaire.",
+  "links": [
+    {
+      "title": "Ansible Inventory",
+      "url": "https://docs.ansible.com/ansible/latest/user_guide/intro_inventory.html"
+    }
+  ],
+  "isUserCreated": false
+}

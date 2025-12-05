@@ -1,0 +1,26 @@
+{
+  "id": "2941dc0e-f29d-4677-b3ec-fadae52e6b72",
+  "title": "Lister tous les utilisateurs locaux",
+  "description": "Affiche tous les comptes utilisateurs locaux avec leur statut (activ\u00E9/d\u00E9sactiv\u00E9) et derni\u00E8re connexion",
+  "category": "\uD83D\uDD12 Security \u0026 Encryption",
+  "platform": "Windows",
+  "level": "Info",
+  "tags": [
+    "security",
+    "users",
+    "local",
+    "audit"
+  ],
+  "windowsTemplateId": "bb2d4399-e00f-4bca-b3e9-ca8822922de9",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Enabled=$false = compte d\u00E9sactiv\u00E9. PasswordExpires=Never ou date future. V\u00E9rifiez les comptes inactifs pour la s\u00E9curit\u00E9.",
+  "links": [
+    {
+      "title": "Get-LocalUser Documentation",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.localaccounts/get-localuser"
+    }
+  ],
+  "isUserCreated": false
+}

@@ -1,0 +1,26 @@
+{
+  "id": "896e5b76-b563-4e66-b258-497c5d361991",
+  "title": "Supprimer une GPO",
+  "description": "Supprime une strat\u00E9gie de groupe du domaine.",
+  "category": "\uD83C\uDFE2 Active Directory \u0026 GPO",
+  "platform": "Windows",
+  "level": "Dangerous",
+  "tags": [
+    "gpo",
+    "delete",
+    "remove",
+    "group-policy"
+  ],
+  "windowsTemplateId": "bb84b1cc-11c5-4c72-991a-64ca6657f31d",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "ATTENTION: Suppression d\u00E9finitive. Faire une sauvegarde avant. Tous les liens sont \u00E9galement supprim\u00E9s.",
+  "links": [
+    {
+      "title": "Documentation Remove-GPO",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/grouppolicy/remove-gpo"
+    }
+  ],
+  "isUserCreated": false
+}

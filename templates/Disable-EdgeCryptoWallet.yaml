@@ -1,5 +1,0 @@
-id: 553037c0-0a9c-4791-9fb6-da9d176e7925
-name: Disable-EdgeCryptoWallet
-platform: Windows
-commandPattern: New-Item -Path 'HKLM:\SOFTWARE\Policies\Microsoft\Edge' -Force | Out-Null; Set-ItemProperty -Path 'HKLM:\SOFTWARE\Policies\Microsoft\Edge' -Name 'CryptoWalletEnabled' -Type DWord -Value 0
-parameters: []

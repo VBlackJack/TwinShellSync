@@ -1,0 +1,26 @@
+{
+  "id": "68bafd37-e5f7-4719-ace8-57e4f37f6868",
+  "title": "R\u00E9initialiser l\u0027autorisation WSUS du client",
+  "description": "R\u00E9initialise l\u0027identifiant du client WSUS pour forcer une nouvelle autorisation sur le serveur",
+  "category": "\uD83D\uDD04 Windows Updates",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "wsus",
+    "client",
+    "reset",
+    "authorization"
+  ],
+  "windowsTemplateId": "8c6b5332-4307-4e4c-8361-2365f0e2c230",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "ATTENTION: Supprime l\u0027identifiant client WSUS. Le client recevra un nouvel ID lors de la prochaine connexion au serveur WSUS. N\u00E9cessite droits administrateur.",
+  "links": [
+    {
+      "title": "Reset WSUS Client",
+      "url": "https://learn.microsoft.com/en-us/troubleshoot/windows-server/installing-updates-features-roles/fix-windows-update-errors"
+    }
+  ],
+  "isUserCreated": false
+}

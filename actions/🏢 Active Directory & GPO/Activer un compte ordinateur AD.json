@@ -1,0 +1,20 @@
+{
+  "id": "07a9a830-be45-404f-a5cc-b571ee17e270",
+  "title": "Activer un compte ordinateur AD",
+  "description": "Active un compte ordinateur Active Directory qui a \u00E9t\u00E9 d\u00E9sactiv\u00E9.",
+  "category": "\uD83C\uDFE2 Active Directory \u0026 GPO",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "ad",
+    "computer",
+    "enable"
+  ],
+  "windowsTemplateId": "2bbd4e52-6250-4ae6-a4a1-c2d6c247201b",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "N\u00E9cessite des droits d\u0027administration AD. L\u0027ordinateur pourra rejoindre le domaine apr\u00E8s activation.",
+  "links": [],
+  "isUserCreated": false
+}

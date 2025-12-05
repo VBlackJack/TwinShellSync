@@ -1,0 +1,7 @@
+{
+  "id": "692635d9-983f-474a-b828-47e30992bfd3",
+  "name": "Get-ADComputer",
+  "platform": "Windows",
+  "commandPattern": "$report = @(); Get-ADComputer -Filter {Enabled -eq $true} | ForEach-Object { try { $status = Invoke-Command -ComputerName $_.Name -ScriptBlock { Get-MpComputerStatus | Select-Object RealTimeProtectionEnabled,AntivirusSignatureLastUpdated } -ErrorAction Stop; $report \u002B= [PSCustomObject]@{ Computer=$_.Name; RealtimeProtection=$status.RealTimeProtectionEnabled; LastUpdate=$status.AntivirusSignatureLastUpdated; Status=\u0027Online\u0027 } } catch { $report \u002B= [PSCustomObject]@{ Computer=$_.Name; RealtimeProtection=\u0027N/A\u0027; LastUpdate=\u0027N/A\u0027; Status=\u0027Offline/Error\u0027 } } }; $report | Format-Table -AutoSize",
+  "parameters": []
+}

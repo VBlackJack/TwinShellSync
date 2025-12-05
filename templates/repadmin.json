@@ -1,0 +1,7 @@
+{
+  "id": "ad5af088-f3a4-4c95-813f-a7c2d3c927fe",
+  "name": "repadmin",
+  "platform": "Windows",
+  "commandPattern": "repadmin /showrepl",
+  "parameters": []
+}

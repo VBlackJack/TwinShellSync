@@ -1,5 +1,0 @@
-id: 5ccd20cf-8e8c-4ce9-9301-4f7a40da56c0
-name: sfc
-platform: Windows
-commandPattern: sfc /scannow
-parameters: []

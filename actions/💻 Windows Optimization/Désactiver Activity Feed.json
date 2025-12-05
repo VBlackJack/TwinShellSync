@@ -1,0 +1,24 @@
+{
+  "id": "0606f75e-0a2a-4549-9ffe-4b97d5cfd8f9",
+  "title": "D\u00E9sactiver Activity Feed",
+  "description": "D\u00E9sactive l\u0027Activity Feed (chronologie) qui collecte l\u0027historique des activit\u00E9s Windows.",
+  "category": "\uD83D\uDCBB Windows Optimization",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "privacy",
+    "confidentialit\u00E9",
+    "rgpd",
+    "t\u00E9l\u00E9m\u00E9trie",
+    "tracking",
+    "activity",
+    "windows"
+  ],
+  "windowsTemplateId": "04061250-e9a0-4a4b-86ee-cc9b66b94a27",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "D\u00E9sactive la chronologie Windows qui collecte l\u0027historique de vos activit\u00E9s. Emp\u00EAche l\u0027envoi de ces donn\u00E9es \u00E0 Microsoft. Conforme RGPD.",
+  "links": [],
+  "isUserCreated": false
+}

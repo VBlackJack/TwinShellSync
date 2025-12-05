@@ -1,0 +1,27 @@
+{
+  "id": "1c444fc6-9f80-47a0-9435-d9a2671ab5fc",
+  "title": "Lister les applications install\u00E9es via Winget",
+  "description": "Affiche la liste de toutes les applications install\u00E9es et g\u00E9r\u00E9es par Winget.",
+  "category": "\uD83D\uDCE6 Package Management",
+  "platform": "Windows",
+  "level": "Info",
+  "tags": [
+    "winget",
+    "package",
+    "list",
+    "inventory",
+    "windows"
+  ],
+  "windowsTemplateId": "4f83ac29-5f18-4b19-9641-b076c6989f65",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Affiche toutes les applications, m\u00EAme celles non install\u00E9es via Winget.",
+  "links": [
+    {
+      "title": "Winget list documentation",
+      "url": "https://learn.microsoft.com/en-us/windows/package-manager/winget/list"
+    }
+  ],
+  "isUserCreated": false
+}

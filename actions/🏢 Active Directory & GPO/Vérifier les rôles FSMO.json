@@ -1,0 +1,21 @@
+{
+  "id": "cb7ef968-eafd-4c80-a73d-ac0405a1f0b5",
+  "title": "V\u00E9rifier les r\u00F4les FSMO",
+  "description": "Affiche les contr\u00F4leurs de domaine d\u00E9tenant les r\u00F4les FSMO (Flexible Single Master Operations).",
+  "category": "\uD83C\uDFE2 Active Directory \u0026 GPO",
+  "platform": "Windows",
+  "level": "Info",
+  "tags": [
+    "ad",
+    "fsmo",
+    "roles",
+    "diagnostic"
+  ],
+  "windowsTemplateId": "2fa3a872-c5c8-4d61-ba26-2c0f25632d0e",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Les 5 r\u00F4les FSMO: Schema Master, Domain Naming Master, RID Master, PDC Emulator, Infrastructure Master.",
+  "links": [],
+  "isUserCreated": false
+}

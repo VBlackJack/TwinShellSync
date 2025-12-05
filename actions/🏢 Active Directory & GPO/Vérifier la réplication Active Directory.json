@@ -1,0 +1,21 @@
+{
+  "id": "eb13b2d1-a360-463b-aa60-cffb0cb4fbe9",
+  "title": "V\u00E9rifier la r\u00E9plication Active Directory",
+  "description": "V\u00E9rifie l\u0027\u00E9tat de la r\u00E9plication entre les contr\u00F4leurs de domaine.",
+  "category": "\uD83C\uDFE2 Active Directory \u0026 GPO",
+  "platform": "Windows",
+  "level": "Info",
+  "tags": [
+    "ad",
+    "replication",
+    "diagnostic",
+    "dc"
+  ],
+  "windowsTemplateId": "ad5af088-f3a4-4c95-813f-a7c2d3c927fe",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "\u00C0 ex\u00E9cuter sur un contr\u00F4leur de domaine. Pour v\u00E9rifier tous les DCs: repadmin /replsummary.",
+  "links": [],
+  "isUserCreated": false
+}

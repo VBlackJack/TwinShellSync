@@ -1,0 +1,27 @@
+{
+  "id": "10531868-0732-41be-afc5-09b9fb8e1364",
+  "title": "Ex\u00E9cuter une commande \u00E0 distance",
+  "description": "Ex\u00E9cute une commande PowerShell sur un ou plusieurs ordinateurs distants via PSRemoting",
+  "category": "\u2699\uFE0F Services \u0026 Automation",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "remote",
+    "psremoting",
+    "automation",
+    "windows",
+    "invoke"
+  ],
+  "windowsTemplateId": "4393bfab-9603-4b33-8895-115b53e4e0c8",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "N\u00E9cessite WinRM activ\u00E9 (Enable-PSRemoting). Essentiel pour g\u00E9rer Windows Core \u00E0 distance. Utilisez Enter-PSSession pour session interactive.",
+  "links": [
+    {
+      "title": "Invoke-Command Documentation",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/invoke-command"
+    }
+  ],
+  "isUserCreated": false
+}

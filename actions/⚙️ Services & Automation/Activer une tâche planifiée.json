@@ -1,0 +1,27 @@
+{
+  "id": "05adf34e-8fee-4e68-a732-e17dd6a92d16",
+  "title": "Activer une t\u00E2che planifi\u00E9e",
+  "description": "Active une t\u00E2che planifi\u00E9e d\u00E9sactiv\u00E9e pour qu\u0027elle puisse s\u0027ex\u00E9cuter selon son planning",
+  "category": "\u2699\uFE0F Services \u0026 Automation",
+  "platform": "Windows",
+  "level": "Info",
+  "tags": [
+    "taskscheduler",
+    "enable",
+    "activate",
+    "automation",
+    "windows"
+  ],
+  "windowsTemplateId": "c22173d0-4a5d-450c-b16d-31a4fdc8c766",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Change l\u0027\u00E9tat de Disabled \u00E0 Ready. La t\u00E2che s\u0027ex\u00E9cutera selon son d\u00E9clencheur.",
+  "links": [
+    {
+      "title": "Enable-ScheduledTask Documentation",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/scheduledtasks/enable-scheduledtask"
+    }
+  ],
+  "isUserCreated": false
+}

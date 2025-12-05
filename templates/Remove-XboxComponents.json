@@ -1,0 +1,7 @@
+{
+  "id": "58ddc8b0-6f49-4226-af1a-3dd559066208",
+  "name": "Remove-XboxComponents",
+  "platform": "Windows",
+  "commandPattern": "$xbox = @(\u0027Microsoft.XboxApp\u0027, \u0027Microsoft.XboxGameOverlay\u0027, \u0027Microsoft.XboxGamingOverlay\u0027, \u0027Microsoft.XboxIdentityProvider\u0027, \u0027Microsoft.Xbox.TCUI\u0027, \u0027Microsoft.XboxSpeechToTextOverlay\u0027, \u0027Microsoft.GamingApp\u0027, \u0027Microsoft.GamingServices\u0027); foreach ($app in $xbox) { Get-AppxPackage $app | Remove-AppxPackage -ErrorAction SilentlyContinue }",
+  "parameters": []
+}

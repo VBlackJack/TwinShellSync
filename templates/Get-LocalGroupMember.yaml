@@ -1,5 +1,0 @@
-id: b83e20f8-3af2-44e1-b7f5-3a95647a9449
-name: Get-LocalGroupMember
-platform: Windows
-commandPattern: Get-LocalGroupMember -Group 'Administrators' | Select-Object Name,ObjectClass,PrincipalSource | Format-Table -AutoSize
-parameters: []

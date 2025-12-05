@@ -1,0 +1,16 @@
+{
+  "id": "2bae8cba-b4f5-4d63-9a4b-cb460cab12c4",
+  "name": "python",
+  "platform": "Windows",
+  "commandPattern": "python \u0022{scriptPath}\u0022",
+  "parameters": [
+    {
+      "name": "scriptPath",
+      "label": "Script Python",
+      "type": "string",
+      "defaultValue": "",
+      "required": true,
+      "description": "Chemin du fichier .py"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "24466660-d151-46c4-82b6-8a44128cfd40",
+  "name": "iotop",
+  "platform": "Linux",
+  "commandPattern": "iotop -o -n {iterations}",
+  "parameters": [
+    {
+      "name": "iterations",
+      "label": "It\u00E9rations",
+      "type": "number",
+      "defaultValue": "5",
+      "required": true,
+      "description": "Nombre de rafra\u00EEchissements"
+    }
+  ]
+}

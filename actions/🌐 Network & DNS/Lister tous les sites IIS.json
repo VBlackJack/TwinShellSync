@@ -1,0 +1,29 @@
+{
+  "id": "5b57da3e-30a3-4782-8b1c-119126debbd4",
+  "title": "Lister tous les sites IIS",
+  "description": "Affiche la liste compl\u00E8te de tous les sites web configur\u00E9s dans Internet Information Services avec leur \u00E9tat, bindings et pool d\u0027application associ\u00E9.",
+  "category": "\uD83C\uDF10 Network \u0026 DNS",
+  "platform": "Windows",
+  "level": "Info",
+  "tags": [
+    "iis",
+    "web",
+    "sites",
+    "list",
+    "diagnostic",
+    "webserver",
+    "internet-information-services"
+  ],
+  "windowsTemplateId": "d4a589ef-9d80-466c-a9d2-da3e531102a8",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "N\u00E9cessite le module WebAdministration. Doit \u00EAtre ex\u00E9cut\u00E9 avec des privil\u00E8ges administrateur.",
+  "links": [
+    {
+      "title": "Documentation Get-IISSite",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/iisadministration/get-iissite"
+    }
+  ],
+  "isUserCreated": false
+}

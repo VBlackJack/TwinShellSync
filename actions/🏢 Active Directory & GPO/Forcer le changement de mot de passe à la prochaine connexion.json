@@ -1,0 +1,21 @@
+{
+  "id": "32215623-146d-4c10-a943-4a9fd1c81344",
+  "title": "Forcer le changement de mot de passe \u00E0 la prochaine connexion",
+  "description": "Force un utilisateur \u00E0 changer son mot de passe lors de sa prochaine connexion.",
+  "category": "\uD83C\uDFE2 Active Directory \u0026 GPO",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "ad",
+    "password",
+    "security",
+    "user"
+  ],
+  "windowsTemplateId": "c12db0e6-f88d-4d97-93b8-381a1155804c",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "L\u0027utilisateur devra obligatoirement changer son mot de passe \u00E0 sa prochaine connexion.",
+  "links": [],
+  "isUserCreated": false
+}

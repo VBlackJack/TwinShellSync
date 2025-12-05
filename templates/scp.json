@@ -1,0 +1,32 @@
+{
+  "id": "62fc0c13-14a7-4fde-970c-1a43d0272325",
+  "name": "scp",
+  "platform": "Linux",
+  "commandPattern": "scp {options} {source} {destination}",
+  "parameters": [
+    {
+      "name": "options",
+      "label": "Options",
+      "type": "string",
+      "defaultValue": "-r",
+      "required": false,
+      "description": "Options (-r=r\u00E9cursif, -P=port, -i=cl\u00E9 SSH)"
+    },
+    {
+      "name": "source",
+      "label": "Source",
+      "type": "string",
+      "defaultValue": "file.txt",
+      "required": true,
+      "description": "Fichier source (local ou user@host:/path)"
+    },
+    {
+      "name": "destination",
+      "label": "Destination",
+      "type": "string",
+      "defaultValue": "user@server:/path/",
+      "required": true,
+      "description": "Destination (local ou user@host:/path)"
+    }
+  ]
+}

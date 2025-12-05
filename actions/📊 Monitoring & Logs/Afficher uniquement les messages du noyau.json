@@ -1,0 +1,25 @@
+{
+  "id": "9797d733-9a3a-4e22-b12d-ed091cd936f4",
+  "title": "Afficher uniquement les messages du noyau",
+  "description": "Filtre les logs journald pour n\u0027afficher que les messages du kernel",
+  "category": "\uD83D\uDCCA Monitoring \u0026 Logs",
+  "platform": "Linux",
+  "level": "Info",
+  "tags": [
+    "journalctl",
+    "kernel",
+    "dmesg"
+  ],
+  "linuxTemplateId": "2fda861d-a154-4fa7-984c-270adb5cfb72",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "-k est un raccourci pour --dmesg. \u00C9quivalent \u00E0 dmesg mais avec persistance.",
+  "links": [
+    {
+      "title": "journalctl kernel logs",
+      "url": "https://www.freedesktop.org/software/systemd/man/journalctl.html"
+    }
+  ],
+  "isUserCreated": false
+}

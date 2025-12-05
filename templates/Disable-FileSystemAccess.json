@@ -1,0 +1,16 @@
+{
+  "id": "ddff350d-01a6-484a-a5b2-79d4a8010665",
+  "name": "Disable-FileSystemAccess",
+  "platform": "Windows",
+  "commandPattern": "param([string]$Scope = \u0027CurrentUser\u0027); $path = if ($Scope -eq \u0027AllUsers\u0027) { \u0027HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\CapabilityAccessManager\\ConsentStore\\documentsLibrary\u0027 } else { \u0027HKCU:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\CapabilityAccessManager\\ConsentStore\\documentsLibrary\u0027 }; New-Item -Path $path -Force | Out-Null; Set-ItemProperty -Path $path -Name \u0027Value\u0027 -Type String -Value \u0027Deny\u0027; $path2 = if ($Scope -eq \u0027AllUsers\u0027) { \u0027HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\CapabilityAccessManager\\ConsentStore\\broadFileSystemAccess\u0027 } else { \u0027HKCU:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\CapabilityAccessManager\\ConsentStore\\broadFileSystemAccess\u0027 }; New-Item -Path $path2 -Force | Out-Null; Set-ItemProperty -Path $path2 -Name \u0027Value\u0027 -Type String -Value \u0027Deny\u0027",
+  "parameters": [
+    {
+      "name": "Scope",
+      "label": "Port\u00E9e",
+      "type": "string",
+      "defaultValue": "CurrentUser",
+      "required": false,
+      "description": "CurrentUser ou AllUsers"
+    }
+  ]
+}

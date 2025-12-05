@@ -1,0 +1,21 @@
+{
+  "id": "067b25a1-54ae-40ee-9136-091358c29b2c",
+  "title": "Obtenir les d\u00E9tails complets d\u0027un utilisateur AD",
+  "description": "Affiche toutes les propri\u00E9t\u00E9s d\u00E9taill\u00E9es d\u0027un utilisateur Active Directory.",
+  "category": "\uD83C\uDFE2 Active Directory \u0026 GPO",
+  "platform": "Windows",
+  "level": "Info",
+  "tags": [
+    "ad",
+    "user",
+    "details",
+    "properties"
+  ],
+  "windowsTemplateId": "0d0c9fe8-a104-489f-b6ae-d0d10ea99143",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Affiche toutes les propri\u00E9t\u00E9s disponibles. Pour filtrer certaines propri\u00E9t\u00E9s, remplacer * par une liste s\u00E9par\u00E9e par des virgules.",
+  "links": [],
+  "isUserCreated": false
+}

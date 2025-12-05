@@ -1,0 +1,21 @@
+{
+  "id": "6ffda9d6-5cab-4579-ae87-f47fadb15985",
+  "title": "V\u00E9rifier le statut de verrouillage d\u0027un compte",
+  "description": "V\u00E9rifie si un compte utilisateur est verrouill\u00E9 et affiche les d\u00E9tails du verrouillage.",
+  "category": "\uD83C\uDFE2 Active Directory \u0026 GPO",
+  "platform": "Windows",
+  "level": "Info",
+  "tags": [
+    "ad",
+    "lockout",
+    "diagnostic",
+    "security"
+  ],
+  "windowsTemplateId": "7936c4a1-883c-4dc6-a52c-146e3ba547a0",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Utile pour diagnostiquer les probl\u00E8mes de connexion. Affiche le nombre de tentatives \u00E9chou\u00E9es et l\u0027heure du verrouillage.",
+  "links": [],
+  "isUserCreated": false
+}

@@ -1,0 +1,24 @@
+{
+  "id": "360a98ea-61ab-4148-8ecd-f486d081e3ad",
+  "name": "setfacl",
+  "platform": "Linux",
+  "commandPattern": "setfacl -m {acl} {path}",
+  "parameters": [
+    {
+      "name": "acl",
+      "label": "ACL",
+      "type": "string",
+      "defaultValue": "u:username:rwx",
+      "required": true,
+      "description": "ACL \u00E0 appliquer (u:user:perms ou g:group:perms)"
+    },
+    {
+      "name": "path",
+      "label": "Chemin",
+      "type": "string",
+      "defaultValue": "/path/to/file",
+      "required": true,
+      "description": "Fichier ou r\u00E9pertoire \u00E0 modifier"
+    }
+  ]
+}

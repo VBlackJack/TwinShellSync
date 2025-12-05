@@ -1,0 +1,27 @@
+{
+  "id": "886c78bc-4cfb-4f32-9907-4b53101963d9",
+  "title": "Calculer la taille d\u0027un r\u00E9pertoire",
+  "description": "Calcule l\u0027espace disque utilis\u00E9 par un r\u00E9pertoire et ses sous-r\u00E9pertoires",
+  "category": "\uD83D\uDCCA Monitoring \u0026 Logs",
+  "platform": "Linux",
+  "level": "Info",
+  "tags": [
+    "du",
+    "disk",
+    "size",
+    "directory",
+    "storage"
+  ],
+  "linuxTemplateId": "09e4b777-0df7-42a2-99c4-3fc40026c8ea",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Ne n\u00E9cessite pas sudo (sauf r\u00E9pertoires prot\u00E9g\u00E9s). -s=summary, -h=human-readable.",
+  "links": [
+    {
+      "title": "du command",
+      "url": "https://man7.org/linux/man-pages/man1/du.1.html"
+    }
+  ],
+  "isUserCreated": false
+}

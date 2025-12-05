@@ -1,0 +1,32 @@
+{
+  "id": "68178457-6aa4-449d-abe1-6776ed917715",
+  "name": "chown",
+  "platform": "Linux",
+  "commandPattern": "chown {owner}:{group} {path}",
+  "parameters": [
+    {
+      "name": "owner",
+      "label": "Propri\u00E9taire",
+      "type": "string",
+      "defaultValue": "www-data",
+      "required": true,
+      "description": "Nouveau propri\u00E9taire"
+    },
+    {
+      "name": "group",
+      "label": "Groupe",
+      "type": "string",
+      "defaultValue": "www-data",
+      "required": false,
+      "description": "Nouveau groupe (optionnel)"
+    },
+    {
+      "name": "path",
+      "label": "Chemin",
+      "type": "string",
+      "defaultValue": "/var/www/html",
+      "required": true,
+      "description": "Fichier ou r\u00E9pertoire \u00E0 modifier"
+    }
+  ]
+}

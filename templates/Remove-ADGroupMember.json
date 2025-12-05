@@ -1,0 +1,24 @@
+{
+  "id": "df873d55-b097-4f06-bf6e-5ccc47516203",
+  "name": "Remove-ADGroupMember",
+  "platform": "Windows",
+  "commandPattern": "Remove-ADGroupMember -Identity \u0022{groupName}\u0022 -Members {username} -Confirm:$false",
+  "parameters": [
+    {
+      "name": "groupName",
+      "label": "Nom du groupe",
+      "type": "string",
+      "defaultValue": "",
+      "required": true,
+      "description": "Nom du groupe AD"
+    },
+    {
+      "name": "username",
+      "label": "Nom d\u0027utilisateur",
+      "type": "string",
+      "defaultValue": "",
+      "required": true,
+      "description": "SamAccountName de l\u0027utilisateur \u00E0 retirer"
+    }
+  ]
+}

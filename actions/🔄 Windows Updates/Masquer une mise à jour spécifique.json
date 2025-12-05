@@ -1,0 +1,26 @@
+{
+  "id": "ca02e110-5429-4d49-986f-a6b8dfd8775e",
+  "title": "Masquer une mise \u00E0 jour sp\u00E9cifique",
+  "description": "Masque une mise \u00E0 jour Windows pour emp\u00EAcher son installation automatique",
+  "category": "\uD83D\uDD04 Windows Updates",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "windows-update",
+    "hide",
+    "pswindowsupdate",
+    "management"
+  ],
+  "windowsTemplateId": "9ef2e557-9a05-4449-a87f-1c949abe04cb",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "ATTENTION: Masquer des mises \u00E0 jour de s\u00E9curit\u00E9 peut cr\u00E9er des vuln\u00E9rabilit\u00E9s. N\u00E9cessite PSWindowsUpdate.",
+  "links": [
+    {
+      "title": "Hide Windows Updates",
+      "url": "https://woshub.com/pswindowsupdate-module/"
+    }
+  ],
+  "isUserCreated": false
+}

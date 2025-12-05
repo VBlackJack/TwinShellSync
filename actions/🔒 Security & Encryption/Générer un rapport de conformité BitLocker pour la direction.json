@@ -1,0 +1,27 @@
+{
+  "id": "0443078e-78da-4674-af40-a33a1b483e49",
+  "title": "G\u00E9n\u00E9rer un rapport de conformit\u00E9 BitLocker pour la direction",
+  "description": "G\u00E9n\u00E8re un rapport ex\u00E9cutif de conformit\u00E9 BitLocker avec statistiques, graphiques et ordinateurs non conformes.",
+  "category": "\uD83D\uDD12 Security \u0026 Encryption",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "bitlocker",
+    "ad",
+    "compliance",
+    "report",
+    "domain-admin"
+  ],
+  "windowsTemplateId": "892057ee-437c-427c-9ece-3d6961778761",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "RAPPORT EX\u00C9CUTIF: Pour direction/RSSI/audit. OBJECTIF: 100% conformit\u00E9 pour laptops (obligatoire!), 80-100% pour desktops selon politique. KPI: Taux de conformit\u00E9, tendance, ordinateurs critiques non conformes. FR\u00C9QUENCE: Mensuel recommand\u00E9. ACTION: Laptops non conformes = PRIORIT\u00C9 1 (risque perte/vol).",
+  "links": [
+    {
+      "title": "BitLocker Compliance and Reporting",
+      "url": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/data-protection/bitlocker/operations-guide"
+    }
+  ],
+  "isUserCreated": false
+}

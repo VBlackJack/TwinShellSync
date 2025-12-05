@@ -1,5 +1,0 @@
-id: 024192b3-0b7a-465a-bf26-f300110e9c93
-name: Get-WsusServer
-platform: Windows
-commandPattern: "[void][reflection.assembly]::LoadWithPartialName('Microsoft.UpdateServices.Administration'); $wsus = [Microsoft.UpdateServices.Administration.AdminProxy]::GetUpdateServer(); $subscription = $wsus.GetSubscription(); $subscription.StartSynchronization()"
-parameters: []

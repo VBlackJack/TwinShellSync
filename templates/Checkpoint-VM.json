@@ -1,0 +1,24 @@
+{
+  "id": "f5b2b250-a5dc-4d09-9f03-efc54c41998d",
+  "name": "Checkpoint-VM",
+  "platform": "Windows",
+  "commandPattern": "Checkpoint-VM -Name \u0027{vmName}\u0027 -SnapshotName \u0027{snapshotName}\u0027",
+  "parameters": [
+    {
+      "name": "vmName",
+      "label": "Nom de la VM",
+      "type": "string",
+      "defaultValue": "",
+      "required": true,
+      "description": "Nom de la machine virtuelle"
+    },
+    {
+      "name": "snapshotName",
+      "label": "Nom du snapshot",
+      "type": "string",
+      "defaultValue": "Checkpoint-$(Get-Date -Format \u0027yyyy-MM-dd_HH-mm\u0027)",
+      "required": true,
+      "description": "Nom du point de contr\u00F4le"
+    }
+  ]
+}

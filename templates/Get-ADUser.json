@@ -1,0 +1,16 @@
+{
+  "id": "7936c4a1-883c-4dc6-a52c-146e3ba547a0",
+  "name": "Get-ADUser",
+  "platform": "Windows",
+  "commandPattern": "Get-ADUser -Identity {username} -Properties LockedOut,LockoutTime,BadPwdCount,LastBadPasswordAttempt | Select-Object Name,LockedOut,LockoutTime,BadPwdCount,LastBadPasswordAttempt",
+  "parameters": [
+    {
+      "name": "username",
+      "label": "Nom d\u0027utilisateur",
+      "type": "string",
+      "defaultValue": "",
+      "required": true,
+      "description": "SamAccountName de l\u0027utilisateur"
+    }
+  ]
+}

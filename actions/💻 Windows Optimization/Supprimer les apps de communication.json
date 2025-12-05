@@ -1,0 +1,22 @@
+{
+  "id": "2c92c6fb-0d16-4478-9c2b-03cc4cc8ccc8",
+  "title": "Supprimer les apps de communication",
+  "description": "Supprime les applications de communication Microsoft (Skype, People, Mail, Calendar).",
+  "category": "\uD83D\uDCBB Windows Optimization",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "debloat",
+    "communication",
+    "skype",
+    "mail",
+    "windows"
+  ],
+  "windowsTemplateId": "64bfb90d-df40-4ddc-8ed2-38b73207eaf8",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Supprime Mail, Calendar, People et Skype. V\u00E9rifiez vos besoins avant suppression.",
+  "links": [],
+  "isUserCreated": false
+}

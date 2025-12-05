@@ -1,0 +1,22 @@
+{
+  "id": "a0a04059-017e-49e8-8c82-a9a70670ac76",
+  "name": "",
+  "platform": "Windows",
+  "commandPattern": "Get-EventLog -LogName {logName} -EntryType Error -Newest {count}",
+  "parameters": [
+    {
+      "name": "logName",
+      "label": "Nom du journal",
+      "type": "string",
+      "defaultValue": "System",
+      "required": true
+    },
+    {
+      "name": "count",
+      "label": "Nombre d\u0027entr\u00E9es",
+      "type": "integer",
+      "defaultValue": "20",
+      "required": true
+    }
+  ]
+}

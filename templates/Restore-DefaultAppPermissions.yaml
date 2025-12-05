@@ -1,5 +1,0 @@
-id: 811b9e5a-25eb-4e3c-b398-b487fd956d60
-name: Restore-DefaultAppPermissions
-platform: Windows
-commandPattern: $permissions = @('location', 'webcam', 'microphone', 'documentsLibrary', 'broadFileSystemAccess', 'contacts', 'appointments', 'email', 'userNotificationListener', 'phoneCall', 'radios', 'chat'); foreach ($perm in $permissions) { $path = "HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\$perm"; if (Test-Path $path) { Set-ItemProperty -Path $path -Name 'Value' -Type String -Value 'Allow' -ErrorAction SilentlyContinue } }
-parameters: []

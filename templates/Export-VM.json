@@ -1,0 +1,24 @@
+{
+  "id": "7f3a0d9d-89f0-4130-bb7f-d9ee8b1007df",
+  "name": "Export-VM",
+  "platform": "Windows",
+  "commandPattern": "Export-VM -Name \u0027{vmName}\u0027 -Path \u0027{exportPath}\u0027",
+  "parameters": [
+    {
+      "name": "vmName",
+      "label": "Nom de la VM",
+      "type": "string",
+      "defaultValue": "",
+      "required": true,
+      "description": "Nom de la VM \u00E0 exporter"
+    },
+    {
+      "name": "exportPath",
+      "label": "Chemin d\u0027export",
+      "type": "string",
+      "defaultValue": "D:\\VM-Exports",
+      "required": true,
+      "description": "Dossier de destination de l\u0027export"
+    }
+  ]
+}

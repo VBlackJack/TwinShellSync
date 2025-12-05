@@ -1,0 +1,7 @@
+{
+  "id": "ca9e2a35-1fdb-4f73-8701-653cc9e78309",
+  "name": "Disable-InternetExplorer",
+  "platform": "Windows",
+  "commandPattern": "Disable-WindowsOptionalFeature -Online -FeatureName \u0027Internet-Explorer-Optional-amd64\u0027 -NoRestart",
+  "parameters": []
+}

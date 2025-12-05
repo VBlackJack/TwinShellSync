@@ -1,0 +1,20 @@
+{
+  "id": "23e8aeb2-69cb-4fc7-a499-332729d8a3c4",
+  "title": "R\u00E9enregistrer les DLL Windows Update",
+  "description": "R\u00E9enregistre toutes les DLL critiques du syst\u00E8me Windows Update",
+  "category": "\uD83D\uDD04 Windows Updates",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "windows-update",
+    "dll",
+    "repair"
+  ],
+  "windowsTemplateId": "54680172-9784-4c81-bbf2-39736467938b",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Droits administrateur requis. R\u00E9sout les erreurs de composants Windows Update corrompus.",
+  "links": [],
+  "isUserCreated": false
+}

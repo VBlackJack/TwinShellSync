@@ -1,0 +1,27 @@
+{
+  "id": "ffe69fad-5971-4afd-8d30-32ad356e4865",
+  "title": "Changer le type de d\u00E9marrage d\u0027un service",
+  "description": "Modifie le type de d\u00E9marrage d\u0027un service (Automatic, Manual, Disabled)",
+  "category": "\u2699\uFE0F Services \u0026 Automation",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "service",
+    "startup",
+    "windows",
+    "automation",
+    "configuration"
+  ],
+  "windowsTemplateId": "396d0a19-7f9c-44c8-9a4e-668aa915efd8",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "N\u00E9cessite admin. AutomaticDelayedStart d\u00E9marre 2 min apr\u00E8s le boot pour am\u00E9liorer les perfs.",
+  "links": [
+    {
+      "title": "Set-Service Documentation",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/set-service"
+    }
+  ],
+  "isUserCreated": false
+}

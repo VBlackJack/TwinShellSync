@@ -1,0 +1,21 @@
+{
+  "id": "557e32e7-75c8-4c39-a225-c1176ccf3a78",
+  "title": "Forcer la mise \u00E0 jour des GPO",
+  "description": "Force l\u0027application imm\u00E9diate des strat\u00E9gies de groupe sans attendre le d\u00E9lai de rafra\u00EEchissement.",
+  "category": "\uD83C\uDFE2 Active Directory \u0026 GPO",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "gpo",
+    "update",
+    "refresh",
+    "gpupdate"
+  ],
+  "windowsTemplateId": "c8d07e25-6d06-405c-b878-f8a9b1f4e66b",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Peut n\u00E9cessiter un red\u00E9marrage selon les param\u00E8tres de GPO. Utiliser /boot ou /logoff pour forcer.",
+  "links": [],
+  "isUserCreated": false
+}

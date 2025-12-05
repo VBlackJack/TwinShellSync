@@ -1,0 +1,22 @@
+{
+  "id": "93162553-4ce2-469a-a716-3d0b1be6dc88",
+  "title": "D\u00E9sactiver la t\u00E9l\u00E9m\u00E9trie Edge",
+  "description": "D\u00E9sactive la collecte de donn\u00E9es de diagnostic et d\u0027utilisation dans Microsoft Edge.",
+  "category": "\uD83D\uDCBB Windows Optimization",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "debloat",
+    "edge",
+    "telemetry",
+    "privacy",
+    "windows"
+  ],
+  "windowsTemplateId": "dd9481d0-d0b8-412e-8b1f-0f52fa671826",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "D\u00E9sactive la collecte de donn\u00E9es d\u0027utilisation et de diagnostic. Am\u00E9liore la confidentialit\u00E9. N\u00E9cessite des droits administrateur.",
+  "links": [],
+  "isUserCreated": false
+}

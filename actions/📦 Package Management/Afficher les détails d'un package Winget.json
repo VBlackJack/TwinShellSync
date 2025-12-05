@@ -1,0 +1,27 @@
+{
+  "id": "650b115a-4b5b-48b8-823f-e0a2372fd537",
+  "title": "Afficher les d\u00E9tails d\u0027un package Winget",
+  "description": "Affiche les informations d\u00E9taill\u00E9es d\u0027un package sp\u00E9cifique (version, \u00E9diteur, description, etc.).",
+  "category": "\uD83D\uDCE6 Package Management",
+  "platform": "Windows",
+  "level": "Info",
+  "tags": [
+    "winget",
+    "package",
+    "info",
+    "details",
+    "windows"
+  ],
+  "windowsTemplateId": "44ff637d-8b50-470d-b860-3ee6bbdd21af",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Affiche version, \u00E9diteur, licence, description et d\u00E9pendances du package.",
+  "links": [
+    {
+      "title": "Winget show documentation",
+      "url": "https://learn.microsoft.com/en-us/windows/package-manager/winget/show"
+    }
+  ],
+  "isUserCreated": false
+}

@@ -1,0 +1,23 @@
+{
+  "id": "e7c63796-6c09-4a09-afe7-67b067d0b2ec",
+  "title": "Restaurer DNS automatique",
+  "description": "Restaure la configuration DNS automatique (DHCP) sur l\u0027interface r\u00E9seau.",
+  "category": "\uD83D\uDCBB Windows Optimization",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "performance",
+    "dns",
+    "network",
+    "restore",
+    "dhcp",
+    "windows"
+  ],
+  "windowsTemplateId": "cf8148f3-f981-406e-b8dc-56a6e22ca690",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Revient \u00E0 la configuration DNS fournie par le routeur/DHCP. Utile pour annuler une configuration DNS personnalis\u00E9e.",
+  "links": [],
+  "isUserCreated": false
+}

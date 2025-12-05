@@ -1,0 +1,7 @@
+{
+  "id": "fa6006aa-ee16-46b1-b19a-ee5270df6e8e",
+  "name": "Remove-Widgets",
+  "platform": "Windows",
+  "commandPattern": "Get-AppxPackage *WebExperience* | Remove-AppxPackage -ErrorAction SilentlyContinue; New-Item -Path \u0027HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced\u0027 -Force | Out-Null; Set-ItemProperty -Path \u0027HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced\u0027 -Name \u0027TaskbarDa\u0027 -Type DWord -Value 0",
+  "parameters": []
+}

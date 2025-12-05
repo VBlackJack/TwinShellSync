@@ -1,0 +1,22 @@
+{
+  "id": "2a0548fc-087c-4fee-a590-123f92290075",
+  "title": "D\u00E9sactiver Hyper-V",
+  "description": "D\u00E9sactive la fonctionnalit\u00E9 Hyper-V de Windows (virtualisation).",
+  "category": "\uD83D\uDCBB Windows Optimization",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "debloat",
+    "hyper-v",
+    "virtualization",
+    "performance",
+    "windows"
+  ],
+  "windowsTemplateId": "52f9dad4-5726-45d8-a689-6b5327c9e2fd",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "D\u00E9sactive Hyper-V. Peut am\u00E9liorer les performances de jeux. N\u00E9cessite un red\u00E9marrage. Incompatible avec certains \u00E9mulateurs.",
+  "links": [],
+  "isUserCreated": false
+}

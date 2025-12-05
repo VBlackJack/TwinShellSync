@@ -1,0 +1,21 @@
+{
+  "id": "08293ab2-bc2f-4ffa-b546-1bf82dae5dcf",
+  "title": "Taille d\u0027un r\u00E9pertoire (Linux)",
+  "description": "Calcule la taille totale d\u0027un r\u00E9pertoire et de son contenu.",
+  "category": "\uD83D\uDCC1 Files \u0026 Storage",
+  "platform": "Linux",
+  "level": "Info",
+  "tags": [
+    "taille",
+    "dossier",
+    "du",
+    "linux"
+  ],
+  "linuxTemplateId": "94a79358-a0b0-450f-a5df-4683d0ed2d53",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "-s pour somme, -h pour format lisible. --max-depth limite la profondeur.",
+  "links": [],
+  "isUserCreated": false
+}

@@ -1,0 +1,26 @@
+{
+  "id": "e92ae141-b173-47aa-8b9e-a230b614e946",
+  "title": "Forcer l\u0027inventaire logiciel SCCM",
+  "description": "D\u00E9clenche imm\u00E9diatement la collecte de l\u0027inventaire logiciel et l\u0027envoie au serveur SCCM",
+  "category": "\uD83D\uDD04 Windows Updates",
+  "platform": "Windows",
+  "level": "Info",
+  "tags": [
+    "sccm",
+    "inventory",
+    "software",
+    "trigger"
+  ],
+  "windowsTemplateId": "7d519509-d3cd-4057-a675-c3e6398f215a",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Schedule ID {02} = Software Inventory Cycle. L\u0027inventaire logiciel collecte les informations sur les fichiers et applications install\u00E9s.",
+  "links": [
+    {
+      "title": "SCCM Client Actions",
+      "url": "https://techuisitive.com/how-to-initiate-sccm-client-agent-actions-using-powershell/"
+    }
+  ],
+  "isUserCreated": false
+}

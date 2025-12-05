@@ -1,5 +1,0 @@
-id: 24c78cd7-56ce-430e-8ea3-1df039d95e6c
-name: Disable-GameDVR
-platform: Windows
-commandPattern: New-Item -Path 'HKCU:\System\GameConfigStore' -Force | Out-Null; Set-ItemProperty -Path 'HKCU:\System\GameConfigStore' -Name 'GameDVR_Enabled' -Type DWord -Value 0; New-Item -Path 'HKLM:\SOFTWARE\Policies\Microsoft\Windows\GameDVR' -Force | Out-Null; Set-ItemProperty -Path 'HKLM:\SOFTWARE\Policies\Microsoft\Windows\GameDVR' -Name 'AllowGameDVR' -Type DWord -Value 0
-parameters: []

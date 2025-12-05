@@ -1,0 +1,16 @@
+{
+  "id": "44f8b779-ce6c-439f-b39d-c5104ecfde25",
+  "name": "groups",
+  "platform": "Linux",
+  "commandPattern": "groups {username}",
+  "parameters": [
+    {
+      "name": "username",
+      "label": "Nom d\u0027utilisateur",
+      "type": "string",
+      "defaultValue": "",
+      "required": false,
+      "description": "Utilisateur (vide = utilisateur actuel)"
+    }
+  ]
+}

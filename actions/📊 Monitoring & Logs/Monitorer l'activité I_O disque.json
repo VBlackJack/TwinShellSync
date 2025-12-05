@@ -1,0 +1,27 @@
+{
+  "id": "dbaf9841-577c-4656-aa27-e0317ee6520f",
+  "title": "Monitorer l\u0027activit\u00E9 I/O disque",
+  "description": "Affiche en temps r\u00E9el quels processus utilisent le plus l\u0027I/O disque",
+  "category": "\uD83D\uDCCA Monitoring \u0026 Logs",
+  "platform": "Linux",
+  "level": "Info",
+  "tags": [
+    "iotop",
+    "io",
+    "disk",
+    "monitoring",
+    "performance"
+  ],
+  "linuxTemplateId": "24466660-d151-46c4-82b6-8a44128cfd40",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "N\u00E9cessite sudo et le package iotop. -o affiche seulement les processus actifs.",
+  "links": [
+    {
+      "title": "iotop documentation",
+      "url": "http://guichaz.free.fr/iotop/"
+    }
+  ],
+  "isUserCreated": false
+}

@@ -1,5 +1,0 @@
-id: dd9481d0-d0b8-412e-8b1f-0f52fa671826
-name: Disable-EdgeTelemetry
-platform: Windows
-commandPattern: New-Item -Path 'HKLM:\SOFTWARE\Policies\Microsoft\Edge' -Force | Out-Null; Set-ItemProperty -Path 'HKLM:\SOFTWARE\Policies\Microsoft\Edge' -Name 'MetricsReportingEnabled' -Type DWord -Value 0; Set-ItemProperty -Path 'HKLM:\SOFTWARE\Policies\Microsoft\Edge' -Name 'SendSiteInfoToImproveServices' -Type DWord -Value 0
-parameters: []

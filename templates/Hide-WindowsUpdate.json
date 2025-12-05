@@ -1,0 +1,16 @@
+{
+  "id": "9ef2e557-9a05-4449-a87f-1c949abe04cb",
+  "name": "Hide-WindowsUpdate",
+  "platform": "Windows",
+  "commandPattern": "Hide-WindowsUpdate -KBArticleID {kbNumber} -Confirm:$false",
+  "parameters": [
+    {
+      "name": "kbNumber",
+      "label": "Num\u00E9ro KB",
+      "type": "string",
+      "defaultValue": "KB5001234",
+      "required": true,
+      "description": "Num\u00E9ro KB de la mise \u00E0 jour \u00E0 masquer (ex: KB5001234)"
+    }
+  ]
+}

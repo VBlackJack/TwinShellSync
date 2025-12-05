@@ -1,0 +1,30 @@
+{
+  "id": "c8dd3d47-345e-4dce-a498-f7dc040ef740",
+  "title": "D\u00E9marrer, arr\u00EAter ou suspendre une VM",
+  "description": "Permet de contr\u00F4ler l\u0027\u00E9tat d\u0027une machine virtuelle Hyper-V: d\u00E9marrage, arr\u00EAt propre, arr\u00EAt forc\u00E9, suspension ou reprise.",
+  "category": "\uD83D\uDC33 Containers \u0026 VMs",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "hyperv",
+    "vm",
+    "start",
+    "stop",
+    "suspend",
+    "control",
+    "management",
+    "virtualization"
+  ],
+  "windowsTemplateId": "3f14e373-ef1b-4d5e-bfcd-04c233c06f91",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Stop-VM sans -Force tente un arr\u00EAt propre via Integration Services. Save-VM lib\u00E8re la RAM mais conserve l\u0027\u00E9tat. -TurnOff \u00E9quivaut \u00E0 -Force.",
+  "links": [
+    {
+      "title": "Documentation Hyper-V VM Management",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/hyper-v/"
+    }
+  ],
+  "isUserCreated": false
+}

@@ -1,0 +1,21 @@
+{
+  "id": "72ca25a2-dd06-4499-b5c4-1b0439a3e10c",
+  "title": "D\u00E9sactiver un compte utilisateur AD",
+  "description": "D\u00E9sactive un compte utilisateur Active Directory sans le supprimer.",
+  "category": "\uD83C\uDFE2 Active Directory \u0026 GPO",
+  "platform": "Windows",
+  "level": "Dangerous",
+  "tags": [
+    "ad",
+    "disable",
+    "account",
+    "user"
+  ],
+  "windowsTemplateId": "031507c5-939e-4fd0-90e8-62c173a07aeb",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "L\u0027utilisateur ne pourra plus se connecter. Le compte peut \u00EAtre r\u00E9activ\u00E9 avec Enable-ADAccount.",
+  "links": [],
+  "isUserCreated": false
+}

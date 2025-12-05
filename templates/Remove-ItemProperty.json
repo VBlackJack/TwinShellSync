@@ -1,0 +1,7 @@
+{
+  "id": "8c6b5332-4307-4e4c-8361-2365f0e2c230",
+  "name": "Remove-ItemProperty",
+  "platform": "Windows",
+  "commandPattern": "Stop-Service wuauserv -Force; Remove-ItemProperty -Path \u0027HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\WindowsUpdate\u0027 -Name \u0027SusClientId\u0027 -ErrorAction SilentlyContinue; Remove-ItemProperty -Path \u0027HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\WindowsUpdate\u0027 -Name \u0027SusClientIdValidation\u0027 -ErrorAction SilentlyContinue; Start-Service wuauserv; wuauclt /resetauthorization /detectnow",
+  "parameters": []
+}

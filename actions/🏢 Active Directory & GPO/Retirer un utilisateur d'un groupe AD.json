@@ -1,0 +1,26 @@
+{
+  "id": "839cf981-ca5e-4818-8c3c-1eb7c27f3c2b",
+  "title": "Retirer un utilisateur d\u0027un groupe AD",
+  "description": "Retire un utilisateur d\u0027un groupe Active Directory.",
+  "category": "\uD83C\uDFE2 Active Directory \u0026 GPO",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "ad",
+    "group",
+    "membership",
+    "user"
+  ],
+  "windowsTemplateId": "df873d55-b097-4f06-bf6e-5ccc47516203",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "N\u00E9cessite des droits d\u0027administration AD. Retirer l\u0027option -Confirm:$false pour demander confirmation.",
+  "links": [
+    {
+      "title": "Documentation Remove-ADGroupMember",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/activedirectory/remove-adgroupmember"
+    }
+  ],
+  "isUserCreated": false
+}

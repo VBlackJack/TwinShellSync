@@ -1,0 +1,30 @@
+{
+  "id": "9cad39a1-63f5-49a6-85bc-31cf5bbcb5d6",
+  "title": "Analyser les handles ouverts par processus",
+  "description": "Analyse et affiche le nombre de handles (fichiers, registre, threads, etc.) ouverts par chaque processus. Utile pour d\u00E9tecter les fuites de ressources.",
+  "category": "\u26A1 Performance",
+  "platform": "Windows",
+  "level": "Info",
+  "tags": [
+    "performance",
+    "handles",
+    "process",
+    "resources",
+    "leak",
+    "diagnostic",
+    "troubleshooting",
+    "monitoring"
+  ],
+  "windowsTemplateId": "f6c34f3a-b00b-4c2d-93cc-0a4aa00f3f7a",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Un nombre excessif de handles peut indiquer une fuite de ressources. Les handles incluent: fichiers, cl\u00E9s de registre, threads, mutexes, etc.",
+  "links": [
+    {
+      "title": "Understanding Handles",
+      "url": "https://learn.microsoft.com/en-us/windows/win32/sysinfo/handles-and-objects"
+    }
+  ],
+  "isUserCreated": false
+}

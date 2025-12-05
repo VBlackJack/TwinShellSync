@@ -1,0 +1,26 @@
+{
+  "id": "b15b2226-1814-458d-8495-8e51443bc8e4",
+  "title": "V\u00E9rifier l\u0027\u00E9tat du client SCCM",
+  "description": "Affiche l\u0027\u00E9tat d\u00E9taill\u00E9 du client SCCM incluant la version, le site assign\u00E9 et la derni\u00E8re communication",
+  "category": "\uD83D\uDD04 Windows Updates",
+  "platform": "Windows",
+  "level": "Info",
+  "tags": [
+    "sccm",
+    "client",
+    "status",
+    "diagnostic"
+  ],
+  "windowsTemplateId": "af9ef756-f9e1-4a00-87a7-7328f638e2d7",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Le service ccmexec doit \u00EAtre en cours d\u0027ex\u00E9cution. V\u00E9rifier C:\\Windows\\CCM\\Logs pour les logs d\u00E9taill\u00E9s.",
+  "links": [
+    {
+      "title": "SCCM Client Troubleshooting",
+      "url": "https://learn.microsoft.com/en-us/mem/configmgr/core/clients/manage/monitor-clients"
+    }
+  ],
+  "isUserCreated": false
+}

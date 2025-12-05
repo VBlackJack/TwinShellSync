@@ -1,0 +1,27 @@
+{
+  "id": "c293f951-f0fb-474d-8f2a-4211b5e8add3",
+  "title": "Scanner les ports ouverts",
+  "description": "Scanne les ports ouverts sur un h\u00F4te ou r\u00E9seau avec nmap",
+  "category": "\uD83C\uDF10 Network \u0026 DNS",
+  "platform": "Linux",
+  "level": "Run",
+  "tags": [
+    "nmap",
+    "port",
+    "scan",
+    "security",
+    "network"
+  ],
+  "linuxTemplateId": "acc77546-9414-4d73-b856-bd632a0062b6",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Certaines options n\u00E9cessitent sudo. \u00C0 utiliser uniquement sur vos propres syst\u00E8mes. -sV d\u00E9tecte les versions.",
+  "links": [
+    {
+      "title": "nmap documentation",
+      "url": "https://nmap.org/book/man.html"
+    }
+  ],
+  "isUserCreated": false
+}

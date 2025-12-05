@@ -1,0 +1,7 @@
+{
+  "id": "04061250-e9a0-4a4b-86ee-cc9b66b94a27",
+  "name": "Disable-ActivityFeed",
+  "platform": "Windows",
+  "commandPattern": "New-Item -Path \u0027HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\System\u0027 -Force | Out-Null; Set-ItemProperty -Path \u0027HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\System\u0027 -Name \u0027EnableActivityFeed\u0027 -Type DWord -Value 0; Set-ItemProperty -Path \u0027HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\System\u0027 -Name \u0027PublishUserActivities\u0027 -Type DWord -Value 0; Set-ItemProperty -Path \u0027HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\System\u0027 -Name \u0027UploadUserActivities\u0027 -Type DWord -Value 0",
+  "parameters": []
+}

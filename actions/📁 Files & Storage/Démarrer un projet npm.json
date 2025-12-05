@@ -1,0 +1,23 @@
+{
+  "id": "2accfd63-475f-4d6d-9ef4-0a653813cecd",
+  "title": "D\u00E9marrer un projet npm",
+  "description": "Ex\u00E9cute le script de d\u00E9marrage d\u0027un projet Node.js.",
+  "category": "\uD83D\uDCC1 Files \u0026 Storage",
+  "platform": "Both",
+  "level": "Info",
+  "tags": [
+    "run",
+    "npm",
+    "start",
+    "nodejs",
+    "development"
+  ],
+  "windowsTemplateId": "2fa6b6a9-1698-472e-8ba5-301e18040703",
+  "linuxTemplateId": "ce01216f-bf20-4182-b9c7-29e864998f4f",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "npm start ex\u00E9cute le script \u0027start\u0027 de package.json. npm run dev pour le mode d\u00E9veloppement.",
+  "links": [],
+  "isUserCreated": false
+}

@@ -1,0 +1,25 @@
+{
+  "id": "1542b6fa-b012-4687-81b4-d1b17a9ddc5e",
+  "title": "V\u00E9rifier la complexit\u00E9 des mots de passe LAPS",
+  "description": "Affiche et configure les param\u00E8tres de complexit\u00E9 des mots de passe g\u00E9n\u00E9r\u00E9s par LAPS.",
+  "category": "\uD83D\uDD12 Security \u0026 Encryption",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "laps",
+    "password",
+    "complexity"
+  ],
+  "windowsTemplateId": "21e3272b-a728-4b67-89b6-1ba3a20838d3",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Configuration LAPS (via GPO): Longueur: 12-14 caract\u00E8res minimum recommand\u00E9 (jusqu\u0027\u00E0 128), Complexit\u00E9: Activ\u00E9e (majuscules \u002B minuscules \u002B chiffres \u002B symboles), Expiration: 30 jours par d\u00E9faut. Les param\u00E8tres sont d\u00E9finis dans les GPO Computer Configuration \u003E Policies \u003E Administrative Templates \u003E LAPS.",
+  "links": [
+    {
+      "title": "LAPS Password Settings",
+      "url": "https://learn.microsoft.com/en-us/windows-server/identity/laps/laps-management-policy-settings"
+    }
+  ],
+  "isUserCreated": false
+}

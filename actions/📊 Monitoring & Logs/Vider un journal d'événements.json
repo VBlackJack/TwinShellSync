@@ -1,0 +1,21 @@
+{
+  "id": "a4b55fee-dcb3-4a41-994f-2c55231661db",
+  "title": "Vider un journal d\u0027\u00E9v\u00E9nements",
+  "description": "Efface tous les \u00E9v\u00E9nements d\u0027un journal Windows sp\u00E9cifique.",
+  "category": "\uD83D\uDCCA Monitoring \u0026 Logs",
+  "platform": "Windows",
+  "level": "Dangerous",
+  "tags": [
+    "logs",
+    "eventlog",
+    "clear",
+    "delete"
+  ],
+  "windowsTemplateId": "a99250aa-4d14-4240-b269-9aaec69c5b1a",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "\u26A0\uFE0F ATTENTION : Cette action est irr\u00E9versible ! Envisager d\u0027exporter le journal avant de le vider.",
+  "links": [],
+  "isUserCreated": false
+}

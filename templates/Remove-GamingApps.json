@@ -1,0 +1,7 @@
+{
+  "id": "528a4c28-9714-4dd7-817d-5537b045f622",
+  "name": "Remove-GamingApps",
+  "platform": "Windows",
+  "commandPattern": "$games = @(\u0027Microsoft.MicrosoftSolitaire*\u0027, \u0027Microsoft.XboxApp\u0027, \u0027Microsoft.XboxGameOverlay\u0027, \u0027Microsoft.XboxGamingOverlay\u0027, \u0027Microsoft.Xbox.TCUI\u0027, \u0027*CandyCrush*\u0027); foreach ($game in $games) { Get-AppxPackage $game | Remove-AppxPackage -ErrorAction SilentlyContinue }",
+  "parameters": []
+}

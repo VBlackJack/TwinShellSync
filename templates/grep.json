@@ -1,0 +1,24 @@
+{
+  "id": "7016f980-4359-405d-a5ef-c86c06fea42b",
+  "name": "grep",
+  "platform": "Linux",
+  "commandPattern": "grep -r \u0022{searchTerm}\u0022 \u0022{searchPath}\u0022",
+  "parameters": [
+    {
+      "name": "searchTerm",
+      "label": "Terme recherch\u00E9",
+      "type": "string",
+      "defaultValue": "",
+      "required": true,
+      "description": "Texte ou regex \u00E0 rechercher"
+    },
+    {
+      "name": "searchPath",
+      "label": "Chemin de recherche",
+      "type": "string",
+      "defaultValue": ".",
+      "required": true,
+      "description": "Dossier o\u00F9 chercher"
+    }
+  ]
+}

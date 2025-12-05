@@ -1,0 +1,26 @@
+{
+  "id": "dad349c5-1a84-4424-8c9c-e67f2b81409d",
+  "title": "Afficher l\u0027historique des mises \u00E0 jour (PSWindowsUpdate)",
+  "description": "Liste l\u0027historique d\u00E9taill\u00E9 de toutes les mises \u00E0 jour Windows install\u00E9es avec dates et statuts",
+  "category": "\uD83D\uDD04 Windows Updates",
+  "platform": "Windows",
+  "level": "Info",
+  "tags": [
+    "windows-update",
+    "history",
+    "pswindowsupdate",
+    "diagnostic"
+  ],
+  "windowsTemplateId": "e548d23b-3180-465f-9fa3-4833b2ebefc6",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "N\u00E9cessite le module PSWindowsUpdate. Fournit plus de d\u00E9tails que Get-HotFix.",
+  "links": [
+    {
+      "title": "PSWindowsUpdate Module",
+      "url": "https://www.powershellgallery.com/packages/PSWindowsUpdate"
+    }
+  ],
+  "isUserCreated": false
+}

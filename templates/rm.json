@@ -1,0 +1,16 @@
+{
+  "id": "6f23c835-4f91-4978-9aca-b95cf87a0eac",
+  "name": "rm",
+  "platform": "Linux",
+  "commandPattern": "rm -rf \u0022{path}\u0022",
+  "parameters": [
+    {
+      "name": "path",
+      "label": "Chemin",
+      "type": "string",
+      "defaultValue": "",
+      "required": true,
+      "description": "Chemin du fichier ou dossier \u00E0 supprimer"
+    }
+  ]
+}

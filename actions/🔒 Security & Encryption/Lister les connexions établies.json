@@ -1,0 +1,27 @@
+{
+  "id": "108b3b90-e9d8-4443-9be2-1983cc2712b5",
+  "title": "Lister les connexions \u00E9tablies",
+  "description": "Affiche toutes les connexions r\u00E9seau actuellement \u00E9tablies",
+  "category": "\uD83D\uDD12 Security \u0026 Encryption",
+  "platform": "Linux",
+  "level": "Info",
+  "tags": [
+    "ss",
+    "netstat",
+    "connections",
+    "security",
+    "network"
+  ],
+  "linuxTemplateId": "5c3e8e0c-17a3-4896-a362-b79f322a4d53",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Utile pour d\u00E9tecter des connexions suspectes. -p n\u00E9cessite sudo.",
+  "links": [
+    {
+      "title": "ss command",
+      "url": "https://man7.org/linux/man-pages/man8/ss.8.html"
+    }
+  ],
+  "isUserCreated": false
+}

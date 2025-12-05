@@ -1,0 +1,23 @@
+{
+  "id": "8dffec44-2019-4134-9f0f-95514f0c14f8",
+  "title": "Cr\u00E9er un r\u00E9pertoire",
+  "description": "Cr\u00E9e un nouveau dossier, y compris les dossiers parents si n\u00E9cessaire.",
+  "category": "\uD83D\uDCC1 Files \u0026 Storage",
+  "platform": "Both",
+  "level": "Info",
+  "tags": [
+    "linux",
+    "windows",
+    "mkdir",
+    "dossier",
+    "cr\u00E9er"
+  ],
+  "windowsTemplateId": "83bd87da-56bb-4cbd-9683-1310ac3d155e",
+  "linuxTemplateId": "dc047015-d0ab-4a16-9af4-f03faf792856",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Windows: -Force cr\u00E9e les dossiers parents si n\u00E9cessaire.\nLinux: -p cr\u00E9e les dossiers parents si n\u00E9cessaire. -m d\u00E9finit les permissions.",
+  "links": [],
+  "isUserCreated": false
+}

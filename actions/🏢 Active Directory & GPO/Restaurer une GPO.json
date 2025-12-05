@@ -1,0 +1,26 @@
+{
+  "id": "81c93981-69b1-4a42-84a8-8d2b90936b4d",
+  "title": "Restaurer une GPO",
+  "description": "Restaure une strat\u00E9gie de groupe \u00E0 partir d\u0027une sauvegarde.",
+  "category": "\uD83C\uDFE2 Active Directory \u0026 GPO",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "gpo",
+    "restore",
+    "recovery",
+    "group-policy"
+  ],
+  "windowsTemplateId": "aeda8e6d-c9a1-4774-98da-852fc2df4f85",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "\u00C9crase la GPO actuelle avec les param\u00E8tres de la sauvegarde. Utiliser avec pr\u00E9caution.",
+  "links": [
+    {
+      "title": "Documentation Restore-GPO",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/grouppolicy/restore-gpo"
+    }
+  ],
+  "isUserCreated": false
+}

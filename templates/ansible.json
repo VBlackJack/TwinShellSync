@@ -1,0 +1,32 @@
+{
+  "id": "1ccab58c-2a24-44ab-95de-93ada8a402e5",
+  "name": "ansible",
+  "platform": "Windows",
+  "commandPattern": "ansible {hostPattern} -m {module} -a \u0022{args}\u0022",
+  "parameters": [
+    {
+      "name": "hostPattern",
+      "label": "Pattern h\u00F4tes",
+      "type": "string",
+      "defaultValue": "all",
+      "required": true,
+      "description": "Pattern pour cibler les h\u00F4tes (all, webservers, etc.)"
+    },
+    {
+      "name": "module",
+      "label": "Module",
+      "type": "string",
+      "defaultValue": "ping",
+      "required": true,
+      "description": "Module Ansible \u00E0 utiliser"
+    },
+    {
+      "name": "args",
+      "label": "Arguments",
+      "type": "string",
+      "defaultValue": "",
+      "required": false,
+      "description": "Arguments pour le module"
+    }
+  ]
+}

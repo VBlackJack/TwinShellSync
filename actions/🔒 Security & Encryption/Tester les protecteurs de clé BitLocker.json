@@ -1,0 +1,25 @@
+{
+  "id": "f4be64ac-36bf-4847-8dd1-4f50c31d6d5a",
+  "title": "Tester les protecteurs de cl\u00E9 BitLocker",
+  "description": "V\u00E9rifie que tous les protecteurs de cl\u00E9 BitLocker d\u0027un volume sont valides et fonctionnels.",
+  "category": "\uD83D\uDD12 Security \u0026 Encryption",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "bitlocker",
+    "test",
+    "validation"
+  ],
+  "windowsTemplateId": "e8548d1a-3616-43de-9ee8-e8226f253162",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Types de protecteurs: RecoveryPassword (obligatoire!), Tpm, TpmPin, TpmStartupKey, ExternalKey, Password. Bonne pratique: toujours avoir au moins 1 RecoveryPassword sauvegard\u00E9. V\u00E9rifiez r\u00E9guli\u00E8rement que le TPM est fonctionnel.",
+  "links": [
+    {
+      "title": "BitLocker Key Protectors",
+      "url": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/data-protection/bitlocker/operations-guide"
+    }
+  ],
+  "isUserCreated": false
+}

@@ -1,5 +1,0 @@
-id: 1c88ae44-43a8-49f0-8fe4-4cf7aaea612f
-name: systemd-resolve
-platform: Linux
-commandPattern: sudo systemd-resolve --flush-caches
-parameters: []

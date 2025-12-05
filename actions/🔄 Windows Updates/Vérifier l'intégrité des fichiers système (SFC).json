@@ -1,0 +1,26 @@
+{
+  "id": "96ea8261-81a6-4801-8a09-6a6b6655c51e",
+  "title": "V\u00E9rifier l\u0027int\u00E9grit\u00E9 des fichiers syst\u00E8me (SFC)",
+  "description": "Ex\u00E9cute System File Checker pour d\u00E9tecter et r\u00E9parer les fichiers syst\u00E8me corrompus",
+  "category": "\uD83D\uDD04 Windows Updates",
+  "platform": "Windows",
+  "level": "Info",
+  "tags": [
+    "sfc",
+    "system",
+    "integrity",
+    "repair"
+  ],
+  "windowsTemplateId": "5ccd20cf-8e8c-4ce9-9301-4f7a40da56c0",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "N\u00E9cessite des droits administrateur. Peut prendre 15-30 minutes. Logs disponibles dans C:\\Windows\\Logs\\CBS\\CBS.log. Ex\u00E9cuter DISM avant SFC si SFC \u00E9choue.",
+  "links": [
+    {
+      "title": "SFC Documentation",
+      "url": "https://learn.microsoft.com/en-us/troubleshoot/windows-server/deployment/fix-windows-update-errors"
+    }
+  ],
+  "isUserCreated": false
+}

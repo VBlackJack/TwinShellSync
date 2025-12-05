@@ -1,0 +1,26 @@
+{
+  "id": "e71fb3f8-e917-4e21-ba5e-3ccb6f91f4b8",
+  "title": "D\u00E9sinstaller une mise \u00E0 jour Windows",
+  "description": "D\u00E9sinstalle une mise \u00E0 jour Windows sp\u00E9cifique par son num\u00E9ro KB",
+  "category": "\uD83D\uDD04 Windows Updates",
+  "platform": "Windows",
+  "level": "Dangerous",
+  "tags": [
+    "windows-update",
+    "uninstall",
+    "remove",
+    "pswindowsupdate"
+  ],
+  "windowsTemplateId": "09ca43b3-3229-432d-a175-5afface104b5",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "DANGER: Peut n\u00E9cessiter un red\u00E9marrage. Peut cr\u00E9er des instabilit\u00E9s syst\u00E8me. N\u00E9cessite droits administrateur et PSWindowsUpdate.",
+  "links": [
+    {
+      "title": "Uninstall Windows Updates",
+      "url": "https://woshub.com/pswindowsupdate-module/"
+    }
+  ],
+  "isUserCreated": false
+}

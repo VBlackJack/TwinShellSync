@@ -1,0 +1,24 @@
+{
+  "id": "99587523-b12b-4f94-9020-2918de74631c",
+  "name": "Add-ADGroupMember",
+  "platform": "Windows",
+  "commandPattern": "Add-ADGroupMember -Identity \u0022{groupName}\u0022 -Members {username}",
+  "parameters": [
+    {
+      "name": "groupName",
+      "label": "Nom du groupe",
+      "type": "string",
+      "defaultValue": "",
+      "required": true,
+      "description": "Nom du groupe AD"
+    },
+    {
+      "name": "username",
+      "label": "Nom d\u0027utilisateur",
+      "type": "string",
+      "defaultValue": "",
+      "required": true,
+      "description": "SamAccountName de l\u0027utilisateur \u00E0 ajouter"
+    }
+  ]
+}

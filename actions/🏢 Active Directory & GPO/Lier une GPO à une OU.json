@@ -1,0 +1,26 @@
+{
+  "id": "2f731322-d7ef-4856-8a40-4408bf19b97a",
+  "title": "Lier une GPO \u00E0 une OU",
+  "description": "Lie une strat\u00E9gie de groupe \u00E0 une unit\u00E9 d\u0027organisation.",
+  "category": "\uD83C\uDFE2 Active Directory \u0026 GPO",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "gpo",
+    "link",
+    "ou",
+    "group-policy"
+  ],
+  "windowsTemplateId": "d36871c3-c3de-4beb-87c9-a9473ef85321",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Le lien est activ\u00E9 par d\u00E9faut. Pour cr\u00E9er un lien d\u00E9sactiv\u00E9, utiliser -LinkEnabled No.",
+  "links": [
+    {
+      "title": "Documentation New-GPLink",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/grouppolicy/new-gplink"
+    }
+  ],
+  "isUserCreated": false
+}

@@ -1,0 +1,21 @@
+{
+  "id": "d74d8af8-15b6-4b13-9567-e920a620f7f4",
+  "title": "Afficher le temps de fonctionnement du syst\u00E8me",
+  "description": "Montre depuis combien de temps le syst\u00E8me est d\u00E9marr\u00E9.",
+  "category": "\uD83D\uDC27 Linux Administration",
+  "platform": "Both",
+  "level": "Info",
+  "tags": [
+    "system",
+    "uptime",
+    "info"
+  ],
+  "windowsTemplateId": "d3a41b66-dc9c-45f6-bb7a-6744bf08c0e7",
+  "linuxTemplateId": "23c8a965-b52e-4cfc-8852-7e15f28daf4c",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Sur Windows, calculer la diff\u00E9rence avec Get-Date pour obtenir la dur\u00E9e. Sur Linux, \u0027uptime\u0027 sans option donne plus d\u0027infos.",
+  "links": [],
+  "isUserCreated": false
+}

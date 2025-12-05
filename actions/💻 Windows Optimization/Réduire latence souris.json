@@ -1,0 +1,24 @@
+{
+  "id": "8ddd220d-ec7e-4c1c-925a-440908f88237",
+  "title": "R\u00E9duire latence souris",
+  "description": "Optimise les param\u00E8tres de latence de la souris pour am\u00E9liorer la r\u00E9activit\u00E9 (gaming).",
+  "category": "\uD83D\uDCBB Windows Optimization",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "performance",
+    "gaming",
+    "mouse",
+    "latency",
+    "input",
+    "optimisation",
+    "windows"
+  ],
+  "windowsTemplateId": "8406bc87-4236-4e96-b303-21bf63c55a0d",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Optimisations: d\u00E9sactive acc\u00E9l\u00E9ration souris (enhance pointer precision), augmente buffer de donn\u00E9es souris (moins de perte d\u0027inputs), optimise courbes d\u0027acc\u00E9l\u00E9ration. Am\u00E9liore pr\u00E9cision et r\u00E9activit\u00E9 pour FPS/comp\u00E9titif. Red\u00E9marrage requis.",
+  "links": [],
+  "isUserCreated": false
+}

@@ -1,0 +1,23 @@
+{
+  "id": "9bdd1c5e-15cd-4d7a-b8d9-13fab87a784b",
+  "title": "D\u00E9sactiver Storage Sense",
+  "description": "D\u00E9sactive Storage Sense, la fonctionnalit\u00E9 automatique de nettoyage de disque de Windows.",
+  "category": "\uD83D\uDCBB Windows Optimization",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "performance",
+    "storage",
+    "disk",
+    "cleanup",
+    "optimisation",
+    "windows"
+  ],
+  "windowsTemplateId": "b6e7faac-5c43-46b1-9adc-1d822d38effc",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Storage Sense: nettoie automatiquement les fichiers temporaires, corbeille, t\u00E9l\u00E9chargements anciens. Peut supprimer des fichiers importants. D\u00E9sactiver donne contr\u00F4le total sur le nettoyage. Recommand\u00E9 si vous g\u00E9rez manuellement votre espace disque.",
+  "links": [],
+  "isUserCreated": false
+}

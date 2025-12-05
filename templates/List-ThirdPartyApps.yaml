@@ -1,5 +1,0 @@
-id: 7a20d385-d4a3-4715-9431-eada61be6fcd
-name: List-ThirdPartyApps
-platform: Windows
-commandPattern: Get-AppxPackage | Where-Object { $_.Publisher -notlike '*Microsoft*' } | Select-Object Name,Version,Publisher | Format-Table -AutoSize
-parameters: []

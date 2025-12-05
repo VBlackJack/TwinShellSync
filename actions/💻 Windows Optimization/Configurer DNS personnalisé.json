@@ -1,0 +1,23 @@
+{
+  "id": "6459ad3a-9c9b-44b2-bdbc-a538a0432cd5",
+  "title": "Configurer DNS personnalis\u00E9",
+  "description": "Configure des serveurs DNS personnalis\u00E9s avec adresses primaire et secondaire au choix.",
+  "category": "\uD83D\uDCBB Windows Optimization",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "performance",
+    "dns",
+    "network",
+    "custom",
+    "optimisation",
+    "windows"
+  ],
+  "windowsTemplateId": "e7664573-2696-483f-bc36-1f7298b5f722",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Permet de configurer n\u0027importe quels serveurs DNS. Utile pour DNS d\u0027entreprise, serveurs locaux (pi-hole, AdGuard Home) ou combinaisons personnalis\u00E9es.",
+  "links": [],
+  "isUserCreated": false
+}

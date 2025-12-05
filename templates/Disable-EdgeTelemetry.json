@@ -1,0 +1,7 @@
+{
+  "id": "dd9481d0-d0b8-412e-8b1f-0f52fa671826",
+  "name": "Disable-EdgeTelemetry",
+  "platform": "Windows",
+  "commandPattern": "New-Item -Path \u0027HKLM:\\SOFTWARE\\Policies\\Microsoft\\Edge\u0027 -Force | Out-Null; Set-ItemProperty -Path \u0027HKLM:\\SOFTWARE\\Policies\\Microsoft\\Edge\u0027 -Name \u0027MetricsReportingEnabled\u0027 -Type DWord -Value 0; Set-ItemProperty -Path \u0027HKLM:\\SOFTWARE\\Policies\\Microsoft\\Edge\u0027 -Name \u0027SendSiteInfoToImproveServices\u0027 -Type DWord -Value 0",
+  "parameters": []
+}

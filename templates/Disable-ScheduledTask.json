@@ -1,0 +1,24 @@
+{
+  "id": "1f035e21-ffac-4f4d-8d96-928eede5b92f",
+  "name": "Disable-ScheduledTask",
+  "platform": "Windows",
+  "commandPattern": "Disable-ScheduledTask -TaskName \u0027{taskname}\u0027 {taskpath}",
+  "parameters": [
+    {
+      "name": "taskname",
+      "label": "Nom de la t\u00E2che",
+      "type": "string",
+      "defaultValue": "MyTask",
+      "required": true,
+      "description": "Nom de la t\u00E2che \u00E0 d\u00E9sactiver"
+    },
+    {
+      "name": "taskpath",
+      "label": "Chemin",
+      "type": "string",
+      "defaultValue": "",
+      "required": false,
+      "description": "Chemin de la t\u00E2che"
+    }
+  ]
+}

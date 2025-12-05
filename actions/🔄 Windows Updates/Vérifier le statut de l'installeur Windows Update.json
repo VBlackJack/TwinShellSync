@@ -1,0 +1,26 @@
+{
+  "id": "32719d38-09ab-4af9-83b8-5ce2111275cb",
+  "title": "V\u00E9rifier le statut de l\u0027installeur Windows Update",
+  "description": "Affiche si l\u0027installeur Windows Update est en cours d\u0027ex\u00E9cution",
+  "category": "\uD83D\uDD04 Windows Updates",
+  "platform": "Windows",
+  "level": "Info",
+  "tags": [
+    "windows-update",
+    "status",
+    "installer",
+    "pswindowsupdate"
+  ],
+  "windowsTemplateId": "8dab422d-dfb1-4455-8caf-692b020fb27d",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Utile avant de lancer d\u0027autres op\u00E9rations de mise \u00E0 jour. N\u00E9cessite PSWindowsUpdate.",
+  "links": [
+    {
+      "title": "PSWindowsUpdate Module",
+      "url": "https://www.powershellgallery.com/packages/PSWindowsUpdate"
+    }
+  ],
+  "isUserCreated": false
+}

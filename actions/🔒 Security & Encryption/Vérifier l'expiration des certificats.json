@@ -1,0 +1,30 @@
+{
+  "id": "41d3d97a-0107-4ff0-b3d9-b48336ff3788",
+  "title": "V\u00E9rifier l\u0027expiration des certificats",
+  "description": "Analyse tous les certificats install\u00E9s et identifie ceux qui sont expir\u00E9s ou proches de l\u0027expiration (\u003C 30 jours).",
+  "category": "\uD83D\uDD12 Security \u0026 Encryption",
+  "platform": "Windows",
+  "level": "Info",
+  "tags": [
+    "certificate",
+    "expiration",
+    "monitoring",
+    "ssl",
+    "tls",
+    "security",
+    "audit",
+    "compliance"
+  ],
+  "windowsTemplateId": "7a226e70-c903-43db-b0b4-1da384d1c429",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Automatisez cette v\u00E9rification dans une t\u00E2che planifi\u00E9e pour une surveillance proactive. Les certificats expir\u00E9s causent des erreurs SSL/TLS.",
+  "links": [
+    {
+      "title": "Documentation Certificate Management",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/pki/"
+    }
+  ],
+  "isUserCreated": false
+}

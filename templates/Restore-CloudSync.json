@@ -1,0 +1,7 @@
+{
+  "id": "471fd793-9752-4594-b762-fe38dabcc467",
+  "name": "Restore-CloudSync",
+  "platform": "Windows",
+  "commandPattern": "Set-ItemProperty -Path \u0027HKCU:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\SettingSync\u0027 -Name \u0027SyncPolicy\u0027 -Type DWord -Value 1 -ErrorAction SilentlyContinue; $groups = @(\u0027Personalization\u0027, \u0027BrowserSettings\u0027, \u0027Credentials\u0027, \u0027Accessibility\u0027, \u0027Windows\u0027); foreach ($group in $groups) { $path = \u0022HKCU:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\SettingSync\\Groups\\$group\u0022; if (Test-Path $path) { Set-ItemProperty -Path $path -Name \u0027Enabled\u0027 -Type DWord -Value 1 -ErrorAction SilentlyContinue } }",
+  "parameters": []
+}

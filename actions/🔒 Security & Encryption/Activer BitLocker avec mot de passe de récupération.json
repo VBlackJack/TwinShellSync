@@ -1,0 +1,26 @@
+{
+  "id": "258eebd9-4241-4c1a-9b2e-e81450b22ffa",
+  "title": "Activer BitLocker avec mot de passe de r\u00E9cup\u00E9ration",
+  "description": "Active le chiffrement BitLocker sur un volume avec protection par mot de passe de r\u00E9cup\u00E9ration.",
+  "category": "\uD83D\uDD12 Security \u0026 Encryption",
+  "platform": "Windows",
+  "level": "Dangerous",
+  "tags": [
+    "bitlocker",
+    "enable",
+    "encryption",
+    "recovery"
+  ],
+  "windowsTemplateId": "f6e999d6-b446-44cc-8b75-8d1e76fda54e",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "\u26A0\uFE0F IMPORTANT: Sauvegardez imm\u00E9diatement le mot de passe de r\u00E9cup\u00E9ration apr\u00E8s activation! UsedSpaceOnly: chiffre uniquement l\u0027espace utilis\u00E9 (rapide). Sans cette option: chiffre tout le disque (lent mais plus s\u00E9curis\u00E9). EncryptionMethod: XtsAes256 recommand\u00E9 pour Windows 10/11.",
+  "links": [
+    {
+      "title": "Enable-BitLocker Documentation",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/bitlocker/enable-bitlocker"
+    }
+  ],
+  "isUserCreated": false
+}

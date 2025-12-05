@@ -1,0 +1,27 @@
+{
+  "id": "522a2b80-09c4-4a34-ae11-96acef0b4f22",
+  "title": "Mettre \u00E0 jour toutes les applications Winget",
+  "description": "Met \u00E0 jour toutes les applications install\u00E9es vers leurs derni\u00E8res versions disponibles.",
+  "category": "\uD83D\uDCE6 Package Management",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "winget",
+    "package",
+    "update",
+    "upgrade-all",
+    "windows"
+  ],
+  "windowsTemplateId": "173e5fdc-5341-4eec-9435-6c96a486c595",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Peut prendre du temps selon le nombre d\u0027applications \u00E0 mettre \u00E0 jour.",
+  "links": [
+    {
+      "title": "Winget upgrade documentation",
+      "url": "https://learn.microsoft.com/en-us/windows/package-manager/winget/upgrade"
+    }
+  ],
+  "isUserCreated": false
+}

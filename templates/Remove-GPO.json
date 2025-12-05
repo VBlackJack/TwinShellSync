@@ -1,0 +1,16 @@
+{
+  "id": "bb84b1cc-11c5-4c72-991a-64ca6657f31d",
+  "name": "Remove-GPO",
+  "platform": "Windows",
+  "commandPattern": "Remove-GPO -Name \u0022{gpoName}\u0022",
+  "parameters": [
+    {
+      "name": "gpoName",
+      "label": "Nom de la GPO",
+      "type": "string",
+      "defaultValue": "",
+      "required": true,
+      "description": "Nom de la GPO \u00E0 supprimer"
+    }
+  ]
+}

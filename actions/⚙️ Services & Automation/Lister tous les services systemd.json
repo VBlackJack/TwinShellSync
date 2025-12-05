@@ -1,0 +1,26 @@
+{
+  "id": "3820bad3-b794-43ee-87b8-f0cc30c4a19c",
+  "title": "Lister tous les services systemd",
+  "description": "Affiche la liste de toutes les unit\u00E9s de type service",
+  "category": "\u2699\uFE0F Services \u0026 Automation",
+  "platform": "Linux",
+  "level": "Info",
+  "tags": [
+    "systemctl",
+    "systemd",
+    "list",
+    "services"
+  ],
+  "linuxTemplateId": "e8b4bb10-cb0e-4468-a4a8-29c822a2c008",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Ne n\u00E9cessite pas sudo. --all affiche aussi les unit\u00E9s inactives.",
+  "links": [
+    {
+      "title": "systemctl list-units",
+      "url": "https://www.freedesktop.org/software/systemd/man/systemctl.html"
+    }
+  ],
+  "isUserCreated": false
+}

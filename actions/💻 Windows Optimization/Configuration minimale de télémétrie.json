@@ -1,0 +1,29 @@
+{
+  "id": "c196289d-7947-442d-bb1a-c63b9f955c6f",
+  "title": "Configuration minimale de t\u00E9l\u00E9m\u00E9trie",
+  "description": "Configure la t\u00E9l\u00E9m\u00E9trie Windows au niveau minimal (Security). Protection maximale des donn\u00E9es. RGPD strict.",
+  "category": "\uD83D\uDCBB Windows Optimization",
+  "platform": "Windows",
+  "level": "Dangerous",
+  "tags": [
+    "privacy",
+    "confidentialit\u00E9",
+    "rgpd",
+    "t\u00E9l\u00E9m\u00E9trie",
+    "diagnostic",
+    "microsoft",
+    "windows"
+  ],
+  "windowsTemplateId": "4a307c4e-6404-4069-a8d0-f15cd017cc18",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "IMPORTANT: Configure la t\u00E9l\u00E9m\u00E9trie au minimum absolu (niveau Security - 0). D\u00E9sactive 50\u002B cl\u00E9s de registre et t\u00E2ches planifi\u00E9es. Conforme RGPD strict. Niveau recommand\u00E9 pour entreprises europ\u00E9ennes.",
+  "links": [
+    {
+      "title": "Microsoft - Configure Windows diagnostic data",
+      "url": "https://learn.microsoft.com/en-us/windows/privacy/configure-windows-diagnostic-data-in-your-organization"
+    }
+  ],
+  "isUserCreated": false
+}

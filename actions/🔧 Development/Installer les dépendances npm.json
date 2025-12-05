@@ -1,0 +1,23 @@
+{
+  "id": "173f34e6-6da9-473e-865c-5139aabbcb75",
+  "title": "Installer les d\u00E9pendances npm",
+  "description": "Installe les d\u00E9pendances Node.js d\u0027un projet.",
+  "category": "\uD83D\uDD27 Development",
+  "platform": "Both",
+  "level": "Info",
+  "tags": [
+    "npm",
+    "nodejs",
+    "install",
+    "dependencies",
+    "development"
+  ],
+  "windowsTemplateId": "013c3799-6e6c-4fde-8862-f1f851add0b7",
+  "linuxTemplateId": "8c30e643-a83e-47c0-856d-e4ef9ebfea39",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "npm ci est plus rapide et d\u00E9terministe pour CI/CD. --save-dev pour dev dependencies.",
+  "links": [],
+  "isUserCreated": false
+}

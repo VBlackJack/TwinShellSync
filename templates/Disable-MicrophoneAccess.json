@@ -1,0 +1,16 @@
+{
+  "id": "a79b0639-6cb3-4c2e-a78e-aa64d21d0303",
+  "name": "Disable-MicrophoneAccess",
+  "platform": "Windows",
+  "commandPattern": "param([string]$Scope = \u0027CurrentUser\u0027); $path = if ($Scope -eq \u0027AllUsers\u0027) { \u0027HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\CapabilityAccessManager\\ConsentStore\\microphone\u0027 } else { \u0027HKCU:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\CapabilityAccessManager\\ConsentStore\\microphone\u0027 }; New-Item -Path $path -Force | Out-Null; Set-ItemProperty -Path $path -Name \u0027Value\u0027 -Type String -Value \u0027Deny\u0027",
+  "parameters": [
+    {
+      "name": "Scope",
+      "label": "Port\u00E9e",
+      "type": "string",
+      "defaultValue": "CurrentUser",
+      "required": false,
+      "description": "CurrentUser ou AllUsers"
+    }
+  ]
+}

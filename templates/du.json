@@ -1,0 +1,24 @@
+{
+  "id": "09e4b777-0df7-42a2-99c4-3fc40026c8ea",
+  "name": "du",
+  "platform": "Linux",
+  "commandPattern": "du -sh {path} | sort -hr | head -n {lines}",
+  "parameters": [
+    {
+      "name": "path",
+      "label": "Chemin",
+      "type": "string",
+      "defaultValue": ".",
+      "required": true,
+      "description": "R\u00E9pertoire \u00E0 analyser"
+    },
+    {
+      "name": "lines",
+      "label": "Nombre de r\u00E9sultats",
+      "type": "number",
+      "defaultValue": "20",
+      "required": true,
+      "description": "Nombre de plus gros r\u00E9pertoires \u00E0 afficher"
+    }
+  ]
+}

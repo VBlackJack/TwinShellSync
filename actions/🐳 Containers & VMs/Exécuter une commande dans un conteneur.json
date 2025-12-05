@@ -1,0 +1,29 @@
+{
+  "id": "15f4ba21-a272-4075-9415-28d5730b16da",
+  "title": "Ex\u00E9cuter une commande dans un conteneur",
+  "description": "Ex\u00E9cute une commande dans un conteneur Docker en cours d\u0027ex\u00E9cution",
+  "category": "\uD83D\uDC33 Containers \u0026 VMs",
+  "platform": "Both",
+  "level": "Run",
+  "tags": [
+    "docker",
+    "exec",
+    "container",
+    "bash",
+    "shell",
+    "windows"
+  ],
+  "windowsTemplateId": "b827a7f4-4256-4c5c-a7c7-6ddd887a59fd",
+  "linuxTemplateId": "fd4ad7f2-890a-44be-9495-81f2ccd42902",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Windows \u0026 Linux: -it n\u00E9cessaire pour shell interactif. Le conteneur doit \u00EAtre en cours d\u0027ex\u00E9cution.",
+  "links": [
+    {
+      "title": "Docker exec",
+      "url": "https://docs.docker.com/engine/reference/commandline/exec/"
+    }
+  ],
+  "isUserCreated": false
+}

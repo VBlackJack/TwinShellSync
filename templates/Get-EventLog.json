@@ -1,0 +1,32 @@
+{
+  "id": "9ca49b53-bbf0-4e7a-a90c-a6fe9c08d3e3",
+  "name": "Get-EventLog",
+  "platform": "Windows",
+  "commandPattern": "Get-EventLog -LogName {logname} -Newest {count} {entrytype} | Format-Table TimeGenerated, EntryType, Source, Message -AutoSize",
+  "parameters": [
+    {
+      "name": "logname",
+      "label": "Journal",
+      "type": "string",
+      "defaultValue": "System",
+      "required": true,
+      "description": "Nom du journal (System, Application, Security)"
+    },
+    {
+      "name": "count",
+      "label": "Nombre d\u0027\u00E9v\u00E9nements",
+      "type": "number",
+      "defaultValue": "20",
+      "required": false,
+      "description": "Nombre d\u0027\u00E9v\u00E9nements \u00E0 afficher"
+    },
+    {
+      "name": "entrytype",
+      "label": "Type",
+      "type": "string",
+      "defaultValue": "",
+      "required": false,
+      "description": "Filtre par type (ex: -EntryType Error,Warning)"
+    }
+  ]
+}

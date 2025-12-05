@@ -1,0 +1,26 @@
+{
+  "id": "4221ee43-9d73-4df5-8932-54ec5217490c",
+  "title": "Rechercher les erreurs critiques dans les logs syst\u00E8me",
+  "description": "Extrait les \u00E9v\u00E9nements de niveau Critique et Erreur des derni\u00E8res heures depuis le journal System",
+  "category": "\uD83D\uDCCA Monitoring \u0026 Logs",
+  "platform": "Windows",
+  "level": "Info",
+  "tags": [
+    "eventlog",
+    "errors",
+    "diagnostic",
+    "system"
+  ],
+  "windowsTemplateId": "a7db3a72-de63-49d9-b539-dbd38199408b",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "N\u00E9cessite des droits d\u0027administrateur. Utilise Get-WinEvent (recommand\u00E9) plut\u00F4t que Get-EventLog. Level 1=Critical, 2=Error.",
+  "links": [
+    {
+      "title": "Documentation Get-WinEvent",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.diagnostics/get-winevent"
+    }
+  ],
+  "isUserCreated": false
+}

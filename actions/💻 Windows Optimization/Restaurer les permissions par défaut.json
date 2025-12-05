@@ -1,0 +1,23 @@
+{
+  "id": "6db79ac7-a9c5-45f9-8f5f-4bb4784203e2",
+  "title": "Restaurer les permissions par d\u00E9faut",
+  "description": "Restaure toutes les permissions d\u0027acc\u00E8s des applications \u00E0 leurs valeurs par d\u00E9faut Windows.",
+  "category": "\uD83D\uDCBB Windows Optimization",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "privacy",
+    "confidentialit\u00E9",
+    "restore",
+    "permissions",
+    "default",
+    "windows"
+  ],
+  "windowsTemplateId": "811b9e5a-25eb-4e3c-b398-b487fd956d60",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Restaure les permissions par d\u00E9faut. Utile apr\u00E8s une configuration trop restrictive ou pour r\u00E9initialiser le syst\u00E8me.",
+  "links": [],
+  "isUserCreated": false
+}

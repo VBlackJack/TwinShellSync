@@ -1,0 +1,24 @@
+{
+  "id": "34c53168-f50d-4535-a32c-17d1cfbb95f0",
+  "title": "D\u00E9sactiver la cam\u00E9ra \u00E9cran de verrouillage",
+  "description": "D\u00E9sactive l\u0027acc\u00E8s \u00E0 la cam\u00E9ra depuis l\u0027\u00E9cran de verrouillage Windows. S\u00E9curit\u00E9 renforc\u00E9e.",
+  "category": "\uD83D\uDCBB Windows Optimization",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "privacy",
+    "confidentialit\u00E9",
+    "rgpd",
+    "security",
+    "cam\u00E9ra",
+    "lockscreen",
+    "windows"
+  ],
+  "windowsTemplateId": "e2a94338-241b-43e3-8698-188bf63c7367",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Emp\u00EAche l\u0027acc\u00E8s \u00E0 la cam\u00E9ra depuis l\u0027\u00E9cran de verrouillage. Am\u00E9liore la s\u00E9curit\u00E9 en emp\u00EAchant la prise de photos sans d\u00E9verrouillage.",
+  "links": [],
+  "isUserCreated": false
+}

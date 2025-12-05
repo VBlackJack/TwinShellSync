@@ -1,0 +1,22 @@
+{
+  "id": "b57b4fd4-45d9-4605-b2f2-e35d70e6d846",
+  "title": "D\u00E9sinstaller Microsoft Edge",
+  "description": "\u26A0\uFE0F DANGEROUS: D\u00E9sinstalle Microsoft Edge. Peut affecter certaines fonctionnalit\u00E9s Windows 11.",
+  "category": "\uD83D\uDCBB Windows Optimization",
+  "platform": "Windows",
+  "level": "Dangerous",
+  "tags": [
+    "debloat",
+    "edge",
+    "browser",
+    "dangerous",
+    "windows"
+  ],
+  "windowsTemplateId": "13349ffb-f7cb-40a1-b770-0ce3ae0fa503",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "\u26A0\uFE0F ATTENTION: Cette action est irr\u00E9versible. Sauvegarde syst\u00E8me recommand\u00E9e. Windows 11 utilise Edge pour certaines fonctionnalit\u00E9s syst\u00E8me.",
+  "links": [],
+  "isUserCreated": false
+}

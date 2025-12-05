@@ -1,0 +1,24 @@
+{
+  "id": "aeda8e6d-c9a1-4774-98da-852fc2df4f85",
+  "name": "Restore-GPO",
+  "platform": "Windows",
+  "commandPattern": "Restore-GPO -Name \u0022{gpoName}\u0022 -Path \u0022{backupPath}\u0022",
+  "parameters": [
+    {
+      "name": "gpoName",
+      "label": "Nom de la GPO",
+      "type": "string",
+      "defaultValue": "",
+      "required": true,
+      "description": "Nom de la GPO \u00E0 restaurer"
+    },
+    {
+      "name": "backupPath",
+      "label": "Chemin de sauvegarde",
+      "type": "string",
+      "defaultValue": "C:\\GPOBackups",
+      "required": true,
+      "description": "Chemin du dossier de sauvegarde"
+    }
+  ]
+}

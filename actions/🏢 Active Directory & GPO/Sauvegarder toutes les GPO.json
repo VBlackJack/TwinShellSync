@@ -1,0 +1,21 @@
+{
+  "id": "565601a6-0a65-42ee-ab51-2c79f92487b6",
+  "title": "Sauvegarder toutes les GPO",
+  "description": "Cr\u00E9e une sauvegarde de toutes les strat\u00E9gies de groupe du domaine.",
+  "category": "\uD83C\uDFE2 Active Directory \u0026 GPO",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "gpo",
+    "backup",
+    "all",
+    "group-policy"
+  ],
+  "windowsTemplateId": "6c5ab861-7930-47d9-9bc1-4c6f73541d74",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Recommand\u00E9 avant toute modification majeure. Peut prendre du temps sur de gros domaines.",
+  "links": [],
+  "isUserCreated": false
+}

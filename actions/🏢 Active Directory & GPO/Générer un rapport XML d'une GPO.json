@@ -1,0 +1,21 @@
+{
+  "id": "f06acebd-c8db-42c5-a036-b436005fe846",
+  "title": "G\u00E9n\u00E9rer un rapport XML d\u0027une GPO",
+  "description": "G\u00E9n\u00E8re un rapport XML d\u00E9taill\u00E9 des param\u00E8tres d\u0027une strat\u00E9gie de groupe.",
+  "category": "\uD83C\uDFE2 Active Directory \u0026 GPO",
+  "platform": "Windows",
+  "level": "Info",
+  "tags": [
+    "gpo",
+    "report",
+    "xml",
+    "documentation"
+  ],
+  "windowsTemplateId": "de96b54f-0334-4f70-aff9-fd4bb3d00e1d",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Le format XML est utile pour le traitement automatis\u00E9 et l\u0027analyse par scripts.",
+  "links": [],
+  "isUserCreated": false
+}

@@ -1,0 +1,28 @@
+{
+  "id": "54ea58ea-a8c9-4b49-aac2-cfc013d0586b",
+  "title": "Supprimer un r\u00F4le install\u00E9",
+  "description": "Supprime un r\u00F4le Ansible Galaxy install\u00E9 localement",
+  "category": "\u2699\uFE0F Services \u0026 Automation",
+  "platform": "Both",
+  "level": "Info",
+  "tags": [
+    "ansible",
+    "galaxy",
+    "remove",
+    "uninstall",
+    "role"
+  ],
+  "windowsTemplateId": "28f257de-35bf-4559-b7c8-9b6e12fe5c1e",
+  "linuxTemplateId": "eca9876e-febf-46bc-bdbc-154545188e54",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Cette commande supprime d\u00E9finitivement le r\u00F4le du syst\u00E8me de fichiers local.",
+  "links": [
+    {
+      "title": "Ansible Galaxy",
+      "url": "https://galaxy.ansible.com/"
+    }
+  ],
+  "isUserCreated": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "8f899610-74d0-4507-85ae-1692694f8ac1",
+  "title": "D\u00E9sactiver Consumer Features",
+  "description": "D\u00E9sactive l\u0027installation automatique d\u0027applications sugg\u00E9r\u00E9es et de bloatware Microsoft.",
+  "category": "\uD83D\uDCBB Windows Optimization",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "debloat",
+    "consumer-features",
+    "suggestions",
+    "registry",
+    "windows"
+  ],
+  "windowsTemplateId": "45c2f0ae-4a4b-4cb3-bba6-87804793577a",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Emp\u00EAche Windows d\u0027installer automatiquement des apps sugg\u00E9r\u00E9es. N\u00E9cessite des droits administrateur.",
+  "links": [],
+  "isUserCreated": false
+}

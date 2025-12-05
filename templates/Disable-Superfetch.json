@@ -1,0 +1,7 @@
+{
+  "id": "76cb9d94-aec0-4efc-a938-b42ff910331f",
+  "name": "Disable-Superfetch",
+  "platform": "Windows",
+  "commandPattern": "Stop-Service -Name \u0027SysMain\u0027 -Force -ErrorAction SilentlyContinue; Set-Service -Name \u0027SysMain\u0027 -StartupType Disabled; Write-Host \u0022Superfetch/SysMain d\u00E9sactiv\u00E9\u0022 -ForegroundColor Green",
+  "parameters": []
+}

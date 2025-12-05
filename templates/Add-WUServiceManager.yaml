@@ -1,5 +1,0 @@
-id: e6425477-8a56-4e19-9451-dd0bfcb6e5e7
-name: Add-WUServiceManager
-platform: Windows
-commandPattern: Add-WUServiceManager -ServiceID 7971f918-a847-4430-9279-4a52d1efe18d -Confirm:$false
-parameters: []

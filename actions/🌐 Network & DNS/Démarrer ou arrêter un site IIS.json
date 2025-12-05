@@ -1,0 +1,30 @@
+{
+  "id": "874cf801-9e8f-4230-bd99-542486eff4d6",
+  "title": "D\u00E9marrer ou arr\u00EAter un site IIS",
+  "description": "Permet de d\u00E9marrer, arr\u00EAter ou red\u00E9marrer un site web IIS sp\u00E9cifique. Utile pour la maintenance ou le troubleshooting.",
+  "category": "\uD83C\uDF10 Network \u0026 DNS",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "iis",
+    "web",
+    "site",
+    "start",
+    "stop",
+    "restart",
+    "control",
+    "webserver"
+  ],
+  "windowsTemplateId": "be30aa39-68dc-42af-8966-90ebf6553955",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Privil\u00E8ges administrateur requis. Pour red\u00E9marrer, utilisez Stop puis Start, ou recyclez le pool d\u0027application.",
+  "links": [
+    {
+      "title": "Documentation WebAdministration",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/webadministration/"
+    }
+  ],
+  "isUserCreated": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "216e635e-4a2d-49df-a9b4-df32624414b0",
+  "title": "D\u00E9sinstaller Microsoft Store",
+  "description": "\u26A0\uFE0F DANGEROUS: D\u00E9sinstalle compl\u00E8tement le Microsoft Store. Cette action est difficilement r\u00E9versible.",
+  "category": "\uD83D\uDCBB Windows Optimization",
+  "platform": "Windows",
+  "level": "Dangerous",
+  "tags": [
+    "debloat",
+    "store",
+    "dangerous",
+    "system-component",
+    "windows"
+  ],
+  "windowsTemplateId": "35b8aea8-447e-46fb-9009-6dd917de73e1",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "\u26A0\uFE0F ATTENTION: Cette action est irr\u00E9versible. Sauvegarde syst\u00E8me recommand\u00E9e. Vous ne pourrez plus installer d\u0027apps du Store.",
+  "links": [],
+  "isUserCreated": false
+}

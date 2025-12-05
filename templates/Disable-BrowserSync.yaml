@@ -1,5 +1,0 @@
-id: 3c06e5bb-99ec-4e37-8aab-417c033bfe64
-name: Disable-BrowserSync
-platform: Windows
-commandPattern: New-Item -Path 'HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\SettingSync\Groups\BrowserSettings' -Force | Out-Null; Set-ItemProperty -Path 'HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\SettingSync\Groups\BrowserSettings' -Name 'Enabled' -Type DWord -Value 0
-parameters: []

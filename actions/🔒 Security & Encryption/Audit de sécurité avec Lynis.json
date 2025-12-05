@@ -1,0 +1,27 @@
+{
+  "id": "a2c3dbee-b4b2-4c6a-be0b-c0b12ec9184a",
+  "title": "Audit de s\u00E9curit\u00E9 avec Lynis",
+  "description": "Lance un audit de s\u00E9curit\u00E9 complet du syst\u00E8me avec Lynis",
+  "category": "\uD83D\uDD12 Security \u0026 Encryption",
+  "platform": "Linux",
+  "level": "Info",
+  "tags": [
+    "lynis",
+    "audit",
+    "security",
+    "compliance",
+    "hardening"
+  ],
+  "linuxTemplateId": "8ee6b988-a628-4482-9e79-59a8f1f40151",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "N\u00E9cessite sudo et Lynis install\u00E9. G\u00E9n\u00E8re un rapport d\u00E9taill\u00E9 de s\u00E9curit\u00E9.",
+  "links": [
+    {
+      "title": "Lynis documentation",
+      "url": "https://cisofy.com/lynis/"
+    }
+  ],
+  "isUserCreated": false
+}

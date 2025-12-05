@@ -1,0 +1,26 @@
+{
+  "id": "0d651b53-b29c-45f0-98fe-1dcd19a39599",
+  "title": "Terminer un processus",
+  "description": "Envoie un signal \u00E0 un processus pour le terminer (par d\u00E9faut SIGTERM)",
+  "category": "\uD83D\uDCCA Monitoring \u0026 Logs",
+  "platform": "Linux",
+  "level": "Run",
+  "tags": [
+    "kill",
+    "process",
+    "signal",
+    "terminate"
+  ],
+  "linuxTemplateId": "82173f03-e652-475f-80df-745a6aea3c9c",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Peut n\u00E9cessiter sudo. -9 (SIGKILL) ne peut pas \u00EAtre intercept\u00E9. -15 (SIGTERM) est plus propre.",
+  "links": [
+    {
+      "title": "kill command",
+      "url": "https://man7.org/linux/man-pages/man1/kill.1.html"
+    }
+  ],
+  "isUserCreated": false
+}

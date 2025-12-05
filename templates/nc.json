@@ -1,0 +1,24 @@
+{
+  "id": "6b6e2494-49e4-4d87-9f14-2c9bbebfda05",
+  "name": "nc",
+  "platform": "Linux",
+  "commandPattern": "nc -zv {hostname} {port}",
+  "parameters": [
+    {
+      "name": "hostname",
+      "label": "Nom d\u0027h\u00F4te ou IP",
+      "type": "string",
+      "defaultValue": "google.com",
+      "required": true,
+      "description": "Nom d\u0027h\u00F4te ou adresse IP"
+    },
+    {
+      "name": "port",
+      "label": "Port TCP",
+      "type": "number",
+      "defaultValue": "443",
+      "required": true,
+      "description": "Num\u00E9ro de port TCP \u00E0 tester"
+    }
+  ]
+}

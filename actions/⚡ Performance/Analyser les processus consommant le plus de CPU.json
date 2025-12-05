@@ -1,0 +1,30 @@
+{
+  "id": "50509edb-9745-483d-ad34-e93752d8c46c",
+  "title": "Analyser les processus consommant le plus de CPU",
+  "description": "Identifie et affiche les processus consommant le plus de ressources CPU en temps r\u00E9el avec leurs statistiques d\u00E9taill\u00E9es.",
+  "category": "\u26A1 Performance",
+  "platform": "Both",
+  "level": "Info",
+  "tags": [
+    "performance",
+    "cpu",
+    "process",
+    "monitoring",
+    "diagnostic",
+    "troubleshooting",
+    "top"
+  ],
+  "windowsTemplateId": "6b8f9e03-fff3-4715-9034-1e713dda4cc5",
+  "linuxTemplateId": "a9405cfd-a0ab-42f6-a209-f1bfc4925903",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "CPU est le temps total cumul\u00E9. Pour une vue en temps r\u00E9el, utilisez Task Manager/htop ou Get-Counter. Sur Linux, htop est plus interactif que top.",
+  "links": [
+    {
+      "title": "Documentation Get-Process",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-process"
+    }
+  ],
+  "isUserCreated": false
+}

@@ -1,0 +1,24 @@
+{
+  "id": "f20773ec-d7a8-4688-bee0-7deef7cb0794",
+  "name": "at",
+  "platform": "Linux",
+  "commandPattern": "echo \u0022{command}\u0022 | at {time}",
+  "parameters": [
+    {
+      "name": "command",
+      "label": "Commande",
+      "type": "string",
+      "defaultValue": "echo \u0027Task executed\u0027",
+      "required": true,
+      "description": "Commande \u00E0 ex\u00E9cuter"
+    },
+    {
+      "name": "time",
+      "label": "Heure",
+      "type": "string",
+      "defaultValue": "now \u002B 1 hour",
+      "required": true,
+      "description": "Heure d\u0027ex\u00E9cution (now \u002B 1 hour, 14:30, tomorrow, etc.)"
+    }
+  ]
+}

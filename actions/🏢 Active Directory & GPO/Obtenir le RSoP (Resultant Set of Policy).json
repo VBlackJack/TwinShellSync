@@ -1,0 +1,21 @@
+{
+  "id": "abe6d712-1342-491f-851a-d99a00a49f88",
+  "title": "Obtenir le RSoP (Resultant Set of Policy)",
+  "description": "G\u00E9n\u00E8re un rapport RSoP d\u00E9taill\u00E9 des strat\u00E9gies appliqu\u00E9es \u00E0 un utilisateur/ordinateur.",
+  "category": "\uD83C\uDFE2 Active Directory \u0026 GPO",
+  "platform": "Windows",
+  "level": "Info",
+  "tags": [
+    "gpo",
+    "rsop",
+    "diagnostic",
+    "reporting"
+  ],
+  "windowsTemplateId": "4fcc07a0-cf33-4a34-a4e0-9f60bcf47c76",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Le rapport RSoP montre toutes les GPO appliqu\u00E9es et leurs param\u00E8tres effectifs. /F force l\u0027\u00E9crasement du fichier.",
+  "links": [],
+  "isUserCreated": false
+}

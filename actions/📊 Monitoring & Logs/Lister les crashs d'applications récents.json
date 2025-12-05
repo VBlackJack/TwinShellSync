@@ -1,0 +1,26 @@
+{
+  "id": "559d7df1-3861-4f55-8b13-8fae9e150bfd",
+  "title": "Lister les crashs d\u0027applications r\u00E9cents",
+  "description": "Extrait tous les \u00E9v\u00E9nements de crash d\u0027application (EventID 1000) du journal Application",
+  "category": "\uD83D\uDCCA Monitoring \u0026 Logs",
+  "platform": "Windows",
+  "level": "Info",
+  "tags": [
+    "eventlog",
+    "crash",
+    "application",
+    "diagnostic"
+  ],
+  "windowsTemplateId": "f0486b34-8b8a-451d-be70-a0870ea7bcde",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "EventID 1000 = Application Error (crash). Peut aider \u00E0 identifier les applications instables.",
+  "links": [
+    {
+      "title": "Troubleshooting Application Crashes",
+      "url": "https://learn.microsoft.com/en-us/windows/win32/wer/windows-error-reporting"
+    }
+  ],
+  "isUserCreated": false
+}

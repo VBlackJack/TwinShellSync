@@ -1,0 +1,7 @@
+{
+  "id": "a153e61e-9970-4c7b-9f3a-9c509ff13cc1",
+  "name": "Disable-HAGS",
+  "platform": "Windows",
+  "commandPattern": "New-Item -Path \u0027HKLM:\\SYSTEM\\CurrentControlSet\\Control\\GraphicsDrivers\u0027 -Force -ErrorAction SilentlyContinue | Out-Null; Set-ItemProperty -Path \u0027HKLM:\\SYSTEM\\CurrentControlSet\\Control\\GraphicsDrivers\u0027 -Name \u0027HwSchMode\u0027 -Type DWord -Value 1; Write-Host \u0022HAGS d\u00E9sactiv\u00E9\u0022 -ForegroundColor Green; Write-Warning \u0022Red\u00E9marrage requis pour appliquer les changements\u0022",
+  "parameters": []
+}

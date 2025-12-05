@@ -1,5 +1,0 @@
-id: a153e61e-9970-4c7b-9f3a-9c509ff13cc1
-name: Disable-HAGS
-platform: Windows
-commandPattern: New-Item -Path 'HKLM:\SYSTEM\CurrentControlSet\Control\GraphicsDrivers' -Force -ErrorAction SilentlyContinue | Out-Null; Set-ItemProperty -Path 'HKLM:\SYSTEM\CurrentControlSet\Control\GraphicsDrivers' -Name 'HwSchMode' -Type DWord -Value 1; Write-Host "HAGS désactivé" -ForegroundColor Green; Write-Warning "Redémarrage requis pour appliquer les changements"
-parameters: []

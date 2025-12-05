@@ -1,0 +1,30 @@
+{
+  "id": "d898a0da-b7be-4d4f-995a-78a8dff615e1",
+  "title": "Exporter un certificat",
+  "description": "Exporte un certificat du magasin Windows vers un fichier .cer ou .pfx.",
+  "category": "\uD83D\uDD12 Security \u0026 Encryption",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "certificate",
+    "export",
+    "backup",
+    "ssl",
+    "tls",
+    "security",
+    "pfx",
+    "migration"
+  ],
+  "windowsTemplateId": "3cbcbdd6-a675-46b0-a674-c8f1aa281994",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Export-Certificate exporte uniquement la cl\u00E9 publique. Utilisez Export-PfxCertificate pour inclure la cl\u00E9 priv\u00E9e (n\u00E9cessite mot de passe).",
+  "links": [
+    {
+      "title": "Documentation Export-Certificate",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/pki/export-certificate"
+    }
+  ],
+  "isUserCreated": false
+}

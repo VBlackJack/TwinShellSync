@@ -1,0 +1,28 @@
+{
+  "id": "52abe564-b1d0-4722-b9bc-61c018ce0390",
+  "title": "Consulter les logs d\u0027un conteneur",
+  "description": "Affiche les logs stdout/stderr d\u0027un conteneur Docker",
+  "category": "\uD83D\uDC33 Containers \u0026 VMs",
+  "platform": "Both",
+  "level": "Info",
+  "tags": [
+    "docker",
+    "logs",
+    "container",
+    "debug",
+    "windows"
+  ],
+  "windowsTemplateId": "b2080cb3-b4c9-4223-8976-2fefa84b928c",
+  "linuxTemplateId": "d4e1c9aa-c432-4534-803e-d2b4ba3ff48e",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Windows \u0026 Linux: Ctrl\u002BC pour arr\u00EAter le suivi. --tail limite le nombre de lignes.",
+  "links": [
+    {
+      "title": "Docker logs",
+      "url": "https://docs.docker.com/engine/reference/commandline/logs/"
+    }
+  ],
+  "isUserCreated": false
+}

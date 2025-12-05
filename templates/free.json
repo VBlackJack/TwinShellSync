@@ -1,0 +1,7 @@
+{
+  "id": "8a3b68fd-7341-4e45-a6f6-ae1e6ab2a8d6",
+  "name": "free",
+  "platform": "Linux",
+  "commandPattern": "free -h \u0026\u0026 echo \u0027\n=== Top Memory Processes ===\u0027 \u0026\u0026 ps aux --sort=-%mem | head -n 11",
+  "parameters": []
+}

@@ -1,0 +1,22 @@
+{
+  "id": "339a5a9e-8a94-45b2-8eb1-70d3437a645d",
+  "title": "Ex\u00E9cuter un fichier JAR Java",
+  "description": "Lance une application Java packag\u00E9e en JAR.",
+  "category": "\uD83D\uDCC1 Files \u0026 Storage",
+  "platform": "Both",
+  "level": "Info",
+  "tags": [
+    "java",
+    "jar",
+    "run",
+    "execute"
+  ],
+  "windowsTemplateId": "d90bd27f-f137-42fd-8597-af760fd9cdbb",
+  "linuxTemplateId": "2487c8c5-a35d-4a9e-9377-41b79eb4f475",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "-Xmx d\u00E9finit la m\u00E9moire max. -Xms d\u00E9finit la m\u00E9moire initiale. Les arguments apr\u00E8s le JAR sont pass\u00E9s \u00E0 l\u0027app.",
+  "links": [],
+  "isUserCreated": false
+}

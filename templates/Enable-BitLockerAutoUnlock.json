@@ -1,0 +1,16 @@
+{
+  "id": "dca446db-06c1-4679-b746-af6202fa8ac0",
+  "name": "Enable-BitLockerAutoUnlock",
+  "platform": "Windows",
+  "commandPattern": "Enable-BitLockerAutoUnlock -MountPoint \u0022{driveLetter}:\u0022",
+  "parameters": [
+    {
+      "name": "driveLetter",
+      "label": "Lettre du disque",
+      "type": "string",
+      "defaultValue": "D",
+      "required": true,
+      "description": "Lettre du volume de donn\u00E9es (PAS C:)"
+    }
+  ]
+}

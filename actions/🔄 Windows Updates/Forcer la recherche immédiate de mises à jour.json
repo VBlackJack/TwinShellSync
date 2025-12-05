@@ -1,0 +1,26 @@
+{
+  "id": "a5affb62-b922-41a6-98b3-d8344ae30632",
+  "title": "Forcer la recherche imm\u00E9diate de mises \u00E0 jour",
+  "description": "Force Windows Update \u00E0 rechercher imm\u00E9diatement de nouvelles mises \u00E0 jour",
+  "category": "\uD83D\uDD04 Windows Updates",
+  "platform": "Windows",
+  "level": "Info",
+  "tags": [
+    "windows-update",
+    "scan",
+    "check",
+    "force"
+  ],
+  "windowsTemplateId": "c4f6f69e-38ab-4ede-aa1a-d3eaf7a8d68d",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "usoclient (Update Session Orchestrator) est l\u0027outil recommand\u00E9 pour Windows 10/11. Sur syst\u00E8mes plus anciens, utiliser wuauclt.",
+  "links": [
+    {
+      "title": "USOClient Commands",
+      "url": "https://techdirectarchive.com/2020/02/05/handy-windows-server-update-services-commands-wauaclt-powershell-and-usoclient/"
+    }
+  ],
+  "isUserCreated": false
+}

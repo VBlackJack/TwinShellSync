@@ -1,0 +1,26 @@
+{
+  "id": "67b749b7-ea72-41f6-bef2-f763b09ca686",
+  "title": "Red\u00E9marrer un service systemd",
+  "description": "Red\u00E9marre un service (arr\u00EAt puis d\u00E9marrage)",
+  "category": "\u2699\uFE0F Services \u0026 Automation",
+  "platform": "Linux",
+  "level": "Run",
+  "tags": [
+    "systemctl",
+    "systemd",
+    "service",
+    "restart"
+  ],
+  "linuxTemplateId": "48485d1e-b701-4e27-a99c-515f726180de",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "N\u00E9cessite sudo. Pr\u00E9f\u00E9rer reload si disponible pour \u00E9viter l\u0027interruption du service.",
+  "links": [
+    {
+      "title": "systemctl restart",
+      "url": "https://www.freedesktop.org/software/systemd/man/systemctl.html"
+    }
+  ],
+  "isUserCreated": false
+}

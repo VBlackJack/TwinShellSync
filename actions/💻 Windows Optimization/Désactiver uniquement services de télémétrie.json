@@ -1,0 +1,23 @@
+{
+  "id": "f99e1a51-1588-4859-93ae-fe89be2c5bc0",
+  "title": "D\u00E9sactiver uniquement services de t\u00E9l\u00E9m\u00E9trie",
+  "description": "D\u00E9sactive uniquement les services de t\u00E9l\u00E9m\u00E9trie et de collecte de donn\u00E9es Windows (approche conservatrice).",
+  "category": "\uD83D\uDCBB Windows Optimization",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "performance",
+    "services",
+    "telemetry",
+    "privacy",
+    "optimisation",
+    "windows"
+  ],
+  "windowsTemplateId": "9be1ebc5-5d64-4516-a940-218905a3e03a",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Approche s\u00FBre: d\u00E9sactive uniquement DiagTrack, dmwappushservice, WerSvc (rapports d\u0027erreurs), DPS (diagnostics). Am\u00E9liore confidentialit\u00E9 et performances sans affecter les fonctionnalit\u00E9s. Recommand\u00E9 pour la plupart des utilisateurs.",
+  "links": [],
+  "isUserCreated": false
+}

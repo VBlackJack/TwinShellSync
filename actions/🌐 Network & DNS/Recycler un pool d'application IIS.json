@@ -1,0 +1,29 @@
+{
+  "id": "2036a24d-60b7-44e7-bfda-27eca0cf9592",
+  "title": "Recycler un pool d\u0027application IIS",
+  "description": "Force le recyclage (red\u00E9marrage) d\u0027un pool d\u0027application IIS. Utile pour appliquer des changements de configuration ou lib\u00E9rer de la m\u00E9moire.",
+  "category": "\uD83C\uDF10 Network \u0026 DNS",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "iis",
+    "apppool",
+    "recycle",
+    "restart",
+    "memory",
+    "performance",
+    "troubleshooting"
+  ],
+  "windowsTemplateId": "7ca420fa-27a0-4a8c-b75d-51c1499aa3c1",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Le recyclage arr\u00EAte puis red\u00E9marre le processus w3wp.exe. Peut causer une br\u00E8ve interruption de service.",
+  "links": [
+    {
+      "title": "Documentation Restart-WebAppPool",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/webadministration/restart-webapppool"
+    }
+  ],
+  "isUserCreated": false
+}

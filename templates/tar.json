@@ -1,0 +1,32 @@
+{
+  "id": "74a31291-b71c-4e41-a6db-e3ce8ea1f5ee",
+  "name": "tar",
+  "platform": "Linux",
+  "commandPattern": "tar -{options} {archive} {files}",
+  "parameters": [
+    {
+      "name": "options",
+      "label": "Options",
+      "type": "string",
+      "defaultValue": "czf",
+      "required": true,
+      "description": "Options (c=create, z=gzip, j=bzip2, x=extract, f=file, v=verbose)"
+    },
+    {
+      "name": "archive",
+      "label": "Archive",
+      "type": "string",
+      "defaultValue": "backup.tar.gz",
+      "required": true,
+      "description": "Nom du fichier d\u0027archive"
+    },
+    {
+      "name": "files",
+      "label": "Fichiers",
+      "type": "string",
+      "defaultValue": "/path/to/files",
+      "required": true,
+      "description": "Fichiers/r\u00E9pertoires \u00E0 archiver"
+    }
+  ]
+}

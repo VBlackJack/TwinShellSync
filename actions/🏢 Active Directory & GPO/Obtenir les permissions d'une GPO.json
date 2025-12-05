@@ -1,0 +1,26 @@
+{
+  "id": "c3ed0525-cca8-42e3-957a-aaf764d1cb43",
+  "title": "Obtenir les permissions d\u0027une GPO",
+  "description": "Affiche les permissions de s\u00E9curit\u00E9 configur\u00E9es sur une strat\u00E9gie de groupe.",
+  "category": "\uD83C\uDFE2 Active Directory \u0026 GPO",
+  "platform": "Windows",
+  "level": "Info",
+  "tags": [
+    "gpo",
+    "permissions",
+    "security",
+    "acl"
+  ],
+  "windowsTemplateId": "e955f7ee-5083-47c7-87db-8791cc38b30b",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Affiche qui peut lire, modifier ou appliquer la GPO. Utile pour l\u0027audit de s\u00E9curit\u00E9.",
+  "links": [
+    {
+      "title": "Documentation Get-GPPermission",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/grouppolicy/get-gppermission"
+    }
+  ],
+  "isUserCreated": false
+}

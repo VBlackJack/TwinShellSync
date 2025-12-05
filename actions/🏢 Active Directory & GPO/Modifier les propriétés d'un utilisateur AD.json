@@ -1,0 +1,26 @@
+{
+  "id": "4c6e8cc0-e86d-41d3-99ef-b5f86f988cff",
+  "title": "Modifier les propri\u00E9t\u00E9s d\u0027un utilisateur AD",
+  "description": "Modifie les propri\u00E9t\u00E9s d\u0027un utilisateur AD (d\u00E9partement, titre, t\u00E9l\u00E9phone, etc.).",
+  "category": "\uD83C\uDFE2 Active Directory \u0026 GPO",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "ad",
+    "user",
+    "modify",
+    "properties"
+  ],
+  "windowsTemplateId": "cf308e9d-f378-4079-85f1-81da6f1d5704",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "N\u00E9cessite des droits d\u0027administration AD. Seules les propri\u00E9t\u00E9s sp\u00E9cifi\u00E9es seront modifi\u00E9es.",
+  "links": [
+    {
+      "title": "Documentation Set-ADUser",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/activedirectory/set-aduser"
+    }
+  ],
+  "isUserCreated": false
+}

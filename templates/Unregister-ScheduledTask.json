@@ -1,0 +1,24 @@
+{
+  "id": "cf7b90ec-d1bc-4623-876e-e2da15eb08e7",
+  "name": "Unregister-ScheduledTask",
+  "platform": "Windows",
+  "commandPattern": "Unregister-ScheduledTask -TaskName \u0027{taskname}\u0027 {confirm}",
+  "parameters": [
+    {
+      "name": "taskname",
+      "label": "Nom de la t\u00E2che",
+      "type": "string",
+      "defaultValue": "MyTask",
+      "required": true,
+      "description": "Nom de la t\u00E2che \u00E0 supprimer"
+    },
+    {
+      "name": "confirm",
+      "label": "Confirmation",
+      "type": "string",
+      "defaultValue": "-Confirm:$false",
+      "required": false,
+      "description": "Confirmer la suppression (-Confirm:$false pour ignorer)"
+    }
+  ]
+}

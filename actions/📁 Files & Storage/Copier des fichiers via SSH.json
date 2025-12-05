@@ -1,0 +1,27 @@
+{
+  "id": "468812b1-b610-414f-9922-766a7b9193ff",
+  "title": "Copier des fichiers via SSH",
+  "description": "Copie des fichiers de mani\u00E8re s\u00E9curis\u00E9e entre syst\u00E8mes via SSH",
+  "category": "\uD83D\uDCC1 Files \u0026 Storage",
+  "platform": "Linux",
+  "level": "Info",
+  "tags": [
+    "scp",
+    "ssh",
+    "copy",
+    "transfer",
+    "remote"
+  ],
+  "linuxTemplateId": "62fc0c13-14a7-4fde-970c-1a43d0272325",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "-r pour r\u00E9pertoires. -P pour sp\u00E9cifier un port SSH. sftp est une alternative interactive.",
+  "links": [
+    {
+      "title": "scp documentation",
+      "url": "https://man7.org/linux/man-pages/man1/scp.1.html"
+    }
+  ],
+  "isUserCreated": false
+}

@@ -1,0 +1,16 @@
+{
+  "id": "02c0ccf5-3209-4045-ac30-aedab5b26ee4",
+  "name": "make",
+  "platform": "Linux",
+  "commandPattern": "make {target}",
+  "parameters": [
+    {
+      "name": "target",
+      "label": "Cible",
+      "type": "string",
+      "defaultValue": "all",
+      "required": false,
+      "description": "Cible \u00E0 compiler (all, clean, install, etc.)"
+    }
+  ]
+}

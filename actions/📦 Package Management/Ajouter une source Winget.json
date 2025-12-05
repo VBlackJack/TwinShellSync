@@ -1,0 +1,27 @@
+{
+  "id": "e1c30835-d863-4ff2-a4bb-6adbe86eadf7",
+  "title": "Ajouter une source Winget",
+  "description": "Ajoute une nouvelle source de packages Winget personnalis\u00E9e.",
+  "category": "\uD83D\uDCE6 Package Management",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "winget",
+    "package",
+    "source",
+    "repository",
+    "windows"
+  ],
+  "windowsTemplateId": "43d710b2-de1a-4371-b3d5-38da83bc4581",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "N\u00E9cessite des droits administrateur. V\u00E9rifier la fiabilit\u00E9 de la source avant de l\u0027ajouter.",
+  "links": [
+    {
+      "title": "Winget source documentation",
+      "url": "https://learn.microsoft.com/en-us/windows/package-manager/winget/source"
+    }
+  ],
+  "isUserCreated": false
+}

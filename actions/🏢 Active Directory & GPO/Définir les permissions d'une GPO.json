@@ -1,0 +1,26 @@
+{
+  "id": "d6acf2d7-5b92-4489-a154-8e098c87cd59",
+  "title": "D\u00E9finir les permissions d\u0027une GPO",
+  "description": "Modifie les permissions de s\u00E9curit\u00E9 d\u0027une strat\u00E9gie de groupe.",
+  "category": "\uD83C\uDFE2 Active Directory \u0026 GPO",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "gpo",
+    "permissions",
+    "security",
+    "acl"
+  ],
+  "windowsTemplateId": "8664186f-79c7-4bae-89e7-a5ea7ba19a1a",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "PermissionLevel: GpoRead (lecture), GpoApply (application), GpoEdit (modification), GpoEditDeleteModifySecurity (contr\u00F4le total).",
+  "links": [
+    {
+      "title": "Documentation Set-GPPermission",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/grouppolicy/set-gppermission"
+    }
+  ],
+  "isUserCreated": false
+}

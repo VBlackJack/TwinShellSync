@@ -1,0 +1,29 @@
+{
+  "id": "d5177a9e-e70c-495b-a45a-ea5721364400",
+  "title": "D\u00E9sactiver toute synchronisation cloud",
+  "description": "D\u00E9sactive TOUTE synchronisation Windows avec le cloud Microsoft (param\u00E8tres, mots de passe, th\u00E8mes, navigateur). Configuration RGPD maximale.",
+  "category": "\uD83D\uDCBB Windows Optimization",
+  "platform": "Windows",
+  "level": "Dangerous",
+  "tags": [
+    "privacy",
+    "confidentialit\u00E9",
+    "rgpd",
+    "sync",
+    "cloud",
+    "microsoft",
+    "windows"
+  ],
+  "windowsTemplateId": "e4f92275-f19f-45fc-8101-4fff89fcea14",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "ATTENTION: D\u00E9sactive compl\u00E8tement la synchronisation avec le cloud Microsoft. Conforme RGPD - emp\u00EAche le transfert de donn\u00E9es vers les serveurs Microsoft. Les param\u00E8tres ne seront plus synchronis\u00E9s entre appareils.",
+  "links": [
+    {
+      "title": "RGPD - Article 44 - Transfert de donn\u00E9es",
+      "url": "https://gdpr.eu/article-44-transfer-of-personal-data/"
+    }
+  ],
+  "isUserCreated": false
+}

@@ -1,0 +1,27 @@
+{
+  "id": "43b5e941-710b-4ba4-97f7-5206a5ccc05a",
+  "title": "Tester une requ\u00EAte HTTP",
+  "description": "Effectue une requ\u00EAte HTTP/HTTPS et affiche la r\u00E9ponse",
+  "category": "\uD83C\uDF10 Network \u0026 DNS",
+  "platform": "Linux",
+  "level": "Info",
+  "tags": [
+    "curl",
+    "http",
+    "https",
+    "api",
+    "web"
+  ],
+  "linuxTemplateId": "f770fbb1-77fb-4132-bd48-b657f27a27e5",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Ne n\u00E9cessite pas sudo. -v pour mode verbose. wget est une alternative pour t\u00E9l\u00E9charger.",
+  "links": [
+    {
+      "title": "curl documentation",
+      "url": "https://curl.se/docs/manpage.html"
+    }
+  ],
+  "isUserCreated": false
+}

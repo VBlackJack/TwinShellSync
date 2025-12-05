@@ -1,0 +1,25 @@
+{
+  "id": "4dfe0f1c-07cd-4861-933f-654a43440fa1",
+  "title": "D\u00E9sactiver la reconnaissance vocale cloud",
+  "description": "D\u00E9sactive la reconnaissance vocale en ligne (Cortana, dict\u00E9e cloud). Les donn\u00E9es vocales restent locales.",
+  "category": "\uD83D\uDCBB Windows Optimization",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "privacy",
+    "confidentialit\u00E9",
+    "rgpd",
+    "t\u00E9l\u00E9m\u00E9trie",
+    "cortana",
+    "voice",
+    "speech",
+    "windows"
+  ],
+  "windowsTemplateId": "ebb693b7-629d-4143-8c95-e429b99b7632",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Emp\u00EAche l\u0027envoi de donn\u00E9es vocales vers les serveurs Microsoft. D\u00E9sactive Cortana online et la dict\u00E9e cloud. La reconnaissance vocale locale reste disponible.",
+  "links": [],
+  "isUserCreated": false
+}

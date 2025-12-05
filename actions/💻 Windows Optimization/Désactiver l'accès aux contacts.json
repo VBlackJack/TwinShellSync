@@ -1,0 +1,23 @@
+{
+  "id": "f3964dbf-c91f-474a-bb73-3b6eebe2895a",
+  "title": "D\u00E9sactiver l\u0027acc\u00E8s aux contacts",
+  "description": "Emp\u00EAche les applications d\u0027acc\u00E9der \u00E0 la liste de contacts Windows. Protection des donn\u00E9es personnelles.",
+  "category": "\uD83D\uDCBB Windows Optimization",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "privacy",
+    "confidentialit\u00E9",
+    "rgpd",
+    "permissions",
+    "contacts",
+    "windows"
+  ],
+  "windowsTemplateId": "58d9e4e5-49f1-4abc-aa2e-4f32aaf3032b",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Prot\u00E8ge la liste de contacts. Conforme RGPD pour la protection des donn\u00E9es personnelles de tiers.",
+  "links": [],
+  "isUserCreated": false
+}

@@ -1,0 +1,21 @@
+{
+  "id": "e52e3192-6cde-4d21-a42b-8e0d9c24c0ae",
+  "title": "Ajouter un filtre de s\u00E9curit\u00E9 \u00E0 une GPO",
+  "description": "Ajoute un groupe ou utilisateur au filtrage de s\u00E9curit\u00E9 d\u0027une GPO.",
+  "category": "\uD83C\uDFE2 Active Directory \u0026 GPO",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "gpo",
+    "security",
+    "filtering",
+    "permissions"
+  ],
+  "windowsTemplateId": "195dd01a-fc7a-44f8-8cfc-0d37b5b2522e",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Le filtrage de s\u00E9curit\u00E9 limite l\u0027application de la GPO aux groupes/utilisateurs sp\u00E9cifi\u00E9s. N\u00E9cessite aussi Read.",
+  "links": [],
+  "isUserCreated": false
+}

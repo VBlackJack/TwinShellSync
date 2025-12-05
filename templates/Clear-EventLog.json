@@ -1,0 +1,16 @@
+{
+  "id": "a99250aa-4d14-4240-b269-9aaec69c5b1a",
+  "name": "Clear-EventLog",
+  "platform": "Windows",
+  "commandPattern": "Clear-EventLog -LogName {logName}",
+  "parameters": [
+    {
+      "name": "logName",
+      "label": "Journal",
+      "type": "string",
+      "defaultValue": "Application",
+      "required": true,
+      "description": "Nom du journal \u00E0 vider (System, Application, Security)"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "e9c62573-32d4-4b18-b2d4-064d873d88fa",
+  "title": "Capturer le trafic r\u00E9seau",
+  "description": "Capture et analyse les paquets r\u00E9seau en temps r\u00E9el",
+  "category": "\uD83C\uDF10 Network \u0026 DNS",
+  "platform": "Linux",
+  "level": "Run",
+  "tags": [
+    "tcpdump",
+    "packet",
+    "capture",
+    "network",
+    "sniffer"
+  ],
+  "linuxTemplateId": "4f0ff570-8c7b-4e37-a759-684e028a3988",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "N\u00E9cessite sudo. -w sauvegarde, -r lit. Wireshark peut ouvrir les fichiers .pcap.",
+  "links": [
+    {
+      "title": "tcpdump documentation",
+      "url": "https://www.tcpdump.org/manpages/tcpdump.1.html"
+    }
+  ],
+  "isUserCreated": false
+}

@@ -1,0 +1,21 @@
+{
+  "id": "4d66a136-05ac-4a66-9c7a-ef48639d3d4f",
+  "title": "Extraire une archive TAR/GZ (Linux)",
+  "description": "Extrait le contenu d\u0027une archive tar ou tar.gz.",
+  "category": "\uD83D\uDCC1 Files \u0026 Storage",
+  "platform": "Linux",
+  "level": "Info",
+  "tags": [
+    "d\u00E9compression",
+    "tar",
+    "extract",
+    "linux"
+  ],
+  "linuxTemplateId": "34f7f2e3-2016-41fe-96ee-89e5483ee17b",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "-x extraire, -z gzip, -f fichier, -C destination, -t lister. -v pour verbeux.",
+  "links": [],
+  "isUserCreated": false
+}

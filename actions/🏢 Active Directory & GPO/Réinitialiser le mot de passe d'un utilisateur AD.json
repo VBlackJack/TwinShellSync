@@ -1,0 +1,21 @@
+{
+  "id": "42269473-12e2-4719-9da2-3e9703af6c72",
+  "title": "R\u00E9initialiser le mot de passe d\u0027un utilisateur AD",
+  "description": "Force la r\u00E9initialisation du mot de passe d\u0027un utilisateur Active Directory.",
+  "category": "\uD83C\uDFE2 Active Directory \u0026 GPO",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "ad",
+    "password",
+    "reset",
+    "security"
+  ],
+  "windowsTemplateId": "2cb1763e-0f78-4270-939e-260a825554a4",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "N\u00E9cessite des droits \u00E9lev\u00E9s. Le nouveau mot de passe doit respecter la politique de s\u00E9curit\u00E9 du domaine.",
+  "links": [],
+  "isUserCreated": false
+}

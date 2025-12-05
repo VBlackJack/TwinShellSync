@@ -1,0 +1,26 @@
+{
+  "id": "ebe1d31b-d896-4af9-be77-d37c3218de7d",
+  "title": "Sauvegarder temporairement des modifications",
+  "description": "Met de c\u00F4t\u00E9 temporairement les modifications non commit\u00E9es",
+  "category": "\uD83D\uDD27 Development",
+  "platform": "Both",
+  "level": "Info",
+  "tags": [
+    "git",
+    "stash",
+    "temporary"
+  ],
+  "windowsTemplateId": "7da44c0a-db19-46e4-9e7a-d7d327d83a40",
+  "linuxTemplateId": "03bd293b-300f-4422-b7e2-3cf68934fa73",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Utilisez \u0027stash push -m \u0022message\u0022\u0027 pour nommer un stash, \u0027stash apply\u0027 pour restaurer sans supprimer.",
+  "links": [
+    {
+      "title": "Git Stash Documentation",
+      "url": "https://git-scm.com/docs/git-stash"
+    }
+  ],
+  "isUserCreated": false
+}

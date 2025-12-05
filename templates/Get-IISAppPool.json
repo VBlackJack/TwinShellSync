@@ -1,0 +1,7 @@
+{
+  "id": "dfa66df4-8828-4c91-8681-6ccfe4a46424",
+  "name": "Get-IISAppPool",
+  "platform": "Windows",
+  "commandPattern": "Import-Module WebAdministration; Get-IISAppPool | Select-Object Name, State, @{Name=\u0027Runtime\u0027;Expression={$_.ManagedRuntimeVersion}}, @{Name=\u0027Pipeline\u0027;Expression={$_.ManagedPipelineMode}}, @{Name=\u0027Identity\u0027;Expression={$_.ProcessModel.IdentityType}} | Format-Table -AutoSize",
+  "parameters": []
+}

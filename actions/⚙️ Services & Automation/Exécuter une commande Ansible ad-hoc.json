@@ -1,0 +1,26 @@
+{
+  "id": "ea012da0-eab0-45d9-a26d-b7353769a398",
+  "title": "Ex\u00E9cuter une commande Ansible ad-hoc",
+  "description": "Ex\u00E9cute une commande ponctuelle sur un groupe d\u0027h\u00F4tes sans playbook",
+  "category": "\u2699\uFE0F Services \u0026 Automation",
+  "platform": "Both",
+  "level": "Info",
+  "tags": [
+    "ansible",
+    "ad-hoc",
+    "command"
+  ],
+  "windowsTemplateId": "1ccab58c-2a24-44ab-95de-93ada8a402e5",
+  "linuxTemplateId": "6509611e-1119-4752-8827-94d403bff94f",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Les commandes ad-hoc sont parfaites pour les t\u00E2ches ponctuelles sans n\u00E9cessiter un playbook complet.",
+  "links": [
+    {
+      "title": "Ansible Ad-Hoc Commands",
+      "url": "https://docs.ansible.com/ansible/latest/user_guide/intro_adhoc.html"
+    }
+  ],
+  "isUserCreated": false
+}

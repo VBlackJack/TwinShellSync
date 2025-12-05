@@ -1,0 +1,32 @@
+{
+  "id": "13eb4054-5e1f-4e9b-8601-dbd22ef5af48",
+  "name": "sar",
+  "platform": "Linux",
+  "commandPattern": "sar {options} {interval} {count}",
+  "parameters": [
+    {
+      "name": "options",
+      "label": "Options",
+      "type": "string",
+      "defaultValue": "-u",
+      "required": true,
+      "description": "Type de stats (-u=CPU, -r=RAM, -b=IO, -n DEV=r\u00E9seau)"
+    },
+    {
+      "name": "interval",
+      "label": "Intervalle",
+      "type": "number",
+      "defaultValue": "5",
+      "required": true,
+      "description": "Intervalle en secondes"
+    },
+    {
+      "name": "count",
+      "label": "Nombre",
+      "type": "number",
+      "defaultValue": "3",
+      "required": true,
+      "description": "Nombre de mesures"
+    }
+  ]
+}

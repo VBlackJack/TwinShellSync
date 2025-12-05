@@ -1,0 +1,16 @@
+{
+  "id": "cf8148f3-f981-406e-b8dc-56a6e22ca690",
+  "name": "Set-DnsClientServerAddress",
+  "platform": "Windows",
+  "commandPattern": "$interface = Get-NetAdapter | Where-Object {$_.Status -eq \u0027Up\u0027 -and $_.Name -like \u0027*{InterfaceName}*\u0027} | Select-Object -First 1; if ($interface) { Set-DnsClientServerAddress -InterfaceIndex $interface.ifIndex -ResetServerAddresses; Write-Host \u0022DNS automatique restaur\u00E9 sur l\u0027interface $($interface.Name)\u0022 -ForegroundColor Green; ipconfig /flushdns } else { Write-Host \u0022Interface r\u00E9seau non trouv\u00E9e\u0022 -ForegroundColor Red }",
+  "parameters": [
+    {
+      "name": "InterfaceName",
+      "label": "Nom de l\u0027interface r\u00E9seau",
+      "type": "string",
+      "defaultValue": "Ethernet",
+      "required": false,
+      "description": "Nom de l\u0027interface r\u00E9seau (Ethernet, Wi-Fi, etc.)"
+    }
+  ]
+}

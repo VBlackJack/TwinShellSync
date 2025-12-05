@@ -1,0 +1,7 @@
+{
+  "id": "5b7e710a-9347-4495-8071-f69479580406",
+  "name": "Get-PSDrive",
+  "platform": "Windows",
+  "commandPattern": "Get-PSDrive -PSProvider FileSystem | Select-Object Name,Used,Free,@{Name=\u0027Size\u0027;Expression={$_.Used\u002B$_.Free}} | Format-Table -AutoSize",
+  "parameters": []
+}

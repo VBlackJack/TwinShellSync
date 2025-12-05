@@ -1,0 +1,24 @@
+{
+  "id": "62e8115b-ab4c-4617-8eea-7b0a5e44b499",
+  "title": "D\u00E9sactiver Game DVR",
+  "description": "D\u00E9sactive Game DVR et les fonctionnalit\u00E9s d\u0027enregistrement Xbox. \u00C9conomise des ressources syst\u00E8me.",
+  "category": "\uD83D\uDCBB Windows Optimization",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "privacy",
+    "confidentialit\u00E9",
+    "rgpd",
+    "t\u00E9l\u00E9m\u00E9trie",
+    "gaming",
+    "xbox",
+    "windows"
+  ],
+  "windowsTemplateId": "24c78cd7-56ce-430e-8ea3-1df039d95e6c",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "D\u00E9sactive l\u0027enregistrement de gameplay et les fonctionnalit\u00E9s Xbox Game Bar. Am\u00E9liore les performances gaming et r\u00E9duit la collecte de donn\u00E9es.",
+  "links": [],
+  "isUserCreated": false
+}

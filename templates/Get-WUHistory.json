@@ -1,0 +1,7 @@
+{
+  "id": "e548d23b-3180-465f-9fa3-4833b2ebefc6",
+  "name": "Get-WUHistory",
+  "platform": "Windows",
+  "commandPattern": "Get-WUHistory | Select-Object -First 20",
+  "parameters": []
+}

@@ -1,0 +1,27 @@
+{
+  "id": "c7fcf8e1-37ac-4f77-9151-18b4a4356e57",
+  "title": "Exporter toutes les cl\u00E9s BitLocker du domaine",
+  "description": "Exporte un rapport CSV de tous les ordinateurs du domaine avec leurs cl\u00E9s de r\u00E9cup\u00E9ration BitLocker (admin domaine).",
+  "category": "\uD83D\uDD12 Security \u0026 Encryption",
+  "platform": "Windows",
+  "level": "Dangerous",
+  "tags": [
+    "bitlocker",
+    "ad",
+    "export",
+    "backup",
+    "domain-admin"
+  ],
+  "windowsTemplateId": "aa2d9865-936f-44f0-b48b-7d8182ec8a7d",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "\u26A0\uFE0F\u26A0\uFE0F\u26A0\uFE0F ULTRA-SENSIBLE: Ce rapport contient TOUTES les cl\u00E9s BitLocker du domaine! STOCKAGE OBLIGATOIRE: Coffre-fort physique, Azure Key Vault, gestionnaire de mots de passe enterprise avec chiffrement hardware. NE JAMAIS: envoyer par email, stocker sur disque non chiffr\u00E9, partager par Teams/Slack. ACC\u00C8S: Limiter aux admins s\u00E9curit\u00E9 senior uniquement. AUDIT: Logger qui g\u00E9n\u00E8re ce rapport. DESTRUCTION: Supprimer apr\u00E8s sauvegarde s\u00E9curis\u00E9e.",
+  "links": [
+    {
+      "title": "BitLocker Key Management Best Practices",
+      "url": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/data-protection/bitlocker/operations-guide"
+    }
+  ],
+  "isUserCreated": false
+}

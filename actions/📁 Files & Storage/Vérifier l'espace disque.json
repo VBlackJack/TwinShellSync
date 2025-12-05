@@ -1,0 +1,25 @@
+{
+  "id": "8267bbbb-0a32-438b-ad66-0d6c6e6f3a6e",
+  "title": "V\u00E9rifier l\u0027espace disque",
+  "description": "Affiche l\u0027utilisation de l\u0027espace disque pour les volumes.",
+  "category": "\uD83D\uDCC1 Files \u0026 Storage",
+  "platform": "Both",
+  "level": "Info",
+  "tags": [
+    "espace",
+    "windows",
+    "linux",
+    "disque",
+    "usage",
+    "df",
+    "disk"
+  ],
+  "windowsTemplateId": "5b7e710a-9347-4495-8071-f69479580406",
+  "linuxTemplateId": "898c435e-9149-4bca-a60e-378e2fc6f50c",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Windows: Affiche l\u0027espace utilis\u00E9 et libre pour chaque volume.\nLinux: -h pour format lisible (GB, MB). -i pour voir les inodes.",
+  "links": [],
+  "isUserCreated": false
+}

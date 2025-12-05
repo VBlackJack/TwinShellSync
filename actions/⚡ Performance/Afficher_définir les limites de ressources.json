@@ -1,0 +1,27 @@
+{
+  "id": "1aedb699-e06d-4481-b80d-b58f721d5955",
+  "title": "Afficher/d\u00E9finir les limites de ressources",
+  "description": "Affiche ou modifie les limites de ressources des processus (fichiers, m\u00E9moire, CPU)",
+  "category": "\u26A1 Performance",
+  "platform": "Linux",
+  "level": "Run",
+  "tags": [
+    "ulimit",
+    "limits",
+    "resources",
+    "performance",
+    "tuning"
+  ],
+  "linuxTemplateId": "0ad7c18c-013e-4a3e-8793-7feee8217722",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Modifications temporaires pour la session. \u00C9diter /etc/security/limits.conf pour permanence.",
+  "links": [
+    {
+      "title": "ulimit guide",
+      "url": "https://man7.org/linux/man-pages/man1/bash.1.html#SHELL_BUILTIN_COMMANDS"
+    }
+  ],
+  "isUserCreated": false
+}

@@ -1,0 +1,7 @@
+{
+  "id": "8f728cc1-6a40-422c-a927-6e8ba6db368a",
+  "name": "Remove-InfoApps",
+  "platform": "Windows",
+  "commandPattern": "$info = @(\u0027Microsoft.BingWeather\u0027, \u0027Microsoft.BingNews\u0027, \u0027Microsoft.BingSports\u0027, \u0027Microsoft.BingFinance\u0027); foreach ($app in $info) { Get-AppxPackage $app | Remove-AppxPackage -ErrorAction SilentlyContinue }",
+  "parameters": []
+}

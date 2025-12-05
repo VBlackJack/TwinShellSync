@@ -1,0 +1,24 @@
+{
+  "id": "f351038d-ef33-4441-ac6e-1def7b491ba2",
+  "name": "iostat",
+  "platform": "Linux",
+  "commandPattern": "iostat -x {interval} {count}",
+  "parameters": [
+    {
+      "name": "interval",
+      "label": "Intervalle (secondes)",
+      "type": "number",
+      "defaultValue": "5",
+      "required": true,
+      "description": "Intervalle entre les mesures"
+    },
+    {
+      "name": "count",
+      "label": "Nombre de mesures",
+      "type": "number",
+      "defaultValue": "3",
+      "required": true,
+      "description": "Nombre de mesures \u00E0 effectuer"
+    }
+  ]
+}

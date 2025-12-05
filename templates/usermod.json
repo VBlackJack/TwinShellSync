@@ -1,0 +1,24 @@
+{
+  "id": "ea714c52-748c-41ce-b7ad-f44863d51c0d",
+  "name": "usermod",
+  "platform": "Linux",
+  "commandPattern": "usermod {options} {username}",
+  "parameters": [
+    {
+      "name": "options",
+      "label": "Options",
+      "type": "string",
+      "defaultValue": "-aG sudo",
+      "required": true,
+      "description": "Options (-aG=add groups, -s=shell, -L=lock, -U=unlock)"
+    },
+    {
+      "name": "username",
+      "label": "Nom d\u0027utilisateur",
+      "type": "string",
+      "defaultValue": "john",
+      "required": true,
+      "description": "Utilisateur \u00E0 modifier"
+    }
+  ]
+}

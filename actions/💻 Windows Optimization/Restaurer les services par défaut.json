@@ -1,0 +1,22 @@
+{
+  "id": "24a0bcd9-376a-4073-917e-ae350ca799c9",
+  "title": "Restaurer les services par d\u00E9faut",
+  "description": "Restaure tous les services Windows \u00E0 leur configuration par d\u00E9faut (annule WIN-PERF-201).",
+  "category": "\uD83D\uDCBB Windows Optimization",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "performance",
+    "services",
+    "restore",
+    "rollback",
+    "windows"
+  ],
+  "windowsTemplateId": "172a53d3-1e7b-4999-9fdd-5defeb502dd0",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Restaure les services les plus courants \u00E0 leur \u00E9tat par d\u00E9faut. Annule les modifications de WIN-PERF-201 et WIN-PERF-202. Red\u00E9marrage recommand\u00E9 apr\u00E8s restauration.",
+  "links": [],
+  "isUserCreated": false
+}

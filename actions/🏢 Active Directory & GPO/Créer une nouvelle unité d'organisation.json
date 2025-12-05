@@ -1,0 +1,26 @@
+{
+  "id": "c2fcd5d6-bad9-494c-8016-89338a1c5283",
+  "title": "Cr\u00E9er une nouvelle unit\u00E9 d\u0027organisation",
+  "description": "Cr\u00E9e une nouvelle unit\u00E9 d\u0027organisation (OU) dans Active Directory.",
+  "category": "\uD83C\uDFE2 Active Directory \u0026 GPO",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "ad",
+    "ou",
+    "create",
+    "organizational-unit"
+  ],
+  "windowsTemplateId": "a482478a-91a3-47d5-b534-0c328df30051",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "N\u00E9cessite des droits d\u0027administration AD. L\u0027OU est prot\u00E9g\u00E9e contre la suppression accidentelle par d\u00E9faut.",
+  "links": [
+    {
+      "title": "Documentation New-ADOrganizationalUnit",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/activedirectory/new-adorganizationalunit"
+    }
+  ],
+  "isUserCreated": false
+}

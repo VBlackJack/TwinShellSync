@@ -1,0 +1,26 @@
+{
+  "id": "cf14105e-d80f-4876-a6df-6cc568e63602",
+  "title": "Analyser les \u00E9checs d\u0027authentification",
+  "description": "Liste les tentatives de connexion \u00E9chou\u00E9es depuis /var/log/auth.log",
+  "category": "\uD83D\uDCCA Monitoring \u0026 Logs",
+  "platform": "Linux",
+  "level": "Info",
+  "tags": [
+    "auth",
+    "security",
+    "login",
+    "ssh"
+  ],
+  "linuxTemplateId": "f966d11b-acae-451b-86f7-fcf569dcec68",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "N\u00E9cessite sudo. Sur RHEL/CentOS, utiliser /var/log/secure au lieu de auth.log.",
+  "links": [
+    {
+      "title": "Linux authentication logs",
+      "url": "https://www.cyberciti.biz/faq/linux-log-files-location-and-how-do-i-view-logs-files/"
+    }
+  ],
+  "isUserCreated": false
+}

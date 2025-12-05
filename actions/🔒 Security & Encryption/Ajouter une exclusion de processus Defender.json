@@ -1,0 +1,25 @@
+{
+  "id": "051ea1b3-426e-4118-80a7-01bc935fe6d3",
+  "title": "Ajouter une exclusion de processus Defender",
+  "description": "Exclut un processus sp\u00E9cifique de l\u0027analyse Windows Defender (utile pour outils de dev).",
+  "category": "\uD83D\uDD12 Security \u0026 Encryption",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "defender",
+    "exclusion",
+    "process"
+  ],
+  "windowsTemplateId": "c73d97d6-c4a7-4927-ab8e-72ababff57df",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Exclusions processus recommand\u00E9es: IDE (devenv.exe, rider64.exe), compilateurs (msbuild.exe, dotnet.exe, node.exe), outils build. \u26A0\uFE0F N\u0027excluez JAMAIS: navigateurs web (sauf besoin sp\u00E9cifique), clients email, outils de t\u00E9l\u00E9chargement.",
+  "links": [
+    {
+      "title": "Defender Process Exclusions",
+      "url": "https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/configure-process-opened-file-exclusions-microsoft-defender-antivirus"
+    }
+  ],
+  "isUserCreated": false
+}

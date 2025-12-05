@@ -1,0 +1,26 @@
+{
+  "id": "05f023e8-f178-42e1-954d-5ef94e59051c",
+  "title": "Obtenir le mot de passe de r\u00E9cup\u00E9ration BitLocker",
+  "description": "R\u00E9cup\u00E8re le mot de passe de r\u00E9cup\u00E9ration BitLocker d\u0027un volume pour le sauvegarder.",
+  "category": "\uD83D\uDD12 Security \u0026 Encryption",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "bitlocker",
+    "recovery",
+    "password",
+    "backup"
+  ],
+  "windowsTemplateId": "69108200-46fe-428a-bc31-ac939329bb01",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "\u26A0\uFE0F CRITIQUE: Sauvegardez ce mot de passe dans un endroit s\u00FBr (coffre-fort num\u00E9rique, Active Directory, gestionnaire de mots de passe). Sans ce mot de passe, vos donn\u00E9es seront IRR\u00C9CUP\u00C9RABLES en cas de probl\u00E8me mat\u00E9riel. Format: 48 chiffres group\u00E9s par 6.",
+  "links": [
+    {
+      "title": "BitLocker Recovery Password",
+      "url": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/data-protection/bitlocker/recovery-overview"
+    }
+  ],
+  "isUserCreated": false
+}

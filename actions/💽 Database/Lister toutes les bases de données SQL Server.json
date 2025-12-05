@@ -1,0 +1,29 @@
+{
+  "id": "847adebb-e55f-4266-bfd1-eead3ce011dc",
+  "title": "Lister toutes les bases de donn\u00E9es SQL Server",
+  "description": "Affiche la liste compl\u00E8te de toutes les bases de donn\u00E9es sur une instance SQL Server avec leur taille, \u00E9tat et mode de r\u00E9cup\u00E9ration.",
+  "category": "\uD83D\uDCBD Database",
+  "platform": "Windows",
+  "level": "Info",
+  "tags": [
+    "sql",
+    "database",
+    "list",
+    "mssql",
+    "sql-server",
+    "diagnostic",
+    "inventory"
+  ],
+  "windowsTemplateId": "976cbb1f-1a18-4e7b-9e58-954518ccdb4b",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "N\u00E9cessite le module SqlServer PowerShell ou sqlcmd.exe. Privil\u00E8ges de lecture requis sur sys.databases.",
+  "links": [
+    {
+      "title": "Documentation Invoke-Sqlcmd",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/sqlserver/invoke-sqlcmd"
+    }
+  ],
+  "isUserCreated": false
+}

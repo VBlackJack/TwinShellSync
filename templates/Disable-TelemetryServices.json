@@ -1,0 +1,7 @@
+{
+  "id": "9be1ebc5-5d64-4516-a940-218905a3e03a",
+  "name": "Disable-TelemetryServices",
+  "platform": "Windows",
+  "commandPattern": "$telemetryServices = @(\u0027DiagTrack\u0027,\u0027dmwappushservice\u0027,\u0027diagnosticshub.standardcollector.service\u0027,\u0027DPS\u0027,\u0027WerSvc\u0027,\u0027wercplsupport\u0027); $count = 0; foreach ($svc in $telemetryServices) { try { $service = Get-Service -Name $svc -ErrorAction SilentlyContinue; if ($service) { Stop-Service -Name $svc -Force -ErrorAction SilentlyContinue; Set-Service -Name $svc -StartupType Disabled -ErrorAction Stop; $count\u002B\u002B } } catch { Write-Warning \u0022Service $svc non trouv\u00E9 ou d\u00E9j\u00E0 d\u00E9sactiv\u00E9\u0022 } }; Write-Host \u0022$count services de t\u00E9l\u00E9m\u00E9trie d\u00E9sactiv\u00E9s\u0022 -ForegroundColor Green",
+  "parameters": []
+}

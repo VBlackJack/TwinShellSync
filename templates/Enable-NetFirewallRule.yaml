@@ -1,5 +1,0 @@
-id: ab65558b-abb0-4d4f-be6b-c8eb2447a055
-name: Enable-NetFirewallRule
-platform: Windows
-commandPattern: Enable-NetFirewallRule -DisplayGroup 'Remote Desktop'
-parameters: []

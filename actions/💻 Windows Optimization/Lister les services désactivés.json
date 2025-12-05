@@ -1,0 +1,23 @@
+{
+  "id": "f970495d-cc06-42ea-aca4-235f622d2dda",
+  "title": "Lister les services d\u00E9sactiv\u00E9s",
+  "description": "Affiche la liste de tous les services Windows actuellement d\u00E9sactiv\u00E9s pour v\u00E9rification.",
+  "category": "\uD83D\uDCBB Windows Optimization",
+  "platform": "Windows",
+  "level": "Info",
+  "tags": [
+    "performance",
+    "services",
+    "diagnostic",
+    "list",
+    "info",
+    "windows"
+  ],
+  "windowsTemplateId": "e492c63a-51dd-4a0a-99e1-ebd47236dcf2",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Commande d\u0027information uniquement. Permet de v\u00E9rifier quels services ont \u00E9t\u00E9 d\u00E9sactiv\u00E9s apr\u00E8s l\u0027ex\u00E9cution de WIN-PERF-201 ou autres optimisations. Aucune modification syst\u00E8me.",
+  "links": [],
+  "isUserCreated": false
+}

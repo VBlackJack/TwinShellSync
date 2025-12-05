@@ -1,0 +1,24 @@
+{
+  "id": "675f4d3f-3647-45e8-a70c-4bbc5772e1d6",
+  "name": "mount",
+  "platform": "Linux",
+  "commandPattern": "mount {device} {mountpoint}",
+  "parameters": [
+    {
+      "name": "device",
+      "label": "P\u00E9riph\u00E9rique",
+      "type": "string",
+      "defaultValue": "/dev/sdb1",
+      "required": true,
+      "description": "Partition \u00E0 monter"
+    },
+    {
+      "name": "mountpoint",
+      "label": "Point de montage",
+      "type": "string",
+      "defaultValue": "/mnt/data",
+      "required": true,
+      "description": "R\u00E9pertoire o\u00F9 monter"
+    }
+  ]
+}

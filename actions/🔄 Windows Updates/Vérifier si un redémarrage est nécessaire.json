@@ -1,0 +1,26 @@
+{
+  "id": "eec05ade-63c6-4683-a6e8-a8ea546ec7a6",
+  "title": "V\u00E9rifier si un red\u00E9marrage est n\u00E9cessaire",
+  "description": "V\u00E9rifie si des mises \u00E0 jour en attente n\u00E9cessitent un red\u00E9marrage syst\u00E8me",
+  "category": "\uD83D\uDD04 Windows Updates",
+  "platform": "Windows",
+  "level": "Info",
+  "tags": [
+    "windows-update",
+    "reboot",
+    "restart",
+    "pswindowsupdate"
+  ],
+  "windowsTemplateId": "e8b22feb-5877-45af-b19d-a9acbd6ff674",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Utile avant de planifier des maintenances. N\u00E9cessite PSWindowsUpdate.",
+  "links": [
+    {
+      "title": "PSWindowsUpdate Module",
+      "url": "https://www.powershellgallery.com/packages/PSWindowsUpdate"
+    }
+  ],
+  "isUserCreated": false
+}

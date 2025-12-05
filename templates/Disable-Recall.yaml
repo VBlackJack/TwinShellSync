@@ -1,5 +1,0 @@
-id: f5b806b1-54eb-4697-a26b-2b3ba1b3ccb3
-name: Disable-Recall
-platform: Windows
-commandPattern: New-Item -Path 'HKCU:\Software\Policies\Microsoft\Windows\WindowsAI' -Force | Out-Null; Set-ItemProperty -Path 'HKCU:\Software\Policies\Microsoft\Windows\WindowsAI' -Name 'DisableAIDataAnalysis' -Type DWord -Value 1
-parameters: []

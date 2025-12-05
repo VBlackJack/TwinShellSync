@@ -1,0 +1,16 @@
+{
+  "id": "be1ad05f-6a31-4fd1-bcc1-91eda4f1f1af",
+  "name": "Lock-BitLocker",
+  "platform": "Windows",
+  "commandPattern": "Lock-BitLocker -MountPoint \u0022{driveLetter}:\u0022 -ForceDismount",
+  "parameters": [
+    {
+      "name": "driveLetter",
+      "label": "Lettre du disque",
+      "type": "string",
+      "defaultValue": "D",
+      "required": true,
+      "description": "Lettre du volume \u00E0 verrouiller (g\u00E9n\u00E9ralement un disque de donn\u00E9es, PAS C:)"
+    }
+  ]
+}

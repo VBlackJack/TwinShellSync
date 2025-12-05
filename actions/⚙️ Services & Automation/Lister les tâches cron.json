@@ -1,0 +1,27 @@
+{
+  "id": "752f7cc4-dbf9-4bb4-8d93-ded404efd548",
+  "title": "Lister les t\u00E2ches cron",
+  "description": "Affiche les t\u00E2ches planifi\u00E9es cron de l\u0027utilisateur",
+  "category": "\u2699\uFE0F Services \u0026 Automation",
+  "platform": "Linux",
+  "level": "Info",
+  "tags": [
+    "cron",
+    "crontab",
+    "scheduler",
+    "automation",
+    "tasks"
+  ],
+  "linuxTemplateId": "14e3c0ca-33bd-4c8b-a22f-8084586ca130",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Format: min hour day month weekday command. -e pour \u00E9diter. Logs dans /var/log/syslog.",
+  "links": [
+    {
+      "title": "Crontab documentation",
+      "url": "https://man7.org/linux/man-pages/man5/crontab.5.html"
+    }
+  ],
+  "isUserCreated": false
+}

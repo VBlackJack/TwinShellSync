@@ -1,0 +1,16 @@
+{
+  "id": "eedd7258-ed13-47f7-b87d-6f9839b8d0d7",
+  "name": "Disable-CameraAccess",
+  "platform": "Windows",
+  "commandPattern": "param([string]$Scope = \u0027CurrentUser\u0027); $path = if ($Scope -eq \u0027AllUsers\u0027) { \u0027HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\CapabilityAccessManager\\ConsentStore\\webcam\u0027 } else { \u0027HKCU:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\CapabilityAccessManager\\ConsentStore\\webcam\u0027 }; New-Item -Path $path -Force | Out-Null; Set-ItemProperty -Path $path -Name \u0027Value\u0027 -Type String -Value \u0027Deny\u0027",
+  "parameters": [
+    {
+      "name": "Scope",
+      "label": "Port\u00E9e",
+      "type": "string",
+      "defaultValue": "CurrentUser",
+      "required": false,
+      "description": "CurrentUser ou AllUsers"
+    }
+  ]
+}

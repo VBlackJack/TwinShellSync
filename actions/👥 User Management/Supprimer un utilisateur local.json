@@ -1,0 +1,35 @@
+{
+  "id": "790adefa-2fc4-486d-a25c-34d47998e656",
+  "title": "Supprimer un utilisateur local",
+  "description": "Supprime un compte utilisateur local du syst\u00E8me.",
+  "category": "\uD83D\uDC65 User Management",
+  "platform": "Both",
+  "level": "Dangerous",
+  "tags": [
+    "user",
+    "account",
+    "delete",
+    "remove",
+    "userdel",
+    "remove-localuser",
+    "windows",
+    "linux"
+  ],
+  "windowsTemplateId": "90d643c7-6547-4b53-9e0e-e95c80b8f687",
+  "linuxTemplateId": "b74d16c7-dcb2-4eea-8618-91098fc5f88d",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Windows: Remove-LocalUser supprime l\u0027utilisateur local (pas AD). Le profil utilisateur n\u0027est pas supprim\u00E9 automatiquement.\nLinux: userdel n\u00E9cessite sudo. DANGER: -r supprime d\u00E9finitivement le home. V\u00E9rifier les processus actifs d\u0027abord.",
+  "links": [
+    {
+      "title": "userdel documentation",
+      "url": "https://man7.org/linux/man-pages/man8/userdel.8.html"
+    },
+    {
+      "title": "Remove-LocalUser documentation",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.localaccounts/remove-localuser"
+    }
+  ],
+  "isUserCreated": false
+}

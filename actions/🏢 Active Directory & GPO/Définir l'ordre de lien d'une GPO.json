@@ -1,0 +1,26 @@
+{
+  "id": "94eec91a-d29f-4c87-89f9-6b3d0cd49406",
+  "title": "D\u00E9finir l\u0027ordre de lien d\u0027une GPO",
+  "description": "Modifie l\u0027ordre de traitement d\u0027un lien GPO sur une OU.",
+  "category": "\uD83C\uDFE2 Active Directory \u0026 GPO",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "gpo",
+    "link",
+    "order",
+    "priority"
+  ],
+  "windowsTemplateId": "8c525f1e-dac5-42ad-b037-31c0dc6d6552",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "L\u0027ordre 1 a la priorit\u00E9 la plus haute. Les GPO sont trait\u00E9es de la plus haute \u00E0 la plus basse priorit\u00E9.",
+  "links": [
+    {
+      "title": "Documentation Set-GPLink",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/grouppolicy/set-gplink"
+    }
+  ],
+  "isUserCreated": false
+}

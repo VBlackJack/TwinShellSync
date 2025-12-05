@@ -1,5 +1,0 @@
-id: 6cd990bd-5834-45ca-956b-649d991839ef
-name: Test-ComputerSecureChannel
-platform: Windows
-commandPattern: Test-ComputerSecureChannel -Verbose
-parameters: []

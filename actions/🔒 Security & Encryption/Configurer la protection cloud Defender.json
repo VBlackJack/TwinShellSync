@@ -1,0 +1,25 @@
+{
+  "id": "e30f74b4-dd7d-4802-bfc3-70697e654f0d",
+  "title": "Configurer la protection cloud Defender",
+  "description": "Active ou configure la protection cloud de Windows Defender (analyse dans le cloud Microsoft).",
+  "category": "\uD83D\uDD12 Security \u0026 Encryption",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "defender",
+    "cloud",
+    "protection"
+  ],
+  "windowsTemplateId": "0b618a4a-8200-4966-8316-2920c3b67af4",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "MAPSReporting (Microsoft Active Protection Service): 0=Off, 1=Basic, 2=Advanced. Advanced recommand\u00E9: meilleure d\u00E9tection des menaces zero-day gr\u00E2ce \u00E0 l\u0027analyse cloud. SubmitSamplesConsent: 0=Toujours demander, 1=Envoyer \u00E9chantillons s\u00FBrs auto, 2=Ne jamais envoyer, 3=Tout envoyer auto.",
+  "links": [
+    {
+      "title": "Defender Cloud Protection",
+      "url": "https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/cloud-protection-microsoft-defender-antivirus"
+    }
+  ],
+  "isUserCreated": false
+}

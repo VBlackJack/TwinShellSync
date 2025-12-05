@@ -1,0 +1,27 @@
+{
+  "id": "ea897fea-f55b-48e6-bc81-0908a5ced76b",
+  "title": "Mettre \u00E0 jour une application Winget",
+  "description": "Met \u00E0 jour une application sp\u00E9cifique vers sa derni\u00E8re version disponible via Winget.",
+  "category": "\uD83D\uDCE6 Package Management",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "winget",
+    "package",
+    "update",
+    "upgrade",
+    "windows"
+  ],
+  "windowsTemplateId": "b2ed080c-22d0-4a44-ba17-8f1efbe01dcf",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "V\u00E9rifie d\u0027abord si une mise \u00E0 jour est disponible avant d\u0027installer.",
+  "links": [
+    {
+      "title": "Winget upgrade documentation",
+      "url": "https://learn.microsoft.com/en-us/windows/package-manager/winget/upgrade"
+    }
+  ],
+  "isUserCreated": false
+}

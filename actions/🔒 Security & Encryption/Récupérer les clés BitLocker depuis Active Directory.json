@@ -1,0 +1,26 @@
+{
+  "id": "37d02b9e-5461-4906-af81-deb978e4b531",
+  "title": "R\u00E9cup\u00E9rer les cl\u00E9s BitLocker depuis Active Directory",
+  "description": "R\u00E9cup\u00E8re les cl\u00E9s de r\u00E9cup\u00E9ration BitLocker stock\u00E9es dans Active Directory pour un ordinateur sp\u00E9cifique (commande admin domaine).",
+  "category": "\uD83D\uDD12 Security \u0026 Encryption",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "bitlocker",
+    "ad",
+    "recovery",
+    "domain-admin"
+  ],
+  "windowsTemplateId": "a18ea1ef-986d-4c5b-85e5-623e650bb149",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "\u26A0\uFE0F ADMIN DOMAINE UNIQUEMENT: Cette commande r\u00E9cup\u00E8re les cl\u00E9s depuis Active Directory (attributs msFVE-*). N\u00E9cessite droits de lecture sur les objets msFVE-RecoveryInformation. Les cl\u00E9s sont stock\u00E9es sous chaque objet ordinateur AD. Plusieurs cl\u00E9s possibles si plusieurs volumes chiffr\u00E9s. GUID format: {XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX}.",
+  "links": [
+    {
+      "title": "BitLocker Recovery in Active Directory",
+      "url": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/data-protection/bitlocker/recovery-overview"
+    }
+  ],
+  "isUserCreated": false
+}

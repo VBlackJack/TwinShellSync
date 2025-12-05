@@ -1,0 +1,7 @@
+{
+  "id": "99f68619-e01a-4a11-89b7-5914d031daa1",
+  "name": "Get-BitLockerVolume",
+  "platform": "Windows",
+  "commandPattern": "$report = @(); Get-BitLockerVolume | ForEach-Object { $vol = $_; $_.KeyProtector | Where-Object {$_.KeyProtectorType -eq \u0027RecoveryPassword\u0027} | ForEach-Object { $report \u002B= [PSCustomObject]@{ Volume=$vol.MountPoint; RecoveryPassword=$_.RecoveryPassword; KeyId=$_.KeyProtectorId } } }; $report | Export-Csv C:\\BitLocker-Recovery-Report.csv -NoTypeInformation; Write-Host \u0027Rapport sauvegard\u00E9: C:\\BitLocker-Recovery-Report.csv\u0027 -ForegroundColor Green",
+  "parameters": []
+}

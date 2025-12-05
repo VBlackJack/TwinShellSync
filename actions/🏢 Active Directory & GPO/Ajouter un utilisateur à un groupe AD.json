@@ -1,0 +1,26 @@
+{
+  "id": "d8417ac4-c1b3-482d-a6d7-36f0ca179135",
+  "title": "Ajouter un utilisateur \u00E0 un groupe AD",
+  "description": "Ajoute un utilisateur comme membre d\u0027un groupe Active Directory.",
+  "category": "\uD83C\uDFE2 Active Directory \u0026 GPO",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "ad",
+    "group",
+    "membership",
+    "user"
+  ],
+  "windowsTemplateId": "99587523-b12b-4f94-9020-2918de74631c",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "N\u00E9cessite des droits d\u0027administration AD. Les permissions du groupe s\u0027appliquent imm\u00E9diatement.",
+  "links": [
+    {
+      "title": "Documentation Add-ADGroupMember",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/activedirectory/add-adgroupmember"
+    }
+  ],
+  "isUserCreated": false
+}

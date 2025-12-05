@@ -1,0 +1,26 @@
+{
+  "id": "1fb6d417-48f3-49af-8dde-2502b2946751",
+  "title": "Effectuer la maintenance du serveur WSUS",
+  "description": "Ex\u00E9cute les t\u00E2ches de maintenance WSUS: suppression des mises \u00E0 jour obsol\u00E8tes, d\u00E9pass\u00E9es et des ordinateurs inactifs",
+  "category": "\uD83D\uDD04 Windows Updates",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "wsus",
+    "server",
+    "cleanup",
+    "maintenance"
+  ],
+  "windowsTemplateId": "f5788fc6-5bf9-4c62-83d7-1feb803905ce",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "\u00C0 ex\u00E9cuter sur le serveur WSUS. Peut prendre du temps selon la taille de la base WSUS. Lib\u00E8re de l\u0027espace disque. N\u00E9cessite droits administrateur.",
+  "links": [
+    {
+      "title": "Invoke-WsusServerCleanup Documentation",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/updateservices/invoke-wsusservercleanup"
+    }
+  ],
+  "isUserCreated": false
+}

@@ -1,0 +1,64 @@
+{
+  "id": "1a0a84dd-f1c1-4717-81df-bd1c6c4139d6",
+  "name": "New-ADUser",
+  "platform": "Windows",
+  "commandPattern": "New-ADUser -Name \u0022{fullName}\u0022 -SamAccountName {username} -UserPrincipalName {username}@{domain} -GivenName \u0022{firstName}\u0022 -Surname \u0022{lastName}\u0022 -DisplayName \u0022{fullName}\u0022 -Path \u0022{ouPath}\u0022 -AccountPassword (ConvertTo-SecureString \u0022{password}\u0022 -AsPlainText -Force) -Enabled $true",
+  "parameters": [
+    {
+      "name": "fullName",
+      "label": "Nom complet",
+      "type": "string",
+      "defaultValue": "",
+      "required": true,
+      "description": "Nom complet de l\u0027utilisateur (ex: Jean Dupont)"
+    },
+    {
+      "name": "username",
+      "label": "Nom d\u0027utilisateur",
+      "type": "string",
+      "defaultValue": "",
+      "required": true,
+      "description": "SamAccountName (ex: jdupont)"
+    },
+    {
+      "name": "domain",
+      "label": "Domaine",
+      "type": "string",
+      "defaultValue": "contoso.com",
+      "required": true,
+      "description": "Domaine AD (ex: contoso.com)"
+    },
+    {
+      "name": "firstName",
+      "label": "Pr\u00E9nom",
+      "type": "string",
+      "defaultValue": "",
+      "required": true,
+      "description": "Pr\u00E9nom de l\u0027utilisateur"
+    },
+    {
+      "name": "lastName",
+      "label": "Nom",
+      "type": "string",
+      "defaultValue": "",
+      "required": true,
+      "description": "Nom de famille de l\u0027utilisateur"
+    },
+    {
+      "name": "ouPath",
+      "label": "Chemin OU",
+      "type": "string",
+      "defaultValue": "OU=Users,DC=contoso,DC=com",
+      "required": true,
+      "description": "Distinguished Name de l\u0027OU de destination"
+    },
+    {
+      "name": "password",
+      "label": "Mot de passe",
+      "type": "string",
+      "defaultValue": "",
+      "required": true,
+      "description": "Mot de passe initial (doit respecter la politique)"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "2416f17e-f609-4abd-b245-6e49307b458c",
+  "title": "Lister tous les services (Linux)",
+  "description": "Affiche la liste de tous les services systemd avec leur \u00E9tat.",
+  "category": "\u2699\uFE0F Services \u0026 Automation",
+  "platform": "Linux",
+  "level": "Info",
+  "tags": [
+    "linux",
+    "systemd",
+    "service",
+    "list"
+  ],
+  "linuxTemplateId": "46dda864-115a-4ace-9fe7-891b71023995",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Utiliser --state=failed pour voir les services en \u00E9chec.",
+  "links": [],
+  "isUserCreated": false
+}

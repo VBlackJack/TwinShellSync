@@ -1,0 +1,26 @@
+{
+  "id": "24353537-139f-4459-a936-f60fff7cecd6",
+  "title": "Consulter les erreurs syst\u00E8me des derni\u00E8res 24h",
+  "description": "Affiche tous les messages d\u0027erreur et critiques du journal systemd des derni\u00E8res 24 heures",
+  "category": "\uD83D\uDCCA Monitoring \u0026 Logs",
+  "platform": "Linux",
+  "level": "Info",
+  "tags": [
+    "journalctl",
+    "logs",
+    "errors",
+    "systemd"
+  ],
+  "linuxTemplateId": "ae640fe7-d9ec-4547-a845-9e4f901dbbb6",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "N\u00E9cessite les privil\u00E8ges sudo pour voir tous les logs. Priorit\u00E9s disponibles: 0=emerg, 1=alert, 2=crit, 3=err, 4=warning, 5=notice, 6=info, 7=debug",
+  "links": [
+    {
+      "title": "Man page journalctl",
+      "url": "https://man7.org/linux/man-pages/man1/journalctl.1.html"
+    }
+  ],
+  "isUserCreated": false
+}

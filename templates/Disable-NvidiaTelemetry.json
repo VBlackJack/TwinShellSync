@@ -1,0 +1,7 @@
+{
+  "id": "4fe36b64-5510-4a5b-a8ae-32dab988a291",
+  "name": "Disable-NvidiaTelemetry",
+  "platform": "Windows",
+  "commandPattern": "$nvidiaTasks = @(\u0027NvTmRep_CrashReport*\u0027, \u0027NvDriverUpdateCheck*\u0027, \u0027NVIDIA GeForce Experience SelfUpdate*\u0027, \u0027NvTmMon*\u0027, \u0027NvProfileUpdater*\u0027); foreach ($task in $nvidiaTasks) { Get-ScheduledTask -TaskName $task -ErrorAction SilentlyContinue | Disable-ScheduledTask -ErrorAction SilentlyContinue }; $nvidiaServices = @(\u0027NvTelemetryContainer\u0027, \u0027NvContainerLocalSystem\u0027); foreach ($service in $nvidiaServices) { Stop-Service -Name $service -Force -ErrorAction SilentlyContinue; Set-Service -Name $service -StartupType Disabled -ErrorAction SilentlyContinue }; New-Item -Path \u0027HKLM:\\SOFTWARE\\NVIDIA Corporation\\NvControlPanel2\\Client\u0027 -Force | Out-Null; Set-ItemProperty -Path \u0027HKLM:\\SOFTWARE\\NVIDIA Corporation\\NvControlPanel2\\Client\u0027 -Name \u0027OptInOrOutPreference\u0027 -Type DWord -Value 0 -ErrorAction SilentlyContinue; New-Item -Path \u0027HKLM:\\SYSTEM\\CurrentControlSet\\Services\\nvlddmkm\\Global\\Startup\u0027 -Force | Out-Null; Set-ItemProperty -Path \u0027HKLM:\\SYSTEM\\CurrentControlSet\\Services\\nvlddmkm\\Global\\Startup\u0027 -Name \u0027SendTelemetryData\u0027 -Type DWord -Value 0 -ErrorAction SilentlyContinue",
+  "parameters": []
+}

@@ -1,0 +1,24 @@
+{
+  "id": "be30aa39-68dc-42af-8966-90ebf6553955",
+  "name": "Start/Stop-IISSite",
+  "platform": "Windows",
+  "commandPattern": "Import-Module WebAdministration; {action}-WebSite -Name \u0027{siteName}\u0027",
+  "parameters": [
+    {
+      "name": "siteName",
+      "label": "Nom du site",
+      "type": "string",
+      "defaultValue": "",
+      "required": true,
+      "description": "Nom du site IIS \u00E0 g\u00E9rer"
+    },
+    {
+      "name": "action",
+      "label": "Action",
+      "type": "string",
+      "defaultValue": "Start",
+      "required": true,
+      "description": "Action \u00E0 effectuer: Start, Stop, Restart"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "4ccbe171-23ea-42f8-9ddf-01343d9413c4",
+  "name": "Restore-SqlDatabase",
+  "platform": "Windows",
+  "commandPattern": "Restore-SqlDatabase -ServerInstance \u0027{serverInstance}\u0027 -Database \u0027{databaseName}\u0027 -BackupFile \u0027{backupPath}\u0027 -ReplaceDatabase",
+  "parameters": [
+    {
+      "name": "serverInstance",
+      "label": "Instance SQL Server",
+      "type": "string",
+      "defaultValue": "localhost",
+      "required": true,
+      "description": "Instance SQL Server cible"
+    },
+    {
+      "name": "databaseName",
+      "label": "Nom de la base",
+      "type": "string",
+      "defaultValue": "",
+      "required": true,
+      "description": "Nom de la base de donn\u00E9es \u00E0 restaurer"
+    },
+    {
+      "name": "backupPath",
+      "label": "Fichier de sauvegarde",
+      "type": "string",
+      "defaultValue": "C:\\Backups\\backup.bak",
+      "required": true,
+      "description": "Chemin du fichier .bak"
+    }
+  ]
+}

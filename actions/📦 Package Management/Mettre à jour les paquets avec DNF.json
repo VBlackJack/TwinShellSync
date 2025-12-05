@@ -1,0 +1,27 @@
+{
+  "id": "3f078da7-167c-4e39-bda0-6d47acd29941",
+  "title": "Mettre \u00E0 jour les paquets avec DNF",
+  "description": "Met \u00E0 jour tous les paquets avec DNF (RHEL 8\u002B/Fedora)",
+  "category": "\uD83D\uDCE6 Package Management",
+  "platform": "Linux",
+  "level": "Run",
+  "tags": [
+    "dnf",
+    "update",
+    "upgrade",
+    "rhel",
+    "fedora"
+  ],
+  "linuxTemplateId": "20072327-9464-4b67-bde7-53372422927c",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "N\u00E9cessite sudo. DNF est le successeur de YUM sur les syst\u00E8mes modernes RHEL/Fedora.",
+  "links": [
+    {
+      "title": "DNF documentation",
+      "url": "https://docs.fedoraproject.org/en-US/quick-docs/dnf/"
+    }
+  ],
+  "isUserCreated": false
+}

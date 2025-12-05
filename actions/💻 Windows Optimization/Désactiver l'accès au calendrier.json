@@ -1,0 +1,23 @@
+{
+  "id": "1fd4245d-71fb-4e1d-bbb5-1528658b6726",
+  "title": "D\u00E9sactiver l\u0027acc\u00E8s au calendrier",
+  "description": "Bloque l\u0027acc\u00E8s des applications au calendrier Windows. Protection de la vie priv\u00E9e professionnelle.",
+  "category": "\uD83D\uDCBB Windows Optimization",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "privacy",
+    "confidentialit\u00E9",
+    "rgpd",
+    "permissions",
+    "calendrier",
+    "windows"
+  ],
+  "windowsTemplateId": "33f31d8d-26c9-4fff-af55-64c4af636a71",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Emp\u00EAche l\u0027acc\u00E8s aux rendez-vous et \u00E9v\u00E9nements. Prot\u00E8ge les informations professionnelles sensibles.",
+  "links": [],
+  "isUserCreated": false
+}

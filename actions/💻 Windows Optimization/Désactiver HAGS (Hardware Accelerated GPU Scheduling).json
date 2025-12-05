@@ -1,0 +1,29 @@
+{
+  "id": "1849955a-1014-4637-92df-9d89520f3f43",
+  "title": "D\u00E9sactiver HAGS (Hardware Accelerated GPU Scheduling)",
+  "description": "D\u00E9sactive l\u0027ordonnancement GPU acc\u00E9l\u00E9r\u00E9 par mat\u00E9riel (peut causer des micro-stutters dans certains jeux).",
+  "category": "\uD83D\uDCBB Windows Optimization",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "performance",
+    "gpu",
+    "gaming",
+    "hags",
+    "graphics",
+    "optimisation",
+    "windows"
+  ],
+  "windowsTemplateId": "a153e61e-9970-4c7b-9f3a-9c509ff13cc1",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "HAGS (Windows 10 2004\u002B): d\u00E9l\u00E8gue l\u0027ordonnancement GPU au mat\u00E9riel. Th\u00E9oriquement am\u00E9liore les perfs, mais cause des micro-stutters sur certaines configs (surtout Nvidia). Tester avec/sans pour voir l\u0027impact. D\u00E9sactiver souvent am\u00E9liore la fluidit\u00E9 en jeu.",
+  "links": [
+    {
+      "title": "HAGS explanation",
+      "url": "https://devblogs.microsoft.com/directx/hardware-accelerated-gpu-scheduling/"
+    }
+  ],
+  "isUserCreated": false
+}

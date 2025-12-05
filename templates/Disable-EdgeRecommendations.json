@@ -1,0 +1,7 @@
+{
+  "id": "a4b15d2c-5276-476b-87a3-76985d0ffe90",
+  "name": "Disable-EdgeRecommendations",
+  "platform": "Windows",
+  "commandPattern": "New-Item -Path \u0027HKLM:\\SOFTWARE\\Policies\\Microsoft\\Edge\u0027 -Force | Out-Null; Set-ItemProperty -Path \u0027HKLM:\\SOFTWARE\\Policies\\Microsoft\\Edge\u0027 -Name \u0027ShowRecommendationsEnabled\u0027 -Type DWord -Value 0; Set-ItemProperty -Path \u0027HKLM:\\SOFTWARE\\Policies\\Microsoft\\Edge\u0027 -Name \u0027HideFirstRunExperience\u0027 -Type DWord -Value 1",
+  "parameters": []
+}

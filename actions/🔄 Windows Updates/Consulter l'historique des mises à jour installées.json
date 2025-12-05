@@ -1,0 +1,26 @@
+{
+  "id": "758ccfd0-9b3c-4f23-88f1-9c986ca770ad",
+  "title": "Consulter l\u0027historique des mises \u00E0 jour install\u00E9es",
+  "description": "Affiche l\u0027historique complet des mises \u00E0 jour Windows install\u00E9es sur le syst\u00E8me",
+  "category": "\uD83D\uDD04 Windows Updates",
+  "platform": "Windows",
+  "level": "Info",
+  "tags": [
+    "windows-update",
+    "history",
+    "installed",
+    "report"
+  ],
+  "windowsTemplateId": "6fc6cad0-7125-42d1-a3e0-9c5a96ab1ec7",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Get-HotFix affiche les mises \u00E0 jour install\u00E9es. Pour Windows 10/11, utiliser Get-WindowsUpdateLog pour cr\u00E9er un fichier WindowsUpdate.log sur le bureau.",
+  "links": [
+    {
+      "title": "Get-HotFix Documentation",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-hotfix"
+    }
+  ],
+  "isUserCreated": false
+}

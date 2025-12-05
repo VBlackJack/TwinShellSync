@@ -1,0 +1,24 @@
+{
+  "id": "4c5edf3b-603d-4488-84bd-0c5fb83f8a66",
+  "name": "ansible-pull",
+  "platform": "Windows",
+  "commandPattern": "ansible-pull -U {repoUrl} {playbookPath}",
+  "parameters": [
+    {
+      "name": "repoUrl",
+      "label": "URL du d\u00E9p\u00F4t Git",
+      "type": "string",
+      "defaultValue": "https://github.com/user/ansible-repo.git",
+      "required": true,
+      "description": "URL du d\u00E9p\u00F4t Git contenant les playbooks"
+    },
+    {
+      "name": "playbookPath",
+      "label": "Playbook",
+      "type": "string",
+      "defaultValue": "local.yml",
+      "required": true,
+      "description": "Nom du playbook \u00E0 ex\u00E9cuter"
+    }
+  ]
+}

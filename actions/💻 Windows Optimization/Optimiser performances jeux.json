@@ -1,0 +1,22 @@
+{
+  "id": "feb24c15-cf88-4a6f-9020-51b831e20606",
+  "title": "Optimiser performances jeux",
+  "description": "Active le Game Mode et optimise les param\u00E8tres Windows pour le gaming (priorit\u00E9 CPU/GPU aux jeux).",
+  "category": "\uD83D\uDCBB Windows Optimization",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "performance",
+    "gaming",
+    "game-mode",
+    "optimisation",
+    "windows"
+  ],
+  "windowsTemplateId": "bdbc19ab-7bff-4d1c-a03e-ab198cd8c58b",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Active Game Mode (priorit\u00E9 ressources aux jeux), d\u00E9sactive Game DVR/enregistrement (\u00E9conomise CPU/GPU), optimise mode plein \u00E9cran. Am\u00E9liore FPS et stabilit\u00E9. Aucun inconv\u00E9nient, recommand\u00E9 pour tous les gamers.",
+  "links": [],
+  "isUserCreated": false
+}

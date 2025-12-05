@@ -1,5 +1,0 @@
-id: 56c053c2-404d-4929-bb0f-8f2d8217fe57
-name: Remove-MpThreat
-platform: Windows
-commandPattern: Get-MpThreat | Select-Object ThreatID,ThreatName,SeverityID
-parameters: []

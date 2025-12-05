@@ -1,0 +1,32 @@
+{
+  "id": "691915b0-d2d3-4d47-8e29-6b680b32b1ab",
+  "name": "Import-GPO",
+  "platform": "Windows",
+  "commandPattern": "Import-GPO -BackupId {backupId} -TargetName \u0022{targetGPO}\u0022 -Path \u0022{backupPath}\u0022",
+  "parameters": [
+    {
+      "name": "backupId",
+      "label": "ID de sauvegarde",
+      "type": "string",
+      "defaultValue": "",
+      "required": true,
+      "description": "GUID de la sauvegarde (obtenu avec Get-GPOBackup)"
+    },
+    {
+      "name": "targetGPO",
+      "label": "GPO cible",
+      "type": "string",
+      "defaultValue": "",
+      "required": true,
+      "description": "Nom de la GPO de destination"
+    },
+    {
+      "name": "backupPath",
+      "label": "Chemin de sauvegarde",
+      "type": "string",
+      "defaultValue": "C:\\GPOBackups",
+      "required": true,
+      "description": "Chemin du dossier de sauvegarde"
+    }
+  ]
+}

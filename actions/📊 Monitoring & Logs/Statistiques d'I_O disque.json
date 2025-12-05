@@ -1,0 +1,27 @@
+{
+  "id": "1db7476a-993d-46eb-9bdf-cea25a9bedef",
+  "title": "Statistiques d\u0027I/O disque",
+  "description": "Affiche les statistiques d\u0027entr\u00E9es/sorties des disques et partitions",
+  "category": "\uD83D\uDCCA Monitoring \u0026 Logs",
+  "platform": "Linux",
+  "level": "Info",
+  "tags": [
+    "iostat",
+    "io",
+    "disk",
+    "performance",
+    "statistics"
+  ],
+  "linuxTemplateId": "f351038d-ef33-4441-ac6e-1def7b491ba2",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Fait partie du package sysstat. -x pour statistiques \u00E9tendues. Utile pour d\u00E9tecter les goulots d\u0027\u00E9tranglement.",
+  "links": [
+    {
+      "title": "iostat command",
+      "url": "https://man7.org/linux/man-pages/man1/iostat.1.html"
+    }
+  ],
+  "isUserCreated": false
+}

@@ -1,0 +1,30 @@
+{
+  "id": "bdb6ff65-8b36-4c83-84d0-db47ffa04b4e",
+  "title": "Cr\u00E9er un nouveau site IIS",
+  "description": "Cr\u00E9e un nouveau site web dans IIS avec un nom, un chemin physique et un binding sp\u00E9cifiques.",
+  "category": "\uD83C\uDF10 Network \u0026 DNS",
+  "platform": "Windows",
+  "level": "Dangerous",
+  "tags": [
+    "iis",
+    "web",
+    "create",
+    "new",
+    "site",
+    "setup",
+    "webserver",
+    "deployment"
+  ],
+  "windowsTemplateId": "befd57ac-8119-4fb4-aee3-29fd528ce063",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "DANGER: Le dossier physique doit exister. V\u00E9rifiez les permissions NTFS. Pour HTTPS, configurez le certificat SSL s\u00E9par\u00E9ment.",
+  "links": [
+    {
+      "title": "Documentation New-Website",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/webadministration/new-website"
+    }
+  ],
+  "isUserCreated": false
+}

@@ -1,0 +1,27 @@
+{
+  "id": "dc577cb1-301b-4b6d-b4fb-b7e3c439bef9",
+  "title": "Cr\u00E9er une t\u00E2che planifi\u00E9e",
+  "description": "Enregistre une nouvelle t\u00E2che planifi\u00E9e dans le Planificateur de t\u00E2ches Windows",
+  "category": "\u2699\uFE0F Services \u0026 Automation",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "taskscheduler",
+    "create",
+    "automation",
+    "windows",
+    "register"
+  ],
+  "windowsTemplateId": "1807e498-3900-4f8b-8713-46292b7c4a45",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "N\u00E9cessite des privil\u00E8ges administrateur. Utilisez -User \u0027SYSTEM\u0027 pour ex\u00E9cution syst\u00E8me. D\u00E9clencheurs: -Daily, -Weekly, -AtStartup, -AtLogon, -Once.",
+  "links": [
+    {
+      "title": "Register-ScheduledTask Documentation",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/scheduledtasks/register-scheduledtask"
+    }
+  ],
+  "isUserCreated": false
+}

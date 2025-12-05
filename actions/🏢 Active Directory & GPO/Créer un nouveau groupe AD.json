@@ -1,0 +1,26 @@
+{
+  "id": "082094ae-365a-4d9b-99af-40b22a8a5862",
+  "title": "Cr\u00E9er un nouveau groupe AD",
+  "description": "Cr\u00E9e un nouveau groupe de s\u00E9curit\u00E9 ou de distribution dans Active Directory.",
+  "category": "\uD83C\uDFE2 Active Directory \u0026 GPO",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "ad",
+    "group",
+    "create",
+    "new"
+  ],
+  "windowsTemplateId": "dc6ce567-a9b8-4c6f-8bb6-d26b81930e22",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "N\u00E9cessite des droits d\u0027administration AD. GroupCategory: Security pour permissions, Distribution pour emails.",
+  "links": [
+    {
+      "title": "Documentation New-ADGroup",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/activedirectory/new-adgroup"
+    }
+  ],
+  "isUserCreated": false
+}

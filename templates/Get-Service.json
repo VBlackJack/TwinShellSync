@@ -1,0 +1,24 @@
+{
+  "id": "dfd5a6ad-7be0-4f8d-9baf-f7cee9ea72a1",
+  "name": "Get-Service",
+  "platform": "Windows",
+  "commandPattern": "Get-Service {name} {displayname} | Format-Table Name, DisplayName, Status, StartType -AutoSize",
+  "parameters": [
+    {
+      "name": "name",
+      "label": "Nom du service",
+      "type": "string",
+      "defaultValue": "",
+      "required": false,
+      "description": "Nom du service (ex: -Name \u0027wuauserv\u0027) ou laissez vide"
+    },
+    {
+      "name": "displayname",
+      "label": "Nom affich\u00E9",
+      "type": "string",
+      "defaultValue": "",
+      "required": false,
+      "description": "Filtre par nom affich\u00E9 (ex: -DisplayName \u0027*update*\u0027)"
+    }
+  ]
+}

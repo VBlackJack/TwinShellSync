@@ -1,0 +1,26 @@
+{
+  "id": "cb7a7362-fa32-48e3-a467-4e8061e330f9",
+  "title": "Installer toutes les mises \u00E0 jour Windows disponibles",
+  "description": "T\u00E9l\u00E9charge et installe automatiquement toutes les mises \u00E0 jour Windows disponibles",
+  "category": "\uD83D\uDD04 Windows Updates",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "windows-update",
+    "install",
+    "patch",
+    "pswindowsupdate"
+  ],
+  "windowsTemplateId": "29a9a0d9-868d-4a2e-b8bd-7d6068105617",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "ATTENTION: Cette commande peut n\u00E9cessiter un red\u00E9marrage. Utilisez -IgnoreReboot pour emp\u00EAcher le red\u00E9marrage automatique. N\u00E9cessite PSWindowsUpdate.",
+  "links": [
+    {
+      "title": "Install Windows Updates with PowerShell",
+      "url": "https://www.alitajran.com/install-windows-updates-powershell/"
+    }
+  ],
+  "isUserCreated": false
+}

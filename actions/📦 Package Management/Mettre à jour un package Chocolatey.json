@@ -1,0 +1,27 @@
+{
+  "id": "af16314e-aab4-471a-bdf2-2d816d4eec7d",
+  "title": "Mettre \u00E0 jour un package Chocolatey",
+  "description": "Met \u00E0 jour un package sp\u00E9cifique vers sa derni\u00E8re version disponible via Chocolatey.",
+  "category": "\uD83D\uDCE6 Package Management",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "chocolatey",
+    "package",
+    "update",
+    "upgrade",
+    "windows"
+  ],
+  "windowsTemplateId": "535d3cc6-116f-4693-b640-03e37052ff68",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "V\u00E9rifie automatiquement si une mise \u00E0 jour est disponible avant d\u0027installer.",
+  "links": [
+    {
+      "title": "Chocolatey upgrade documentation",
+      "url": "https://docs.chocolatey.org/en-us/choco/commands/upgrade"
+    }
+  ],
+  "isUserCreated": false
+}

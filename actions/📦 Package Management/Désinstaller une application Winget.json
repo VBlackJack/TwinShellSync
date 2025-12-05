@@ -1,0 +1,27 @@
+{
+  "id": "82ea35c1-a718-4e16-a402-e1a3b634b89c",
+  "title": "D\u00E9sinstaller une application Winget",
+  "description": "D\u00E9sinstalle une application pr\u00E9c\u00E9demment install\u00E9e via Winget.",
+  "category": "\uD83D\uDCE6 Package Management",
+  "platform": "Windows",
+  "level": "Dangerous",
+  "tags": [
+    "winget",
+    "package",
+    "uninstall",
+    "remove",
+    "windows"
+  ],
+  "windowsTemplateId": "c3b6a7a5-4ccf-4913-a968-fbbb6c450316",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "\u26A0\uFE0F ATTENTION : Cette action supprime l\u0027application du syst\u00E8me. Assurez-vous de sauvegarder vos donn\u00E9es.",
+  "links": [
+    {
+      "title": "Winget uninstall documentation",
+      "url": "https://learn.microsoft.com/en-us/windows/package-manager/winget/uninstall"
+    }
+  ],
+  "isUserCreated": false
+}

@@ -1,0 +1,25 @@
+{
+  "id": "82926a2b-884f-4b95-b1a2-b82dc5c01078",
+  "title": "V\u00E9rifier la version des d\u00E9finitions Defender",
+  "description": "Affiche la version actuelle des d\u00E9finitions antivirus et v\u00E9rifie si elles sont \u00E0 jour.",
+  "category": "\uD83D\uDD12 Security \u0026 Encryption",
+  "platform": "Windows",
+  "level": "Info",
+  "tags": [
+    "defender",
+    "definitions",
+    "version"
+  ],
+  "windowsTemplateId": "ff3b387b-49af-4e5e-acef-1586f3b09f5c",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "AntivirusSignatureVersion: d\u00E9finitions antimalware (format: 1.xxx.xxxx.x). NISSignatureVersion: Network Inspection System signatures. Les d\u00E9finitions doivent \u00EAtre mises \u00E0 jour quotidiennement (max 2-3 jours). Si obsol\u00E8tes: Update-MpSignature.",
+  "links": [
+    {
+      "title": "Defender Signature Updates",
+      "url": "https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/manage-updates-baselines-microsoft-defender-antivirus"
+    }
+  ],
+  "isUserCreated": false
+}

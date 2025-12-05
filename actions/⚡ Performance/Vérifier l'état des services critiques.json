@@ -1,0 +1,26 @@
+{
+  "id": "4856b015-e925-4afd-90f9-c290efde360f",
+  "title": "V\u00E9rifier l\u0027\u00E9tat des services critiques",
+  "description": "V\u00E9rifie l\u0027\u00E9tat de services Windows critiques et identifie ceux qui sont arr\u00EAt\u00E9s alors qu\u0027ils devraient \u00EAtre d\u00E9marr\u00E9s",
+  "category": "\u26A1 Performance",
+  "platform": "Windows",
+  "level": "Info",
+  "tags": [
+    "performance",
+    "services",
+    "monitoring",
+    "status"
+  ],
+  "windowsTemplateId": "579a7100-75b0-40e4-a1ef-a623d054f854",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "StartType Automatic = devrait d\u00E9marrer au boot. Status Running = en cours. Services critiques: wuauserv, Dnscache, EventLog, RpcSs, spooler.",
+  "links": [
+    {
+      "title": "Get-Service Documentation",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-service"
+    }
+  ],
+  "isUserCreated": false
+}

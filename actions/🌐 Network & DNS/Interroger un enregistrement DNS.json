@@ -1,0 +1,22 @@
+{
+  "id": "dac9d5de-8da5-43e6-9f3c-32736f894665",
+  "title": "Interroger un enregistrement DNS",
+  "description": "Effectue une requ\u00EAte DNS pour r\u00E9soudre un nom de domaine ou interroger un type d\u0027enregistrement sp\u00E9cifique.",
+  "category": "\uD83C\uDF10 Network \u0026 DNS",
+  "platform": "Both",
+  "level": "Info",
+  "tags": [
+    "dns",
+    "query",
+    "nslookup",
+    "diagnostic"
+  ],
+  "windowsTemplateId": "d20ba385-4b46-4755-b5a8-39f2571c29b6",
+  "linuxTemplateId": "b9a4fc95-58dd-43a9-afc5-b87a4cd1eaa4",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Sur Linux, installer bind-utils pour utiliser dig. Alternative : nslookup disponible sur les deux plateformes.",
+  "links": [],
+  "isUserCreated": false
+}

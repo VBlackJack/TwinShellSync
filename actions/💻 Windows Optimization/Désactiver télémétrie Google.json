@@ -1,0 +1,24 @@
+{
+  "id": "ba35c121-a128-40a1-9e74-973135aab3aa",
+  "title": "D\u00E9sactiver t\u00E9l\u00E9m\u00E9trie Google",
+  "description": "D\u00E9sactive la t\u00E9l\u00E9m\u00E9trie de Google Update et Chrome (si install\u00E9s). Bloque les services de tracking Google.",
+  "category": "\uD83D\uDCBB Windows Optimization",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "privacy",
+    "confidentialit\u00E9",
+    "t\u00E9l\u00E9m\u00E9trie",
+    "google",
+    "chrome",
+    "third-party",
+    "windows"
+  ],
+  "windowsTemplateId": "4753adf8-d1dd-4603-a9c2-c306f7380e2f",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "D\u00E9sactive toute t\u00E9l\u00E9m\u00E9trie Google Chrome et Google Update. Arr\u00EAte les services de mise \u00E0 jour automatique Google. Am\u00E9liore la confidentialit\u00E9 et r\u00E9duit l\u0027utilisation r\u00E9seau.",
+  "links": [],
+  "isUserCreated": false
+}

@@ -1,5 +1,0 @@
-id: 9be1ebc5-5d64-4516-a940-218905a3e03a
-name: Disable-TelemetryServices
-platform: Windows
-commandPattern: $telemetryServices = @('DiagTrack','dmwappushservice','diagnosticshub.standardcollector.service','DPS','WerSvc','wercplsupport'); $count = 0; foreach ($svc in $telemetryServices) { try { $service = Get-Service -Name $svc -ErrorAction SilentlyContinue; if ($service) { Stop-Service -Name $svc -Force -ErrorAction SilentlyContinue; Set-Service -Name $svc -StartupType Disabled -ErrorAction Stop; $count++ } } catch { Write-Warning "Service $svc non trouvé ou déjà désactivé" } }; Write-Host "$count services de télémétrie désactivés" -ForegroundColor Green
-parameters: []

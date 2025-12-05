@@ -1,0 +1,29 @@
+{
+  "id": "f9fd4b77-658d-4834-bdc8-92f3de57722b",
+  "title": "D\u00E9sactiver t\u00E9l\u00E9m\u00E9trie VS Code",
+  "description": "D\u00E9sactive la t\u00E9l\u00E9m\u00E9trie de Visual Studio Code et les rapports d\u0027erreurs Microsoft.",
+  "category": "\uD83D\uDCBB Windows Optimization",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "privacy",
+    "confidentialit\u00E9",
+    "t\u00E9l\u00E9m\u00E9trie",
+    "vscode",
+    "microsoft",
+    "third-party",
+    "windows"
+  ],
+  "windowsTemplateId": "14678b7d-e70d-4f2b-8c18-99ca4a332b04",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Modifie les param\u00E8tres VS Code pour d\u00E9sactiver toute t\u00E9l\u00E9m\u00E9trie. Emp\u00EAche l\u0027envoi de donn\u00E9es d\u0027utilisation \u00E0 Microsoft. N\u00E9cessite VS Code install\u00E9.",
+  "links": [
+    {
+      "title": "VS Code - Disable telemetry reporting",
+      "url": "https://code.visualstudio.com/docs/getstarted/telemetry"
+    }
+  ],
+  "isUserCreated": false
+}

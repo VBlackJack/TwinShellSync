@@ -1,0 +1,29 @@
+{
+  "id": "65f6d03c-d630-48b1-ae8b-9bee3d17d070",
+  "title": "Restaurer une base de donn\u00E9es SQL Server",
+  "description": "Restaure une base de donn\u00E9es SQL Server \u00E0 partir d\u0027un fichier de sauvegarde .bak.",
+  "category": "\uD83D\uDCBD Database",
+  "platform": "Windows",
+  "level": "Dangerous",
+  "tags": [
+    "sql",
+    "restore",
+    "restauration",
+    "recovery",
+    "database",
+    "mssql",
+    "disaster-recovery"
+  ],
+  "windowsTemplateId": "4ccbe171-23ea-42f8-9ddf-01343d9413c4",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "DANGER: -ReplaceDatabase \u00E9crase la base existante! Fermez toutes les connexions avant la restauration. Le compte SQL Server doit avoir acc\u00E8s au fichier .bak.",
+  "links": [
+    {
+      "title": "Documentation Restore-SqlDatabase",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/sqlserver/restore-sqldatabase"
+    }
+  ],
+  "isUserCreated": false
+}

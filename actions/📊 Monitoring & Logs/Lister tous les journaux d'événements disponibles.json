@@ -1,0 +1,26 @@
+{
+  "id": "8b85321f-1855-4a16-aa4c-a1bbd8b933d0",
+  "title": "Lister tous les journaux d\u0027\u00E9v\u00E9nements disponibles",
+  "description": "Affiche la liste de tous les journaux d\u0027\u00E9v\u00E9nements disponibles sur le syst\u00E8me avec leurs statistiques",
+  "category": "\uD83D\uDCCA Monitoring \u0026 Logs",
+  "platform": "Windows",
+  "level": "Info",
+  "tags": [
+    "eventlog",
+    "list",
+    "logs",
+    "diagnostic"
+  ],
+  "windowsTemplateId": "eb333843-59e0-4998-90de-248f821e7ce7",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Utile pour d\u00E9couvrir les journaux disponibles avant de faire des requ\u00EAtes sp\u00E9cifiques.",
+  "links": [
+    {
+      "title": "Get-WinEvent -ListLog",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.diagnostics/get-winevent"
+    }
+  ],
+  "isUserCreated": false
+}

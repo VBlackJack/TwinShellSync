@@ -1,5 +1,0 @@
-id: c92f4baf-eff0-41cb-a773-3aa5d78ffda9
-name: Disable-BiometricServices
-platform: Windows
-commandPattern: New-Item -Path 'HKLM:\SOFTWARE\Policies\Microsoft\Biometrics' -Force | Out-Null; Set-ItemProperty -Path 'HKLM:\SOFTWARE\Policies\Microsoft\Biometrics' -Name 'Enabled' -Type DWord -Value 0; New-Item -Path 'HKLM:\SOFTWARE\Policies\Microsoft\Biometrics\FacialFeatures' -Force | Out-Null; Set-ItemProperty -Path 'HKLM:\SOFTWARE\Policies\Microsoft\Biometrics\FacialFeatures' -Name 'EnhancedAntiSpoofing' -Type DWord -Value 0
-parameters: []

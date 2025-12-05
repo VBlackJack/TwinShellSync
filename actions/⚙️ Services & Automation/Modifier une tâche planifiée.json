@@ -1,0 +1,27 @@
+{
+  "id": "d80be696-eb63-412b-bd1c-c951e965c583",
+  "title": "Modifier une t\u00E2che planifi\u00E9e",
+  "description": "Modifie les propri\u00E9t\u00E9s d\u0027une t\u00E2che planifi\u00E9e existante",
+  "category": "\u2699\uFE0F Services \u0026 Automation",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "taskscheduler",
+    "modify",
+    "update",
+    "automation",
+    "windows"
+  ],
+  "windowsTemplateId": "cb8acd00-7b69-4ebc-83a8-f9cc856c19ba",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "N\u00E9cessite des privil\u00E8ges admin. Utilisez Get-ScheduledTask pour voir la config actuelle avant modification.",
+  "links": [
+    {
+      "title": "Set-ScheduledTask Documentation",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/scheduledtasks/set-scheduledtask"
+    }
+  ],
+  "isUserCreated": false
+}

@@ -1,0 +1,27 @@
+{
+  "id": "e7fda598-a556-41bb-b22d-3f0923fdaa5b",
+  "title": "Mettre \u00E0 jour la liste des paquets APT",
+  "description": "Rafra\u00EEchit la liste des paquets disponibles depuis les d\u00E9p\u00F4ts configur\u00E9s (Debian/Ubuntu)",
+  "category": "\uD83D\uDCE6 Package Management",
+  "platform": "Linux",
+  "level": "Info",
+  "tags": [
+    "apt",
+    "update",
+    "debian",
+    "ubuntu",
+    "packages"
+  ],
+  "linuxTemplateId": "5c07c5b8-a740-4be6-b1e1-5bc992d3c900",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "N\u00E9cessite sudo. \u00C0 ex\u00E9cuter avant apt upgrade. N\u0027installe aucun paquet, ne fait que rafra\u00EEchir les m\u00E9tadonn\u00E9es.",
+  "links": [
+    {
+      "title": "APT documentation",
+      "url": "https://manpages.ubuntu.com/manpages/jammy/man8/apt.8.html"
+    }
+  ],
+  "isUserCreated": false
+}

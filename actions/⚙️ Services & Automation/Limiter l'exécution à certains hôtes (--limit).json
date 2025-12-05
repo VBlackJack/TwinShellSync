@@ -1,0 +1,27 @@
+{
+  "id": "e730bcc2-8d30-4ee8-8173-2dc0ad656b1d",
+  "title": "Limiter l\u0027ex\u00E9cution \u00E0 certains h\u00F4tes (--limit)",
+  "description": "Ex\u00E9cute un playbook uniquement sur un sous-ensemble d\u0027h\u00F4tes",
+  "category": "\u2699\uFE0F Services \u0026 Automation",
+  "platform": "Both",
+  "level": "Run",
+  "tags": [
+    "ansible",
+    "playbook",
+    "limit",
+    "hosts"
+  ],
+  "windowsTemplateId": "efe266ac-c9b2-4a97-8c0a-9d71b4fbe7ed",
+  "linuxTemplateId": "9043cdaf-b111-456f-a21d-47c815136ef2",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Utilisez --limit pour tester un playbook sur un sous-ensemble d\u0027h\u00F4tes avant un d\u00E9ploiement complet.",
+  "links": [
+    {
+      "title": "Ansible Patterns",
+      "url": "https://docs.ansible.com/ansible/latest/user_guide/intro_patterns.html"
+    }
+  ],
+  "isUserCreated": false
+}

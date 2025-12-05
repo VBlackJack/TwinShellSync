@@ -1,0 +1,16 @@
+{
+  "id": "3119719a-4411-4cf7-bb6f-431300a2d3d8",
+  "name": "systemctl",
+  "platform": "Linux",
+  "commandPattern": "systemctl list-timers {options}",
+  "parameters": [
+    {
+      "name": "options",
+      "label": "Options",
+      "type": "string",
+      "defaultValue": "--all",
+      "required": false,
+      "description": "Options (--all, --state=active, etc.)"
+    }
+  ]
+}

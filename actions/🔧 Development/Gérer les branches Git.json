@@ -1,0 +1,26 @@
+{
+  "id": "222389b4-4c5e-412b-8995-ae427f361dae",
+  "title": "G\u00E9rer les branches Git",
+  "description": "Cr\u00E9e, liste ou supprime des branches",
+  "category": "\uD83D\uDD27 Development",
+  "platform": "Both",
+  "level": "Info",
+  "tags": [
+    "git",
+    "branch",
+    "management"
+  ],
+  "windowsTemplateId": "2e8d82ca-99a3-4992-9370-69d90fb143d9",
+  "linuxTemplateId": "2fd5f9fd-0fd9-4a20-8c17-626da5afd252",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Utilisez -a pour voir toutes les branches (locales et distantes), -d pour supprimer une branche.",
+  "links": [
+    {
+      "title": "Git Branch Documentation",
+      "url": "https://git-scm.com/docs/git-branch"
+    }
+  ],
+  "isUserCreated": false
+}

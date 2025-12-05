@@ -1,0 +1,24 @@
+{
+  "id": "ab10ca25-f181-4f59-9dfe-c95cada7d684",
+  "name": "Suspend-BitLocker",
+  "platform": "Windows",
+  "commandPattern": "Suspend-BitLocker -MountPoint \u0022{driveLetter}:\u0022 -RebootCount {rebootCount}",
+  "parameters": [
+    {
+      "name": "driveLetter",
+      "label": "Lettre du disque",
+      "type": "string",
+      "defaultValue": "C",
+      "required": true,
+      "description": "Lettre du volume (ex: C)"
+    },
+    {
+      "name": "rebootCount",
+      "label": "Nombre de red\u00E9marrages",
+      "type": "string",
+      "defaultValue": "1",
+      "required": false,
+      "description": "Nombre de red\u00E9marrages avant r\u00E9activation automatique"
+    }
+  ]
+}

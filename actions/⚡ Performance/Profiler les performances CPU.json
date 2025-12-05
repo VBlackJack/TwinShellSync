@@ -1,0 +1,27 @@
+{
+  "id": "a59328b5-ef38-420d-acdd-376dd014eadc",
+  "title": "Profiler les performances CPU",
+  "description": "Analyse les performances CPU et identifie les hotspots",
+  "category": "\u26A1 Performance",
+  "platform": "Linux",
+  "level": "Run",
+  "tags": [
+    "perf",
+    "profiling",
+    "cpu",
+    "performance",
+    "analysis"
+  ],
+  "linuxTemplateId": "83a4ce4c-7fc3-4c7d-b327-fdb7915a27f4",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "N\u00E9cessite sudo et package linux-tools. Tr\u00E8s puissant pour l\u0027analyse de performance.",
+  "links": [
+    {
+      "title": "perf documentation",
+      "url": "https://perf.wiki.kernel.org/index.php/Tutorial"
+    }
+  ],
+  "isUserCreated": false
+}

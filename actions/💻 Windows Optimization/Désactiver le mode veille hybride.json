@@ -1,0 +1,23 @@
+{
+  "id": "8021354f-9754-464d-9705-bc2c53abb6ee",
+  "title": "D\u00E9sactiver le mode veille hybride",
+  "description": "D\u00E9sactive le mode veille hybride pour acc\u00E9l\u00E9rer la mise en veille et le r\u00E9veil du PC.",
+  "category": "\uD83D\uDCBB Windows Optimization",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "performance",
+    "power",
+    "sleep",
+    "hybrid",
+    "optimisation",
+    "windows"
+  ],
+  "windowsTemplateId": "3e9e02a5-9996-4f6a-a555-f054e010880b",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Veille hybride: combine veille et hibernation (\u00E9crit RAM sur disque). D\u00E9sactiver am\u00E9liore la vitesse de mise en veille/r\u00E9veil sur PC avec SSD. Moins utile sur HDD. Pas de risque de perte de donn\u00E9es avec un PC stable.",
+  "links": [],
+  "isUserCreated": false
+}

@@ -1,0 +1,24 @@
+{
+  "id": "82173f03-e652-475f-80df-745a6aea3c9c",
+  "name": "kill",
+  "platform": "Linux",
+  "commandPattern": "kill {signal} {pid}",
+  "parameters": [
+    {
+      "name": "signal",
+      "label": "Signal",
+      "type": "string",
+      "defaultValue": "-15",
+      "required": false,
+      "description": "Signal \u00E0 envoyer (-9=SIGKILL, -15=SIGTERM, -1=SIGHUP)"
+    },
+    {
+      "name": "pid",
+      "label": "PID",
+      "type": "string",
+      "defaultValue": "1234",
+      "required": true,
+      "description": "Process ID \u00E0 terminer"
+    }
+  ]
+}

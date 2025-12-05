@@ -1,0 +1,16 @@
+{
+  "id": "2d7db4aa-1287-421c-920c-24fe86cffb74",
+  "name": "dotnet run",
+  "platform": "Windows",
+  "commandPattern": "dotnet run --project \u0022{projectPath}\u0022",
+  "parameters": [
+    {
+      "name": "projectPath",
+      "label": "Projet",
+      "type": "string",
+      "defaultValue": ".",
+      "required": false,
+      "description": "Chemin du projet .csproj"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "915e18b1-e550-475c-bf05-88ce7c254483",
+  "name": "watch",
+  "platform": "Linux",
+  "commandPattern": "watch -n {interval} {command}",
+  "parameters": [
+    {
+      "name": "interval",
+      "label": "Intervalle (secondes)",
+      "type": "number",
+      "defaultValue": "2",
+      "required": true,
+      "description": "Intervalle en secondes entre chaque ex\u00E9cution"
+    },
+    {
+      "name": "command",
+      "label": "Commande",
+      "type": "string",
+      "defaultValue": "df -h",
+      "required": true,
+      "description": "Commande \u00E0 r\u00E9p\u00E9ter"
+    }
+  ]
+}

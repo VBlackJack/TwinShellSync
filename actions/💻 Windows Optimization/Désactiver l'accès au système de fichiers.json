@@ -1,0 +1,23 @@
+{
+  "id": "c9d8adf4-9d2e-4c4d-a893-753d148ab4b7",
+  "title": "D\u00E9sactiver l\u0027acc\u00E8s au syst\u00E8me de fichiers",
+  "description": "Restreint l\u0027acc\u00E8s des applications au syst\u00E8me de fichiers complet. Protection des donn\u00E9es sensibles.",
+  "category": "\uD83D\uDCBB Windows Optimization",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "privacy",
+    "confidentialit\u00E9",
+    "rgpd",
+    "permissions",
+    "fichiers",
+    "windows"
+  ],
+  "windowsTemplateId": "ddff350d-01a6-484a-a5b2-79d4a8010665",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Limite l\u0027acc\u00E8s aux biblioth\u00E8ques de documents et au syst\u00E8me de fichiers complet. Certaines applications peuvent n\u00E9cessiter une r\u00E9activation.",
+  "links": [],
+  "isUserCreated": false
+}

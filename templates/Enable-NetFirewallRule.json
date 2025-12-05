@@ -1,0 +1,7 @@
+{
+  "id": "ab65558b-abb0-4d4f-be6b-c8eb2447a055",
+  "name": "Enable-NetFirewallRule",
+  "platform": "Windows",
+  "commandPattern": "Enable-NetFirewallRule -DisplayGroup \u0027Remote Desktop\u0027",
+  "parameters": []
+}

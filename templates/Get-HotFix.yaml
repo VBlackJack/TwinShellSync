@@ -1,5 +1,0 @@
-id: 088cf013-d4ba-4e2a-b78c-5b6024229070
-name: Get-HotFix
-platform: Windows
-commandPattern: powershell -Command "Get-HotFix | Sort-Object -Property InstalledOn -Descending | Select-Object -First 50 | Format-Table -AutoSize"
-parameters: []

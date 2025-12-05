@@ -1,5 +1,0 @@
-id: e8b22feb-5877-45af-b19d-a9acbd6ff674
-name: Get-WURebootStatus
-platform: Windows
-commandPattern: Get-WURebootStatus -Silent
-parameters: []

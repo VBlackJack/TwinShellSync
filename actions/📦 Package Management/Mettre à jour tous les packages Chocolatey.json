@@ -1,0 +1,27 @@
+{
+  "id": "4123ff41-dd76-4d59-b498-1d8c5c72c27f",
+  "title": "Mettre \u00E0 jour tous les packages Chocolatey",
+  "description": "Met \u00E0 jour tous les packages install\u00E9s vers leurs derni\u00E8res versions disponibles.",
+  "category": "\uD83D\uDCE6 Package Management",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "chocolatey",
+    "package",
+    "update",
+    "upgrade-all",
+    "windows"
+  ],
+  "windowsTemplateId": "3e9fe606-0be4-4b22-8853-ca2cffbfe003",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Peut prendre du temps. L\u0027option --except permet d\u0027exclure certains packages.",
+  "links": [
+    {
+      "title": "Chocolatey upgrade documentation",
+      "url": "https://docs.chocolatey.org/en-us/choco/commands/upgrade"
+    }
+  ],
+  "isUserCreated": false
+}

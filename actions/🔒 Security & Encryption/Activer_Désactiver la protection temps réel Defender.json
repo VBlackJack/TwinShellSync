@@ -1,0 +1,25 @@
+{
+  "id": "bee69386-8442-43e4-9a13-e92240928b4b",
+  "title": "Activer/D\u00E9sactiver la protection temps r\u00E9el Defender",
+  "description": "Active ou d\u00E9sactive la protection en temps r\u00E9el de Windows Defender.",
+  "category": "\uD83D\uDD12 Security \u0026 Encryption",
+  "platform": "Windows",
+  "level": "Dangerous",
+  "tags": [
+    "defender",
+    "realtime",
+    "protection"
+  ],
+  "windowsTemplateId": "bdc13a1e-7409-4c36-85bf-9c346b98cafe",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "\u26A0\uFE0F S\u00C9CURIT\u00C9 CRITIQUE: Ne d\u00E9sactivez JAMAIS la protection temps r\u00E9el sauf pour d\u00E9pannage temporaire! Votre syst\u00E8me est VULN\u00C9RABLE sans cette protection. DisableRealtimeMonitoring $true = D\u00C9SACTIVE (dangereux). $false = ACTIVE (recommand\u00E9). Sur Windows 10/11, la protection peut se r\u00E9activer automatiquement.",
+  "links": [
+    {
+      "title": "Set-MpPreference Documentation",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/defender/set-mppreference"
+    }
+  ],
+  "isUserCreated": false
+}

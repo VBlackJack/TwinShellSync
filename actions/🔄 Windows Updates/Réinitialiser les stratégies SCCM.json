@@ -1,0 +1,20 @@
+{
+  "id": "c95c5b89-2dbf-4fb9-912e-2db76e8f5a07",
+  "title": "R\u00E9initialiser les strat\u00E9gies SCCM",
+  "description": "Supprime toutes les strat\u00E9gies machine et utilisateur du client SCCM",
+  "category": "\uD83D\uDD04 Windows Updates",
+  "platform": "Windows",
+  "level": "Dangerous",
+  "tags": [
+    "sccm",
+    "policy",
+    "reset"
+  ],
+  "windowsTemplateId": "3725010f-3f9d-4148-a14b-48c70232aaea",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Supprime toutes les strat\u00E9gies. Le client les re-t\u00E9l\u00E9chargera automatiquement. Droits administrateur requis.",
+  "links": [],
+  "isUserCreated": false
+}

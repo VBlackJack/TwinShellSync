@@ -1,0 +1,27 @@
+{
+  "id": "d5f40dd1-fcd0-4ecc-b07b-682710959253",
+  "title": "R\u00E9p\u00E9ter une commande p\u00E9riodiquement",
+  "description": "Ex\u00E9cute une commande \u00E0 intervalle r\u00E9gulier et affiche le r\u00E9sultat",
+  "category": "\u2699\uFE0F Services \u0026 Automation",
+  "platform": "Linux",
+  "level": "Info",
+  "tags": [
+    "watch",
+    "repeat",
+    "monitor",
+    "interval",
+    "automation"
+  ],
+  "linuxTemplateId": "915e18b1-e550-475c-bf05-88ce7c254483",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Ctrl\u002BC pour arr\u00EAter. -d surligne les changements. -n d\u00E9finit l\u0027intervalle.",
+  "links": [
+    {
+      "title": "watch command",
+      "url": "https://man7.org/linux/man-pages/man1/watch.1.html"
+    }
+  ],
+  "isUserCreated": false
+}

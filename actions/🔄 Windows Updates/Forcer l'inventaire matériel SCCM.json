@@ -1,0 +1,26 @@
+{
+  "id": "e41485e5-ad1a-4a71-a35d-5ba7fb6cf3d9",
+  "title": "Forcer l\u0027inventaire mat\u00E9riel SCCM",
+  "description": "D\u00E9clenche imm\u00E9diatement la collecte de l\u0027inventaire mat\u00E9riel et l\u0027envoie au serveur SCCM",
+  "category": "\uD83D\uDD04 Windows Updates",
+  "platform": "Windows",
+  "level": "Info",
+  "tags": [
+    "sccm",
+    "inventory",
+    "hardware",
+    "trigger"
+  ],
+  "windowsTemplateId": "8485d98f-3ff9-4cbd-a591-6923fcf55707",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Schedule ID {01} = Hardware Inventory Cycle. Utile apr\u00E8s modification mat\u00E9rielle ou pour forcer la mise \u00E0 jour de l\u0027inventaire dans SCCM.",
+  "links": [
+    {
+      "title": "SCCM Trigger Schedule IDs",
+      "url": "https://www.systemcenterdudes.com/configuration-manager-2012-client-command-list/"
+    }
+  ],
+  "isUserCreated": false
+}

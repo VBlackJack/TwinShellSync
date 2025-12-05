@@ -1,0 +1,24 @@
+{
+  "id": "396d0a19-7f9c-44c8-9a4e-668aa915efd8",
+  "name": "Set-Service",
+  "platform": "Windows",
+  "commandPattern": "Set-Service -Name \u0027{servicename}\u0027 -StartupType {startuptype}",
+  "parameters": [
+    {
+      "name": "servicename",
+      "label": "Nom du service",
+      "type": "string",
+      "defaultValue": "wuauserv",
+      "required": true,
+      "description": "Nom du service \u00E0 configurer"
+    },
+    {
+      "name": "startuptype",
+      "label": "Type de d\u00E9marrage",
+      "type": "string",
+      "defaultValue": "Automatic",
+      "required": true,
+      "description": "Automatic, Manual, Disabled, ou AutomaticDelayedStart"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "05c64daa-2f5a-42f2-aa44-2445f5a787fe",
+  "title": "Sauvegarder une GPO",
+  "description": "Cr\u00E9e une sauvegarde d\u0027une strat\u00E9gie de groupe sp\u00E9cifique.",
+  "category": "\uD83C\uDFE2 Active Directory \u0026 GPO",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "gpo",
+    "backup",
+    "save",
+    "group-policy"
+  ],
+  "windowsTemplateId": "bd5ecbbc-85b2-4a9d-afb8-b7c3c6a56867",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Le dossier de destination doit exister. La sauvegarde inclut tous les param\u00E8tres de la GPO.",
+  "links": [
+    {
+      "title": "Documentation Backup-GPO",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/grouppolicy/backup-gpo"
+    }
+  ],
+  "isUserCreated": false
+}

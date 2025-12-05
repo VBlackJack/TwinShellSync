@@ -1,0 +1,16 @@
+{
+  "id": "41cd1f7a-8c43-451b-bc63-e1d5eb7a98c0",
+  "name": "sha256sum",
+  "platform": "Linux",
+  "commandPattern": "sha256sum \u0022{filePath}\u0022",
+  "parameters": [
+    {
+      "name": "filePath",
+      "label": "Chemin du fichier",
+      "type": "string",
+      "defaultValue": "/path/to/file",
+      "required": true,
+      "description": "Chemin complet du fichier \u00E0 hasher"
+    }
+  ]
+}

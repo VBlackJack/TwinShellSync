@@ -1,0 +1,20 @@
+{
+  "id": "30a92012-05ed-476a-8530-e6a82e68a44d",
+  "title": "Tester la connexion au serveur WSUS",
+  "description": "V\u00E9rifie la configuration et la connectivit\u00E9 au serveur WSUS",
+  "category": "\uD83D\uDD04 Windows Updates",
+  "platform": "Windows",
+  "level": "Info",
+  "tags": [
+    "wsus",
+    "connectivity",
+    "diagnostics"
+  ],
+  "windowsTemplateId": "dac6896b-77bc-451a-b66d-35d7255b9b37",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "V\u00E9rifie la configuration du registre et teste la connectivit\u00E9 r\u00E9seau. Port 8530 = HTTP, 8531 = HTTPS.",
+  "links": [],
+  "isUserCreated": false
+}

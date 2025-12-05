@@ -1,0 +1,22 @@
+{
+  "id": "eda7317e-c44b-4be6-b06b-b67dbc5f5792",
+  "title": "Compiler avec Make",
+  "description": "Ex\u00E9cute un Makefile pour compiler un projet C/C\u002B\u002B.",
+  "category": "\uD83D\uDD27 Development",
+  "platform": "Linux",
+  "level": "Info",
+  "tags": [
+    "make",
+    "c",
+    "cpp",
+    "build",
+    "linux"
+  ],
+  "linuxTemplateId": "02c0ccf5-3209-4045-ac30-aedab5b26ee4",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "-j permet la compilation parall\u00E8le. make clean supprime les fichiers compil\u00E9s.",
+  "links": [],
+  "isUserCreated": false
+}

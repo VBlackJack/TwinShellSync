@@ -1,0 +1,7 @@
+{
+  "id": "09dec823-80e2-4356-8145-dc6d56fdffee",
+  "name": "Disable-AllAppPermissions",
+  "platform": "Windows",
+  "commandPattern": "$permissions = @(\u0027location\u0027, \u0027webcam\u0027, \u0027microphone\u0027, \u0027documentsLibrary\u0027, \u0027broadFileSystemAccess\u0027, \u0027contacts\u0027, \u0027appointments\u0027, \u0027email\u0027, \u0027userNotificationListener\u0027, \u0027phoneCall\u0027, \u0027radios\u0027, \u0027chat\u0027); foreach ($perm in $permissions) { $path = \u0022HKCU:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\CapabilityAccessManager\\ConsentStore\\$perm\u0022; New-Item -Path $path -Force | Out-Null; Set-ItemProperty -Path $path -Name \u0027Value\u0027 -Type String -Value \u0027Deny\u0027 -ErrorAction SilentlyContinue }",
+  "parameters": []
+}

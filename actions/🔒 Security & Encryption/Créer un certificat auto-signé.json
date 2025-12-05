@@ -1,0 +1,30 @@
+{
+  "id": "a16987ea-1c8b-4853-9ce2-a5f75033a1fc",
+  "title": "Cr\u00E9er un certificat auto-sign\u00E9",
+  "description": "G\u00E9n\u00E8re un nouveau certificat auto-sign\u00E9 pour des tests, d\u00E9veloppement ou usage interne. Non recommand\u00E9 pour la production publique.",
+  "category": "\uD83D\uDD12 Security \u0026 Encryption",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "certificate",
+    "self-signed",
+    "create",
+    "ssl",
+    "tls",
+    "development",
+    "testing",
+    "crypto"
+  ],
+  "windowsTemplateId": "e71f8098-4f0d-4a0e-b086-9ed62f86d569",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Les certificats auto-sign\u00E9s g\u00E9n\u00E8rent des avertissements de s\u00E9curit\u00E9 dans les navigateurs. Pour IIS, liez le certificat au site apr\u00E8s cr\u00E9ation.",
+  "links": [
+    {
+      "title": "Documentation New-SelfSignedCertificate",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/pki/new-selfsignedcertificate"
+    }
+  ],
+  "isUserCreated": false
+}

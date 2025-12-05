@@ -1,0 +1,26 @@
+{
+  "id": "2947b0be-3782-445d-b015-113a56e77fc6",
+  "title": "Surveiller l\u0027utilisation CPU en temps r\u00E9el",
+  "description": "Collecte et affiche l\u0027utilisation du processeur en temps r\u00E9el avec plusieurs \u00E9chantillons",
+  "category": "\u26A1 Performance",
+  "platform": "Windows",
+  "level": "Info",
+  "tags": [
+    "performance",
+    "cpu",
+    "monitoring",
+    "counter"
+  ],
+  "windowsTemplateId": "0cb35992-7592-4657-a861-d1a50a064fe9",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Remplace Performance Monitor. Continuous = surveillance continue jusqu\u0027\u00E0 Ctrl\u002BC. Valeurs \u003E80% indiquent une charge \u00E9lev\u00E9e.",
+  "links": [
+    {
+      "title": "Get-Counter Documentation",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.diagnostics/get-counter"
+    }
+  ],
+  "isUserCreated": false
+}

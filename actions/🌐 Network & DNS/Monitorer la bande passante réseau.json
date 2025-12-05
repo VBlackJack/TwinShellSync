@@ -1,0 +1,27 @@
+{
+  "id": "fa8a7602-5b6f-42ca-9c01-7e6cabdcf613",
+  "title": "Monitorer la bande passante r\u00E9seau",
+  "description": "Affiche l\u0027utilisation de la bande passante r\u00E9seau en temps r\u00E9el par connexion",
+  "category": "\uD83C\uDF10 Network \u0026 DNS",
+  "platform": "Linux",
+  "level": "Info",
+  "tags": [
+    "iftop",
+    "bandwidth",
+    "network",
+    "monitoring",
+    "traffic"
+  ],
+  "linuxTemplateId": "955701ac-9175-40fc-90e2-5ab8308c7eb8",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "N\u00E9cessite sudo et le package iftop. q pour quitter. Tr\u00E8s utile pour identifier l\u0027usage r\u00E9seau.",
+  "links": [
+    {
+      "title": "iftop documentation",
+      "url": "http://www.ex-parrot.com/pdw/iftop/"
+    }
+  ],
+  "isUserCreated": false
+}

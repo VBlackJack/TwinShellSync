@@ -1,0 +1,26 @@
+{
+  "id": "bbecf5c3-8396-4d08-8891-3a9820f62826",
+  "title": "R\u00E9parer le client SCCM",
+  "description": "Ex\u00E9cute la r\u00E9paration automatique du client SCCM pour r\u00E9soudre les probl\u00E8mes de communication",
+  "category": "\uD83D\uDD04 Windows Updates",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "sccm",
+    "client",
+    "repair",
+    "troubleshoot"
+  ],
+  "windowsTemplateId": "afdccdc2-5c17-4a3a-a74a-1d6e454bcaf8",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "ATTENTION: La r\u00E9paration peut prendre plusieurs minutes. Le client SCCM r\u00E9installera les composants endommag\u00E9s. V\u00E9rifier les logs dans C:\\Windows\\CCM\\Logs\\ccmrepair.log",
+  "links": [
+    {
+      "title": "SCCM Client Repair",
+      "url": "https://learn.microsoft.com/en-us/mem/configmgr/core/clients/manage/client-notification"
+    }
+  ],
+  "isUserCreated": false
+}

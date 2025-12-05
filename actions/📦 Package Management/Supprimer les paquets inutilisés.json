@@ -1,0 +1,26 @@
+{
+  "id": "07c92036-0843-4c84-b5a1-575f904c4f1e",
+  "title": "Supprimer les paquets inutilis\u00E9s",
+  "description": "Supprime les paquets de d\u00E9pendances qui ne sont plus n\u00E9cessaires",
+  "category": "\uD83D\uDCE6 Package Management",
+  "platform": "Linux",
+  "level": "Run",
+  "tags": [
+    "apt",
+    "autoremove",
+    "cleanup",
+    "maintenance"
+  ],
+  "linuxTemplateId": "b01b3f4e-9d8e-4803-b0fc-aaa234b221b2",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "N\u00E9cessite sudo. Ex\u00E9cuter r\u00E9guli\u00E8rement pour lib\u00E9rer de l\u0027espace disque.",
+  "links": [
+    {
+      "title": "APT autoremove",
+      "url": "https://manpages.ubuntu.com/manpages/jammy/man8/apt.8.html"
+    }
+  ],
+  "isUserCreated": false
+}

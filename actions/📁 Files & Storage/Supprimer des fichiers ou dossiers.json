@@ -1,0 +1,30 @@
+{
+  "id": "ef5876d2-7136-4136-8231-90b2597f23b1",
+  "title": "Supprimer des fichiers ou dossiers",
+  "description": "Supprime des fichiers ou des r\u00E9pertoires de mani\u00E8re permanente.",
+  "category": "\uD83D\uDCC1 Files \u0026 Storage",
+  "platform": "Both",
+  "level": "Dangerous",
+  "tags": [
+    "linux",
+    "windows",
+    "fichier",
+    "delete",
+    "remove",
+    "rm",
+    "supprimer"
+  ],
+  "windowsTemplateId": "69721c3f-9326-4d04-828b-f604118e25d8",
+  "linuxTemplateId": "6f23c835-4f91-4978-9aca-b95cf87a0eac",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Windows: ATTENTION: Suppression d\u00E9finitive, pas de corbeille. -Recurse supprime les sous-dossiers.\nLinux: ATTENTION: rm -rf est dangereux! -r pour r\u00E9cursif, -f pour forcer, -i pour demander confirmation.",
+  "links": [
+    {
+      "title": "Documentation Remove-Item",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/remove-item"
+    }
+  ],
+  "isUserCreated": false
+}

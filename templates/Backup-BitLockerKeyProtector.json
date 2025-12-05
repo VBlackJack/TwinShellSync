@@ -1,0 +1,16 @@
+{
+  "id": "ecc34c38-4643-41b2-9ed2-1f1e0c66f944",
+  "name": "Backup-BitLockerKeyProtector",
+  "platform": "Windows",
+  "commandPattern": "$keyProtector = (Get-BitLockerVolume -MountPoint \u0022{driveLetter}:\u0022).KeyProtector | Where-Object {$_.KeyProtectorType -eq \u0027RecoveryPassword\u0027}; Backup-BitLockerKeyProtector -MountPoint \u0022{driveLetter}:\u0022 -KeyProtectorId $keyProtector[0].KeyProtectorId",
+  "parameters": [
+    {
+      "name": "driveLetter",
+      "label": "Lettre du disque",
+      "type": "string",
+      "defaultValue": "C",
+      "required": true,
+      "description": "Lettre du volume (ex: C, D, E)"
+    }
+  ]
+}

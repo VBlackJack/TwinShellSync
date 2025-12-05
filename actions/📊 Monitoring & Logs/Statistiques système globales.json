@@ -1,0 +1,27 @@
+{
+  "id": "25f7a78b-5b0f-47a0-ade4-379027952e4f",
+  "title": "Statistiques syst\u00E8me globales",
+  "description": "Affiche les statistiques de m\u00E9moire virtuelle, CPU, I/O et processus",
+  "category": "\uD83D\uDCCA Monitoring \u0026 Logs",
+  "platform": "Linux",
+  "level": "Info",
+  "tags": [
+    "vmstat",
+    "memory",
+    "cpu",
+    "performance",
+    "statistics"
+  ],
+  "linuxTemplateId": "0f735b8f-cc90-48b2-aa6a-d2917630b121",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Ne n\u00E9cessite pas sudo. Colonnes: r=runnable, b=blocked, swpd=swap, free=RAM libre, etc.",
+  "links": [
+    {
+      "title": "vmstat command",
+      "url": "https://man7.org/linux/man-pages/man8/vmstat.8.html"
+    }
+  ],
+  "isUserCreated": false
+}

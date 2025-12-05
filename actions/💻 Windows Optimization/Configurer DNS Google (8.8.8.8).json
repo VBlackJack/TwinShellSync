@@ -1,0 +1,28 @@
+{
+  "id": "3d1be103-1530-49ff-998f-8b006b5ef9d2",
+  "title": "Configurer DNS Google (8.8.8.8)",
+  "description": "Configure les serveurs DNS Google (8.8.8.8 et 8.8.4.4) pour am\u00E9liorer la vitesse de r\u00E9solution DNS et la fiabilit\u00E9.",
+  "category": "\uD83D\uDCBB Windows Optimization",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "performance",
+    "dns",
+    "network",
+    "google",
+    "optimisation",
+    "windows"
+  ],
+  "windowsTemplateId": "2e299fce-fe8b-4ce6-a2e4-eae19b0c2123",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "DNS Google: rapide et fiable. Vitesse moyenne ~20ms. Vide automatiquement le cache DNS apr\u00E8s configuration.",
+  "links": [
+    {
+      "title": "Google Public DNS",
+      "url": "https://developers.google.com/speed/public-dns"
+    }
+  ],
+  "isUserCreated": false
+}

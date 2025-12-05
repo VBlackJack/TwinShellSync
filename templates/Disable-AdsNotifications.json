@@ -1,0 +1,7 @@
+{
+  "id": "71ef4a2f-9590-44ed-9ed9-2d8d3c9fcf52",
+  "name": "Disable-AdsNotifications",
+  "platform": "Windows",
+  "commandPattern": "New-Item -Path \u0027HKCU:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\ContentDeliveryManager\u0027 -Force | Out-Null; Set-ItemProperty -Path \u0027HKCU:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\ContentDeliveryManager\u0027 -Name \u0027SilentInstalledAppsEnabled\u0027 -Type DWord -Value 0; Set-ItemProperty -Path \u0027HKCU:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\ContentDeliveryManager\u0027 -Name \u0027SystemPaneSuggestionsEnabled\u0027 -Type DWord -Value 0; Set-ItemProperty -Path \u0027HKCU:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\ContentDeliveryManager\u0027 -Name \u0027SubscribedContent-338388Enabled\u0027 -Type DWord -Value 0; Set-ItemProperty -Path \u0027HKCU:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\ContentDeliveryManager\u0027 -Name \u0027SubscribedContent-338389Enabled\u0027 -Type DWord -Value 0; Set-ItemProperty -Path \u0027HKCU:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\ContentDeliveryManager\u0027 -Name \u0027SubscribedContent-353694Enabled\u0027 -Type DWord -Value 0; Set-ItemProperty -Path \u0027HKCU:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\ContentDeliveryManager\u0027 -Name \u0027SubscribedContent-353696Enabled\u0027 -Type DWord -Value 0",
+  "parameters": []
+}

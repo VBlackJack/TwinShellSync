@@ -1,5 +1,0 @@
-id: 32086870-01b8-4532-98e3-7be2c7d7d230
-name: Update-MpSignature
-platform: Windows
-commandPattern: Update-MpSignature -Verbose
-parameters: []

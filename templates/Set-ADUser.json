@@ -1,0 +1,16 @@
+{
+  "id": "c12db0e6-f88d-4d97-93b8-381a1155804c",
+  "name": "Set-ADUser",
+  "platform": "Windows",
+  "commandPattern": "Set-ADUser -Identity {username} -ChangePasswordAtLogon $true",
+  "parameters": [
+    {
+      "name": "username",
+      "label": "Nom d\u0027utilisateur",
+      "type": "string",
+      "defaultValue": "",
+      "required": true,
+      "description": "SamAccountName de l\u0027utilisateur"
+    }
+  ]
+}

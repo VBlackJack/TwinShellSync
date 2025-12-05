@@ -1,0 +1,30 @@
+{
+  "id": "b60301c2-3dc3-46bf-926c-89cafbf0d801",
+  "title": "Configurer DNS Quad9",
+  "description": "Configure les serveurs DNS Quad9 (9.9.9.9 et 149.112.112.112) avec blocage automatique des domaines malveillants.",
+  "category": "\uD83D\uDCBB Windows Optimization",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "performance",
+    "dns",
+    "network",
+    "quad9",
+    "security",
+    "privacy",
+    "optimisation",
+    "windows"
+  ],
+  "windowsTemplateId": "7a1437bc-1dd1-4e07-80bf-1c16fc4b4ff0",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "DNS Quad9: \u00E9quilibre entre performance et s\u00E9curit\u00E9. Blocage automatique des domaines malveillants. Ne conserve pas les donn\u00E9es personnelles. Organisation \u00E0 but non lucratif bas\u00E9e en Suisse.",
+  "links": [
+    {
+      "title": "Quad9 DNS",
+      "url": "https://www.quad9.net/"
+    }
+  ],
+  "isUserCreated": false
+}

@@ -1,0 +1,24 @@
+{
+  "id": "c3249d82-15b5-4d10-bc7d-3756bbd7d6db",
+  "name": "Move-ADObject",
+  "platform": "Windows",
+  "commandPattern": "Move-ADObject -Identity \u0022{objectDN}\u0022 -TargetPath \u0022{targetOU}\u0022",
+  "parameters": [
+    {
+      "name": "objectDN",
+      "label": "DN de l\u0027objet",
+      "type": "string",
+      "defaultValue": "",
+      "required": true,
+      "description": "Distinguished Name complet de l\u0027objet \u00E0 d\u00E9placer"
+    },
+    {
+      "name": "targetOU",
+      "label": "OU de destination",
+      "type": "string",
+      "defaultValue": "",
+      "required": true,
+      "description": "Distinguished Name de l\u0027OU de destination"
+    }
+  ]
+}

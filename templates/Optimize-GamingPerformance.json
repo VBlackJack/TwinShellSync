@@ -1,0 +1,7 @@
+{
+  "id": "bdbc19ab-7bff-4d1c-a03e-ab198cd8c58b",
+  "name": "Optimize-GamingPerformance",
+  "platform": "Windows",
+  "commandPattern": "Set-ItemProperty -Path \u0027HKCU:\\Software\\Microsoft\\GameBar\u0027 -Name \u0027AutoGameModeEnabled\u0027 -Type DWord -Value 1 -ErrorAction SilentlyContinue; Set-ItemProperty -Path \u0027HKCU:\\Software\\Microsoft\\GameBar\u0027 -Name \u0027AllowAutoGameMode\u0027 -Type DWord -Value 1 -ErrorAction SilentlyContinue; Set-ItemProperty -Path \u0027HKCU:\\System\\GameConfigStore\u0027 -Name \u0027GameDVR_Enabled\u0027 -Type DWord -Value 0 -ErrorAction SilentlyContinue; Set-ItemProperty -Path \u0027HKCU:\\System\\GameConfigStore\u0027 -Name \u0027GameDVR_FSEBehaviorMode\u0027 -Type DWord -Value 2 -ErrorAction SilentlyContinue; New-Item -Path \u0027HKLM:\\SOFTWARE\\Microsoft\\PolicyManager\\default\\ApplicationManagement\\AllowGameDVR\u0027 -Force -ErrorAction SilentlyContinue | Out-Null; Set-ItemProperty -Path \u0027HKLM:\\SOFTWARE\\Microsoft\\PolicyManager\\default\\ApplicationManagement\\AllowGameDVR\u0027 -Name \u0027value\u0027 -Type DWord -Value 0 -ErrorAction SilentlyContinue; Set-ItemProperty -Path \u0027HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\GameDVR\u0027 -Name \u0027AppCaptureEnabled\u0027 -Type DWord -Value 0 -ErrorAction SilentlyContinue; Write-Host \u0022Optimisations gaming activ\u00E9es\u0022 -ForegroundColor Green",
+  "parameters": []
+}

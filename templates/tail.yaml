@@ -1,5 +1,0 @@
-id: 6d14a2f2-6c60-478b-8199-63cb27197942
-name: tail
-platform: Linux
-commandPattern: tail -f /var/log/syslog
-parameters: []

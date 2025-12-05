@@ -1,0 +1,27 @@
+{
+  "id": "69be4808-2504-4199-bb20-170b129bf858",
+  "title": "Historique des d\u00E9marrages et arr\u00EAts syst\u00E8me",
+  "description": "Liste tous les \u00E9v\u00E9nements de d\u00E9marrage (EventID 6005) et arr\u00EAt (EventID 6006) du syst\u00E8me",
+  "category": "\uD83D\uDCCA Monitoring \u0026 Logs",
+  "platform": "Windows",
+  "level": "Info",
+  "tags": [
+    "eventlog",
+    "startup",
+    "shutdown",
+    "system",
+    "uptime"
+  ],
+  "windowsTemplateId": "83fb1553-19ff-4917-bf84-59f07600b904",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "EventID 6005 = d\u00E9marrage Event Log service, 6006 = arr\u00EAt Event Log service, 1074 = arr\u00EAt initi\u00E9 par utilisateur/application.",
+  "links": [
+    {
+      "title": "System Event IDs",
+      "url": "https://learn.microsoft.com/en-us/windows/win32/eventlog/event-logging"
+    }
+  ],
+  "isUserCreated": false
+}

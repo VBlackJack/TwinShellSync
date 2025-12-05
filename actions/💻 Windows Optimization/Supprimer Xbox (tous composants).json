@@ -1,0 +1,22 @@
+{
+  "id": "e8e8bc16-3908-463d-9020-f687fb2a7b3b",
+  "title": "Supprimer Xbox (tous composants)",
+  "description": "\u26A0\uFE0F DANGEROUS: Supprime tous les composants Xbox (App, Game Bar, Gaming Services).",
+  "category": "\uD83D\uDCBB Windows Optimization",
+  "platform": "Windows",
+  "level": "Dangerous",
+  "tags": [
+    "debloat",
+    "xbox",
+    "gaming",
+    "dangerous",
+    "windows"
+  ],
+  "windowsTemplateId": "58ddc8b0-6f49-4226-af1a-3dd559066208",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "\u26A0\uFE0F ATTENTION: Cette action est irr\u00E9versible. Sauvegarde syst\u00E8me recommand\u00E9e. Supprime tous les composants Xbox incluant Game Bar.",
+  "links": [],
+  "isUserCreated": false
+}

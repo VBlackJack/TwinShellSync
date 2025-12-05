@@ -1,0 +1,27 @@
+{
+  "id": "029a4b2f-59ba-442b-ada4-9171078ef0e6",
+  "title": "\u00C9diter la configuration sudo",
+  "description": "\u00C9dite le fichier sudoers de mani\u00E8re s\u00E9curis\u00E9e pour configurer les droits sudo",
+  "category": "\uD83D\uDC27 Linux Administration",
+  "platform": "Linux",
+  "level": "Dangerous",
+  "tags": [
+    "sudo",
+    "visudo",
+    "sudoers",
+    "permissions",
+    "security"
+  ],
+  "linuxTemplateId": "caf25094-d023-4ca8-871d-3e4437e9f0e7",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "TOUJOURS utiliser visudo, JAMAIS \u00E9diter /etc/sudoers directement. V\u00E9rifie la syntaxe avant sauvegarde.",
+  "links": [
+    {
+      "title": "visudo documentation",
+      "url": "https://man7.org/linux/man-pages/man8/visudo.8.html"
+    }
+  ],
+  "isUserCreated": false
+}

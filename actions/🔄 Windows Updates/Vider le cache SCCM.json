@@ -1,0 +1,20 @@
+{
+  "id": "7218e287-ff0f-46f3-906c-527a8b731563",
+  "title": "Vider le cache SCCM",
+  "description": "Supprime tous les fichiers du cache du client Configuration Manager",
+  "category": "\uD83D\uDD04 Windows Updates",
+  "platform": "Windows",
+  "level": "Dangerous",
+  "tags": [
+    "sccm",
+    "cache",
+    "cleanup"
+  ],
+  "windowsTemplateId": "210ecb4e-1345-40ae-892d-ab7c15d3b802",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Droits administrateur requis. Lib\u00E8re de l\u0027espace disque en supprimant les packages t\u00E9l\u00E9charg\u00E9s.",
+  "links": [],
+  "isUserCreated": false
+}

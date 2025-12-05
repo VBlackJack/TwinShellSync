@@ -1,0 +1,22 @@
+{
+  "id": "4e2873f6-cd60-4ddb-adc7-cbd774f73572",
+  "title": "D\u00E9sactiver les recommandations Edge",
+  "description": "D\u00E9sactive les recommandations et suggestions dans Microsoft Edge.",
+  "category": "\uD83D\uDCBB Windows Optimization",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "debloat",
+    "edge",
+    "recommendations",
+    "privacy",
+    "windows"
+  ],
+  "windowsTemplateId": "a4b15d2c-5276-476b-87a3-76985d0ffe90",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "D\u00E9sactive les suggestions de contenu dans Edge. N\u00E9cessite des droits administrateur.",
+  "links": [],
+  "isUserCreated": false
+}

@@ -1,0 +1,27 @@
+{
+  "id": "8809cc00-9a25-4912-81bb-f45d7a2bdafb",
+  "title": "G\u00E9rer les partitions avec fdisk",
+  "description": "Outil de partitionnement de disques (MBR/GPT)",
+  "category": "\uD83D\uDC27 Linux Administration",
+  "platform": "Linux",
+  "level": "Dangerous",
+  "tags": [
+    "fdisk",
+    "partition",
+    "disk",
+    "mbr",
+    "gpt"
+  ],
+  "linuxTemplateId": "ecdb5761-90e3-4573-93de-bbded4173db6",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "N\u00E9cessite sudo. DANGER: peut d\u00E9truire des donn\u00E9es. Mode interactif: m=aide, p=afficher, w=\u00E9crire.",
+  "links": [
+    {
+      "title": "fdisk guide",
+      "url": "https://man7.org/linux/man-pages/man8/fdisk.8.html"
+    }
+  ],
+  "isUserCreated": false
+}

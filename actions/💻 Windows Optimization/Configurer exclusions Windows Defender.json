@@ -1,0 +1,28 @@
+{
+  "id": "ffc4d7aa-7246-42a6-9b83-0afe77315df5",
+  "title": "Configurer exclusions Windows Defender",
+  "description": "Ajoute des exclusions \u00E0 Windows Defender pour am\u00E9liorer les performances (dossiers de jeux, outils de dev, etc.).",
+  "category": "\uD83D\uDCBB Windows Optimization",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "performance",
+    "defender",
+    "antivirus",
+    "exclusions",
+    "optimisation",
+    "windows"
+  ],
+  "windowsTemplateId": "a8f2b6a2-e168-49c3-bbf9-f1cf33913840",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "\u26A0\uFE0F Exclusions Defender: am\u00E9liore perfs en \u00E9vitant le scan temps r\u00E9el sur certains dossiers. Utile pour: jeux (Steam/Epic/GOG), outils dev (Visual Studio, Node.js), VMs. N\u0027EXCLUEZ JAMAIS: Downloads, Documents, Desktop, AppData. Risque s\u00E9curit\u00E9 si mauvaise utilisation.",
+  "links": [
+    {
+      "title": "Defender Exclusions Best Practices",
+      "url": "https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/configure-exclusions-microsoft-defender-antivirus"
+    }
+  ],
+  "isUserCreated": false
+}

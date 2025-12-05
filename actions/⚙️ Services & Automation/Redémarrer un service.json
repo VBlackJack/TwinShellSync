@@ -1,0 +1,23 @@
+{
+  "id": "f1729384-1adc-40b3-82d8-8c1b192a61b7",
+  "title": "Red\u00E9marrer un service",
+  "description": "Red\u00E9marre un service Windows.",
+  "category": "\u2699\uFE0F Services \u0026 Automation",
+  "platform": "Both",
+  "level": "Run",
+  "tags": [
+    "linux",
+    "windows",
+    "restart",
+    "service",
+    "systemd"
+  ],
+  "windowsTemplateId": "faf3edd2-5b77-4287-8de9-dde72b4c9405",
+  "linuxTemplateId": "740936b4-c7ae-44ff-b4d6-9f71ead94f8c",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Windows: N\u00E9cessite des droits administrateur. -Force arr\u00EAte les services d\u00E9pendants.\nLinux: N\u00E9cessite les droits sudo. Utile apr\u00E8s modification de configuration.",
+  "links": [],
+  "isUserCreated": false
+}

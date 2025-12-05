@@ -1,0 +1,20 @@
+{
+  "id": "2aa57fc9-fcc3-400f-8fee-5031d6936abd",
+  "title": "Rechercher des ordinateurs AD",
+  "description": "Recherche des ordinateurs Active Directory par nom ou syst\u00E8me d\u0027exploitation.",
+  "category": "\uD83C\uDFE2 Active Directory \u0026 GPO",
+  "platform": "Windows",
+  "level": "Info",
+  "tags": [
+    "ad",
+    "computer",
+    "search"
+  ],
+  "windowsTemplateId": "d35637a0-75be-4e02-919e-7c0e4ff3eff8",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Pour rechercher par OS, modifier le filtre: -Filter {OperatingSystem -like \u0027*Windows 11*\u0027}.",
+  "links": [],
+  "isUserCreated": false
+}

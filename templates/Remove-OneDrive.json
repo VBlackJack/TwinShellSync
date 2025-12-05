@@ -1,0 +1,7 @@
+{
+  "id": "fec53cac-dcf0-4213-8ecd-98d133258053",
+  "name": "Remove-OneDrive",
+  "platform": "Windows",
+  "commandPattern": "taskkill /f /im OneDrive.exe; Start-Sleep -Seconds 2; if (Test-Path \u0022$env:SystemRoot\\System32\\OneDriveSetup.exe\u0022) { \u0026 \u0022$env:SystemRoot\\System32\\OneDriveSetup.exe\u0022 /uninstall } elseif (Test-Path \u0022$env:SystemRoot\\SysWOW64\\OneDriveSetup.exe\u0022) { \u0026 \u0022$env:SystemRoot\\SysWOW64\\OneDriveSetup.exe\u0022 /uninstall }; Start-Sleep -Seconds 5; Remove-Item -Path \u0022$env:USERPROFILE\\OneDrive\u0022 -Force -Recurse -ErrorAction SilentlyContinue; Remove-Item -Path \u0022$env:LOCALAPPDATA\\Microsoft\\OneDrive\u0022 -Force -Recurse -ErrorAction SilentlyContinue; Remove-Item -Path \u0022$env:PROGRAMDATA\\Microsoft OneDrive\u0022 -Force -Recurse -ErrorAction SilentlyContinue",
+  "parameters": []
+}

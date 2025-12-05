@@ -1,5 +1,0 @@
-id: 19375d9c-df48-4f54-b3cc-9f006e702241
-name: Get-MpThreat
-platform: Windows
-commandPattern: Get-MpThreat | Select-Object ThreatName,SeverityID,Resources,InitialDetectionTime | Format-Table -AutoSize
-parameters: []

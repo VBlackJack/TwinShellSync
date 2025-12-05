@@ -1,0 +1,27 @@
+{
+  "id": "8ca774c2-4cc9-4cab-86ab-f18503c2556c",
+  "title": "Formater une partition",
+  "description": "Cr\u00E9e un syst\u00E8me de fichiers sur une partition",
+  "category": "\uD83D\uDC27 Linux Administration",
+  "platform": "Linux",
+  "level": "Dangerous",
+  "tags": [
+    "mkfs",
+    "format",
+    "filesystem",
+    "ext4",
+    "xfs"
+  ],
+  "linuxTemplateId": "bf05c3e2-e4c8-4dbc-9ab4-6fb756034ead",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "N\u00E9cessite sudo. DANGER: d\u00E9truit toutes les donn\u00E9es de la partition.",
+  "links": [
+    {
+      "title": "mkfs documentation",
+      "url": "https://man7.org/linux/man-pages/man8/mkfs.8.html"
+    }
+  ],
+  "isUserCreated": false
+}

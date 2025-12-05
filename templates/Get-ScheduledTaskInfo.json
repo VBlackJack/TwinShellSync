@@ -1,0 +1,24 @@
+{
+  "id": "513eb3ab-d967-47f7-a046-30ee5a73e248",
+  "name": "Get-ScheduledTaskInfo",
+  "platform": "Windows",
+  "commandPattern": "Get-ScheduledTaskInfo -TaskName \u0027{taskname}\u0027 {taskpath}",
+  "parameters": [
+    {
+      "name": "taskname",
+      "label": "Nom de la t\u00E2che",
+      "type": "string",
+      "defaultValue": "MyTask",
+      "required": true,
+      "description": "Nom de la t\u00E2che"
+    },
+    {
+      "name": "taskpath",
+      "label": "Chemin",
+      "type": "string",
+      "defaultValue": "",
+      "required": false,
+      "description": "Chemin de la t\u00E2che"
+    }
+  ]
+}

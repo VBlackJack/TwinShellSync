@@ -1,0 +1,23 @@
+{
+  "id": "8952b7f7-5fb2-4488-8f2a-988906156065",
+  "title": "Restaurer la synchronisation cloud",
+  "description": "R\u00E9active toute la synchronisation Windows avec le cloud Microsoft (annule WIN-PRIVACY-101).",
+  "category": "\uD83D\uDCBB Windows Optimization",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "privacy",
+    "confidentialit\u00E9",
+    "restore",
+    "sync",
+    "cloud",
+    "windows"
+  ],
+  "windowsTemplateId": "471fd793-9752-4594-b762-fe38dabcc467",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Restaure la synchronisation cloud par d\u00E9faut. Les param\u00E8tres, th\u00E8mes, mots de passe et navigateur seront \u00E0 nouveau synchronis\u00E9s.",
+  "links": [],
+  "isUserCreated": false
+}

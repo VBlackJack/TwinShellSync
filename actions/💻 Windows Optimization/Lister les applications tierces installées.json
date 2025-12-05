@@ -1,0 +1,22 @@
+{
+  "id": "6ea4e8e5-d79d-4f82-b572-bbc19feba656",
+  "title": "Lister les applications tierces install\u00E9es",
+  "description": "Affiche une liste compl\u00E8te de toutes les applications tierces install\u00E9es via AppX.",
+  "category": "\uD83D\uDCBB Windows Optimization",
+  "platform": "Windows",
+  "level": "Info",
+  "tags": [
+    "debloat",
+    "list",
+    "inventory",
+    "third-party",
+    "windows"
+  ],
+  "windowsTemplateId": "7a20d385-d4a3-4715-9431-eada61be6fcd",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Commande d\u0027information uniquement, ne modifie pas le syst\u00E8me.",
+  "links": [],
+  "isUserCreated": false
+}

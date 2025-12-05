@@ -1,0 +1,24 @@
+{
+  "id": "52bc1ab0-5715-40f8-8465-c6817966a72e",
+  "title": "D\u00E9sactiver t\u00E9l\u00E9m\u00E9trie Nvidia",
+  "description": "D\u00E9sactive la t\u00E9l\u00E9m\u00E9trie et les services de tracking des pilotes graphiques Nvidia (GeForce Experience).",
+  "category": "\uD83D\uDCBB Windows Optimization",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "privacy",
+    "confidentialit\u00E9",
+    "t\u00E9l\u00E9m\u00E9trie",
+    "nvidia",
+    "geforce",
+    "third-party",
+    "windows"
+  ],
+  "windowsTemplateId": "4fe36b64-5510-4a5b-a8ae-32dab988a291",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "D\u00E9sactive tous les services de t\u00E9l\u00E9m\u00E9trie Nvidia et GeForce Experience. Stoppe les t\u00E2ches planifi\u00E9es de collecte de donn\u00E9es. Am\u00E9liore la confidentialit\u00E9 sans affecter les performances graphiques.",
+  "links": [],
+  "isUserCreated": false
+}

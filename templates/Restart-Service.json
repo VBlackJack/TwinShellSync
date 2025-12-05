@@ -1,0 +1,24 @@
+{
+  "id": "0fb2c892-b91c-4bfc-a337-ea30241e1a72",
+  "name": "Restart-Service",
+  "platform": "Windows",
+  "commandPattern": "Restart-Service -Name \u0027{servicename}\u0027 {force}",
+  "parameters": [
+    {
+      "name": "servicename",
+      "label": "Nom du service",
+      "type": "string",
+      "defaultValue": "wuauserv",
+      "required": true,
+      "description": "Nom du service \u00E0 red\u00E9marrer"
+    },
+    {
+      "name": "force",
+      "label": "Forcer",
+      "type": "string",
+      "defaultValue": "-Force",
+      "required": false,
+      "description": "Forcer l\u0027arr\u00EAt (-Force)"
+    }
+  ]
+}

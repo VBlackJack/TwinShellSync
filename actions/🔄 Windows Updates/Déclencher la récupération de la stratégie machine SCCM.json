@@ -1,0 +1,26 @@
+{
+  "id": "4057d067-292d-4e85-a85a-e18e0834a886",
+  "title": "D\u00E9clencher la r\u00E9cup\u00E9ration de la strat\u00E9gie machine SCCM",
+  "description": "Force le client SCCM \u00E0 r\u00E9cup\u00E9rer et appliquer imm\u00E9diatement les strat\u00E9gies machine depuis le serveur",
+  "category": "\uD83D\uDD04 Windows Updates",
+  "platform": "Windows",
+  "level": "Info",
+  "tags": [
+    "sccm",
+    "policy",
+    "client",
+    "trigger"
+  ],
+  "windowsTemplateId": "024509bf-6477-477a-a1bc-1552cdd39c20",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Schedule ID {21} = Machine Policy Retrieval, {22} = Machine Policy Evaluation. N\u00E9cessite le client SCCM install\u00E9. V\u00E9rifier CCM.log pour confirmation.",
+  "links": [
+    {
+      "title": "SCCM Client Actions",
+      "url": "https://www.anoopcnair.com/trigger-sccm-client-agent-actions-powershell/"
+    }
+  ],
+  "isUserCreated": false
+}

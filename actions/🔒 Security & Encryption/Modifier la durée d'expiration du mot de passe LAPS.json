@@ -1,0 +1,25 @@
+{
+  "id": "ce0113ab-3ca0-4bf1-aacc-1a664355492b",
+  "title": "Modifier la dur\u00E9e d\u0027expiration du mot de passe LAPS",
+  "description": "Configure la dur\u00E9e de validit\u00E9 du mot de passe administrateur local g\u00E9r\u00E9 par LAPS.",
+  "category": "\uD83D\uDD12 Security \u0026 Encryption",
+  "platform": "Windows",
+  "level": "Dangerous",
+  "tags": [
+    "laps",
+    "configuration",
+    "expiration"
+  ],
+  "windowsTemplateId": "8aeae0ac-a558-4766-a995-06040fa4281c",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "\u26A0\uFE0F Cette commande force une date d\u0027expiration sp\u00E9cifique. Pour forcer rotation imm\u00E9diate: utilisez Reset-AdmPwdPassword. La dur\u00E9e par d\u00E9faut LAPS (GPO) est g\u00E9n\u00E9ralement 30 jours. Dur\u00E9es recommand\u00E9es: Serveurs critiques: 14-30j, Postes de travail: 30-60j, Laptops: 30-45j.",
+  "links": [
+    {
+      "title": "LAPS Configuration",
+      "url": "https://learn.microsoft.com/en-us/windows-server/identity/laps/laps-management-policy-settings"
+    }
+  ],
+  "isUserCreated": false
+}

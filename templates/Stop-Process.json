@@ -1,0 +1,16 @@
+{
+  "id": "496fcb61-a328-4a42-a310-c41fa25bc749",
+  "name": "Stop-Process",
+  "platform": "Windows",
+  "commandPattern": "Stop-Process -Id {processId} -Force",
+  "parameters": [
+    {
+      "name": "processId",
+      "label": "ID du processus",
+      "type": "int",
+      "defaultValue": "",
+      "required": true,
+      "description": "ID num\u00E9rique du processus \u00E0 terminer"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "8ca27a2c-0b0f-472e-a802-b10b5a198794",
+  "name": "blkid",
+  "platform": "Linux",
+  "commandPattern": "blkid {device}",
+  "parameters": [
+    {
+      "name": "device",
+      "label": "P\u00E9riph\u00E9rique",
+      "type": "string",
+      "defaultValue": "",
+      "required": false,
+      "description": "P\u00E9riph\u00E9rique sp\u00E9cifique (vide = tous)"
+    }
+  ]
+}

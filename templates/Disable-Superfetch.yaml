@@ -1,5 +1,0 @@
-id: 76cb9d94-aec0-4efc-a938-b42ff910331f
-name: Disable-Superfetch
-platform: Windows
-commandPattern: Stop-Service -Name 'SysMain' -Force -ErrorAction SilentlyContinue; Set-Service -Name 'SysMain' -StartupType Disabled; Write-Host "Superfetch/SysMain désactivé" -ForegroundColor Green
-parameters: []

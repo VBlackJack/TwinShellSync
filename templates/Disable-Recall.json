@@ -1,0 +1,7 @@
+{
+  "id": "f5b806b1-54eb-4697-a26b-2b3ba1b3ccb3",
+  "name": "Disable-Recall",
+  "platform": "Windows",
+  "commandPattern": "New-Item -Path \u0027HKCU:\\Software\\Policies\\Microsoft\\Windows\\WindowsAI\u0027 -Force | Out-Null; Set-ItemProperty -Path \u0027HKCU:\\Software\\Policies\\Microsoft\\Windows\\WindowsAI\u0027 -Name \u0027DisableAIDataAnalysis\u0027 -Type DWord -Value 1",
+  "parameters": []
+}

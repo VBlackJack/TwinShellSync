@@ -1,0 +1,26 @@
+{
+  "id": "f4d41148-46bf-46cc-8453-a0d80c432e40",
+  "title": "Afficher l\u0027historique des commits",
+  "description": "Affiche l\u0027historique des commits du d\u00E9p\u00F4t",
+  "category": "\uD83D\uDD27 Development",
+  "platform": "Both",
+  "level": "Info",
+  "tags": [
+    "git",
+    "log",
+    "history"
+  ],
+  "windowsTemplateId": "40b526c6-3f23-4493-b8c3-ce567b41eb71",
+  "linuxTemplateId": "d15d00cd-7b6f-42d6-b997-d174f686f8bd",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Utilisez --graph pour visualiser les branches, --stat pour voir les statistiques de modifications.",
+  "links": [
+    {
+      "title": "Git Log Documentation",
+      "url": "https://git-scm.com/docs/git-log"
+    }
+  ],
+  "isUserCreated": false
+}

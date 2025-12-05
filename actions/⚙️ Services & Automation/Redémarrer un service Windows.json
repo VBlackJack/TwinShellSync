@@ -1,0 +1,27 @@
+{
+  "id": "437c7833-b053-4566-959e-dfc1c2bb292d",
+  "title": "Red\u00E9marrer un service Windows",
+  "description": "Arr\u00EAte puis red\u00E9marre un service Windows",
+  "category": "\u2699\uFE0F Services \u0026 Automation",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "service",
+    "restart",
+    "windows",
+    "automation",
+    "management"
+  ],
+  "windowsTemplateId": "0fb2c892-b91c-4bfc-a337-ea30241e1a72",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "N\u00E9cessite des privil\u00E8ges admin. -Force arr\u00EAte les services d\u00E9pendants. Utile pour r\u00E9soudre des probl\u00E8mes.",
+  "links": [
+    {
+      "title": "Restart-Service Documentation",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/restart-service"
+    }
+  ],
+  "isUserCreated": false
+}

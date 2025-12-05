@@ -1,0 +1,25 @@
+{
+  "id": "8658a322-69bb-41aa-8117-23329071e4b4",
+  "title": "T\u00E9l\u00E9charger les mises \u00E0 jour sans installer",
+  "description": "T\u00E9l\u00E9charge les mises \u00E0 jour Windows disponibles sans les installer",
+  "category": "\uD83D\uDD04 Windows Updates",
+  "platform": "Windows",
+  "level": "Info",
+  "tags": [
+    "windows-update",
+    "download",
+    "pswindowsupdate"
+  ],
+  "windowsTemplateId": "a6b922f5-1c3a-4c04-9233-d47a74d09e1f",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Utile pour t\u00E9l\u00E9charger en avance et installer plus tard. N\u00E9cessite PSWindowsUpdate.",
+  "links": [
+    {
+      "title": "Download Windows Updates",
+      "url": "https://woshub.com/pswindowsupdate-module/"
+    }
+  ],
+  "isUserCreated": false
+}

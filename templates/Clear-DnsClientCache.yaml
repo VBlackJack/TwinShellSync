@@ -1,5 +1,0 @@
-id: e7787b33-3e17-4075-a15b-f4bb51353f02
-name: Clear-DnsClientCache
-platform: Windows
-commandPattern: Clear-DnsClientCache; Get-DnsClientCache
-parameters: []

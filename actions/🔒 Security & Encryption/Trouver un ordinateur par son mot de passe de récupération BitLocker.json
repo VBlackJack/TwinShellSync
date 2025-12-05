@@ -1,0 +1,27 @@
+{
+  "id": "f9b4ea10-9fb6-48d9-bcc1-e5d080e3e415",
+  "title": "Trouver un ordinateur par son mot de passe de r\u00E9cup\u00E9ration BitLocker",
+  "description": "Recherche dans AD quel ordinateur correspond \u00E0 un mot de passe de r\u00E9cup\u00E9ration BitLocker donn\u00E9 (utile quand un utilisateur a le mot de passe mais pas le nom du PC).",
+  "category": "\uD83D\uDD12 Security \u0026 Encryption",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "bitlocker",
+    "ad",
+    "search",
+    "recovery",
+    "domain-admin"
+  ],
+  "windowsTemplateId": "24834356-81ca-41cd-8718-06c8e958d1fb",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "CAS D\u0027USAGE: Utilisateur bloqu\u00E9 avec \u00E9cran de r\u00E9cup\u00E9ration BitLocker, fournit les premiers chiffres du mot de passe, admin cherche \u00E0 quel PC cela correspond. RECHERCHE PARTIELLE: Utilisez les premiers groupes de chiffres (ex: 123456-789012). RECHERCHE COMPL\u00C8TE: Utilisez le mot de passe entier pour match exact. Tr\u00E8s utile pour helpdesk!",
+  "links": [
+    {
+      "title": "BitLocker Recovery Scenarios",
+      "url": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/data-protection/bitlocker/recovery-overview"
+    }
+  ],
+  "isUserCreated": false
+}

@@ -1,0 +1,28 @@
+{
+  "id": "b497f498-6c16-4242-9aa4-94115d39d1bf",
+  "title": "Afficher les adresses IP",
+  "description": "Affiche toutes les interfaces r\u00E9seau et leurs adresses IP",
+  "category": "\uD83C\uDF10 Network \u0026 DNS",
+  "platform": "Linux",
+  "level": "Info",
+  "tags": [
+    "ip",
+    "network",
+    "interface",
+    "address",
+    "ipv4",
+    "ipv6"
+  ],
+  "linuxTemplateId": "2832e828-e512-45ff-b365-20f4c0e62690",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Ne n\u00E9cessite pas sudo pour la lecture. Remplace ifconfig. -br pour format condens\u00E9.",
+  "links": [
+    {
+      "title": "ip command",
+      "url": "https://man7.org/linux/man-pages/man8/ip.8.html"
+    }
+  ],
+  "isUserCreated": false
+}

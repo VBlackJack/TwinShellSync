@@ -1,0 +1,27 @@
+{
+  "id": "acd453f5-6497-471c-aa84-e580f22c1044",
+  "title": "D\u00E9sinstaller un package Chocolatey",
+  "description": "D\u00E9sinstalle un package pr\u00E9c\u00E9demment install\u00E9 via Chocolatey.",
+  "category": "\uD83D\uDCE6 Package Management",
+  "platform": "Windows",
+  "level": "Dangerous",
+  "tags": [
+    "chocolatey",
+    "package",
+    "uninstall",
+    "remove",
+    "windows"
+  ],
+  "windowsTemplateId": "b34fc80d-eb97-4480-b7a6-462bb0e612b3",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "\u26A0\uFE0F ATTENTION : Cette action supprime le package du syst\u00E8me. Assurez-vous de sauvegarder vos donn\u00E9es.",
+  "links": [
+    {
+      "title": "Chocolatey uninstall documentation",
+      "url": "https://docs.chocolatey.org/en-us/choco/commands/uninstall"
+    }
+  ],
+  "isUserCreated": false
+}

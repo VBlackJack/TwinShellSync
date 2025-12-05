@@ -1,0 +1,16 @@
+{
+  "id": "372f3b84-7ca4-425f-ac36-fddef3bb4fe1",
+  "name": "Get-FileHash",
+  "platform": "Windows",
+  "commandPattern": "Get-FileHash -Path \u0022{filePath}\u0022 -Algorithm SHA256",
+  "parameters": [
+    {
+      "name": "filePath",
+      "label": "Chemin du fichier",
+      "type": "string",
+      "defaultValue": "C:\\file.exe",
+      "required": true,
+      "description": "Chemin complet du fichier \u00E0 hasher"
+    }
+  ]
+}

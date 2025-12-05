@@ -1,0 +1,23 @@
+{
+  "id": "b10f44f3-72a0-4a46-adef-bd9174975be9",
+  "title": "D\u00E9sactiver les services non essentiels",
+  "description": "D\u00E9sactive plus de 200 services Windows non essentiels pour maximiser les performances (ATTENTION: r\u00E9serv\u00E9 aux utilisateurs avanc\u00E9s).",
+  "category": "\uD83D\uDCBB Windows Optimization",
+  "platform": "Windows",
+  "level": "Dangerous",
+  "tags": [
+    "performance",
+    "services",
+    "advanced",
+    "dangerous",
+    "optimisation",
+    "windows"
+  ],
+  "windowsTemplateId": "a3520c98-0812-499e-b7b9-0d16b0938f41",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "\u26A0\uFE0F DANGER: D\u00E9sactive plus de 200 services (t\u00E9l\u00E9m\u00E9trie, diagnostics, Bluetooth, impression, Xbox, biom\u00E9trie, services r\u00E9seau avanc\u00E9s, etc.). R\u00E9serv\u00E9 aux PC d\u00E9di\u00E9s gaming/performance pure. CR\u00C9E UN POINT DE RESTAURATION AVANT! Services critiques pr\u00E9serv\u00E9s: r\u00E9seau de base, stockage, s\u00E9curit\u00E9 syst\u00E8me.",
+  "links": [],
+  "isUserCreated": false
+}

@@ -1,0 +1,26 @@
+{
+  "id": "2fc2c3ba-8b90-4024-8472-5f5e6deaec93",
+  "title": "Afficher les logs d\u0027un d\u00E9marrage sp\u00E9cifique",
+  "description": "Liste les logs d\u0027une session de boot sp\u00E9cifique du syst\u00E8me",
+  "category": "\uD83D\uDCCA Monitoring \u0026 Logs",
+  "platform": "Linux",
+  "level": "Info",
+  "tags": [
+    "journalctl",
+    "boot",
+    "logs",
+    "startup"
+  ],
+  "linuxTemplateId": "46b0e56a-fb0f-47fa-96b4-f0d3f2998373",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Utile pour diagnostiquer les probl\u00E8mes au d\u00E9marrage. --list-boots affiche l\u0027historique des boots.",
+  "links": [
+    {
+      "title": "journalctl boot logs",
+      "url": "https://www.freedesktop.org/software/systemd/man/journalctl.html"
+    }
+  ],
+  "isUserCreated": false
+}

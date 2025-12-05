@@ -1,0 +1,26 @@
+{
+  "id": "e05d5ea3-16bf-48f4-ae91-57c0d9816602",
+  "title": "Lister les paquets install\u00E9s",
+  "description": "Affiche la liste de tous les paquets install\u00E9s sur le syst\u00E8me",
+  "category": "\uD83D\uDCE6 Package Management",
+  "platform": "Linux",
+  "level": "Info",
+  "tags": [
+    "apt",
+    "list",
+    "installed",
+    "packages"
+  ],
+  "linuxTemplateId": "20dce5d2-6249-4457-a6e1-b7de4d7f7332",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Ne n\u00E9cessite pas sudo. dpkg -l est une alternative. Ajouter | wc -l pour compter.",
+  "links": [
+    {
+      "title": "APT list",
+      "url": "https://manpages.ubuntu.com/manpages/jammy/man8/apt.8.html"
+    }
+  ],
+  "isUserCreated": false
+}

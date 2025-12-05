@@ -1,0 +1,26 @@
+{
+  "id": "2891f128-749c-47ae-9e3e-68406ee24454",
+  "title": "D\u00E9placer un objet AD vers une autre OU",
+  "description": "D\u00E9place un utilisateur, ordinateur ou autre objet vers une unit\u00E9 d\u0027organisation diff\u00E9rente.",
+  "category": "\uD83C\uDFE2 Active Directory \u0026 GPO",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "ad",
+    "move",
+    "ou",
+    "object"
+  ],
+  "windowsTemplateId": "c3249d82-15b5-4d10-bc7d-3756bbd7d6db",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "N\u00E9cessite le DN complet de l\u0027objet. Utiliser Get-ADUser/Get-ADComputer -Identity xxx pour obtenir le DN.",
+  "links": [
+    {
+      "title": "Documentation Move-ADObject",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/activedirectory/move-adobject"
+    }
+  ],
+  "isUserCreated": false
+}

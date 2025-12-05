@@ -1,0 +1,24 @@
+{
+  "id": "0ad7c18c-013e-4a3e-8793-7feee8217722",
+  "name": "ulimit",
+  "platform": "Linux",
+  "commandPattern": "ulimit -{option} {value}",
+  "parameters": [
+    {
+      "name": "option",
+      "label": "Option",
+      "type": "string",
+      "defaultValue": "a",
+      "required": true,
+      "description": "Option (a=all, n=files, u=processes, m=memory)"
+    },
+    {
+      "name": "value",
+      "label": "Valeur",
+      "type": "string",
+      "defaultValue": "",
+      "required": false,
+      "description": "Nouvelle valeur (vide = afficher)"
+    }
+  ]
+}

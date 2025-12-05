@@ -1,0 +1,26 @@
+{
+  "id": "7a38be41-a4b1-408a-ad72-375607d7c97b",
+  "title": "Lister les services de mise \u00E0 jour configur\u00E9s",
+  "description": "Affiche tous les services de mise \u00E0 jour Windows configur\u00E9s (Windows Update, WSUS, Microsoft Update)",
+  "category": "\uD83D\uDD04 Windows Updates",
+  "platform": "Windows",
+  "level": "Info",
+  "tags": [
+    "windows-update",
+    "service",
+    "wsus",
+    "pswindowsupdate"
+  ],
+  "windowsTemplateId": "bdfa91e5-52a8-4c37-829e-9f8da464eb4e",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Utile pour diagnostiquer les probl\u00E8mes de source de mises \u00E0 jour. N\u00E9cessite PSWindowsUpdate.",
+  "links": [
+    {
+      "title": "Windows Update Service Manager",
+      "url": "https://woshub.com/pswindowsupdate-module/"
+    }
+  ],
+  "isUserCreated": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "830e0599-d930-496f-b6fb-d617bbffa340",
+  "title": "Cr\u00E9er une archive TAR/GZ (Linux)",
+  "description": "Compresse des fichiers ou dossiers dans une archive tar.gz.",
+  "category": "\uD83D\uDCC1 Files \u0026 Storage",
+  "platform": "Linux",
+  "level": "Info",
+  "tags": [
+    "compression",
+    "tar",
+    "gzip",
+    "archive",
+    "linux"
+  ],
+  "linuxTemplateId": "0d967c88-b169-4d63-88d5-322d3f27f4eb",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "-c cr\u00E9er, -z gzip, -f fichier, -v verbeux. Pour tar seul (sans compression): -cf. Pour bzip2: -cjf.",
+  "links": [],
+  "isUserCreated": false
+}

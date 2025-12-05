@@ -1,0 +1,26 @@
+{
+  "id": "efab1836-e081-4eaa-8738-ec87454a15d9",
+  "title": "Pousser les commits vers le d\u00E9p\u00F4t distant",
+  "description": "Envoie les commits locaux vers le d\u00E9p\u00F4t distant",
+  "category": "\uD83D\uDD27 Development",
+  "platform": "Both",
+  "level": "Run",
+  "tags": [
+    "git",
+    "push",
+    "remote"
+  ],
+  "windowsTemplateId": "fb1f6320-46be-461a-a0f2-fbe5efc85579",
+  "linuxTemplateId": "05bb6c75-503c-4feb-939e-ba486fa5616b",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Utilisez -f (force) avec pr\u00E9caution car cela peut \u00E9craser l\u0027historique distant.",
+  "links": [
+    {
+      "title": "Git Push Documentation",
+      "url": "https://git-scm.com/docs/git-push"
+    }
+  ],
+  "isUserCreated": false
+}

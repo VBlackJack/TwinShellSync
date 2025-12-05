@@ -1,0 +1,23 @@
+{
+  "id": "8afe22c1-d3bb-43bd-94eb-2cbd39d8b73f",
+  "title": "D\u00E9sactiver sync des param\u00E8tres",
+  "description": "D\u00E9sactive uniquement la synchronisation des param\u00E8tres Windows (pr\u00E9f\u00E9rences, accessibilit\u00E9, etc.).",
+  "category": "\uD83D\uDCBB Windows Optimization",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "privacy",
+    "confidentialit\u00E9",
+    "rgpd",
+    "sync",
+    "settings",
+    "windows"
+  ],
+  "windowsTemplateId": "34e8d90c-c558-4ac8-812d-d90f16a24690",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "D\u00E9sactive la synchronisation des pr\u00E9f\u00E9rences et param\u00E8tres Windows. Les autres \u00E9l\u00E9ments (th\u00E8mes, mots de passe) peuvent encore \u00EAtre synchronis\u00E9s.",
+  "links": [],
+  "isUserCreated": false
+}

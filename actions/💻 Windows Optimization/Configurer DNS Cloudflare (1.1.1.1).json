@@ -1,0 +1,29 @@
+{
+  "id": "fc612708-150d-4ec8-a7b1-acc49c370ad4",
+  "title": "Configurer DNS Cloudflare (1.1.1.1)",
+  "description": "Configure les serveurs DNS Cloudflare (1.1.1.1 et 1.0.0.1) pour une r\u00E9solution DNS ultra-rapide et orient\u00E9e confidentialit\u00E9.",
+  "category": "\uD83D\uDCBB Windows Optimization",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "performance",
+    "dns",
+    "network",
+    "cloudflare",
+    "privacy",
+    "optimisation",
+    "windows"
+  ],
+  "windowsTemplateId": "7c62ec04-06b9-42c7-a8ae-33bd10fbd07a",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "DNS Cloudflare: le plus rapide (14ms en moyenne). Forte orientation confidentialit\u00E9 (ne vend pas vos donn\u00E9es). Recommand\u00E9 pour le gaming et la navigation g\u00E9n\u00E9rale.",
+  "links": [
+    {
+      "title": "Cloudflare DNS",
+      "url": "https://1.1.1.1/"
+    }
+  ],
+  "isUserCreated": false
+}

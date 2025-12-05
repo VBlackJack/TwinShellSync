@@ -1,0 +1,26 @@
+{
+  "id": "5c0f4445-311a-4769-b9bb-a027970a0151",
+  "title": "Afficher les messages du noyau",
+  "description": "Consulte les messages du noyau Linux, utile pour diagnostiquer les probl\u00E8mes mat\u00E9riels et drivers",
+  "category": "\uD83D\uDCCA Monitoring \u0026 Logs",
+  "platform": "Linux",
+  "level": "Info",
+  "tags": [
+    "dmesg",
+    "kernel",
+    "hardware",
+    "drivers"
+  ],
+  "linuxTemplateId": "1b80de48-f3d2-402f-85f6-951ba748d9b9",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "N\u00E9cessite sudo pour voir tous les messages sur certaines distributions. -w pour suivre en temps r\u00E9el.",
+  "links": [
+    {
+      "title": "dmesg man page",
+      "url": "https://man7.org/linux/man-pages/man1/dmesg.1.html"
+    }
+  ],
+  "isUserCreated": false
+}

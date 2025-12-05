@@ -1,0 +1,27 @@
+{
+  "id": "3d3b5a36-7c77-4921-91ad-541cb059d997",
+  "title": "D\u00E9sinstaller un paquet avec DNF",
+  "description": "Supprime un paquet install\u00E9 avec DNF",
+  "category": "\uD83D\uDCE6 Package Management",
+  "platform": "Linux",
+  "level": "Run",
+  "tags": [
+    "dnf",
+    "remove",
+    "uninstall",
+    "rhel",
+    "fedora"
+  ],
+  "linuxTemplateId": "cf08e817-fc1b-452c-ad5c-b3584a382489",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "N\u00E9cessite sudo. autoremove nettoie les paquets orphelins.",
+  "links": [
+    {
+      "title": "DNF remove",
+      "url": "https://docs.fedoraproject.org/en-US/quick-docs/dnf/"
+    }
+  ],
+  "isUserCreated": false
+}

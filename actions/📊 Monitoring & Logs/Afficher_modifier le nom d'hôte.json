@@ -1,0 +1,26 @@
+{
+  "id": "ba6b197b-b4cb-4250-a81c-1fdb07699831",
+  "title": "Afficher/modifier le nom d\u0027h\u00F4te",
+  "description": "Affiche ou modifie le nom d\u0027h\u00F4te du syst\u00E8me",
+  "category": "\uD83D\uDCCA Monitoring \u0026 Logs",
+  "platform": "Linux",
+  "level": "Run",
+  "tags": [
+    "hostname",
+    "system",
+    "network",
+    "name"
+  ],
+  "linuxTemplateId": "153a207e-248b-4551-8382-d7c8cdb632eb",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "hostnamectl est recommand\u00E9 sur systemd pour changements permanents.",
+  "links": [
+    {
+      "title": "hostname command",
+      "url": "https://man7.org/linux/man-pages/man1/hostname.1.html"
+    }
+  ],
+  "isUserCreated": false
+}

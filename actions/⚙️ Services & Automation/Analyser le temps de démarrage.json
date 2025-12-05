@@ -1,0 +1,26 @@
+{
+  "id": "0fa17f6d-8675-4e4a-ba25-300f1798cb7e",
+  "title": "Analyser le temps de d\u00E9marrage",
+  "description": "Analyse et affiche le temps de d\u00E9marrage du syst\u00E8me et des services",
+  "category": "\u2699\uFE0F Services \u0026 Automation",
+  "platform": "Linux",
+  "level": "Info",
+  "tags": [
+    "systemd-analyze",
+    "boot",
+    "performance",
+    "startup"
+  ],
+  "linuxTemplateId": "4a0ac385-ff19-4e78-8db5-4b708d355724",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Ne n\u00E9cessite pas sudo. blame liste par ordre d\u00E9croissant de temps. Utile pour optimiser le boot.",
+  "links": [
+    {
+      "title": "systemd-analyze documentation",
+      "url": "https://www.freedesktop.org/software/systemd/man/systemd-analyze.html"
+    }
+  ],
+  "isUserCreated": false
+}

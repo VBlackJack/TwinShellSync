@@ -1,0 +1,7 @@
+{
+  "id": "d4a589ef-9d80-466c-a9d2-da3e531102a8",
+  "name": "Get-IISSite",
+  "platform": "Windows",
+  "commandPattern": "Import-Module WebAdministration; Get-IISSite | Select-Object Name, Id, State, @{Name=\u0027Bindings\u0027;Expression={$_.Bindings.Protocol \u002B \u0027://\u0027 \u002B $_.Bindings.BindingInformation}}, @{Name=\u0027AppPool\u0027;Expression={(Get-ItemProperty \u0022IIS:\\Sites\\$($_.Name)\u0022 -Name applicationPool).Value}} | Format-Table -AutoSize",
+  "parameters": []
+}

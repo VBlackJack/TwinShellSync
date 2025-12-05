@@ -1,0 +1,27 @@
+{
+  "id": "701cf0a0-b926-4a9d-9e5d-a15861dbc978",
+  "title": "Lister les processus consommant le plus de m\u00E9moire",
+  "description": "Affiche les processus class\u00E9s par utilisation m\u00E9moire (RAM) d\u00E9croissante",
+  "category": "\u26A1 Performance",
+  "platform": "Windows",
+  "level": "Info",
+  "tags": [
+    "performance",
+    "processes",
+    "memory",
+    "ram",
+    "top"
+  ],
+  "windowsTemplateId": "3234def1-b808-4efa-9be3-183552f151a5",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "WorkingSet = RAM physique utilis\u00E9e. VirtualMemorySize = m\u00E9moire virtuelle. Handles = nombre de handles syst\u00E8me ouverts.",
+  "links": [
+    {
+      "title": "Process Memory Metrics",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-process"
+    }
+  ],
+  "isUserCreated": false
+}

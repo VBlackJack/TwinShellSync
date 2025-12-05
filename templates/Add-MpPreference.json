@@ -1,0 +1,16 @@
+{
+  "id": "bd078c5b-b595-4da7-b018-3880ac7cf4bb",
+  "name": "Add-MpPreference",
+  "platform": "Windows",
+  "commandPattern": "Add-MpPreference -ExclusionExtension \u0022{extension}\u0022",
+  "parameters": [
+    {
+      "name": "extension",
+      "label": "Extension",
+      "type": "string",
+      "defaultValue": "",
+      "required": true,
+      "description": "Extension \u00E0 exclure (avec point, ex: .tmp)"
+    }
+  ]
+}

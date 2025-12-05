@@ -1,0 +1,24 @@
+{
+  "id": "6858585a-c8ad-4944-8329-f8526bdc557c",
+  "title": "D\u00E9sactiver sync des th\u00E8mes",
+  "description": "D\u00E9sactive la synchronisation des th\u00E8mes, fonds d\u0027\u00E9cran et personnalisation Windows.",
+  "category": "\uD83D\uDCBB Windows Optimization",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "privacy",
+    "confidentialit\u00E9",
+    "rgpd",
+    "sync",
+    "themes",
+    "personalization",
+    "windows"
+  ],
+  "windowsTemplateId": "e7784a35-016d-4612-9530-38f19fd24b7c",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Emp\u00EAche la synchronisation des th\u00E8mes et de la personnalisation. Les fonds d\u0027\u00E9cran personnels ne seront pas envoy\u00E9s au cloud.",
+  "links": [],
+  "isUserCreated": false
+}

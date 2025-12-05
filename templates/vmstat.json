@@ -1,0 +1,24 @@
+{
+  "id": "0f735b8f-cc90-48b2-aa6a-d2917630b121",
+  "name": "vmstat",
+  "platform": "Linux",
+  "commandPattern": "vmstat {interval} {count}",
+  "parameters": [
+    {
+      "name": "interval",
+      "label": "Intervalle (secondes)",
+      "type": "number",
+      "defaultValue": "5",
+      "required": true,
+      "description": "Intervalle entre les mesures"
+    },
+    {
+      "name": "count",
+      "label": "Nombre de mesures",
+      "type": "number",
+      "defaultValue": "5",
+      "required": true,
+      "description": "Nombre de mesures \u00E0 effectuer"
+    }
+  ]
+}

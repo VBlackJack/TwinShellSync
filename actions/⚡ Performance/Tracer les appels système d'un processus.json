@@ -1,0 +1,27 @@
+{
+  "id": "c989460f-25d1-49be-999e-af9f8950b57e",
+  "title": "Tracer les appels syst\u00E8me d\u0027un processus",
+  "description": "Trace tous les appels syst\u00E8me effectu\u00E9s par un processus (debugging)",
+  "category": "\u26A1 Performance",
+  "platform": "Linux",
+  "level": "Run",
+  "tags": [
+    "strace",
+    "syscalls",
+    "debug",
+    "performance",
+    "trace"
+  ],
+  "linuxTemplateId": "f1f2c21c-c4ca-467e-b920-5f307f3ef514",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Peut n\u00E9cessiter sudo. -c pour r\u00E9sum\u00E9 statistique. Tr\u00E8s utile pour le debugging.",
+  "links": [
+    {
+      "title": "strace documentation",
+      "url": "https://man7.org/linux/man-pages/man1/strace.1.html"
+    }
+  ],
+  "isUserCreated": false
+}

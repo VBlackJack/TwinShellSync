@@ -1,0 +1,25 @@
+{
+  "id": "28ba7787-3103-4280-b800-58677fe9b919",
+  "title": "Restaurer un fichier de quarantaine Defender",
+  "description": "Restaure un fichier pr\u00E9c\u00E9demment mis en quarantaine par Windows Defender.",
+  "category": "\uD83D\uDD12 Security \u0026 Encryption",
+  "platform": "Windows",
+  "level": "Dangerous",
+  "tags": [
+    "defender",
+    "quarantine",
+    "restore"
+  ],
+  "windowsTemplateId": "4617080e-bd2f-40ed-ac53-71385be66280",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "\u26A0\uFE0F ATTENTION: Restaurer un fichier d\u00E9tect\u00E9 peut r\u00E9infecter votre syst\u00E8me! Ne restaurez que si vous \u00EAtes CERTAIN qu\u0027il s\u0027agit d\u0027un faux positif. Pour restaurer via GUI: Windows Security \u003E Protection contre les virus \u003E Historique de protection \u003E Restaurer. PowerShell a des capacit\u00E9s limit\u00E9es pour la restauration.",
+  "links": [
+    {
+      "title": "Defender Quarantine Management",
+      "url": "https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/restore-quarantined-files-microsoft-defender-antivirus"
+    }
+  ],
+  "isUserCreated": false
+}

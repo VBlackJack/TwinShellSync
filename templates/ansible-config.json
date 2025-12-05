@@ -1,0 +1,7 @@
+{
+  "id": "aaeb6c6f-255f-4794-812f-54a6c78ceb48",
+  "name": "ansible-config",
+  "platform": "Windows",
+  "commandPattern": "ansible-config dump --only-changed",
+  "parameters": []
+}

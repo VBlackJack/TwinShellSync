@@ -1,0 +1,7 @@
+{
+  "id": "1237e0f3-4e35-4180-be85-200f07808b87",
+  "name": "Start-MpScan",
+  "platform": "Windows",
+  "commandPattern": "Start-MpScan -ScanType QuickScan",
+  "parameters": []
+}

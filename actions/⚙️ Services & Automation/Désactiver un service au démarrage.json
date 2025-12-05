@@ -1,0 +1,26 @@
+{
+  "id": "6f7bc415-03a8-4558-abd0-09c9b545775f",
+  "title": "D\u00E9sactiver un service au d\u00E9marrage",
+  "description": "Emp\u00EAche un service de d\u00E9marrer automatiquement au boot",
+  "category": "\u2699\uFE0F Services \u0026 Automation",
+  "platform": "Linux",
+  "level": "Run",
+  "tags": [
+    "systemctl",
+    "systemd",
+    "disable",
+    "boot"
+  ],
+  "linuxTemplateId": "c0c3a4d3-6970-4244-a397-2412b5bac765",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "N\u00E9cessite sudo. N\u0027arr\u00EAte pas le service s\u0027il est en cours d\u0027ex\u00E9cution (sauf avec --now).",
+  "links": [
+    {
+      "title": "systemctl disable",
+      "url": "https://www.freedesktop.org/software/systemd/man/systemctl.html"
+    }
+  ],
+  "isUserCreated": false
+}

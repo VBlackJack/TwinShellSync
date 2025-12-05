@@ -1,0 +1,21 @@
+{
+  "id": "251e8790-2d2d-485d-b78f-87efc401b4a7",
+  "title": "Obtenir le filtrage de s\u00E9curit\u00E9 d\u0027une GPO",
+  "description": "Affiche les groupes ou utilisateurs auxquels la GPO est filtr\u00E9e (qui peuvent l\u0027appliquer).",
+  "category": "\uD83C\uDFE2 Active Directory \u0026 GPO",
+  "platform": "Windows",
+  "level": "Info",
+  "tags": [
+    "gpo",
+    "security",
+    "filtering",
+    "permissions"
+  ],
+  "windowsTemplateId": "e4a9a80e-8e0f-4c1a-9c46-740c27b6e432",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Affiche uniquement les principaux de s\u00E9curit\u00E9 ayant le droit \u0027Apply Group Policy\u0027. Utile pour le ciblage GPO.",
+  "links": [],
+  "isUserCreated": false
+}

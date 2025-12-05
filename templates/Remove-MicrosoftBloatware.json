@@ -1,0 +1,7 @@
+{
+  "id": "58f8ebfa-e012-4c30-a18c-02dd1a89dc45",
+  "name": "Remove-MicrosoftBloatware",
+  "platform": "Windows",
+  "commandPattern": "$apps = @(\u0027Microsoft.3DBuilder\u0027, \u0027Microsoft.BingNews\u0027, \u0027Microsoft.BingWeather\u0027, \u0027Microsoft.GetHelp\u0027, \u0027Microsoft.Getstarted\u0027, \u0027Microsoft.MicrosoftOfficeHub\u0027, \u0027Microsoft.MicrosoftSolitaire*\u0027, \u0027Microsoft.MixedReality.Portal\u0027, \u0027Microsoft.Office.OneNote\u0027, \u0027Microsoft.People\u0027, \u0027Microsoft.SkypeApp\u0027, \u0027Microsoft.Todos\u0027, \u0027Microsoft.Wallet\u0027, \u0027Microsoft.WindowsAlarms\u0027, \u0027Microsoft.WindowsCamera\u0027, \u0027Microsoft.WindowsFeedbackHub\u0027, \u0027Microsoft.WindowsMaps\u0027, \u0027Microsoft.WindowsSoundRecorder\u0027, \u0027Microsoft.YourPhone\u0027, \u0027Microsoft.ZuneMusic\u0027, \u0027Microsoft.ZuneVideo\u0027); foreach ($app in $apps) { Get-AppxPackage $app | Remove-AppxPackage -ErrorAction SilentlyContinue }",
+  "parameters": []
+}

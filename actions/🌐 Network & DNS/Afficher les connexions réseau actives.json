@@ -1,0 +1,23 @@
+{
+  "id": "d47aa1fe-891c-4d41-be15-d47820c5f6c1",
+  "title": "Afficher les connexions r\u00E9seau actives",
+  "description": "Affiche les ports ouverts et les connexions r\u00E9seau actives",
+  "category": "\uD83C\uDF10 Network \u0026 DNS",
+  "platform": "Both",
+  "level": "Info",
+  "tags": [
+    "network",
+    "connections",
+    "ports",
+    "tcp",
+    "netstat",
+    "diagnostic"
+  ],
+  "windowsTemplateId": "9942ccf7-d30b-485e-a90f-83c063c78434",
+  "linuxTemplateId": "135018b0-3bfe-4a39-8cd8-a0643830c1a0",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "links": [],
+  "isUserCreated": false
+}

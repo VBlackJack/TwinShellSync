@@ -1,0 +1,27 @@
+{
+  "id": "6e71c3ff-af24-4310-9812-6a11cc3a3aa5",
+  "title": "D\u00E9marrer une t\u00E2che planifi\u00E9e",
+  "description": "D\u00E9marre imm\u00E9diatement l\u0027ex\u00E9cution d\u0027une t\u00E2che planifi\u00E9e",
+  "category": "\u2699\uFE0F Services \u0026 Automation",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "taskscheduler",
+    "start",
+    "run",
+    "automation",
+    "windows"
+  ],
+  "windowsTemplateId": "d4f6ceec-ae1a-47c4-81d6-4b4b9c0bc6f8",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Ex\u00E9cute imm\u00E9diatement sans attendre le d\u00E9clencheur. V\u00E9rifiez l\u0027\u00E9tat avec Get-ScheduledTaskInfo.",
+  "links": [
+    {
+      "title": "Start-ScheduledTask Documentation",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/scheduledtasks/start-scheduledtask"
+    }
+  ],
+  "isUserCreated": false
+}

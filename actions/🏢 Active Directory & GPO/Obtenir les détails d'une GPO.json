@@ -1,0 +1,21 @@
+{
+  "id": "cf23ed6a-f231-48e5-89cd-050e150f19ca",
+  "title": "Obtenir les d\u00E9tails d\u0027une GPO",
+  "description": "Affiche toutes les propri\u00E9t\u00E9s d\u00E9taill\u00E9es d\u0027une strat\u00E9gie de groupe.",
+  "category": "\uD83C\uDFE2 Active Directory \u0026 GPO",
+  "platform": "Windows",
+  "level": "Info",
+  "tags": [
+    "gpo",
+    "details",
+    "properties",
+    "group-policy"
+  ],
+  "windowsTemplateId": "b22fbfbc-70b3-456a-9d5f-688340825fad",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Affiche le GUID, le statut, les dates de cr\u00E9ation/modification, la version, etc.",
+  "links": [],
+  "isUserCreated": false
+}

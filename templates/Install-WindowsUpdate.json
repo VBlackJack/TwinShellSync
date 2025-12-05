@@ -1,0 +1,7 @@
+{
+  "id": "29a9a0d9-868d-4a2e-b8bd-7d6068105617",
+  "name": "Install-WindowsUpdate",
+  "platform": "Windows",
+  "commandPattern": "Install-WindowsUpdate -MicrosoftUpdate -AcceptAll -IgnoreReboot -Verbose",
+  "parameters": []
+}

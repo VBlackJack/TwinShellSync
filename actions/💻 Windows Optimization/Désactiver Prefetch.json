@@ -1,0 +1,23 @@
+{
+  "id": "03340c2a-0528-4fad-9c9a-3d3bf352f55f",
+  "title": "D\u00E9sactiver Prefetch",
+  "description": "D\u00E9sactive le Prefetch Windows via le registre pour r\u00E9duire les acc\u00E8s disque.",
+  "category": "\uD83D\uDCBB Windows Optimization",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "performance",
+    "prefetch",
+    "registry",
+    "ssd",
+    "optimisation",
+    "windows"
+  ],
+  "windowsTemplateId": "ff1fa85d-bf0d-421c-9841-c276dc0d32eb",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Prefetch: enregistre les fichiers charg\u00E9s au d\u00E9marrage pour acc\u00E9l\u00E9rer les futurs lancements. Minimal sur SSD. D\u00E9sactiver r\u00E9duit les \u00E9critures disque et nettoie C:\\Windows\\Prefetch. Recommand\u00E9 sur SSD, d\u00E9conseill\u00E9 sur HDD.",
+  "links": [],
+  "isUserCreated": false
+}

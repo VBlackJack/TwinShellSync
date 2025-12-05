@@ -1,0 +1,25 @@
+{
+  "id": "3195f681-193a-4590-a705-f4e0f5d84479",
+  "title": "Suspendre temporairement la protection BitLocker",
+  "description": "Suspend la protection BitLocker temporairement (utile pour mises \u00E0 jour BIOS/firmware).",
+  "category": "\uD83D\uDD12 Security \u0026 Encryption",
+  "platform": "Windows",
+  "level": "Dangerous",
+  "tags": [
+    "bitlocker",
+    "suspend",
+    "maintenance"
+  ],
+  "windowsTemplateId": "ab10ca25-f181-4f59-9dfe-c95cada7d684",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "\u26A0\uFE0F Durant la suspension, le disque reste CHIFFR\u00C9 mais ACCESSIBLE sans authentification! Utilisez uniquement pour maintenance (BIOS, firmware, drivers). RebootCount=0: suspension permanente jusqu\u0027\u00E0 Resume-BitLocker. RebootCount=1\u002B: r\u00E9activation automatique apr\u00E8s N red\u00E9marrages.",
+  "links": [
+    {
+      "title": "Suspend-BitLocker Documentation",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/bitlocker/suspend-bitlocker"
+    }
+  ],
+  "isUserCreated": false
+}

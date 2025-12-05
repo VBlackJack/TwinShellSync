@@ -1,0 +1,24 @@
+{
+  "id": "b8d166ad-8f32-455b-bcbb-3a732c9b7051",
+  "name": "Compress-Archive",
+  "platform": "Windows",
+  "commandPattern": "Compress-Archive -Path \u0022{sourcePath}\u0022 -DestinationPath \u0022{zipPath}\u0022 -CompressionLevel Optimal -Force",
+  "parameters": [
+    {
+      "name": "sourcePath",
+      "label": "Source",
+      "type": "string",
+      "defaultValue": "",
+      "required": true,
+      "description": "Fichiers ou dossiers \u00E0 compresser"
+    },
+    {
+      "name": "zipPath",
+      "label": "Fichier ZIP",
+      "type": "string",
+      "defaultValue": "",
+      "required": true,
+      "description": "Chemin du fichier ZIP \u00E0 cr\u00E9er"
+    }
+  ]
+}

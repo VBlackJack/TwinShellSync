@@ -1,0 +1,26 @@
+{
+  "id": "1c410cad-292c-4897-a585-2d76da6a62fc",
+  "title": "Rechercher un paquet dans les d\u00E9p\u00F4ts",
+  "description": "Recherche des paquets disponibles par nom ou description",
+  "category": "\uD83D\uDCE6 Package Management",
+  "platform": "Linux",
+  "level": "Info",
+  "tags": [
+    "apt",
+    "search",
+    "find",
+    "package"
+  ],
+  "linuxTemplateId": "8c297ef2-451b-4167-ae7e-74ae2f68a58b",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Ne n\u00E9cessite pas sudo. apt-cache search fonctionne aussi. Recherche dans les noms et descriptions.",
+  "links": [
+    {
+      "title": "APT search",
+      "url": "https://manpages.ubuntu.com/manpages/jammy/man8/apt.8.html"
+    }
+  ],
+  "isUserCreated": false
+}

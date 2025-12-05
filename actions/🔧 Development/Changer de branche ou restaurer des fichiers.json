@@ -1,0 +1,26 @@
+{
+  "id": "7ae220fd-16b3-419d-9733-51521a7dc9a8",
+  "title": "Changer de branche ou restaurer des fichiers",
+  "description": "Bascule sur une autre branche ou restaure des fichiers du working directory",
+  "category": "\uD83D\uDD27 Development",
+  "platform": "Both",
+  "level": "Run",
+  "tags": [
+    "git",
+    "checkout",
+    "switch"
+  ],
+  "windowsTemplateId": "7c11147b-d3c8-4e26-b5be-2565d91627f7",
+  "linuxTemplateId": "5b786c5c-1a75-4320-aa6e-575079720403",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Utilisez -b pour cr\u00E9er et basculer sur une nouvelle branche. Pr\u00E9f\u00E9rez \u0027git switch\u0027 et \u0027git restore\u0027 dans Git moderne.",
+  "links": [
+    {
+      "title": "Git Checkout Documentation",
+      "url": "https://git-scm.com/docs/git-checkout"
+    }
+  ],
+  "isUserCreated": false
+}

@@ -1,0 +1,24 @@
+{
+  "id": "6da57654-1815-455a-b575-b5893980e6a9",
+  "name": "Move-Item",
+  "platform": "Windows",
+  "commandPattern": "Move-Item -Path \u0022{sourcePath}\u0022 -Destination \u0022{destinationPath}\u0022 -Force",
+  "parameters": [
+    {
+      "name": "sourcePath",
+      "label": "Chemin source",
+      "type": "string",
+      "defaultValue": "",
+      "required": true,
+      "description": "Chemin du fichier ou dossier \u00E0 d\u00E9placer"
+    },
+    {
+      "name": "destinationPath",
+      "label": "Chemin destination",
+      "type": "string",
+      "defaultValue": "",
+      "required": true,
+      "description": "Nouveau chemin ou nom"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "c97529dd-62be-4f6a-83ff-9f021b805368",
+  "title": "Copier une GPO",
+  "description": "Cr\u00E9e une copie d\u0027une strat\u00E9gie de groupe existante.",
+  "category": "\uD83C\uDFE2 Active Directory \u0026 GPO",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "gpo",
+    "copy",
+    "duplicate",
+    "group-policy"
+  ],
+  "windowsTemplateId": "85fc0eb5-36c6-4d69-b83f-d21e18a51f60",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Copie tous les param\u00E8tres mais pas les liens GPO. Les liens doivent \u00EAtre recr\u00E9\u00E9s manuellement.",
+  "links": [
+    {
+      "title": "Documentation Copy-GPO",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/grouppolicy/copy-gpo"
+    }
+  ],
+  "isUserCreated": false
+}

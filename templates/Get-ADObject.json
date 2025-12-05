@@ -1,0 +1,16 @@
+{
+  "id": "24834356-81ca-41cd-8718-06c8e958d1fb",
+  "name": "Get-ADObject",
+  "platform": "Windows",
+  "commandPattern": "$searchPassword = \u0027{recoveryPassword}\u0027; Get-ADObject -Filter \u0022objectClass -eq \u0027msFVE-RecoveryInformation\u0027\u0022 -Properties msFVE-RecoveryPassword | Where-Object {$_.\u0027msFVE-RecoveryPassword\u0027 -like \u0022*$searchPassword*\u0022} | ForEach-Object { $computerDN = ($_.DistinguishedName -split \u0027,\u0027,2)[1]; $computer = Get-ADComputer -Identity $computerDN; [PSCustomObject]@{ Computer=$computer.Name; RecoveryPassword=$_.\u0027msFVE-RecoveryPassword\u0027; ComputerDN=$computer.DistinguishedName } }",
+  "parameters": [
+    {
+      "name": "recoveryPassword",
+      "label": "Mot de passe de r\u00E9cup\u00E9ration",
+      "type": "string",
+      "defaultValue": "",
+      "required": true,
+      "description": "Mot de passe ou d\u00E9but du mot de passe (premiers chiffres)"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "ebbc59c8-9b53-4317-b687-a57614f58e98",
+  "name": "cp",
+  "platform": "Linux",
+  "commandPattern": "cp -r \u0022{sourcePath}\u0022 \u0022{destinationPath}\u0022",
+  "parameters": [
+    {
+      "name": "sourcePath",
+      "label": "Chemin source",
+      "type": "string",
+      "defaultValue": "",
+      "required": true,
+      "description": "Chemin du fichier ou dossier \u00E0 copier"
+    },
+    {
+      "name": "destinationPath",
+      "label": "Chemin destination",
+      "type": "string",
+      "defaultValue": "",
+      "required": true,
+      "description": "Chemin de destination"
+    }
+  ]
+}

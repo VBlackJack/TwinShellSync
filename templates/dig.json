@@ -1,0 +1,24 @@
+{
+  "id": "7f69996b-6800-4e02-8bb3-787720a7033a",
+  "name": "dig",
+  "platform": "Linux",
+  "commandPattern": "dig {domain} {record_type}",
+  "parameters": [
+    {
+      "name": "domain",
+      "label": "Domaine",
+      "type": "string",
+      "defaultValue": "google.com",
+      "required": true,
+      "description": "Nom de domaine \u00E0 r\u00E9soudre"
+    },
+    {
+      "name": "record_type",
+      "label": "Type d\u0027enregistrement",
+      "type": "string",
+      "defaultValue": "A",
+      "required": false,
+      "description": "Type d\u0027enregistrement (A, AAAA, MX, NS, TXT, etc.)"
+    }
+  ]
+}

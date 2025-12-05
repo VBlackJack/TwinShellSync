@@ -1,0 +1,21 @@
+{
+  "id": "dae457f6-d669-460b-bb2e-69928ae1821c",
+  "title": "D\u00E9verrouiller un compte utilisateur AD",
+  "description": "D\u00E9verrouille un compte utilisateur qui a \u00E9t\u00E9 verrouill\u00E9 suite \u00E0 des tentatives de connexion \u00E9chou\u00E9es.",
+  "category": "\uD83C\uDFE2 Active Directory \u0026 GPO",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "ad",
+    "unlock",
+    "account",
+    "user"
+  ],
+  "windowsTemplateId": "72143f5c-4441-4a20-9f71-460ef1081778",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "N\u00E9cessite des droits d\u0027administration AD. V\u00E9rifier la cause du verrouillage avant de d\u00E9verrouiller.",
+  "links": [],
+  "isUserCreated": false
+}

@@ -1,0 +1,24 @@
+{
+  "id": "85fc0eb5-36c6-4d69-b83f-d21e18a51f60",
+  "name": "Copy-GPO",
+  "platform": "Windows",
+  "commandPattern": "Copy-GPO -SourceName \u0022{sourceGPO}\u0022 -TargetName \u0022{targetGPO}\u0022",
+  "parameters": [
+    {
+      "name": "sourceGPO",
+      "label": "GPO source",
+      "type": "string",
+      "defaultValue": "",
+      "required": true,
+      "description": "Nom de la GPO \u00E0 copier"
+    },
+    {
+      "name": "targetGPO",
+      "label": "GPO destination",
+      "type": "string",
+      "defaultValue": "",
+      "required": true,
+      "description": "Nom de la nouvelle GPO"
+    }
+  ]
+}

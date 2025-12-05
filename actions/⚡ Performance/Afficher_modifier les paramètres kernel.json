@@ -1,0 +1,27 @@
+{
+  "id": "c9114ba4-1c76-4d72-b071-08655f2defcb",
+  "title": "Afficher/modifier les param\u00E8tres kernel",
+  "description": "Affiche ou modifie les param\u00E8tres du noyau Linux en temps r\u00E9el",
+  "category": "\u26A1 Performance",
+  "platform": "Linux",
+  "level": "Run",
+  "tags": [
+    "sysctl",
+    "kernel",
+    "tuning",
+    "performance",
+    "parameters"
+  ],
+  "linuxTemplateId": "e439ca92-c3ed-41c5-8bb2-e25a7d3c4e8f",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Modifications temporaires. \u00C9diter /etc/sysctl.conf pour permanence. sysctl -p recharge le fichier.",
+  "links": [
+    {
+      "title": "sysctl documentation",
+      "url": "https://man7.org/linux/man-pages/man8/sysctl.8.html"
+    }
+  ],
+  "isUserCreated": false
+}

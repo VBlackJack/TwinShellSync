@@ -1,0 +1,29 @@
+{
+  "id": "f0d3c2c8-2c8c-4716-b368-12ea502caa10",
+  "title": "Sauvegarder une base de donn\u00E9es SQL Server",
+  "description": "Effectue une sauvegarde compl\u00E8te (FULL) d\u0027une base de donn\u00E9es SQL Server vers un fichier .bak sp\u00E9cifi\u00E9.",
+  "category": "\uD83D\uDCBD Database",
+  "platform": "Windows",
+  "level": "Dangerous",
+  "tags": [
+    "sql",
+    "backup",
+    "sauvegarde",
+    "database",
+    "mssql",
+    "protection",
+    "recovery"
+  ],
+  "windowsTemplateId": "1a6e55d8-7da5-4272-88aa-5af849067154",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "ATTENTION: V\u00E9rifiez l\u0027espace disque disponible. La compression r\u00E9duit la taille de ~50%. Le compte SQL Server doit avoir acc\u00E8s au chemin de backup.",
+  "links": [
+    {
+      "title": "Documentation Backup-SqlDatabase",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/sqlserver/backup-sqldatabase"
+    }
+  ],
+  "isUserCreated": false
+}

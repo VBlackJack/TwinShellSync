@@ -1,0 +1,23 @@
+{
+  "id": "1da954ae-9a1d-4aaa-aa75-0f07782e096e",
+  "title": "D\u00E9sactiver l\u0027acc\u00E8s aux notifications",
+  "description": "Bloque l\u0027acc\u00E8s des applications au syst\u00E8me de notifications. R\u00E9duit les distractions et tracking.",
+  "category": "\uD83D\uDCBB Windows Optimization",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "privacy",
+    "confidentialit\u00E9",
+    "rgpd",
+    "permissions",
+    "notifications",
+    "windows"
+  ],
+  "windowsTemplateId": "4232810f-dad4-4c2b-9afa-53f073a0b9c5",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Emp\u00EAche les applications de lire ou d\u0027envoyer des notifications. Am\u00E9liore la confidentialit\u00E9 et r\u00E9duit les distractions.",
+  "links": [],
+  "isUserCreated": false
+}

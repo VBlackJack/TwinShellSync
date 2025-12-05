@@ -1,0 +1,27 @@
+{
+  "id": "ce5aec04-6ac1-4d26-89bc-f4f0983b9408",
+  "title": "Requ\u00EAte DNS avec dig",
+  "description": "Effectue des requ\u00EAtes DNS d\u00E9taill\u00E9es pour r\u00E9soudre des noms de domaine",
+  "category": "\uD83C\uDF10 Network \u0026 DNS",
+  "platform": "Linux",
+  "level": "Info",
+  "tags": [
+    "dig",
+    "dns",
+    "lookup",
+    "resolution",
+    "nameserver"
+  ],
+  "linuxTemplateId": "7f69996b-6800-4e02-8bb3-787720a7033a",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Ne n\u00E9cessite pas sudo. \u002Bshort pour affichage minimal. nslookup et host sont des alternatives.",
+  "links": [
+    {
+      "title": "dig command",
+      "url": "https://man7.org/linux/man-pages/man1/dig.1.html"
+    }
+  ],
+  "isUserCreated": false
+}

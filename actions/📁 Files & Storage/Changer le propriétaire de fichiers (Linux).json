@@ -1,0 +1,21 @@
+{
+  "id": "5e5b82e8-1258-44ce-a634-9c4a5cd36a39",
+  "title": "Changer le propri\u00E9taire de fichiers (Linux)",
+  "description": "Modifie le propri\u00E9taire et le groupe d\u0027un fichier ou dossier.",
+  "category": "\uD83D\uDCC1 Files \u0026 Storage",
+  "platform": "Linux",
+  "level": "Run",
+  "tags": [
+    "propri\u00E9taire",
+    "chown",
+    "permissions",
+    "linux"
+  ],
+  "linuxTemplateId": "d3c081f0-9e15-4c3f-903b-b0e3403bc18d",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "-R pour r\u00E9cursif. N\u00E9cessite g\u00E9n\u00E9ralement sudo.",
+  "links": [],
+  "isUserCreated": false
+}

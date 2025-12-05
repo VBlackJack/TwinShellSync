@@ -1,0 +1,16 @@
+{
+  "id": "c0a6d7a4-b698-4b23-929c-8fa3ce7e0640",
+  "name": "Get-WinEvent",
+  "platform": "Windows",
+  "commandPattern": "Get-WinEvent -FilterHashtable @{LogName=\u0027Security\u0027; Id=4624,4625; StartTime=(Get-Date).AddDays(-{days})} | Where-Object {$_.Message -like \u0027*LogonType*10*\u0027 -or $_.Message -like \u0027*LogonType*3*\u0027} | Select-Object TimeCreated,Id,@{Name=\u0027EventType\u0027;Expression={if($_.Id -eq 4624){\u0027Success\u0027}else{\u0027Failed\u0027}}},Message | Format-Table -AutoSize",
+  "parameters": [
+    {
+      "name": "days",
+      "label": "Nombre de jours",
+      "type": "number",
+      "defaultValue": "7",
+      "required": true,
+      "description": "Nombre de jours \u00E0 analyser en arri\u00E8re"
+    }
+  ]
+}

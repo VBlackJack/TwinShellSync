@@ -1,0 +1,24 @@
+{
+  "id": "cb8acd00-7b69-4ebc-83a8-f9cc856c19ba",
+  "name": "Set-ScheduledTask",
+  "platform": "Windows",
+  "commandPattern": "Set-ScheduledTask -TaskName \u0027{taskname}\u0027 {parameters}",
+  "parameters": [
+    {
+      "name": "taskname",
+      "label": "Nom de la t\u00E2che",
+      "type": "string",
+      "defaultValue": "MyTask",
+      "required": true,
+      "description": "Nom de la t\u00E2che \u00E0 modifier"
+    },
+    {
+      "name": "parameters",
+      "label": "Param\u00E8tres \u00E0 modifier",
+      "type": "string",
+      "defaultValue": "-Trigger (New-ScheduledTaskTrigger -Daily -At 3:00AM)",
+      "required": true,
+      "description": "Propri\u00E9t\u00E9s \u00E0 modifier (-Trigger, -Action, -User, etc.)"
+    }
+  ]
+}

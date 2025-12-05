@@ -1,0 +1,26 @@
+{
+  "id": "19c75c32-59bb-4ea4-962f-d3ed869534b9",
+  "title": "Modifier un utilisateur existant",
+  "description": "Modifie les propri\u00E9t\u00E9s d\u0027un compte utilisateur (groupes, shell, home, etc.)",
+  "category": "\uD83D\uDC27 Linux Administration",
+  "platform": "Linux",
+  "level": "Run",
+  "tags": [
+    "usermod",
+    "user",
+    "modify",
+    "groups"
+  ],
+  "linuxTemplateId": "ea714c52-748c-41ce-b7ad-f44863d51c0d",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "N\u00E9cessite sudo. -aG pour ajouter \u00E0 un groupe sans supprimer les autres. -L verrouille, -U d\u00E9verrouille.",
+  "links": [
+    {
+      "title": "usermod documentation",
+      "url": "https://man7.org/linux/man-pages/man8/usermod.8.html"
+    }
+  ],
+  "isUserCreated": false
+}

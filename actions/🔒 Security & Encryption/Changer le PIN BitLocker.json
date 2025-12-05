@@ -1,0 +1,25 @@
+{
+  "id": "1f524fae-933f-471e-8908-c5e7c1cdcf00",
+  "title": "Changer le PIN BitLocker",
+  "description": "Modifie le code PIN utilis\u00E9 pour d\u00E9verrouiller BitLocker au d\u00E9marrage (TPM\u002BPIN).",
+  "category": "\uD83D\uDD12 Security \u0026 Encryption",
+  "platform": "Windows",
+  "level": "Dangerous",
+  "tags": [
+    "bitlocker",
+    "pin",
+    "change"
+  ],
+  "windowsTemplateId": "8fa36e48-b69b-4d97-b405-2b4219e3602a",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Pour changer le PIN: 1) Ajouter nouveau protecteur TPM\u002BPIN avec nouveau code, 2) Supprimer l\u0027ancien protecteur TPM\u002BPIN. Le PIN doit faire 6-20 caract\u00E8res. Red\u00E9marrage requis pour tester le nouveau PIN. \u26A0\uFE0F Conservez toujours le RecoveryPassword!",
+  "links": [
+    {
+      "title": "BitLocker PIN Management",
+      "url": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/data-protection/bitlocker/faq"
+    }
+  ],
+  "isUserCreated": false
+}

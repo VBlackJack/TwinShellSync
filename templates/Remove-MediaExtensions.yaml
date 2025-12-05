@@ -1,5 +1,0 @@
-id: f2316779-adae-4824-9687-68b8d02d6745
-name: Remove-MediaExtensions
-platform: Windows
-commandPattern: $extensions = @('*HEIF*', '*VP9*', '*WebP*', '*AV1*'); foreach ($ext in $extensions) { Get-AppxPackage $ext | Remove-AppxPackage -ErrorAction SilentlyContinue }
-parameters: []

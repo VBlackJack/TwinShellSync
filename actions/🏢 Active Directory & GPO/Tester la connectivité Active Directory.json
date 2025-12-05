@@ -1,0 +1,26 @@
+{
+  "id": "89da2888-92e9-4cb2-84db-d62ed54c4dc8",
+  "title": "Tester la connectivit\u00E9 Active Directory",
+  "description": "Teste la connectivit\u00E9 avec un contr\u00F4leur de domaine Active Directory.",
+  "category": "\uD83C\uDFE2 Active Directory \u0026 GPO",
+  "platform": "Windows",
+  "level": "Info",
+  "tags": [
+    "ad",
+    "test",
+    "connectivity",
+    "diagnostic"
+  ],
+  "windowsTemplateId": "6cd990bd-5834-45ca-956b-649d991839ef",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Retourne True si la relation de confiance est OK. Utiliser -Repair pour tenter une r\u00E9paration automatique.",
+  "links": [
+    {
+      "title": "Documentation Test-ComputerSecureChannel",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/test-computersecurechannel"
+    }
+  ],
+  "isUserCreated": false
+}

@@ -1,5 +1,0 @@
-id: 4d6856cc-3583-41b1-826b-539c8116d02e
-name: mvn
-platform: Windows
-commandPattern: mvn clean package
-parameters: []

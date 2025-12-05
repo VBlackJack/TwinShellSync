@@ -1,0 +1,29 @@
+{
+  "id": "7d5dec36-ad41-4342-a6dc-3e1279ab9a4b",
+  "title": "Rechercher dans le contenu de fichiers",
+  "description": "Recherche une cha\u00EEne de caract\u00E8res dans le contenu des fichiers.",
+  "category": "\uD83D\uDCC1 Files \u0026 Storage",
+  "platform": "Both",
+  "level": "Info",
+  "tags": [
+    "linux",
+    "windows",
+    "grep",
+    "search",
+    "recherche",
+    "contenu"
+  ],
+  "windowsTemplateId": "b4cc5929-53e2-4488-bf7c-5577e2a005e0",
+  "linuxTemplateId": "7016f980-4359-405d-a5ef-c86c06fea42b",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Windows: Select-String est l\u0027\u00E9quivalent PowerShell de grep. Supporte les regex.\nLinux: -r r\u00E9cursif, -i insensible \u00E0 la casse, -n affiche les num\u00E9ros de ligne. --include pour filtrer les fichiers.",
+  "links": [
+    {
+      "title": "Documentation Select-String",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/select-string"
+    }
+  ],
+  "isUserCreated": false
+}

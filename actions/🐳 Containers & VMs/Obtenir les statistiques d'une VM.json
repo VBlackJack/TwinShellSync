@@ -1,0 +1,30 @@
+{
+  "id": "cb0c1e28-8f36-44b8-a8d8-3927330ba72e",
+  "title": "Obtenir les statistiques d\u0027une VM",
+  "description": "Affiche des statistiques d\u00E9taill\u00E9es d\u0027utilisation des ressources (CPU, m\u00E9moire, disque, r\u00E9seau) pour une machine virtuelle Hyper-V.",
+  "category": "\uD83D\uDC33 Containers \u0026 VMs",
+  "platform": "Windows",
+  "level": "Info",
+  "tags": [
+    "hyperv",
+    "stats",
+    "monitoring",
+    "performance",
+    "vm",
+    "metrics",
+    "diagnostic",
+    "resources"
+  ],
+  "windowsTemplateId": "038da997-3aab-4e89-ae65-482bef7f0398",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Measure-VM fournit des moyennes sur la dur\u00E9e de vie de la VM. Pour le temps r\u00E9el, utilisez Get-VM avec CPUUsage et MemoryDemand.",
+  "links": [
+    {
+      "title": "Documentation Measure-VM",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/hyper-v/measure-vm"
+    }
+  ],
+  "isUserCreated": false
+}

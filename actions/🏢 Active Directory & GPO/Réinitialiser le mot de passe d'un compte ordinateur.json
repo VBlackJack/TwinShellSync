@@ -1,0 +1,26 @@
+{
+  "id": "c395722b-a72c-4417-b310-8eed8fb120d8",
+  "title": "R\u00E9initialiser le mot de passe d\u0027un compte ordinateur",
+  "description": "R\u00E9initialise le mot de passe du compte ordinateur dans Active Directory.",
+  "category": "\uD83C\uDFE2 Active Directory \u0026 GPO",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "ad",
+    "computer",
+    "password",
+    "reset"
+  ],
+  "windowsTemplateId": "499e269d-2d1f-4fb5-8151-f01d38473a2e",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "\u00C0 ex\u00E9cuter sur l\u0027ordinateur concern\u00E9. R\u00E9sout les probl\u00E8mes de relation de confiance avec le domaine.",
+  "links": [
+    {
+      "title": "Documentation Reset-ComputerMachinePassword",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/reset-computermachinepassword"
+    }
+  ],
+  "isUserCreated": false
+}

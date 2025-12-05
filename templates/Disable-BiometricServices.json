@@ -1,0 +1,7 @@
+{
+  "id": "c92f4baf-eff0-41cb-a773-3aa5d78ffda9",
+  "name": "Disable-BiometricServices",
+  "platform": "Windows",
+  "commandPattern": "New-Item -Path \u0027HKLM:\\SOFTWARE\\Policies\\Microsoft\\Biometrics\u0027 -Force | Out-Null; Set-ItemProperty -Path \u0027HKLM:\\SOFTWARE\\Policies\\Microsoft\\Biometrics\u0027 -Name \u0027Enabled\u0027 -Type DWord -Value 0; New-Item -Path \u0027HKLM:\\SOFTWARE\\Policies\\Microsoft\\Biometrics\\FacialFeatures\u0027 -Force | Out-Null; Set-ItemProperty -Path \u0027HKLM:\\SOFTWARE\\Policies\\Microsoft\\Biometrics\\FacialFeatures\u0027 -Name \u0027EnhancedAntiSpoofing\u0027 -Type DWord -Value 0",
+  "parameters": []
+}

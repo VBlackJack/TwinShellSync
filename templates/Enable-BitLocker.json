@@ -1,0 +1,16 @@
+{
+  "id": "f6e999d6-b446-44cc-8b75-8d1e76fda54e",
+  "name": "Enable-BitLocker",
+  "platform": "Windows",
+  "commandPattern": "Enable-BitLocker -MountPoint \u0022{driveLetter}:\u0022 -RecoveryPasswordProtector -UsedSpaceOnly",
+  "parameters": [
+    {
+      "name": "driveLetter",
+      "label": "Lettre du disque",
+      "type": "string",
+      "defaultValue": "C",
+      "required": true,
+      "description": "Lettre du volume \u00E0 chiffrer (ex: C, D, E)"
+    }
+  ]
+}

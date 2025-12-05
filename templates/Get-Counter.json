@@ -1,0 +1,24 @@
+{
+  "id": "72680ea4-1590-466b-8070-5aa24045cfdf",
+  "name": "Get-Counter",
+  "platform": "Windows",
+  "commandPattern": "Get-Counter -Counter \u0027\\PhysicalDisk(_Total)\\% Disk Time\u0027,\u0027\\PhysicalDisk(_Total)\\Disk Reads/sec\u0027,\u0027\\PhysicalDisk(_Total)\\Disk Writes/sec\u0027 -SampleInterval {intervalSeconds} -MaxSamples {maxSamples} | ForEach-Object {$_.CounterSamples | Select-Object Path,@{Name=\u0027Value\u0027;Expression={[math]::Round($_.CookedValue,2)}}} | Format-Table -AutoSize",
+  "parameters": [
+    {
+      "name": "intervalSeconds",
+      "label": "Intervalle (secondes)",
+      "type": "number",
+      "defaultValue": "2",
+      "required": true,
+      "description": "Intervalle entre \u00E9chantillons"
+    },
+    {
+      "name": "maxSamples",
+      "label": "Nombre d\u0027\u00E9chantillons",
+      "type": "number",
+      "defaultValue": "5",
+      "required": true,
+      "description": "Nombre d\u0027\u00E9chantillons"
+    }
+  ]
+}

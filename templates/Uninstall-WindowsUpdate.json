@@ -1,0 +1,16 @@
+{
+  "id": "09ca43b3-3229-432d-a175-5afface104b5",
+  "name": "Uninstall-WindowsUpdate",
+  "platform": "Windows",
+  "commandPattern": "Uninstall-WindowsUpdate -KBArticleID {kbNumber} -Confirm:$false",
+  "parameters": [
+    {
+      "name": "kbNumber",
+      "label": "Num\u00E9ro KB",
+      "type": "string",
+      "defaultValue": "KB5001234",
+      "required": true,
+      "description": "Num\u00E9ro KB de la mise \u00E0 jour \u00E0 d\u00E9sinstaller"
+    }
+  ]
+}

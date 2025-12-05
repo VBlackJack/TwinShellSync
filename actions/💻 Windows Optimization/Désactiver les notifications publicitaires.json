@@ -1,0 +1,24 @@
+{
+  "id": "08b5dabe-cd74-4b78-909e-a0bd1e3beb8c",
+  "title": "D\u00E9sactiver les notifications publicitaires",
+  "description": "Bloque les notifications publicitaires Windows et les suggestions d\u0027applications dans le menu D\u00E9marrer.",
+  "category": "\uD83D\uDCBB Windows Optimization",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "privacy",
+    "confidentialit\u00E9",
+    "rgpd",
+    "t\u00E9l\u00E9m\u00E9trie",
+    "ads",
+    "publicit\u00E9",
+    "windows"
+  ],
+  "windowsTemplateId": "71ef4a2f-9590-44ed-9ed9-2d8d3c9fcf52",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Bloque toutes les suggestions et publicit\u00E9s Windows. R\u00E9duit le tracking publicitaire et am\u00E9liore l\u0027exp\u00E9rience utilisateur.",
+  "links": [],
+  "isUserCreated": false
+}

@@ -1,0 +1,27 @@
+{
+  "id": "a799948e-f550-4d96-a306-7073aeec23d8",
+  "title": "Ex\u00E9cuter un playbook Ansible",
+  "description": "Ex\u00E9cute un playbook Ansible sur les h\u00F4tes d\u00E9finis dans l\u0027inventaire",
+  "category": "\u2699\uFE0F Services \u0026 Automation",
+  "platform": "Both",
+  "level": "Run",
+  "tags": [
+    "ansible",
+    "playbook",
+    "automation",
+    "configuration"
+  ],
+  "windowsTemplateId": "978a9b6a-c50a-438d-8f6e-7941a7155af7",
+  "linuxTemplateId": "9c1a52d1-e80c-4a12-8755-cfbd94465c15",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Utiliser --check pour un dry-run, --diff pour voir les changements, -v/-vv/-vvv pour plus de verbosit\u00E9.",
+  "links": [
+    {
+      "title": "Ansible Playbooks",
+      "url": "https://docs.ansible.com/ansible/latest/user_guide/playbooks.html"
+    }
+  ],
+  "isUserCreated": false
+}

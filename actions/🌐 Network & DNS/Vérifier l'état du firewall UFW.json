@@ -1,0 +1,26 @@
+{
+  "id": "42025058-2fdf-43bf-a91d-cbf851477f50",
+  "title": "V\u00E9rifier l\u0027\u00E9tat du firewall UFW",
+  "description": "Affiche l\u0027\u00E9tat et les r\u00E8gles du firewall UFW (Uncomplicated Firewall)",
+  "category": "\uD83C\uDF10 Network \u0026 DNS",
+  "platform": "Linux",
+  "level": "Info",
+  "tags": [
+    "ufw",
+    "firewall",
+    "ubuntu",
+    "security"
+  ],
+  "linuxTemplateId": "e2e2a66c-4a59-4ae2-b57c-dac1298b25a5",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "N\u00E9cessite sudo. UFW est pr\u00E9install\u00E9 sur Ubuntu/Debian. Frontend simplifi\u00E9 pour iptables.",
+  "links": [
+    {
+      "title": "UFW documentation",
+      "url": "https://help.ubuntu.com/community/UFW"
+    }
+  ],
+  "isUserCreated": false
+}

@@ -1,0 +1,27 @@
+{
+  "id": "7de3a796-de37-4b3b-8c89-41864989dad3",
+  "title": "Installer une application via Winget",
+  "description": "Installe une application Windows \u00E0 l\u0027aide du gestionnaire de packages Winget.",
+  "category": "\uD83D\uDCE6 Package Management",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "winget",
+    "package",
+    "installation",
+    "software",
+    "windows"
+  ],
+  "windowsTemplateId": "ff3001e1-6fa4-4f4f-bb5a-03c3134c371f",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "N\u00E9cessite Windows 10 1809 ou sup\u00E9rieur. L\u0027option --silent \u00E9vite les interactions utilisateur.",
+  "links": [
+    {
+      "title": "Documentation officielle Winget",
+      "url": "https://learn.microsoft.com/en-us/windows/package-manager/winget/"
+    }
+  ],
+  "isUserCreated": false
+}

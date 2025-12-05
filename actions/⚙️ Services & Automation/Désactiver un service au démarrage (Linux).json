@@ -1,0 +1,21 @@
+{
+  "id": "fe523959-5356-4827-82e0-2ead3531ac88",
+  "title": "D\u00E9sactiver un service au d\u00E9marrage (Linux)",
+  "description": "Emp\u00EAche un service systemd de d\u00E9marrer automatiquement au boot.",
+  "category": "\u2699\uFE0F Services \u0026 Automation",
+  "platform": "Linux",
+  "level": "Dangerous",
+  "tags": [
+    "linux",
+    "systemd",
+    "service",
+    "disable"
+  ],
+  "linuxTemplateId": "02449870-b23c-4bdb-8f5e-7d828a39cbec",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "N\u0027arr\u00EAte pas le service actuellement en cours, seulement le d\u00E9marrage automatique.",
+  "links": [],
+  "isUserCreated": false
+}

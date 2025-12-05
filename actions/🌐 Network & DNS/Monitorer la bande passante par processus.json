@@ -1,0 +1,27 @@
+{
+  "id": "66565d25-3d16-473a-9f57-b3a4660aa681",
+  "title": "Monitorer la bande passante par processus",
+  "description": "Affiche l\u0027utilisation r\u00E9seau en temps r\u00E9el par processus",
+  "category": "\uD83C\uDF10 Network \u0026 DNS",
+  "platform": "Linux",
+  "level": "Info",
+  "tags": [
+    "nethogs",
+    "bandwidth",
+    "network",
+    "monitoring",
+    "traffic"
+  ],
+  "linuxTemplateId": "35410b6e-4ab2-46dd-8989-4aa42b05e268",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "N\u00E9cessite sudo et le package nethogs. q pour quitter. Id\u00E9al pour identifier les processus gourmands.",
+  "links": [
+    {
+      "title": "nethogs documentation",
+      "url": "https://github.com/raboof/nethogs"
+    }
+  ],
+  "isUserCreated": false
+}

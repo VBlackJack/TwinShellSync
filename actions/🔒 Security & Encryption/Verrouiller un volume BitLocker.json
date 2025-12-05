@@ -1,0 +1,25 @@
+{
+  "id": "7d285eee-18a7-459f-88c9-20397894fa5c",
+  "title": "Verrouiller un volume BitLocker",
+  "description": "Verrouille imm\u00E9diatement un volume BitLocker (le rend inaccessible sans d\u00E9verrouillage).",
+  "category": "\uD83D\uDD12 Security \u0026 Encryption",
+  "platform": "Windows",
+  "level": "Dangerous",
+  "tags": [
+    "bitlocker",
+    "lock",
+    "security"
+  ],
+  "windowsTemplateId": "be1ad05f-6a31-4fd1-bcc1-91eda4f1f1af",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "\u26A0\uFE0F Ne verrouillez JAMAIS le volume syst\u00E8me (C:) pendant que Windows tourne! Utilisez pour s\u00E9curiser rapidement des disques externes ou de donn\u00E9es. ForceDismount: ferme tous les fichiers ouverts (perte de donn\u00E9es non sauvegard\u00E9es possible). Sans ForceDismount: \u00E9choue si fichiers ouverts.",
+  "links": [
+    {
+      "title": "Lock-BitLocker Documentation",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/bitlocker/lock-bitlocker"
+    }
+  ],
+  "isUserCreated": false
+}

@@ -1,0 +1,16 @@
+{
+  "id": "7bacca8f-7e52-49ca-ae28-1c67b19dc662",
+  "name": "Get-Acl",
+  "platform": "Windows",
+  "commandPattern": "$acl = Get-Acl -Path \u0027{path}\u0027; $acl.Access | Select-Object @{Name=\u0027Path\u0027;Expression={\u0027{path}\u0027}},IdentityReference,FileSystemRights,AccessControlType,IsInherited | Format-Table -AutoSize",
+  "parameters": [
+    {
+      "name": "path",
+      "label": "Chemin du dossier/fichier",
+      "type": "string",
+      "defaultValue": "C:\\",
+      "required": true,
+      "description": "Chemin complet du dossier ou fichier \u00E0 auditer"
+    }
+  ]
+}

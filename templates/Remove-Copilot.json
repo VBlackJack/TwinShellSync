@@ -1,0 +1,7 @@
+{
+  "id": "52cce683-7976-4520-9494-c132e24dce15",
+  "name": "Remove-Copilot",
+  "platform": "Windows",
+  "commandPattern": "Get-AppxPackage *Copilot* | Remove-AppxPackage -ErrorAction SilentlyContinue; New-Item -Path \u0027HKCU:\\Software\\Policies\\Microsoft\\Windows\\WindowsCopilot\u0027 -Force | Out-Null; Set-ItemProperty -Path \u0027HKCU:\\Software\\Policies\\Microsoft\\Windows\\WindowsCopilot\u0027 -Name \u0027TurnOffWindowsCopilot\u0027 -Type DWord -Value 1",
+  "parameters": []
+}

@@ -1,0 +1,24 @@
+{
+  "id": "e71f8098-4f0d-4a0e-b086-9ed62f86d569",
+  "name": "New-SelfSignedCertificate",
+  "platform": "Windows",
+  "commandPattern": "New-SelfSignedCertificate -DnsName \u0027{dnsName}\u0027 -CertStoreLocation Cert:\\LocalMachine\\My -NotAfter (Get-Date).AddYears({validityYears}) -KeyExportPolicy Exportable -KeySpec KeyExchange",
+  "parameters": [
+    {
+      "name": "dnsName",
+      "label": "Nom DNS",
+      "type": "string",
+      "defaultValue": "localhost",
+      "required": true,
+      "description": "Nom DNS ou Subject du certificat (ex: localhost, *.example.com)"
+    },
+    {
+      "name": "validityYears",
+      "label": "Validit\u00E9 (ann\u00E9es)",
+      "type": "string",
+      "defaultValue": "1",
+      "required": true,
+      "description": "Dur\u00E9e de validit\u00E9 en ann\u00E9es"
+    }
+  ]
+}

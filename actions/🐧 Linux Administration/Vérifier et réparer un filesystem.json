@@ -1,0 +1,27 @@
+{
+  "id": "9226cd2f-41fa-434e-b4be-8361a4e40607",
+  "title": "V\u00E9rifier et r\u00E9parer un filesystem",
+  "description": "V\u00E9rifie l\u0027int\u00E9grit\u00E9 d\u0027un syst\u00E8me de fichiers et tente de r\u00E9parer les erreurs",
+  "category": "\uD83D\uDC27 Linux Administration",
+  "platform": "Linux",
+  "level": "Dangerous",
+  "tags": [
+    "fsck",
+    "filesystem",
+    "repair",
+    "check",
+    "integrity"
+  ],
+  "linuxTemplateId": "c6743c1f-c070-4125-a0b2-c44fb479addf",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "N\u00E9cessite sudo. DANGER: partition DOIT \u00EAtre d\u00E9mont\u00E9e. -y r\u00E9pare automatiquement.",
+  "links": [
+    {
+      "title": "fsck documentation",
+      "url": "https://man7.org/linux/man-pages/man8/fsck.8.html"
+    }
+  ],
+  "isUserCreated": false
+}

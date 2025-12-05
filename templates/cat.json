@@ -1,0 +1,7 @@
+{
+  "id": "78a2db4e-c6ea-490b-a9a3-ff31e33164ab",
+  "name": "cat",
+  "platform": "Linux",
+  "commandPattern": "cat /var/lib/logrotate/status",
+  "parameters": []
+}

@@ -1,0 +1,28 @@
+{
+  "id": "7218f327-63b8-4979-bf89-5d4f1f0e1563",
+  "title": "D\u00E9sactiver l\u0027acc\u00E8s \u00E0 la localisation",
+  "description": "D\u00E9sactive l\u0027acc\u00E8s des applications \u00E0 la localisation de l\u0027appareil pour prot\u00E9ger la vie priv\u00E9e. Conforme RGPD.",
+  "category": "\uD83D\uDCBB Windows Optimization",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "privacy",
+    "confidentialit\u00E9",
+    "rgpd",
+    "permissions",
+    "localisation",
+    "windows"
+  ],
+  "windowsTemplateId": "d5ad4dc9-4fd2-4124-8f36-5ea2198e8d50",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "D\u00E9sactive l\u0027acc\u00E8s \u00E0 la localisation GPS. Am\u00E9liore la confidentialit\u00E9 et la conformit\u00E9 RGPD. Les applications de navigation peuvent \u00EAtre affect\u00E9es.",
+  "links": [
+    {
+      "title": "RGPD - Protection des donn\u00E9es de localisation",
+      "url": "https://gdpr.eu/article-6-how-to-process-personal-data-legally/"
+    }
+  ],
+  "isUserCreated": false
+}

@@ -1,0 +1,30 @@
+{
+  "id": "70e3bf8d-d203-4f31-9c7b-8e9c79eb50c6",
+  "title": "Analyser l\u0027utilisation m\u00E9moire d\u00E9taill\u00E9e",
+  "description": "Analyse d\u00E9taill\u00E9e de l\u0027utilisation de la m\u00E9moire syst\u00E8me: RAM totale, disponible, utilis\u00E9e, et r\u00E9partition par processus.",
+  "category": "\u26A1 Performance",
+  "platform": "Both",
+  "level": "Info",
+  "tags": [
+    "performance",
+    "memory",
+    "ram",
+    "diagnostic",
+    "monitoring",
+    "troubleshooting",
+    "capacity"
+  ],
+  "windowsTemplateId": "dd844cee-ad52-4832-ac55-4dc666df49da",
+  "linuxTemplateId": "8a3b68fd-7341-4e45-a6f6-ae1e6ab2a8d6",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "WorkingSet = m\u00E9moire physique (RAM). PrivateMemorySize = m\u00E9moire virtuelle priv\u00E9e. Sur Linux, buff/cache est de la m\u00E9moire disponible.",
+  "links": [
+    {
+      "title": "Documentation Win32_OperatingSystem",
+      "url": "https://learn.microsoft.com/en-us/windows/win32/cimwin32prov/win32-operatingsystem"
+    }
+  ],
+  "isUserCreated": false
+}

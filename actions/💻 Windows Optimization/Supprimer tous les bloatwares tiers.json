@@ -1,0 +1,27 @@
+{
+  "id": "e4787adc-8d72-4fac-95e4-f552d61bb258",
+  "title": "Supprimer tous les bloatwares tiers",
+  "description": "Supprime automatiquement tous les bloatwares tiers pr\u00E9install\u00E9s (Candy Crush, Spotify, Disney\u002B, etc.).",
+  "category": "\uD83D\uDCBB Windows Optimization",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "debloat",
+    "bloatware",
+    "cleanup",
+    "third-party",
+    "windows"
+  ],
+  "windowsTemplateId": "442071f5-cd43-4c6f-835d-109c321eca68",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Supprime les applications tierces pr\u00E9install\u00E9es. Peut n\u00E9cessiter des droits administrateur.",
+  "links": [
+    {
+      "title": "Remove-AppxPackage Documentation",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/appx/remove-appxpackage"
+    }
+  ],
+  "isUserCreated": false
+}

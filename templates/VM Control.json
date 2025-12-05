@@ -1,0 +1,24 @@
+{
+  "id": "3f14e373-ef1b-4d5e-bfcd-04c233c06f91",
+  "name": "VM Control",
+  "platform": "Windows",
+  "commandPattern": "{action}-VM -Name \u0027{vmName}\u0027",
+  "parameters": [
+    {
+      "name": "vmName",
+      "label": "Nom de la VM",
+      "type": "string",
+      "defaultValue": "",
+      "required": true,
+      "description": "Nom de la machine virtuelle"
+    },
+    {
+      "name": "action",
+      "label": "Action",
+      "type": "string",
+      "defaultValue": "Start",
+      "required": true,
+      "description": "Action: Start, Stop, Save, Suspend, Resume"
+    }
+  ]
+}

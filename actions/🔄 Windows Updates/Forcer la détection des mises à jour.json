@@ -1,0 +1,20 @@
+{
+  "id": "9314fa0a-4b55-4771-976d-f2ca72073858",
+  "title": "Forcer la d\u00E9tection des mises \u00E0 jour",
+  "description": "Force Windows Update \u00E0 rechercher imm\u00E9diatement les nouvelles mises \u00E0 jour",
+  "category": "\uD83D\uDD04 Windows Updates",
+  "platform": "Windows",
+  "level": "Info",
+  "tags": [
+    "windows-update",
+    "detection",
+    "force"
+  ],
+  "windowsTemplateId": "d12d4cde-cd5d-4d6a-a27b-8ac4d2704a28",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Droits administrateur requis. Sur Windows 10/11, pr\u00E9f\u00E9rer \u0027usoclient StartScan\u0027.",
+  "links": [],
+  "isUserCreated": false
+}

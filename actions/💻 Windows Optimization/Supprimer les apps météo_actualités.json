@@ -1,0 +1,22 @@
+{
+  "id": "d4351efe-89cd-48c9-beca-c1a5a96bb245",
+  "title": "Supprimer les apps m\u00E9t\u00E9o/actualit\u00E9s",
+  "description": "Supprime les applications d\u0027information Microsoft (M\u00E9t\u00E9o, Actualit\u00E9s, Sports).",
+  "category": "\uD83D\uDCBB Windows Optimization",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "debloat",
+    "weather",
+    "news",
+    "info",
+    "windows"
+  ],
+  "windowsTemplateId": "8f728cc1-6a40-422c-a927-6e8ba6db368a",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Supprime les apps d\u0027actualit\u00E9s et m\u00E9t\u00E9o Microsoft.",
+  "links": [],
+  "isUserCreated": false
+}

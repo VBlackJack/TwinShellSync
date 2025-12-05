@@ -1,0 +1,7 @@
+{
+  "id": "716d3f2a-5e27-4806-ab7f-ec6cba30c6d5",
+  "name": "Get-NetAdapter",
+  "platform": "Windows",
+  "commandPattern": "Get-NetAdapter | Select-Object Name,InterfaceDescription,Status,LinkSpeed,MacAddress | Format-Table -AutoSize; Get-NetIPAddress -AddressFamily IPv4 | Where-Object {$_.InterfaceAlias -notlike \u0027*Loopback*\u0027} | Select-Object InterfaceAlias,IPAddress,PrefixLength | Format-Table -AutoSize",
+  "parameters": []
+}

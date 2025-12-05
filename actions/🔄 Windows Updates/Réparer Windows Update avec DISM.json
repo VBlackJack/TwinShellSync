@@ -1,0 +1,26 @@
+{
+  "id": "a0d6f5e2-b5fa-4ef3-aa90-17f640ac14cc",
+  "title": "R\u00E9parer Windows Update avec DISM",
+  "description": "Utilise DISM pour r\u00E9parer l\u0027image Windows et r\u00E9soudre les probl\u00E8mes de Windows Update",
+  "category": "\uD83D\uDD04 Windows Updates",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "windows-update",
+    "dism",
+    "repair",
+    "troubleshoot"
+  ],
+  "windowsTemplateId": "cd577d6e-7d24-42cb-9534-765e96ea1358",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Peut prendre 15-30 minutes. N\u00E9cessite une connexion Internet active. Ex\u00E9cuter DISM AVANT SFC pour de meilleurs r\u00E9sultats. N\u00E9cessite droits administrateur.",
+  "links": [
+    {
+      "title": "DISM Repair Documentation",
+      "url": "https://learn.microsoft.com/en-us/troubleshoot/windows-server/deployment/fix-windows-update-errors"
+    }
+  ],
+  "isUserCreated": false
+}

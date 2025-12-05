@@ -1,0 +1,22 @@
+{
+  "id": "d9c337c8-ac92-4efb-be97-3a53aba36a32",
+  "title": "Suivre les logs syst\u00E8me en temps r\u00E9el (Linux)",
+  "description": "Affiche en continu les nouvelles entr\u00E9es du journal syst\u00E8me Linux.",
+  "category": "\uD83D\uDCCA Monitoring \u0026 Logs",
+  "platform": "Linux",
+  "level": "Info",
+  "tags": [
+    "logs",
+    "syslog",
+    "tail",
+    "monitoring",
+    "linux"
+  ],
+  "linuxTemplateId": "6d14a2f2-6c60-478b-8199-63cb27197942",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Sur certaines distributions, le fichier peut \u00EAtre /var/log/messages. Utiliser Ctrl\u002BC pour arr\u00EAter.",
+  "links": [],
+  "isUserCreated": false
+}

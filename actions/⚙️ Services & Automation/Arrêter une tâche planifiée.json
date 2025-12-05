@@ -1,0 +1,27 @@
+{
+  "id": "5f8db9f8-9590-405a-ab14-92a63694383c",
+  "title": "Arr\u00EAter une t\u00E2che planifi\u00E9e",
+  "description": "Arr\u00EAte l\u0027ex\u00E9cution en cours d\u0027une t\u00E2che planifi\u00E9e",
+  "category": "\u2699\uFE0F Services \u0026 Automation",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "taskscheduler",
+    "stop",
+    "kill",
+    "automation",
+    "windows"
+  ],
+  "windowsTemplateId": "eef92f36-8f1a-4ca0-a292-b2014c2e02b6",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Termine imm\u00E9diatement l\u0027ex\u00E9cution. Utilisez avec prudence sur les t\u00E2ches critiques.",
+  "links": [
+    {
+      "title": "Stop-ScheduledTask Documentation",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/scheduledtasks/stop-scheduledtask"
+    }
+  ],
+  "isUserCreated": false
+}

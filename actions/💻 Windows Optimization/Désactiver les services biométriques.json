@@ -1,0 +1,30 @@
+{
+  "id": "2d33ba0f-2dcb-4db9-9910-442eabb61e20",
+  "title": "D\u00E9sactiver les services biom\u00E9triques",
+  "description": "D\u00E9sactive la collecte de donn\u00E9es biom\u00E9triques (empreintes digitales, reconnaissance faciale Windows Hello).",
+  "category": "\uD83D\uDCBB Windows Optimization",
+  "platform": "Windows",
+  "level": "Dangerous",
+  "tags": [
+    "privacy",
+    "confidentialit\u00E9",
+    "rgpd",
+    "t\u00E9l\u00E9m\u00E9trie",
+    "biometric",
+    "hello",
+    "fingerprint",
+    "windows"
+  ],
+  "windowsTemplateId": "c92f4baf-eff0-41cb-a773-3aa5d78ffda9",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "ATTENTION: D\u00E9sactive Windows Hello et tous les services biom\u00E9triques. Prot\u00E8ge contre la collecte de donn\u00E9es biom\u00E9triques sensibles (RGPD Article 9 - donn\u00E9es sensibles). Vous devrez utiliser PIN ou mot de passe.",
+  "links": [
+    {
+      "title": "RGPD - Article 9 - Traitement des donn\u00E9es sensibles",
+      "url": "https://gdpr.eu/article-9-processing-special-categories-of-personal-data-prohibited/"
+    }
+  ],
+  "isUserCreated": false
+}

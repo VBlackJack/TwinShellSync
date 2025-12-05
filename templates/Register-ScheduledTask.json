@@ -1,0 +1,48 @@
+{
+  "id": "1807e498-3900-4f8b-8713-46292b7c4a45",
+  "name": "Register-ScheduledTask",
+  "platform": "Windows",
+  "commandPattern": "$action = New-ScheduledTaskAction -Execute \u0027{executable}\u0027 -Argument \u0027{arguments}\u0027; $trigger = New-ScheduledTaskTrigger {triggertype}; Register-ScheduledTask -TaskName \u0027{taskname}\u0027 -Action $action -Trigger $trigger {user}",
+  "parameters": [
+    {
+      "name": "taskname",
+      "label": "Nom de la t\u00E2che",
+      "type": "string",
+      "defaultValue": "MyTask",
+      "required": true,
+      "description": "Nom de la t\u00E2che \u00E0 cr\u00E9er"
+    },
+    {
+      "name": "executable",
+      "label": "Ex\u00E9cutable",
+      "type": "string",
+      "defaultValue": "powershell.exe",
+      "required": true,
+      "description": "Programme \u00E0 ex\u00E9cuter"
+    },
+    {
+      "name": "arguments",
+      "label": "Arguments",
+      "type": "string",
+      "defaultValue": "-File C:\\Scripts\\backup.ps1",
+      "required": false,
+      "description": "Arguments de la commande"
+    },
+    {
+      "name": "triggertype",
+      "label": "D\u00E9clencheur",
+      "type": "string",
+      "defaultValue": "-Daily -At 9:00AM",
+      "required": true,
+      "description": "Type de d\u00E9clencheur (-Daily, -Weekly, -AtStartup, -AtLogon)"
+    },
+    {
+      "name": "user",
+      "label": "Utilisateur",
+      "type": "string",
+      "defaultValue": "-User \u0027SYSTEM\u0027",
+      "required": false,
+      "description": "Compte d\u0027ex\u00E9cution (ex: -User \u0027SYSTEM\u0027)"
+    }
+  ]
+}

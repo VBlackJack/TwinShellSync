@@ -1,0 +1,21 @@
+{
+  "id": "b9f1b404-022e-407b-ae6a-917d05f92e88",
+  "title": "Arr\u00EAter un service (Linux)",
+  "description": "Arr\u00EAte un service systemd en cours d\u0027ex\u00E9cution.",
+  "category": "\u2699\uFE0F Services \u0026 Automation",
+  "platform": "Linux",
+  "level": "Run",
+  "tags": [
+    "linux",
+    "systemd",
+    "service",
+    "stop"
+  ],
+  "linuxTemplateId": "27d50c7d-3d03-4c1c-ba10-8bd43e544d1a",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "N\u00E9cessite les droits sudo. Peut affecter les services d\u00E9pendants.",
+  "links": [],
+  "isUserCreated": false
+}

@@ -1,0 +1,24 @@
+{
+  "id": "1c85b5c7-02cd-4a83-b538-3806c3d744e5",
+  "title": "D\u00E9sactiver sync du navigateur",
+  "description": "D\u00E9sactive la synchronisation des param\u00E8tres de navigateur (favoris, historique, onglets).",
+  "category": "\uD83D\uDCBB Windows Optimization",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "privacy",
+    "confidentialit\u00E9",
+    "rgpd",
+    "sync",
+    "browser",
+    "edge",
+    "windows"
+  ],
+  "windowsTemplateId": "3c06e5bb-99ec-4e37-8aab-417c033bfe64",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Emp\u00EAche la synchronisation des favoris, historique et onglets du navigateur. L\u0027historique de navigation reste priv\u00E9 et local.",
+  "links": [],
+  "isUserCreated": false
+}

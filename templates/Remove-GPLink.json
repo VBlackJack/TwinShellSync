@@ -1,0 +1,24 @@
+{
+  "id": "38a35917-bda7-4afd-9921-ed3fa8efd62d",
+  "name": "Remove-GPLink",
+  "platform": "Windows",
+  "commandPattern": "Remove-GPLink -Name \u0022{gpoName}\u0022 -Target \u0022{ouDN}\u0022",
+  "parameters": [
+    {
+      "name": "gpoName",
+      "label": "Nom de la GPO",
+      "type": "string",
+      "defaultValue": "",
+      "required": true,
+      "description": "Nom de la GPO \u00E0 d\u00E9lier"
+    },
+    {
+      "name": "ouDN",
+      "label": "DN de l\u0027OU",
+      "type": "string",
+      "defaultValue": "",
+      "required": true,
+      "description": "Distinguished Name de l\u0027OU"
+    }
+  ]
+}

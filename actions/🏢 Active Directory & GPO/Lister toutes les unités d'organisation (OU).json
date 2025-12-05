@@ -1,0 +1,26 @@
+{
+  "id": "71731d70-c72f-4aec-a264-00d7d50e0a1d",
+  "title": "Lister toutes les unit\u00E9s d\u0027organisation (OU)",
+  "description": "Affiche la liste de toutes les unit\u00E9s d\u0027organisation dans Active Directory.",
+  "category": "\uD83C\uDFE2 Active Directory \u0026 GPO",
+  "platform": "Windows",
+  "level": "Info",
+  "tags": [
+    "ad",
+    "ou",
+    "organizational-unit",
+    "list"
+  ],
+  "windowsTemplateId": "c93068fa-41d1-4fbc-9f57-32c8e144408d",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Affiche toutes les OUs du domaine. Utile pour identifier les chemins pour la cr\u00E9ation d\u0027objets.",
+  "links": [
+    {
+      "title": "Documentation Get-ADOrganizationalUnit",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/activedirectory/get-adorganizationalunit"
+    }
+  ],
+  "isUserCreated": false
+}

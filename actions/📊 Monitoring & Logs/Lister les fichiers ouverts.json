@@ -1,0 +1,27 @@
+{
+  "id": "19df1507-018e-46e2-81be-164d00d430df",
+  "title": "Lister les fichiers ouverts",
+  "description": "Liste tous les fichiers ouverts par les processus (fichiers, sockets, etc.)",
+  "category": "\uD83D\uDCCA Monitoring \u0026 Logs",
+  "platform": "Linux",
+  "level": "Info",
+  "tags": [
+    "lsof",
+    "files",
+    "processes",
+    "sockets",
+    "monitoring"
+  ],
+  "linuxTemplateId": "835336b2-fc33-43c2-8604-43deb662d159",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "N\u00E9cessite sudo pour voir tous les processus. Tr\u00E8s puissant pour diagnostiquer les probl\u00E8mes.",
+  "links": [
+    {
+      "title": "lsof examples",
+      "url": "https://man7.org/linux/man-pages/man8/lsof.8.html"
+    }
+  ],
+  "isUserCreated": false
+}

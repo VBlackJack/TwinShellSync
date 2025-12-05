@@ -1,0 +1,26 @@
+{
+  "id": "f5624196-a839-4bff-af83-6aa49b7b242d",
+  "title": "G\u00E9n\u00E9rer un rapport HTML d\u0027une GPO",
+  "description": "G\u00E9n\u00E8re un rapport HTML d\u00E9taill\u00E9 des param\u00E8tres d\u0027une strat\u00E9gie de groupe.",
+  "category": "\uD83C\uDFE2 Active Directory \u0026 GPO",
+  "platform": "Windows",
+  "level": "Info",
+  "tags": [
+    "gpo",
+    "report",
+    "html",
+    "documentation"
+  ],
+  "windowsTemplateId": "6c032ca1-85ef-486b-a1e5-e2ac6bf42eee",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Le rapport HTML est d\u00E9taill\u00E9 et facile \u00E0 partager. Utile pour la documentation et l\u0027audit.",
+  "links": [
+    {
+      "title": "Documentation Get-GPOReport",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/grouppolicy/get-gporeport"
+    }
+  ],
+  "isUserCreated": false
+}

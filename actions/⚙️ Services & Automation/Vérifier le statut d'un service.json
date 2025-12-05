@@ -1,0 +1,23 @@
+{
+  "id": "c39f7316-d669-40ea-9136-f399e422ed2e",
+  "title": "V\u00E9rifier le statut d\u0027un service",
+  "description": "Affiche l\u0027\u00E9tat actuel d\u0027un service Windows.",
+  "category": "\u2699\uFE0F Services \u0026 Automation",
+  "platform": "Both",
+  "level": "Info",
+  "tags": [
+    "linux",
+    "windows",
+    "status",
+    "service",
+    "systemd"
+  ],
+  "windowsTemplateId": "8d4f3909-a8be-4187-ae32-108b509ae1aa",
+  "linuxTemplateId": "3b639697-63f1-4916-ae0a-385f7bd84da1",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Windows: Pour voir tous les services : Get-Service\nLinux: La plupart des commandes systemctl n\u00E9cessitent sudo pour les actions de modification.",
+  "links": [],
+  "isUserCreated": false
+}

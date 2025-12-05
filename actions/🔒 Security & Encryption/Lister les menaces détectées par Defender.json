@@ -1,0 +1,26 @@
+{
+  "id": "10287b01-4199-4ee1-ae32-d768e90be06b",
+  "title": "Lister les menaces d\u00E9tect\u00E9es par Defender",
+  "description": "Affiche l\u0027historique des menaces d\u00E9tect\u00E9es et bloqu\u00E9es par Windows Defender.",
+  "category": "\uD83D\uDD12 Security \u0026 Encryption",
+  "platform": "Windows",
+  "level": "Info",
+  "tags": [
+    "defender",
+    "threats",
+    "malware",
+    "history"
+  ],
+  "windowsTemplateId": "19375d9c-df48-4f54-b3cc-9f006e702241",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "SeverityID: 0=Unknown, 1=Low, 2=Medium, 4=High, 5=Severe. Resources: chemin des fichiers infect\u00E9s. IsActive: $true si menace toujours pr\u00E9sente. Get-MpThreatDetection: historique d\u00E9taill\u00E9 avec actions effectu\u00E9es.",
+  "links": [
+    {
+      "title": "Get-MpThreat Documentation",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/defender/get-mpthreat"
+    }
+  ],
+  "isUserCreated": false
+}

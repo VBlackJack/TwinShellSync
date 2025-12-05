@@ -1,0 +1,7 @@
+{
+  "id": "4617080e-bd2f-40ed-ac53-71385be66280",
+  "name": "Get-MpThreatDetection",
+  "platform": "Windows",
+  "commandPattern": "Get-MpThreatDetection | Select-Object ThreatID,ThreatName,Resources | Format-Table -AutoSize",
+  "parameters": []
+}

@@ -1,0 +1,24 @@
+{
+  "id": "91a9e7a2-4499-4c99-81ce-273f2fd15cf2",
+  "name": "dotnet publish",
+  "platform": "Windows",
+  "commandPattern": "dotnet publish \u0022{projectPath}\u0022 --configuration Release --output \u0022{outputPath}\u0022",
+  "parameters": [
+    {
+      "name": "projectPath",
+      "label": "Projet",
+      "type": "string",
+      "defaultValue": ".",
+      "required": false,
+      "description": "Chemin du projet"
+    },
+    {
+      "name": "outputPath",
+      "label": "Dossier de sortie",
+      "type": "string",
+      "defaultValue": "./publish",
+      "required": false,
+      "description": "Dossier o\u00F9 publier"
+    }
+  ]
+}

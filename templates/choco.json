@@ -1,0 +1,24 @@
+{
+  "id": "ce5d4f95-842e-4aed-837c-58452637e238",
+  "name": "choco",
+  "platform": "Windows",
+  "commandPattern": "choco source add --name={name} --source={url}",
+  "parameters": [
+    {
+      "name": "name",
+      "label": "Nom de la source",
+      "type": "string",
+      "defaultValue": "",
+      "required": true,
+      "description": "Nom \u00E0 donner \u00E0 la source"
+    },
+    {
+      "name": "url",
+      "label": "URL de la source",
+      "type": "string",
+      "defaultValue": "",
+      "required": true,
+      "description": "URL du d\u00E9p\u00F4t de packages"
+    }
+  ]
+}

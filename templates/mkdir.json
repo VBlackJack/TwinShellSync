@@ -1,0 +1,16 @@
+{
+  "id": "dc047015-d0ab-4a16-9af4-f03faf792856",
+  "name": "mkdir",
+  "platform": "Linux",
+  "commandPattern": "mkdir -p \u0022{path}\u0022",
+  "parameters": [
+    {
+      "name": "path",
+      "label": "Chemin du dossier",
+      "type": "string",
+      "defaultValue": "",
+      "required": true,
+      "description": "Chemin du nouveau dossier \u00E0 cr\u00E9er"
+    }
+  ]
+}

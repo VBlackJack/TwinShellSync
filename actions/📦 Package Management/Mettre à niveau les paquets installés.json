@@ -1,0 +1,27 @@
+{
+  "id": "a668a8ad-2a41-42ba-8858-72553f7b9de1",
+  "title": "Mettre \u00E0 niveau les paquets install\u00E9s",
+  "description": "Met \u00E0 jour tous les paquets install\u00E9s vers leurs derni\u00E8res versions disponibles",
+  "category": "\uD83D\uDCE6 Package Management",
+  "platform": "Linux",
+  "level": "Run",
+  "tags": [
+    "apt",
+    "upgrade",
+    "update",
+    "debian",
+    "ubuntu"
+  ],
+  "linuxTemplateId": "5cdc32cf-60d7-490b-88a8-fdbc92ab87c3",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "N\u00E9cessite sudo. Ex\u00E9cuter apt update d\u0027abord. full-upgrade peut supprimer des paquets obsol\u00E8tes.",
+  "links": [
+    {
+      "title": "APT upgrade guide",
+      "url": "https://help.ubuntu.com/community/AptGet/Howto"
+    }
+  ],
+  "isUserCreated": false
+}

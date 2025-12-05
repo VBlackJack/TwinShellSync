@@ -1,0 +1,7 @@
+{
+  "id": "ed5667cd-71ee-4e21-ba40-13d28d800102",
+  "name": "netstat",
+  "platform": "Linux",
+  "commandPattern": "netstat -tunap | grep ESTABLISHED",
+  "parameters": []
+}

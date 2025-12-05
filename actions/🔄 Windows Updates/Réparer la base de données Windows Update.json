@@ -1,0 +1,26 @@
+{
+  "id": "6605f089-f900-4c77-b326-78a6b1f7cea2",
+  "title": "R\u00E9parer la base de donn\u00E9es Windows Update",
+  "description": "Utilise l\u0027outil DISM pour r\u00E9parer les composants Windows Update corrompus",
+  "category": "\uD83D\uDD04 Windows Updates",
+  "platform": "Windows",
+  "level": "Dangerous",
+  "tags": [
+    "windows-update",
+    "dism",
+    "repair",
+    "sfc"
+  ],
+  "windowsTemplateId": "0458d15f-9137-4794-9f11-75da5572ea4e",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "\u23F1\uFE0F Peut prendre 15-30 minutes selon la vitesse du PC et de la connexion Internet. Droits administrateur requis.",
+  "links": [
+    {
+      "title": "DISM Documentation",
+      "url": "https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/dism-operating-system-package-servicing-command-line-options"
+    }
+  ],
+  "isUserCreated": false
+}

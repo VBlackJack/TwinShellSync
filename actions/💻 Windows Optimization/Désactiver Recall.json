@@ -1,0 +1,22 @@
+{
+  "id": "1fe466e5-eb87-452a-acb2-858ca9449553",
+  "title": "D\u00E9sactiver Recall",
+  "description": "D\u00E9sactive la fonctionnalit\u00E9 Recall AI de Windows 11 (enregistrement de l\u0027activit\u00E9).",
+  "category": "\uD83D\uDCBB Windows Optimization",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "debloat",
+    "recall",
+    "ai",
+    "privacy",
+    "windows"
+  ],
+  "windowsTemplateId": "f5b806b1-54eb-4697-a26b-2b3ba1b3ccb3",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "D\u00E9sactive l\u0027enregistrement de l\u0027activit\u00E9 par Recall AI. Am\u00E9liore la confidentialit\u00E9.",
+  "links": [],
+  "isUserCreated": false
+}

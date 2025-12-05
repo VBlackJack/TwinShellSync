@@ -1,0 +1,28 @@
+{
+  "id": "5d2b73bc-a654-4553-b738-d9ba03c82a26",
+  "title": "Ex\u00E9cuter un playbook en mode dry-run (--check)",
+  "description": "Ex\u00E9cute un playbook Ansible en mode test sans appliquer les changements",
+  "category": "\u2699\uFE0F Services \u0026 Automation",
+  "platform": "Both",
+  "level": "Run",
+  "tags": [
+    "ansible",
+    "playbook",
+    "dry-run",
+    "check",
+    "test"
+  ],
+  "windowsTemplateId": "5f50b4a9-1cf3-48ee-9efe-2919bc9c8be1",
+  "linuxTemplateId": "53327473-9498-4ca9-a184-ffbc5a034702",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Le mode --check simule l\u0027ex\u00E9cution sans appliquer les changements. --diff affiche les diff\u00E9rences avant/apr\u00E8s.",
+  "links": [
+    {
+      "title": "Ansible Check Mode",
+      "url": "https://docs.ansible.com/ansible/latest/user_guide/playbooks_checkmode.html"
+    }
+  ],
+  "isUserCreated": false
+}

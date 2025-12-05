@@ -1,0 +1,26 @@
+{
+  "id": "699ce3cd-dca0-44e7-bcea-7f35f6e5b5df",
+  "title": "V\u00E9rifier l\u0027\u00E9tat des services Windows Update",
+  "description": "V\u00E9rifie l\u0027\u00E9tat et le type de d\u00E9marrage des services critiques pour Windows Update",
+  "category": "\uD83D\uDD04 Windows Updates",
+  "platform": "Windows",
+  "level": "Info",
+  "tags": [
+    "windows-update",
+    "services",
+    "diagnostic",
+    "wuauserv"
+  ],
+  "windowsTemplateId": "13a7262c-4712-4c36-b105-af851cf56969",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Services critiques: wuauserv (Windows Update), bits (Background Intelligent Transfer), cryptsvc (Cryptographic Services), msiserver (Windows Installer).",
+  "links": [
+    {
+      "title": "Windows Update Services",
+      "url": "https://learn.microsoft.com/en-us/troubleshoot/windows-server/installing-updates-features-roles/fix-windows-update-errors"
+    }
+  ],
+  "isUserCreated": false
+}

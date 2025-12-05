@@ -1,0 +1,26 @@
+{
+  "id": "cf22ab68-d4d9-430f-9e4c-0eda4e0d172f",
+  "title": "Fusionner des branches",
+  "description": "Fusionne une ou plusieurs branches dans la branche actuelle",
+  "category": "\uD83D\uDD27 Development",
+  "platform": "Both",
+  "level": "Dangerous",
+  "tags": [
+    "git",
+    "merge",
+    "integration"
+  ],
+  "windowsTemplateId": "62366ae6-76f2-4d73-a9d0-665235ad19c3",
+  "linuxTemplateId": "0c730b5f-097b-4c21-9ecc-d51357bd3f08",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "En cas de conflits, r\u00E9solvez-les puis faites \u0027git add\u0027 et \u0027git commit\u0027.",
+  "links": [
+    {
+      "title": "Git Merge Documentation",
+      "url": "https://git-scm.com/docs/git-merge"
+    }
+  ],
+  "isUserCreated": false
+}

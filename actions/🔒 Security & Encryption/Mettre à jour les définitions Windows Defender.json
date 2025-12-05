@@ -1,0 +1,26 @@
+{
+  "id": "84572423-870f-4e1a-80a6-5fc3fc1a9e7f",
+  "title": "Mettre \u00E0 jour les d\u00E9finitions Windows Defender",
+  "description": "Force la mise \u00E0 jour imm\u00E9diate des signatures antivirus et antimalware de Defender.",
+  "category": "\uD83D\uDD12 Security \u0026 Encryption",
+  "platform": "Windows",
+  "level": "Info",
+  "tags": [
+    "defender",
+    "update",
+    "signatures",
+    "antivirus"
+  ],
+  "windowsTemplateId": "32086870-01b8-4532-98e3-7be2c7d7d230",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Ex\u00E9cute une mise \u00E0 jour imm\u00E9diate (ne pas attendre la planification). UpdateSource: MicrosoftUpdateServer (WSUS/Windows Update), MMPC (serveurs Microsoft directs), FileShares (partage r\u00E9seau). N\u00E9cessite une connexion Internet active.",
+  "links": [
+    {
+      "title": "Update-MpSignature Documentation",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/defender/update-mpsignature"
+    }
+  ],
+  "isUserCreated": false
+}

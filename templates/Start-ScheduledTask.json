@@ -1,0 +1,24 @@
+{
+  "id": "d4f6ceec-ae1a-47c4-81d6-4b4b9c0bc6f8",
+  "name": "Start-ScheduledTask",
+  "platform": "Windows",
+  "commandPattern": "Start-ScheduledTask -TaskName \u0027{taskname}\u0027 {taskpath}",
+  "parameters": [
+    {
+      "name": "taskname",
+      "label": "Nom de la t\u00E2che",
+      "type": "string",
+      "defaultValue": "MyTask",
+      "required": true,
+      "description": "Nom de la t\u00E2che \u00E0 d\u00E9marrer"
+    },
+    {
+      "name": "taskpath",
+      "label": "Chemin",
+      "type": "string",
+      "defaultValue": "",
+      "required": false,
+      "description": "Chemin de la t\u00E2che (ex: -TaskPath \u0027\\CustomTasks\\\u0027)"
+    }
+  ]
+}

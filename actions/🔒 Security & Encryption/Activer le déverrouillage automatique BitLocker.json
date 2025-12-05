@@ -1,0 +1,25 @@
+{
+  "id": "c6373b29-7326-425c-b55a-3b05d57ee3ad",
+  "title": "Activer le d\u00E9verrouillage automatique BitLocker",
+  "description": "Active le d\u00E9verrouillage automatique pour un volume de donn\u00E9es BitLocker (d\u00E9verrouill\u00E9 quand le volume syst\u00E8me est d\u00E9verrouill\u00E9).",
+  "category": "\uD83D\uDD12 Security \u0026 Encryption",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "bitlocker",
+    "autounlock",
+    "convenience"
+  ],
+  "windowsTemplateId": "dca446db-06c1-4679-b746-af6202fa8ac0",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "AutoUnlock: le volume de donn\u00E9es se d\u00E9verrouille automatiquement quand vous vous connectez \u00E0 Windows. Fonctionne uniquement pour les volumes de donn\u00E9es (pas C:). La cl\u00E9 est stock\u00E9e chiffr\u00E9e dans le volume syst\u00E8me. Pratique pour disques internes, \u00E9vitez pour disques externes amovibles.",
+  "links": [
+    {
+      "title": "Enable-BitLockerAutoUnlock Documentation",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/bitlocker/enable-bitlockerautounlock"
+    }
+  ],
+  "isUserCreated": false
+}

@@ -1,0 +1,7 @@
+{
+  "id": "2849d5be-571d-40b1-898c-333b5f13a3ac",
+  "name": "Disable-CoreIsolation",
+  "platform": "Windows",
+  "commandPattern": "Set-ItemProperty -Path \u0027HKLM:\\SYSTEM\\CurrentControlSet\\Control\\DeviceGuard\\Scenarios\\HypervisorEnforcedCodeIntegrity\u0027 -Name \u0027Enabled\u0027 -Type DWord -Value 0 -ErrorAction SilentlyContinue; bcdedit /set hypervisorlaunchtype off; Write-Host \u0022Core Isolation d\u00E9sactiv\u00E9\u0022 -ForegroundColor Green; Write-Warning \u0022Red\u00E9marrage requis. Impact s\u00E9curit\u00E9: protection contre exploits kernel r\u00E9duite\u0022",
+  "parameters": []
+}

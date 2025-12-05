@@ -1,0 +1,27 @@
+{
+  "id": "2d955dad-417d-48f8-a62a-03ac23cd9c4e",
+  "title": "Consulter les \u00E9v\u00E9nements Windows r\u00E9cents",
+  "description": "Affiche les derniers \u00E9v\u00E9nements du journal Windows (System, Application, Security)",
+  "category": "\u2699\uFE0F Services \u0026 Automation",
+  "platform": "Windows",
+  "level": "Info",
+  "tags": [
+    "eventlog",
+    "logs",
+    "monitoring",
+    "windows",
+    "troubleshooting"
+  ],
+  "windowsTemplateId": "9ca49b53-bbf0-4e7a-a90c-a6fe9c08d3e3",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Essentiel pour diagnostic. Utilisez Get-WinEvent pour logs plus r\u00E9cents (plus performant). EntryType: Error, Warning, Information.",
+  "links": [
+    {
+      "title": "Get-EventLog Documentation",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-eventlog"
+    }
+  ],
+  "isUserCreated": false
+}

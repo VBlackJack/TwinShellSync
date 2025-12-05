@@ -1,0 +1,26 @@
+{
+  "id": "62e673f5-6145-4e4a-a98d-796e426ed323",
+  "title": "Cr\u00E9er un nouvel utilisateur AD",
+  "description": "Cr\u00E9e un nouveau compte utilisateur dans Active Directory avec les param\u00E8tres de base.",
+  "category": "\uD83C\uDFE2 Active Directory \u0026 GPO",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "ad",
+    "user",
+    "create",
+    "new"
+  ],
+  "windowsTemplateId": "1a0a84dd-f1c1-4717-81df-bd1c6c4139d6",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "N\u00E9cessite des droits d\u0027administration AD. Le mot de passe doit respecter la politique de domaine. L\u0027utilisateur est activ\u00E9 par d\u00E9faut.",
+  "links": [
+    {
+      "title": "Documentation New-ADUser",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/activedirectory/new-aduser"
+    }
+  ],
+  "isUserCreated": false
+}

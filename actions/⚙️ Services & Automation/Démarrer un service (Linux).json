@@ -1,0 +1,21 @@
+{
+  "id": "61fa7fb5-08e4-4cc7-b7d4-3b146df9b134",
+  "title": "D\u00E9marrer un service (Linux)",
+  "description": "D\u00E9marre un service systemd arr\u00EAt\u00E9.",
+  "category": "\u2699\uFE0F Services \u0026 Automation",
+  "platform": "Linux",
+  "level": "Run",
+  "tags": [
+    "linux",
+    "systemd",
+    "service",
+    "start"
+  ],
+  "linuxTemplateId": "bf0fe996-347f-411f-8533-868e99abfadb",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "N\u00E9cessite les droits sudo. V\u00E9rifier le statut apr\u00E8s d\u00E9marrage.",
+  "links": [],
+  "isUserCreated": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "422c8ce5-1710-482a-931a-ec606a945180",
+  "title": "Activer un service au d\u00E9marrage (Linux)",
+  "description": "Configure un service systemd pour d\u00E9marrer automatiquement au boot.",
+  "category": "\u2699\uFE0F Services \u0026 Automation",
+  "platform": "Linux",
+  "level": "Run",
+  "tags": [
+    "linux",
+    "systemd",
+    "service",
+    "enable",
+    "autostart"
+  ],
+  "linuxTemplateId": "e2c21aae-8302-447a-b50a-ee05efa1f0a5",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "N\u0027affecte que le d\u00E9marrage automatique, pas l\u0027\u00E9tat actuel du service.",
+  "links": [],
+  "isUserCreated": false
+}

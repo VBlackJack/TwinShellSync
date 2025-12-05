@@ -1,5 +1,0 @@
-id: 37408b7e-c493-40d5-9585-d2e0b8491a76
-name: gradle
-platform: Windows
-commandPattern: gradle build
-parameters: []

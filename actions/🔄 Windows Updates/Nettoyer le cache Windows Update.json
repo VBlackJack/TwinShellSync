@@ -1,0 +1,26 @@
+{
+  "id": "4f05c2e3-f354-4d1d-91f5-c9a4cf1d7f45",
+  "title": "Nettoyer le cache Windows Update",
+  "description": "Arr\u00EAte les services Windows Update et nettoie le dossier SoftwareDistribution pour r\u00E9soudre les probl\u00E8mes de mises \u00E0 jour",
+  "category": "\uD83D\uDD04 Windows Updates",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "windows-update",
+    "cache",
+    "cleanup",
+    "troubleshoot"
+  ],
+  "windowsTemplateId": "e455012f-a72a-4587-a23e-73f2f8845fff",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "ATTENTION: N\u00E9cessite des droits administrateur. Arr\u00EAte temporairement les services Windows Update. \u00C0 utiliser en cas de probl\u00E8mes de t\u00E9l\u00E9chargement de mises \u00E0 jour.",
+  "links": [
+    {
+      "title": "Fix Windows Update Errors",
+      "url": "https://learn.microsoft.com/en-us/troubleshoot/windows-server/installing-updates-features-roles/fix-windows-update-errors"
+    }
+  ],
+  "isUserCreated": false
+}

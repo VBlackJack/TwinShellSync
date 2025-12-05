@@ -1,5 +1,0 @@
-id: c8d07e25-6d06-405c-b878-f8a9b1f4e66b
-name: gpupdate
-platform: Windows
-commandPattern: gpupdate /force
-parameters: []

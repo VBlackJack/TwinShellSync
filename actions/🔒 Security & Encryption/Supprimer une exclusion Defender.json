@@ -1,0 +1,26 @@
+{
+  "id": "ce1ef5e6-3487-4161-8bef-c4e52392a52f",
+  "title": "Supprimer une exclusion Defender",
+  "description": "Retire un dossier, fichier ou processus de la liste des exclusions Windows Defender.",
+  "category": "\uD83D\uDD12 Security \u0026 Encryption",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "defender",
+    "exclusion",
+    "remove",
+    "security"
+  ],
+  "windowsTemplateId": "8026ca98-7173-45cb-aeab-f1f53f1a9aa3",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "ExclusionPath: chemin de dossier/fichier. ExclusionExtension: extension (.exe, .dll, etc.). ExclusionProcess: nom de processus (chrome.exe, etc.). Retirer les exclusions am\u00E9liore la s\u00E9curit\u00E9 mais peut r\u00E9duire les performances.",
+  "links": [
+    {
+      "title": "Remove-MpPreference Documentation",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/defender/remove-mppreference"
+    }
+  ],
+  "isUserCreated": false
+}

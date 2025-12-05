@@ -1,5 +1,0 @@
-id: dd44ecec-9998-45a6-9577-e4ccb7dd2056
-name: ''
-platform: Windows
-commandPattern: Get-Volume | Where-Object {$_.DriveLetter} | Select-Object DriveLetter,FileSystemLabel,@{Name='Size_GB';Expression={[math]::Round($_.Size/1GB,2)}},@{Name='Free_GB';Expression={[math]::Round($_.SizeRemaining/1GB,2)}},@{Name='Free_%';Expression={[math]::Round(($_.SizeRemaining/$_.Size)*100,2)}} | Format-Table -AutoSize
-parameters: []

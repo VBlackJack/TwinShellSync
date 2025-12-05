@@ -1,5 +1,0 @@
-id: 17bab482-c91d-4b26-95a3-1f70e48c9c42
-name: Get-ADDomainController
-platform: Windows
-commandPattern: Get-ADDomainController -Filter * | Select-Object Name,Domain,Forest,OperatingSystem,IPv4Address | Format-Table -AutoSize
-parameters: []

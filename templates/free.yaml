@@ -1,8 +1,0 @@
-id: 8a3b68fd-7341-4e45-a6f6-ae1e6ab2a8d6
-name: free
-platform: Linux
-commandPattern: >-
-  free -h && echo '
-
-  === Top Memory Processes ===' && ps aux --sort=-%mem | head -n 11
-parameters: []

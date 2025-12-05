@@ -1,0 +1,26 @@
+{
+  "id": "2d135fb6-eaa0-401a-aaeb-ee256920b705",
+  "title": "Consulter les logs d\u0027un service sp\u00E9cifique",
+  "description": "Affiche les logs journald d\u0027une unit\u00E9 systemd sp\u00E9cifique (service, timer, etc.)",
+  "category": "\uD83D\uDCCA Monitoring \u0026 Logs",
+  "platform": "Linux",
+  "level": "Info",
+  "tags": [
+    "journalctl",
+    "logs",
+    "systemd",
+    "service"
+  ],
+  "linuxTemplateId": "decef02d-77b1-4886-9760-66f133b5c333",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Utiliser -f pour suivre les logs en temps r\u00E9el. L\u0027extension .service peut souvent \u00EAtre omise.",
+  "links": [
+    {
+      "title": "systemd unit files",
+      "url": "https://www.freedesktop.org/software/systemd/man/systemd.unit.html"
+    }
+  ],
+  "isUserCreated": false
+}

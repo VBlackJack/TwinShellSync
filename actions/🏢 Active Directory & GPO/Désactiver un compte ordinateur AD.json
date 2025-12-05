@@ -1,0 +1,20 @@
+{
+  "id": "61fc4582-28a5-49a8-865d-a40ae681503f",
+  "title": "D\u00E9sactiver un compte ordinateur AD",
+  "description": "D\u00E9sactive un compte ordinateur Active Directory.",
+  "category": "\uD83C\uDFE2 Active Directory \u0026 GPO",
+  "platform": "Windows",
+  "level": "Dangerous",
+  "tags": [
+    "ad",
+    "computer",
+    "disable"
+  ],
+  "windowsTemplateId": "275917ab-2635-4505-a2bc-9ade4e924726",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "L\u0027ordinateur ne pourra plus communiquer avec le domaine. Utile pour les machines retir\u00E9es du service.",
+  "links": [],
+  "isUserCreated": false
+}

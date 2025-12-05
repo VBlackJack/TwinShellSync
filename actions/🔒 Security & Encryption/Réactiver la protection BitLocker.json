@@ -1,0 +1,25 @@
+{
+  "id": "05042d1c-9aac-4b7d-884b-80d347b51792",
+  "title": "R\u00E9activer la protection BitLocker",
+  "description": "R\u00E9active la protection BitLocker apr\u00E8s une suspension temporaire.",
+  "category": "\uD83D\uDD12 Security \u0026 Encryption",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "bitlocker",
+    "resume",
+    "enable"
+  ],
+  "windowsTemplateId": "6648af60-34e6-428e-a02b-84aafb9b8901",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Utilisez apr\u00E8s Suspend-BitLocker ou si la protection a \u00E9t\u00E9 suspendue automatiquement. La r\u00E9activation est imm\u00E9diate (pas besoin de red\u00E9marrage). V\u00E9rifiez que tous les protecteurs de cl\u00E9s sont toujours en place.",
+  "links": [
+    {
+      "title": "Resume-BitLocker Documentation",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/bitlocker/resume-bitlocker"
+    }
+  ],
+  "isUserCreated": false
+}

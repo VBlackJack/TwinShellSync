@@ -1,0 +1,27 @@
+{
+  "id": "071ba8e9-7f47-4af7-9b12-d31efdd6bfab",
+  "title": "Ex\u00E9cuter Ansible en mode pull",
+  "description": "Configure un syst\u00E8me pour r\u00E9cup\u00E9rer et ex\u00E9cuter automatiquement des playbooks depuis un d\u00E9p\u00F4t Git",
+  "category": "\u2699\uFE0F Services \u0026 Automation",
+  "platform": "Both",
+  "level": "Dangerous",
+  "tags": [
+    "ansible",
+    "pull",
+    "git",
+    "automation"
+  ],
+  "windowsTemplateId": "4c5edf3b-603d-4488-84bd-0c5fb83f8a66",
+  "linuxTemplateId": "ca3952fa-b040-4b5e-9b15-44227a614010",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Mode pull invers\u00E9 : les serveurs r\u00E9cup\u00E8rent leur configuration au lieu d\u0027\u00EAtre configur\u00E9s \u00E0 distance. Id\u00E9al pour les environnements \u00E0 grande \u00E9chelle.",
+  "links": [
+    {
+      "title": "Ansible Pull",
+      "url": "https://docs.ansible.com/ansible/latest/cli/ansible-pull.html"
+    }
+  ],
+  "isUserCreated": false
+}

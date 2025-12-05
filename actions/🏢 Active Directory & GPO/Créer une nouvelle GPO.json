@@ -1,0 +1,26 @@
+{
+  "id": "dab75e86-09e9-42d9-af83-63fe09e67768",
+  "title": "Cr\u00E9er une nouvelle GPO",
+  "description": "Cr\u00E9e une nouvelle strat\u00E9gie de groupe (GPO) dans le domaine.",
+  "category": "\uD83C\uDFE2 Active Directory \u0026 GPO",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "gpo",
+    "create",
+    "new",
+    "group-policy"
+  ],
+  "windowsTemplateId": "a2f37aa8-4301-4917-a027-c13c90d6d830",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "N\u00E9cessite le module Group Policy. La GPO est cr\u00E9\u00E9e mais n\u0027est pas encore li\u00E9e \u00E0 une OU.",
+  "links": [
+    {
+      "title": "Documentation New-GPO",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/grouppolicy/new-gpo"
+    }
+  ],
+  "isUserCreated": false
+}

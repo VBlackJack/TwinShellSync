@@ -1,0 +1,32 @@
+{
+  "id": "195dd01a-fc7a-44f8-8cfc-0d37b5b2522e",
+  "name": "Set-GPPermission",
+  "platform": "Windows",
+  "commandPattern": "Set-GPPermission -Name \u0022{gpoName}\u0022 -TargetName \u0022{targetName}\u0022 -TargetType {targetType} -PermissionLevel GpoApply",
+  "parameters": [
+    {
+      "name": "gpoName",
+      "label": "Nom de la GPO",
+      "type": "string",
+      "defaultValue": "",
+      "required": true,
+      "description": "Nom de la GPO"
+    },
+    {
+      "name": "targetName",
+      "label": "Utilisateur/Groupe",
+      "type": "string",
+      "defaultValue": "",
+      "required": true,
+      "description": "Nom de l\u0027utilisateur ou du groupe"
+    },
+    {
+      "name": "targetType",
+      "label": "Type de cible",
+      "type": "string",
+      "defaultValue": "Group",
+      "required": true,
+      "description": "User, Group, ou Computer"
+    }
+  ]
+}

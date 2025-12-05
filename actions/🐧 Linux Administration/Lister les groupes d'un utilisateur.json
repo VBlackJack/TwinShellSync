@@ -1,0 +1,25 @@
+{
+  "id": "812dd7d4-5e33-4e5f-b3bf-32120019e8b5",
+  "title": "Lister les groupes d\u0027un utilisateur",
+  "description": "Affiche tous les groupes auxquels appartient un utilisateur",
+  "category": "\uD83D\uDC27 Linux Administration",
+  "platform": "Linux",
+  "level": "Info",
+  "tags": [
+    "groups",
+    "user",
+    "membership"
+  ],
+  "linuxTemplateId": "44f8b779-ce6c-439f-b39d-c5104ecfde25",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Ne n\u00E9cessite pas sudo. \u0027id\u0027 donne plus d\u0027informations (UID, GID).",
+  "links": [
+    {
+      "title": "groups command",
+      "url": "https://man7.org/linux/man-pages/man1/groups.1.html"
+    }
+  ],
+  "isUserCreated": false
+}

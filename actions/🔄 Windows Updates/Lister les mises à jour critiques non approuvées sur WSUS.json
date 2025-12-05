@@ -1,0 +1,27 @@
+{
+  "id": "6763f059-ff0f-495e-8bb3-226ebfd2e348",
+  "title": "Lister les mises \u00E0 jour critiques non approuv\u00E9es sur WSUS",
+  "description": "Affiche toutes les mises \u00E0 jour critiques non encore approuv\u00E9es sur le serveur WSUS",
+  "category": "\uD83D\uDD04 Windows Updates",
+  "platform": "Windows",
+  "level": "Info",
+  "tags": [
+    "wsus",
+    "server",
+    "critical",
+    "unapproved",
+    "updates"
+  ],
+  "windowsTemplateId": "c1e05e84-f641-4113-9235-ea4f0eab52a2",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "\u00C0 ex\u00E9cuter sur le serveur WSUS. N\u00E9cessite le module UpdateServices. Utile pour identifier les mises \u00E0 jour importantes en attente d\u0027approbation.",
+  "links": [
+    {
+      "title": "Get-WsusUpdate Documentation",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/updateservices/get-wsusupdate"
+    }
+  ],
+  "isUserCreated": false
+}

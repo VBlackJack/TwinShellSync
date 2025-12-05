@@ -1,5 +1,0 @@
-id: 58f8ebfa-e012-4c30-a18c-02dd1a89dc45
-name: Remove-MicrosoftBloatware
-platform: Windows
-commandPattern: $apps = @('Microsoft.3DBuilder', 'Microsoft.BingNews', 'Microsoft.BingWeather', 'Microsoft.GetHelp', 'Microsoft.Getstarted', 'Microsoft.MicrosoftOfficeHub', 'Microsoft.MicrosoftSolitaire*', 'Microsoft.MixedReality.Portal', 'Microsoft.Office.OneNote', 'Microsoft.People', 'Microsoft.SkypeApp', 'Microsoft.Todos', 'Microsoft.Wallet', 'Microsoft.WindowsAlarms', 'Microsoft.WindowsCamera', 'Microsoft.WindowsFeedbackHub', 'Microsoft.WindowsMaps', 'Microsoft.WindowsSoundRecorder', 'Microsoft.YourPhone', 'Microsoft.ZuneMusic', 'Microsoft.ZuneVideo'); foreach ($app in $apps) { Get-AppxPackage $app | Remove-AppxPackage -ErrorAction SilentlyContinue }
-parameters: []

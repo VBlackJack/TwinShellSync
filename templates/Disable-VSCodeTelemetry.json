@@ -1,0 +1,7 @@
+{
+  "id": "14678b7d-e70d-4f2b-8c18-99ca4a332b04",
+  "name": "Disable-VSCodeTelemetry",
+  "platform": "Windows",
+  "commandPattern": "$vscodeSettings = \u0022$env:APPDATA\\Code\\User\\settings.json\u0022; if (Test-Path $vscodeSettings) { $settings = Get-Content $vscodeSettings -Raw | ConvertFrom-Json; $settings | Add-Member -MemberType NoteProperty -Name \u0027telemetry.telemetryLevel\u0027 -Value \u0027off\u0027 -Force; $settings | Add-Member -MemberType NoteProperty -Name \u0027telemetry.enableTelemetry\u0027 -Value $false -Force; $settings | Add-Member -MemberType NoteProperty -Name \u0027telemetry.enableCrashReporter\u0027 -Value $false -Force; $settings | ConvertTo-Json -Depth 100 | Set-Content $vscodeSettings } else { Write-Host \u0027VS Code settings not found. Install VS Code first.\u0027 }",
+  "parameters": []
+}

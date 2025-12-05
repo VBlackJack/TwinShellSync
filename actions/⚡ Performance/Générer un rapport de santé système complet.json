@@ -1,0 +1,27 @@
+{
+  "id": "e0b248b3-e0a5-4b8d-894a-981d2a33908a",
+  "title": "G\u00E9n\u00E9rer un rapport de sant\u00E9 syst\u00E8me complet",
+  "description": "Collecte et affiche un rapport complet sur la sant\u00E9 du syst\u00E8me: CPU, RAM, disque, services, uptime",
+  "category": "\u26A1 Performance",
+  "platform": "Windows",
+  "level": "Info",
+  "tags": [
+    "performance",
+    "health",
+    "report",
+    "monitoring",
+    "diagnostic"
+  ],
+  "windowsTemplateId": "50fac242-adc6-441f-b9e4-82915cc467e0",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Rapport complet incluant: nom PC, OS, dernier boot, uptime, CPU, RAM, disque C:, services d\u00E9faillants. Id\u00E9al pour un diagnostic rapide.",
+  "links": [
+    {
+      "title": "System Health Monitoring",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-computerinfo"
+    }
+  ],
+  "isUserCreated": false
+}

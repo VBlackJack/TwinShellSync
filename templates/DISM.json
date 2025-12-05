@@ -1,0 +1,7 @@
+{
+  "id": "0458d15f-9137-4794-9f11-75da5572ea4e",
+  "name": "DISM",
+  "platform": "Windows",
+  "commandPattern": "DISM /Online /Cleanup-Image /RestoreHealth \u0026\u0026 sfc /scannow",
+  "parameters": []
+}

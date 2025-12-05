@@ -1,0 +1,7 @@
+{
+  "id": "7da588f1-8003-4bcf-9cb8-1fe397dc8519",
+  "name": "net",
+  "platform": "Windows",
+  "commandPattern": "net accounts",
+  "parameters": []
+}

@@ -1,0 +1,16 @@
+{
+  "id": "7ca420fa-27a0-4a8c-b75d-51c1499aa3c1",
+  "name": "Restart-WebAppPool",
+  "platform": "Windows",
+  "commandPattern": "Import-Module WebAdministration; Restart-WebAppPool -Name \u0027{appPoolName}\u0027",
+  "parameters": [
+    {
+      "name": "appPoolName",
+      "label": "Nom du pool",
+      "type": "string",
+      "defaultValue": "DefaultAppPool",
+      "required": true,
+      "description": "Nom du pool d\u0027application \u00E0 recycler"
+    }
+  ]
+}

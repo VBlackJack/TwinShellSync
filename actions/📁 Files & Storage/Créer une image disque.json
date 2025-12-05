@@ -1,0 +1,27 @@
+{
+  "id": "e57084f3-b7c4-4670-a39f-d8503dd9a53d",
+  "title": "Cr\u00E9er une image disque",
+  "description": "Copie bit \u00E0 bit des donn\u00E9es (disques, partitions, fichiers)",
+  "category": "\uD83D\uDCC1 Files \u0026 Storage",
+  "platform": "Linux",
+  "level": "Dangerous",
+  "tags": [
+    "dd",
+    "disk",
+    "image",
+    "clone",
+    "backup"
+  ],
+  "linuxTemplateId": "8e316abe-4ee1-40c6-9766-27440d4ba4b3",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "N\u00E9cessite sudo. TR\u00C8S DANGEREUX: une erreur peut d\u00E9truire des donn\u00E9es. V\u00E9rifier 2x if/of.",
+  "links": [
+    {
+      "title": "dd command",
+      "url": "https://man7.org/linux/man-pages/man1/dd.1.html"
+    }
+  ],
+  "isUserCreated": false
+}

@@ -1,0 +1,24 @@
+{
+  "id": "43d710b2-de1a-4371-b3d5-38da83bc4581",
+  "name": "winget",
+  "platform": "Windows",
+  "commandPattern": "winget source add --name {name} {url}",
+  "parameters": [
+    {
+      "name": "name",
+      "label": "Nom de la source",
+      "type": "string",
+      "defaultValue": "",
+      "required": true,
+      "description": "Nom \u00E0 donner \u00E0 la source"
+    },
+    {
+      "name": "url",
+      "label": "URL de la source",
+      "type": "string",
+      "defaultValue": "",
+      "required": true,
+      "description": "URL du d\u00E9p\u00F4t de packages"
+    }
+  ]
+}

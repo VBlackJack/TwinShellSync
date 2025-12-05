@@ -1,0 +1,7 @@
+{
+  "id": "e2a94338-241b-43e3-8698-188bf63c7367",
+  "name": "Disable-LockScreenCamera",
+  "platform": "Windows",
+  "commandPattern": "New-Item -Path \u0027HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\Personalization\u0027 -Force | Out-Null; Set-ItemProperty -Path \u0027HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\Personalization\u0027 -Name \u0027NoLockScreenCamera\u0027 -Type DWord -Value 1",
+  "parameters": []
+}

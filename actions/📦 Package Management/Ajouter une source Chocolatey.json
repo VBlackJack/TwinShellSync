@@ -1,0 +1,27 @@
+{
+  "id": "74a6fff6-3643-4341-a3af-4a6e34bc69ba",
+  "title": "Ajouter une source Chocolatey",
+  "description": "Ajoute une nouvelle source de packages Chocolatey personnalis\u00E9e.",
+  "category": "\uD83D\uDCE6 Package Management",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "chocolatey",
+    "package",
+    "source",
+    "repository",
+    "windows"
+  ],
+  "windowsTemplateId": "ce5d4f95-842e-4aed-837c-58452637e238",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "N\u00E9cessite des droits administrateur. V\u00E9rifier la fiabilit\u00E9 de la source avant de l\u0027ajouter.",
+  "links": [
+    {
+      "title": "Chocolatey source documentation",
+      "url": "https://docs.chocolatey.org/en-us/choco/commands/source"
+    }
+  ],
+  "isUserCreated": false
+}

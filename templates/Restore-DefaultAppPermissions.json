@@ -1,0 +1,7 @@
+{
+  "id": "811b9e5a-25eb-4e3c-b398-b487fd956d60",
+  "name": "Restore-DefaultAppPermissions",
+  "platform": "Windows",
+  "commandPattern": "$permissions = @(\u0027location\u0027, \u0027webcam\u0027, \u0027microphone\u0027, \u0027documentsLibrary\u0027, \u0027broadFileSystemAccess\u0027, \u0027contacts\u0027, \u0027appointments\u0027, \u0027email\u0027, \u0027userNotificationListener\u0027, \u0027phoneCall\u0027, \u0027radios\u0027, \u0027chat\u0027); foreach ($perm in $permissions) { $path = \u0022HKCU:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\CapabilityAccessManager\\ConsentStore\\$perm\u0022; if (Test-Path $path) { Set-ItemProperty -Path $path -Name \u0027Value\u0027 -Type String -Value \u0027Allow\u0027 -ErrorAction SilentlyContinue } }",
+  "parameters": []
+}

@@ -1,0 +1,25 @@
+{
+  "id": "b037bd51-1cf6-4a23-86dc-6361d7521a3a",
+  "title": "Lister tous les groupes AD",
+  "description": "Affiche la liste de tous les groupes Active Directory avec leurs propri\u00E9t\u00E9s.",
+  "category": "\uD83C\uDFE2 Active Directory \u0026 GPO",
+  "platform": "Windows",
+  "level": "Info",
+  "tags": [
+    "ad",
+    "groups",
+    "list"
+  ],
+  "windowsTemplateId": "7c946e94-7f90-4cdb-bd31-1b0aeac3e86e",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Peut \u00EAtre lent sur de gros domaines. Pour filtrer par type, utiliser -Filter {GroupCategory -eq \u0027Security\u0027}.",
+  "links": [
+    {
+      "title": "Documentation Get-ADGroup",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/activedirectory/get-adgroup"
+    }
+  ],
+  "isUserCreated": false
+}

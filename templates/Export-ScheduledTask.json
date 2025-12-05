@@ -1,0 +1,32 @@
+{
+  "id": "758f0d15-4274-46be-9603-6766a6f92767",
+  "name": "Export-ScheduledTask",
+  "platform": "Windows",
+  "commandPattern": "Export-ScheduledTask -TaskName \u0027{taskname}\u0027 {taskpath} | Out-File \u0027{outputfile}\u0027",
+  "parameters": [
+    {
+      "name": "taskname",
+      "label": "Nom de la t\u00E2che",
+      "type": "string",
+      "defaultValue": "MyTask",
+      "required": true,
+      "description": "Nom de la t\u00E2che \u00E0 exporter"
+    },
+    {
+      "name": "taskpath",
+      "label": "Chemin source",
+      "type": "string",
+      "defaultValue": "",
+      "required": false,
+      "description": "Chemin de la t\u00E2che"
+    },
+    {
+      "name": "outputfile",
+      "label": "Fichier de sortie",
+      "type": "string",
+      "defaultValue": "C:\\Backup\\task.xml",
+      "required": true,
+      "description": "Chemin du fichier XML de sortie"
+    }
+  ]
+}

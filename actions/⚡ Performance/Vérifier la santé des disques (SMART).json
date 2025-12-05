@@ -1,0 +1,30 @@
+{
+  "id": "009162e7-9d5f-4eaa-97a6-468df56e90e5",
+  "title": "V\u00E9rifier la sant\u00E9 des disques (SMART)",
+  "description": "V\u00E9rifie l\u0027\u00E9tat de sant\u00E9 des disques physiques via SMART (Self-Monitoring, Analysis and Reporting Technology) pour d\u00E9tecter les probl\u00E8mes potentiels.",
+  "category": "\u26A1 Performance",
+  "platform": "Windows",
+  "level": "Info",
+  "tags": [
+    "disk",
+    "health",
+    "smart",
+    "diagnostic",
+    "storage",
+    "reliability",
+    "hardware",
+    "monitoring"
+  ],
+  "windowsTemplateId": "d6062d40-b270-4e6c-86bc-48773c04261f",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "HealthStatus peut \u00EAtre: Healthy, Warning, Unhealthy. MediaType: HDD, SSD, SCM. BusType indique l\u0027interface (SATA, NVMe, etc.).",
+  "links": [
+    {
+      "title": "Documentation Get-PhysicalDisk",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/storage/get-physicaldisk"
+    }
+  ],
+  "isUserCreated": false
+}

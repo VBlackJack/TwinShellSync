@@ -1,5 +1,0 @@
-id: 2fa3a872-c5c8-4d61-ba26-2c0f25632d0e
-name: netdom
-platform: Windows
-commandPattern: netdom query fsmo
-parameters: []

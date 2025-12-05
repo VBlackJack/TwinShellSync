@@ -1,0 +1,27 @@
+{
+  "id": "636dcd23-3c8f-4690-b6fb-45d7b447744c",
+  "title": "Rapport d\u0027activit\u00E9 syst\u00E8me (SAR)",
+  "description": "Collecte et affiche l\u0027historique de l\u0027activit\u00E9 syst\u00E8me (CPU, m\u00E9moire, I/O, r\u00E9seau)",
+  "category": "\uD83D\uDCCA Monitoring \u0026 Logs",
+  "platform": "Linux",
+  "level": "Info",
+  "tags": [
+    "sar",
+    "performance",
+    "statistics",
+    "history",
+    "sysstat"
+  ],
+  "linuxTemplateId": "13eb4054-5e1f-4e9b-8601-dbd22ef5af48",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Fait partie du package sysstat. Donn\u00E9es historiques dans /var/log/sysstat/.",
+  "links": [
+    {
+      "title": "sar command",
+      "url": "https://man7.org/linux/man-pages/man1/sar.1.html"
+    }
+  ],
+  "isUserCreated": false
+}

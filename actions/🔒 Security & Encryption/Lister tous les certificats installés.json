@@ -1,0 +1,30 @@
+{
+  "id": "f85236ba-eae2-4d4f-becf-d8fd0133b1e6",
+  "title": "Lister tous les certificats install\u00E9s",
+  "description": "Affiche tous les certificats install\u00E9s dans les magasins Windows Certificate Store (LocalMachine et CurrentUser) avec leur expiration et usage.",
+  "category": "\uD83D\uDD12 Security \u0026 Encryption",
+  "platform": "Windows",
+  "level": "Info",
+  "tags": [
+    "certificate",
+    "ssl",
+    "tls",
+    "security",
+    "crypto",
+    "x509",
+    "pki",
+    "inventory"
+  ],
+  "windowsTemplateId": "7f77f7b0-b39e-48ae-8797-83825f354731",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Principaux magasins: My (personnels), Root (racine), CA (interm\u00E9diaires), TrustedPublisher, AuthRoot.",
+  "links": [
+    {
+      "title": "Documentation Certificate Store",
+      "url": "https://learn.microsoft.com/en-us/windows-hardware/drivers/install/certificate-stores"
+    }
+  ],
+  "isUserCreated": false
+}

@@ -1,0 +1,7 @@
+{
+  "id": "ebb693b7-629d-4143-8c95-e429b99b7632",
+  "name": "Disable-CloudSpeech",
+  "platform": "Windows",
+  "commandPattern": "New-Item -Path \u0027HKCU:\\SOFTWARE\\Microsoft\\Speech_OneCore\\Settings\\OnlineSpeechPrivacy\u0027 -Force | Out-Null; Set-ItemProperty -Path \u0027HKCU:\\SOFTWARE\\Microsoft\\Speech_OneCore\\Settings\\OnlineSpeechPrivacy\u0027 -Name \u0027HasAccepted\u0027 -Type DWord -Value 0; New-Item -Path \u0027HKLM:\\SOFTWARE\\Policies\\Microsoft\\InputPersonalization\u0027 -Force | Out-Null; Set-ItemProperty -Path \u0027HKLM:\\SOFTWARE\\Policies\\Microsoft\\InputPersonalization\u0027 -Name \u0027AllowInputPersonalization\u0027 -Type DWord -Value 0; New-Item -Path \u0027HKCU:\\SOFTWARE\\Microsoft\\InputPersonalization\u0027 -Force | Out-Null; Set-ItemProperty -Path \u0027HKCU:\\SOFTWARE\\Microsoft\\InputPersonalization\u0027 -Name \u0027RestrictImplicitTextCollection\u0027 -Type DWord -Value 1; Set-ItemProperty -Path \u0027HKCU:\\SOFTWARE\\Microsoft\\InputPersonalization\u0027 -Name \u0027RestrictImplicitInkCollection\u0027 -Type DWord -Value 1; New-Item -Path \u0027HKCU:\\SOFTWARE\\Microsoft\\InputPersonalization\\TrainedDataStore\u0027 -Force | Out-Null; Set-ItemProperty -Path \u0027HKCU:\\SOFTWARE\\Microsoft\\InputPersonalization\\TrainedDataStore\u0027 -Name \u0027HarvestContacts\u0027 -Type DWord -Value 0",
+  "parameters": []
+}

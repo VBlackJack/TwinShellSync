@@ -1,0 +1,7 @@
+{
+  "id": "54680172-9784-4c81-bbf2-39736467938b",
+  "name": "regsvr32",
+  "platform": "Windows",
+  "commandPattern": "regsvr32 /s wuaueng.dll \u0026\u0026 regsvr32 /s wuapi.dll \u0026\u0026 regsvr32 /s wups.dll \u0026\u0026 regsvr32 /s wups2.dll \u0026\u0026 regsvr32 /s wucltux.dll \u0026\u0026 regsvr32 /s wuwebv.dll \u0026\u0026 regsvr32 /s qmgr.dll \u0026\u0026 regsvr32 /s qmgrprxy.dll",
+  "parameters": []
+}

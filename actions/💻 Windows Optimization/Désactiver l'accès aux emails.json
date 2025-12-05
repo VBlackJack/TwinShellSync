@@ -1,0 +1,23 @@
+{
+  "id": "2bc7a108-565e-44b3-9189-d331935d191f",
+  "title": "D\u00E9sactiver l\u0027acc\u00E8s aux emails",
+  "description": "Emp\u00EAche les applications d\u0027acc\u00E9der aux emails Windows. Protection des communications.",
+  "category": "\uD83D\uDCBB Windows Optimization",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "privacy",
+    "confidentialit\u00E9",
+    "rgpd",
+    "permissions",
+    "email",
+    "windows"
+  ],
+  "windowsTemplateId": "f823e6a4-58d9-4d06-9b7d-d5d48a25e96d",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Prot\u00E8ge l\u0027acc\u00E8s aux emails. Important pour la confidentialit\u00E9 des communications professionnelles et personnelles.",
+  "links": [],
+  "isUserCreated": false
+}

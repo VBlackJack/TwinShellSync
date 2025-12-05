@@ -1,0 +1,27 @@
+{
+  "id": "dc747d08-d82f-448d-898b-30dc7b90d799",
+  "title": "Tester la connectivit\u00E9 r\u00E9seau",
+  "description": "Envoie des paquets ICMP pour tester la connectivit\u00E9 vers un h\u00F4te",
+  "category": "\uD83C\uDF10 Network \u0026 DNS",
+  "platform": "Linux",
+  "level": "Info",
+  "tags": [
+    "ping",
+    "icmp",
+    "network",
+    "connectivity",
+    "latency"
+  ],
+  "linuxTemplateId": "03ac4c7b-2fb4-47aa-9063-14c8e8d153d0",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Ne n\u00E9cessite pas sudo. -c limite le nombre. Sans -c, Ctrl\u002BC pour arr\u00EAter.",
+  "links": [
+    {
+      "title": "ping command",
+      "url": "https://man7.org/linux/man-pages/man8/ping.8.html"
+    }
+  ],
+  "isUserCreated": false
+}

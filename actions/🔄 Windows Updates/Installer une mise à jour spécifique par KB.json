@@ -1,0 +1,26 @@
+{
+  "id": "77d6ccbb-f58d-41be-acdc-8316bb432c4a",
+  "title": "Installer une mise \u00E0 jour sp\u00E9cifique par KB",
+  "description": "Installe uniquement une mise \u00E0 jour Windows sp\u00E9cifique identifi\u00E9e par son num\u00E9ro KB",
+  "category": "\uD83D\uDD04 Windows Updates",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "windows-update",
+    "install",
+    "kb",
+    "pswindowsupdate"
+  ],
+  "windowsTemplateId": "1cb46797-8635-49c1-977c-ad5b1a28f982",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Utile pour installer une mise \u00E0 jour pr\u00E9cise. Peut n\u00E9cessiter un red\u00E9marrage. N\u00E9cessite PSWindowsUpdate.",
+  "links": [
+    {
+      "title": "Install Specific Windows Update",
+      "url": "https://woshub.com/pswindowsupdate-module/"
+    }
+  ],
+  "isUserCreated": false
+}

@@ -1,0 +1,7 @@
+{
+  "id": "4753adf8-d1dd-4603-a9c2-c306f7380e2f",
+  "name": "Disable-GoogleTelemetry",
+  "platform": "Windows",
+  "commandPattern": "New-Item -Path \u0027HKLM:\\SOFTWARE\\Policies\\Google\\Chrome\u0027 -Force | Out-Null; Set-ItemProperty -Path \u0027HKLM:\\SOFTWARE\\Policies\\Google\\Chrome\u0027 -Name \u0027MetricsReportingEnabled\u0027 -Type DWord -Value 0; Set-ItemProperty -Path \u0027HKLM:\\SOFTWARE\\Policies\\Google\\Chrome\u0027 -Name \u0027ChromeCleanupEnabled\u0027 -Type DWord -Value 0; Set-ItemProperty -Path \u0027HKLM:\\SOFTWARE\\Policies\\Google\\Chrome\u0027 -Name \u0027ChromeCleanupReportingEnabled\u0027 -Type DWord -Value 0; Set-ItemProperty -Path \u0027HKLM:\\SOFTWARE\\Policies\\Google\\Chrome\u0027 -Name \u0027UserFeedbackAllowed\u0027 -Type DWord -Value 0; New-Item -Path \u0027HKLM:\\SOFTWARE\\Policies\\Google\\Update\u0027 -Force | Out-Null; Set-ItemProperty -Path \u0027HKLM:\\SOFTWARE\\Policies\\Google\\Update\u0027 -Name \u0027AutoUpdateCheckPeriodMinutes\u0027 -Type DWord -Value 0 -ErrorAction SilentlyContinue; Stop-Service -Name \u0027gupdate\u0027 -Force -ErrorAction SilentlyContinue; Stop-Service -Name \u0027gupdatem\u0027 -Force -ErrorAction SilentlyContinue; Set-Service -Name \u0027gupdate\u0027 -StartupType Disabled -ErrorAction SilentlyContinue; Set-Service -Name \u0027gupdatem\u0027 -StartupType Disabled -ErrorAction SilentlyContinue",
+  "parameters": []
+}

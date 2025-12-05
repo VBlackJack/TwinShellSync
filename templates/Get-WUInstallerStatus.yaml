@@ -1,5 +1,0 @@
-id: 8dab422d-dfb1-4455-8caf-692b020fb27d
-name: Get-WUInstallerStatus
-platform: Windows
-commandPattern: Get-WUInstallerStatus
-parameters: []

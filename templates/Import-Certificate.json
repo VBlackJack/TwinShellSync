@@ -1,0 +1,24 @@
+{
+  "id": "53f33582-c008-4bec-bd4a-a56595375c6b",
+  "name": "Import-Certificate",
+  "platform": "Windows",
+  "commandPattern": "Import-Certificate -FilePath \u0027{certPath}\u0027 -CertStoreLocation Cert:\\LocalMachine\\{storeName}",
+  "parameters": [
+    {
+      "name": "certPath",
+      "label": "Chemin du certificat",
+      "type": "string",
+      "defaultValue": "C:\\Certs\\certificate.cer",
+      "required": true,
+      "description": "Chemin du fichier certificat (.cer, .crt)"
+    },
+    {
+      "name": "storeName",
+      "label": "Magasin de destination",
+      "type": "string",
+      "defaultValue": "My",
+      "required": true,
+      "description": "Nom du magasin (My, Root, CA, TrustedPublisher)"
+    }
+  ]
+}

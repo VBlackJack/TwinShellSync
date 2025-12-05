@@ -1,0 +1,26 @@
+{
+  "id": "8ecb4ce3-8cb3-408e-b290-6969642fe1e5",
+  "title": "Arr\u00EAter un service systemd",
+  "description": "Arr\u00EAte imm\u00E9diatement un service systemd en cours d\u0027ex\u00E9cution",
+  "category": "\u2699\uFE0F Services \u0026 Automation",
+  "platform": "Linux",
+  "level": "Run",
+  "tags": [
+    "systemctl",
+    "systemd",
+    "service",
+    "stop"
+  ],
+  "linuxTemplateId": "356bafe2-5285-4498-86a9-7deb13671aec",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "N\u00E9cessite sudo. Le service peut red\u00E9marrer automatiquement au prochain boot s\u0027il est enabled.",
+  "links": [
+    {
+      "title": "systemctl stop",
+      "url": "https://www.freedesktop.org/software/systemd/man/systemctl.html"
+    }
+  ],
+  "isUserCreated": false
+}

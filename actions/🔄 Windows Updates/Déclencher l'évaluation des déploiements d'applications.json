@@ -1,0 +1,26 @@
+{
+  "id": "e190e7b9-d8b4-4218-a18a-ee737256a793",
+  "title": "D\u00E9clencher l\u0027\u00E9valuation des d\u00E9ploiements d\u0027applications",
+  "description": "Force l\u0027\u00E9valuation de tous les d\u00E9ploiements d\u0027applications SCCM pour v\u00E9rifier les nouvelles applications disponibles",
+  "category": "\uD83D\uDD04 Windows Updates",
+  "platform": "Windows",
+  "level": "Info",
+  "tags": [
+    "sccm",
+    "application",
+    "deployment",
+    "trigger"
+  ],
+  "windowsTemplateId": "d772ad54-a0ea-4e44-a427-935d70f6f5d9",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Schedule ID {121} = Application Deployment Evaluation Cycle. Utile pour forcer la v\u00E9rification de nouvelles applications d\u00E9ploy\u00E9es.",
+  "links": [
+    {
+      "title": "SCCM Client Actions PowerShell",
+      "url": "https://sccmpowershell.com/trigger-sccm-client-actions-remotely"
+    }
+  ],
+  "isUserCreated": false
+}

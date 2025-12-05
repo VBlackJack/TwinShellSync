@@ -1,0 +1,32 @@
+{
+  "id": "8c525f1e-dac5-42ad-b037-31c0dc6d6552",
+  "name": "Set-GPLink",
+  "platform": "Windows",
+  "commandPattern": "Set-GPLink -Name \u0022{gpoName}\u0022 -Target \u0022{ouDN}\u0022 -Order {order}",
+  "parameters": [
+    {
+      "name": "gpoName",
+      "label": "Nom de la GPO",
+      "type": "string",
+      "defaultValue": "",
+      "required": true,
+      "description": "Nom de la GPO"
+    },
+    {
+      "name": "ouDN",
+      "label": "DN de l\u0027OU",
+      "type": "string",
+      "defaultValue": "",
+      "required": true,
+      "description": "Distinguished Name de l\u0027OU"
+    },
+    {
+      "name": "order",
+      "label": "Ordre",
+      "type": "string",
+      "defaultValue": "1",
+      "required": true,
+      "description": "Position dans l\u0027ordre (1 = priorit\u00E9 la plus haute)"
+    }
+  ]
+}

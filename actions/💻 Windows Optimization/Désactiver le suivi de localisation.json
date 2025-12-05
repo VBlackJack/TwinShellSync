@@ -1,0 +1,25 @@
+{
+  "id": "f848faf0-35fa-4eca-88cc-ec2dec52be34",
+  "title": "D\u00E9sactiver le suivi de localisation",
+  "description": "D\u00E9sactive compl\u00E8tement le service de localisation Windows et le suivi de position.",
+  "category": "\uD83D\uDCBB Windows Optimization",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "privacy",
+    "confidentialit\u00E9",
+    "rgpd",
+    "t\u00E9l\u00E9m\u00E9trie",
+    "localisation",
+    "gps",
+    "tracking",
+    "windows"
+  ],
+  "windowsTemplateId": "da02b122-6a24-430b-89fb-f06f361f7dd4",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "D\u00E9sactive totalement le service de localisation Windows. Protection maximale contre le tracking de position. Conforme RGPD Article 6.",
+  "links": [],
+  "isUserCreated": false
+}

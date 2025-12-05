@@ -1,0 +1,22 @@
+{
+  "id": "c6385879-ecff-45bd-bf59-707e4bff24cd",
+  "title": "D\u00E9sactiver le crypto wallet Edge",
+  "description": "D\u00E9sactive le portefeuille crypto et les fonctionnalit\u00E9s Web3 dans Microsoft Edge.",
+  "category": "\uD83D\uDCBB Windows Optimization",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "debloat",
+    "edge",
+    "crypto",
+    "wallet",
+    "windows"
+  ],
+  "windowsTemplateId": "553037c0-0a9c-4791-9fb6-da9d176e7925",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "D\u00E9sactive les fonctionnalit\u00E9s crypto et Web3. N\u00E9cessite des droits administrateur.",
+  "links": [],
+  "isUserCreated": false
+}

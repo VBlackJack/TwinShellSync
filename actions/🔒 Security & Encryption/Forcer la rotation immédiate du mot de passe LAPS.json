@@ -1,0 +1,26 @@
+{
+  "id": "f01bead2-8e80-443e-ba46-3424f8031c6e",
+  "title": "Forcer la rotation imm\u00E9diate du mot de passe LAPS",
+  "description": "Force le renouvellement imm\u00E9diat du mot de passe administrateur local g\u00E9r\u00E9 par LAPS.",
+  "category": "\uD83D\uDD12 Security \u0026 Encryption",
+  "platform": "Windows",
+  "level": "Dangerous",
+  "tags": [
+    "laps",
+    "rotate",
+    "password",
+    "security"
+  ],
+  "windowsTemplateId": "1414cfe6-ab84-4b9e-a50f-b3c13b8c3617",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "\u26A0\uFE0F S\u00C9CURIT\u00C9: Utilisez apr\u00E8s une compromission suspect\u00E9e du mot de passe admin local. La rotation prend effet au prochain cycle GPO (90-120 min par d\u00E9faut) ou utilisez gpupdate /force sur la machine cible. N\u00E9cessite droits d\u0027\u00E9criture sur ms-Mcs-AdmPwdExpirationTime.",
+  "links": [
+    {
+      "title": "Reset-AdmPwdPassword",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/admpwd.ps/reset-admpwdpassword"
+    }
+  ],
+  "isUserCreated": false
+}

@@ -1,0 +1,23 @@
+{
+  "id": "9da15274-1376-4417-a7c3-cd3b21ce8ab5",
+  "title": "D\u00E9sactiver toutes les permissions applications",
+  "description": "D\u00E9sactive TOUTES les permissions d\u0027acc\u00E8s des applications en une seule action. Configuration maximale de confidentialit\u00E9.",
+  "category": "\uD83D\uDCBB Windows Optimization",
+  "platform": "Windows",
+  "level": "Dangerous",
+  "tags": [
+    "privacy",
+    "confidentialit\u00E9",
+    "rgpd",
+    "permissions",
+    "all",
+    "windows"
+  ],
+  "windowsTemplateId": "09dec823-80e2-4356-8145-dc6d56fdffee",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "ATTENTION: D\u00E9sactive toutes les permissions. Configuration ultra-s\u00E9curis\u00E9e conforme RGPD. De nombreuses applications n\u00E9cessiteront des autorisations manuelles apr\u00E8s.",
+  "links": [],
+  "isUserCreated": false
+}

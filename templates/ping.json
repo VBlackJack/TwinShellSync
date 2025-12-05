@@ -1,0 +1,24 @@
+{
+  "id": "03ac4c7b-2fb4-47aa-9063-14c8e8d153d0",
+  "name": "ping",
+  "platform": "Linux",
+  "commandPattern": "ping -c {count} {host}",
+  "parameters": [
+    {
+      "name": "count",
+      "label": "Nombre de paquets",
+      "type": "number",
+      "defaultValue": "4",
+      "required": true,
+      "description": "Nombre de paquets \u00E0 envoyer"
+    },
+    {
+      "name": "host",
+      "label": "H\u00F4te",
+      "type": "string",
+      "defaultValue": "8.8.8.8",
+      "required": true,
+      "description": "Adresse IP ou nom d\u0027h\u00F4te"
+    }
+  ]
+}

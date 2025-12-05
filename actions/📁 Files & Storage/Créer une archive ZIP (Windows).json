@@ -1,0 +1,26 @@
+{
+  "id": "c9747965-9f74-4a6f-939f-e43ff448da35",
+  "title": "Cr\u00E9er une archive ZIP (Windows)",
+  "description": "Compresse des fichiers ou dossiers dans une archive ZIP.",
+  "category": "\uD83D\uDCC1 Files \u0026 Storage",
+  "platform": "Windows",
+  "level": "Info",
+  "tags": [
+    "compression",
+    "zip",
+    "archive",
+    "windows"
+  ],
+  "windowsTemplateId": "b8d166ad-8f32-455b-bcbb-3a732c9b7051",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "-CompressionLevel: Optimal, Fastest, NoCompression. -Force \u00E9crase le ZIP existant.",
+  "links": [
+    {
+      "title": "Documentation Compress-Archive",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.archive/compress-archive"
+    }
+  ],
+  "isUserCreated": false
+}

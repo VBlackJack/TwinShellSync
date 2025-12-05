@@ -1,0 +1,26 @@
+{
+  "id": "947d9c55-e1ff-43ed-99e0-043f393c098f",
+  "title": "Ajouter une exclusion de dossier dans Defender",
+  "description": "Exclut un dossier de l\u0027analyse en temps r\u00E9el de Windows Defender (am\u00E9liore performances).",
+  "category": "\uD83D\uDD12 Security \u0026 Encryption",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "defender",
+    "exclusion",
+    "folder",
+    "performance"
+  ],
+  "windowsTemplateId": "7e746c9a-6e14-4bc5-a942-d6430cff6bcf",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "\u26A0\uFE0F S\u00C9CURIT\u00C9: N\u0027excluez JAMAIS: Downloads, Documents, Desktop, AppData, Temp. Exclusions recommand\u00E9es: dossiers de dev, biblioth\u00E8ques de jeux, VMs, outils de build. Chaque exclusion r\u00E9duit la s\u00E9curit\u00E9 mais am\u00E9liore les performances.",
+  "links": [
+    {
+      "title": "Add-MpPreference Documentation",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/defender/add-mppreference"
+    }
+  ],
+  "isUserCreated": false
+}

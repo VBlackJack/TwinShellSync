@@ -1,0 +1,16 @@
+{
+  "id": "0100d35f-1e0e-4391-a8b7-4b5afa6cec0e",
+  "name": "traceroute",
+  "platform": "Linux",
+  "commandPattern": "traceroute {host}",
+  "parameters": [
+    {
+      "name": "host",
+      "label": "H\u00F4te",
+      "type": "string",
+      "defaultValue": "google.com",
+      "required": true,
+      "description": "Adresse IP ou nom d\u0027h\u00F4te de destination"
+    }
+  ]
+}

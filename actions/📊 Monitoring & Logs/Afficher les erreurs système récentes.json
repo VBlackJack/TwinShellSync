@@ -1,0 +1,23 @@
+{
+  "id": "6653ace8-d330-4e33-b73c-f3ac24d2cb83",
+  "title": "Afficher les erreurs syst\u00E8me r\u00E9centes",
+  "description": "Affiche les erreurs r\u00E9centes du journal syst\u00E8me",
+  "category": "\uD83D\uDCCA Monitoring \u0026 Logs",
+  "platform": "Both",
+  "level": "Info",
+  "tags": [
+    "logs",
+    "errors",
+    "eventlog",
+    "journalctl",
+    "diagnostic",
+    "system"
+  ],
+  "windowsTemplateId": "a0a04059-017e-49e8-8c82-a9a70670ac76",
+  "linuxTemplateId": "2c9ad814-2199-400b-947f-97c2e6512f5b",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "links": [],
+  "isUserCreated": false
+}

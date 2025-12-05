@@ -1,0 +1,32 @@
+{
+  "id": "1a6e55d8-7da5-4272-88aa-5af849067154",
+  "name": "Backup-SqlDatabase",
+  "platform": "Windows",
+  "commandPattern": "Backup-SqlDatabase -ServerInstance \u0027{serverInstance}\u0027 -Database \u0027{databaseName}\u0027 -BackupFile \u0027{backupPath}\u0027 -CompressionOption On",
+  "parameters": [
+    {
+      "name": "serverInstance",
+      "label": "Instance SQL Server",
+      "type": "string",
+      "defaultValue": "localhost",
+      "required": true,
+      "description": "Instance SQL Server"
+    },
+    {
+      "name": "databaseName",
+      "label": "Nom de la base",
+      "type": "string",
+      "defaultValue": "",
+      "required": true,
+      "description": "Nom de la base de donn\u00E9es \u00E0 sauvegarder"
+    },
+    {
+      "name": "backupPath",
+      "label": "Chemin de sauvegarde",
+      "type": "string",
+      "defaultValue": "C:\\Backups\\backup.bak",
+      "required": true,
+      "description": "Chemin complet du fichier de sauvegarde"
+    }
+  ]
+}

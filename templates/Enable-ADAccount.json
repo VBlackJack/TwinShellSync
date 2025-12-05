@@ -1,0 +1,16 @@
+{
+  "id": "2bbd4e52-6250-4ae6-a4a1-c2d6c247201b",
+  "name": "Enable-ADAccount",
+  "platform": "Windows",
+  "commandPattern": "Enable-ADAccount -Identity {computerName}$",
+  "parameters": [
+    {
+      "name": "computerName",
+      "label": "Nom de l\u0027ordinateur",
+      "type": "string",
+      "defaultValue": "",
+      "required": true,
+      "description": "Nom de l\u0027ordinateur AD (sans le $)"
+    }
+  ]
+}

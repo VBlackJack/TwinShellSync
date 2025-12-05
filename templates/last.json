@@ -1,0 +1,24 @@
+{
+  "id": "25b4d277-fefe-48c7-bb30-0033867be035",
+  "name": "last",
+  "platform": "Linux",
+  "commandPattern": "last -n {count} {username}",
+  "parameters": [
+    {
+      "name": "count",
+      "label": "Nombre d\u0027entr\u00E9es",
+      "type": "number",
+      "defaultValue": "20",
+      "required": true,
+      "description": "Nombre de connexions \u00E0 afficher"
+    },
+    {
+      "name": "username",
+      "label": "Nom d\u0027utilisateur",
+      "type": "string",
+      "defaultValue": "",
+      "required": false,
+      "description": "Filtrer par utilisateur (vide = tous)"
+    }
+  ]
+}

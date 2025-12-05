@@ -1,5 +1,0 @@
-id: 135018b0-3bfe-4a39-8cd8-a0643830c1a0
-name: ''
-platform: Linux
-commandPattern: netstat -tulpn
-parameters: []

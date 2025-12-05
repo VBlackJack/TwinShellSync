@@ -1,0 +1,26 @@
+{
+  "id": "c34ee2f9-373e-4fc1-939a-0c36f15f3584",
+  "title": "Exporter les \u00E9v\u00E9nements vers un fichier CSV",
+  "description": "Exporte les \u00E9v\u00E9nements d\u0027un journal sp\u00E9cifique vers un fichier CSV pour analyse",
+  "category": "\uD83D\uDCCA Monitoring \u0026 Logs",
+  "platform": "Windows",
+  "level": "Info",
+  "tags": [
+    "eventlog",
+    "export",
+    "csv",
+    "report"
+  ],
+  "windowsTemplateId": "ef14bfeb-df19-4e89-9ff9-a853726e5a4a",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Assurez-vous que le r\u00E9pertoire de destination existe. Le fichier CSV peut \u00EAtre import\u00E9 dans Excel pour analyse.",
+  "links": [
+    {
+      "title": "Export-Csv Documentation",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/export-csv"
+    }
+  ],
+  "isUserCreated": false
+}

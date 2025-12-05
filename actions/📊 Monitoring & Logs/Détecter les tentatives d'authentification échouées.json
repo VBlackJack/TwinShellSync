@@ -1,0 +1,27 @@
+{
+  "id": "3306fde2-978e-46d2-b0da-d0f54da9abf9",
+  "title": "D\u00E9tecter les tentatives d\u0027authentification \u00E9chou\u00E9es",
+  "description": "Liste les \u00E9v\u00E9nements d\u0027\u00E9chec d\u0027authentification (EventID 4625) dans le journal Security",
+  "category": "\uD83D\uDCCA Monitoring \u0026 Logs",
+  "platform": "Windows",
+  "level": "Info",
+  "tags": [
+    "eventlog",
+    "security",
+    "authentication",
+    "login",
+    "audit"
+  ],
+  "windowsTemplateId": "a8633a3d-2345-4248-965f-4f138ae5c38b",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "N\u00E9cessite des droits d\u0027administrateur. EventID 4625 = \u00E9chec d\u0027authentification. Utile pour d\u00E9tecter les tentatives d\u0027intrusion.",
+  "links": [
+    {
+      "title": "Event 4625 Documentation",
+      "url": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4625"
+    }
+  ],
+  "isUserCreated": false
+}

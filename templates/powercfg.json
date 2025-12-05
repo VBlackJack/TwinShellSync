@@ -1,0 +1,7 @@
+{
+  "id": "3e9e02a5-9996-4f6a-a555-f054e010880b",
+  "name": "powercfg",
+  "platform": "Windows",
+  "commandPattern": "powercfg -setacvalueindex SCHEME_CURRENT SUB_SLEEP HYBRIDSLEEP 0; powercfg -setdcvalueindex SCHEME_CURRENT SUB_SLEEP HYBRIDSLEEP 0; powercfg -setactive SCHEME_CURRENT; Write-Host \u0022Mode veille hybride d\u00E9sactiv\u00E9\u0022 -ForegroundColor Green",
+  "parameters": []
+}

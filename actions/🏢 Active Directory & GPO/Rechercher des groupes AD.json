@@ -1,0 +1,20 @@
+{
+  "id": "fcbd4218-726f-494e-91c3-87e70baa2b74",
+  "title": "Rechercher des groupes AD",
+  "description": "Recherche des groupes Active Directory par nom ou description.",
+  "category": "\uD83C\uDFE2 Active Directory \u0026 GPO",
+  "platform": "Windows",
+  "level": "Info",
+  "tags": [
+    "ad",
+    "group",
+    "search"
+  ],
+  "windowsTemplateId": "ad1fe16c-e3b7-4587-85c7-8efc564f95c9",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Utilise une recherche avec wildcard. Pour rechercher dans la description aussi, modifier le filtre.",
+  "links": [],
+  "isUserCreated": false
+}

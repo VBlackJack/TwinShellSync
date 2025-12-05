@@ -1,0 +1,26 @@
+{
+  "id": "166036ca-966e-48f0-86f5-892fc9b89718",
+  "title": "Sauvegarder le mot de passe BitLocker dans Active Directory",
+  "description": "Sauvegarde automatiquement le mot de passe de r\u00E9cup\u00E9ration BitLocker dans Active Directory.",
+  "category": "\uD83D\uDD12 Security \u0026 Encryption",
+  "platform": "Windows",
+  "level": "Dangerous",
+  "tags": [
+    "bitlocker",
+    "backup",
+    "ad",
+    "recovery"
+  ],
+  "windowsTemplateId": "ecc34c38-4643-41b2-9ed2-1f1e0c66f944",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "N\u00E9cessite: ordinateur joint au domaine AD, droits d\u0027\u00E9criture sur l\u0027objet ordinateur dans AD, GPO configur\u00E9e pour autoriser le stockage BitLocker dans AD. Permet la r\u00E9cup\u00E9ration centralis\u00E9e par les admins AD.",
+  "links": [
+    {
+      "title": "Backup-BitLockerKeyProtector",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/bitlocker/backup-bitlockerkeyprotector"
+    }
+  ],
+  "isUserCreated": false
+}

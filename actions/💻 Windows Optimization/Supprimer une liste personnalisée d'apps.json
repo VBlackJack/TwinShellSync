@@ -1,0 +1,21 @@
+{
+  "id": "8e3845aa-dbd3-47cd-9394-30ad754285b8",
+  "title": "Supprimer une liste personnalis\u00E9e d\u0027apps",
+  "description": "Supprime une liste personnalis\u00E9e d\u0027applications sp\u00E9cifi\u00E9e par l\u0027utilisateur.",
+  "category": "\uD83D\uDCBB Windows Optimization",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "debloat",
+    "custom",
+    "selective",
+    "windows"
+  ],
+  "windowsTemplateId": "199d6690-937c-43e1-98f4-283b26736275",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Permet de supprimer uniquement les apps que vous sp\u00E9cifiez.",
+  "links": [],
+  "isUserCreated": false
+}

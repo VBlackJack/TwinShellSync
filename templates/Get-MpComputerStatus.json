@@ -1,0 +1,7 @@
+{
+  "id": "ff3b387b-49af-4e5e-acef-1586f3b09f5c",
+  "name": "Get-MpComputerStatus",
+  "platform": "Windows",
+  "commandPattern": "Get-MpComputerStatus | Select-Object AntivirusSignatureVersion,AntivirusSignatureLastUpdated,NISSignatureVersion,NISSignatureLastUpdated",
+  "parameters": []
+}

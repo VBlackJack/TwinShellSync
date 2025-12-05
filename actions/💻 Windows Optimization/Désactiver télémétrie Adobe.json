@@ -1,0 +1,23 @@
+{
+  "id": "cc066c87-9c38-46f6-8752-53e141b8e1c2",
+  "title": "D\u00E9sactiver t\u00E9l\u00E9m\u00E9trie Adobe",
+  "description": "D\u00E9sactive la t\u00E9l\u00E9m\u00E9trie et le reporting d\u0027Adobe Creative Cloud (Photoshop, Illustrator, etc.).",
+  "category": "\uD83D\uDCBB Windows Optimization",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "privacy",
+    "confidentialit\u00E9",
+    "t\u00E9l\u00E9m\u00E9trie",
+    "adobe",
+    "third-party",
+    "windows"
+  ],
+  "windowsTemplateId": "7261da0e-2916-4080-b621-71fdd4c6f5a1",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "D\u00E9sactive la collecte de donn\u00E9es Adobe Creative Cloud, Analytics et services de mise \u00E0 jour. Bloque les services de t\u00E9l\u00E9m\u00E9trie Adobe. R\u00E9duit l\u0027utilisation de ressources syst\u00E8me.",
+  "links": [],
+  "isUserCreated": false
+}

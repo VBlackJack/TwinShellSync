@@ -1,0 +1,25 @@
+{
+  "id": "edb12fe4-0959-49b5-bef0-3c18e244c868",
+  "title": "V\u00E9rifier la progression du chiffrement BitLocker",
+  "description": "Affiche le pourcentage de progression du chiffrement ou d\u00E9chiffrement d\u0027un volume BitLocker.",
+  "category": "\uD83D\uDD12 Security \u0026 Encryption",
+  "platform": "Windows",
+  "level": "Info",
+  "tags": [
+    "bitlocker",
+    "progress",
+    "status"
+  ],
+  "windowsTemplateId": "3d6c6f2d-0c85-44b2-b6a3-3db08b469488",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "VolumeStatus: FullyEncrypted, FullyDecrypted, EncryptionInProgress, DecryptionInProgress, EncryptionSuspended. EncryptionPercentage: 0-100%. Le chiffrement peut prendre plusieurs heures selon la taille. Avec -UsedSpaceOnly: chiffrement rapide (30 min - 2h). Sans -UsedSpaceOnly: chiffrement complet (2-8h ou plus).",
+  "links": [
+    {
+      "title": "BitLocker Encryption Status",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/bitlocker/get-bitlockervolume"
+    }
+  ],
+  "isUserCreated": false
+}

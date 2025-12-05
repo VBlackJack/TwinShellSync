@@ -1,0 +1,29 @@
+{
+  "id": "9dfce42e-8d8a-40c8-a235-2a9a043ff2fb",
+  "title": "Cr\u00E9er un snapshot (point de contr\u00F4le) d\u0027une VM",
+  "description": "Cr\u00E9e un point de contr\u00F4le (snapshot) d\u0027une machine virtuelle Hyper-V, capturant son \u00E9tat actuel pour une restauration ult\u00E9rieure.",
+  "category": "\uD83D\uDC33 Containers \u0026 VMs",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "hyperv",
+    "snapshot",
+    "checkpoint",
+    "backup",
+    "vm",
+    "restore",
+    "virtualization"
+  ],
+  "windowsTemplateId": "f5b2b250-a5dc-4d09-9f03-efc54c41998d",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Les snapshots consomment de l\u0027espace disque. Supprimez les anciens snapshots r\u00E9guli\u00E8rement. \u00C9vitez trop de snapshots en cha\u00EEne (impact performance).",
+  "links": [
+    {
+      "title": "Documentation Checkpoint-VM",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/hyper-v/checkpoint-vm"
+    }
+  ],
+  "isUserCreated": false
+}

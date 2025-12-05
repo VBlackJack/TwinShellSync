@@ -1,0 +1,16 @@
+{
+  "id": "83bd87da-56bb-4cbd-9683-1310ac3d155e",
+  "name": "New-Item",
+  "platform": "Windows",
+  "commandPattern": "New-Item -Path \u0022{path}\u0022 -ItemType Directory -Force",
+  "parameters": [
+    {
+      "name": "path",
+      "label": "Chemin du dossier",
+      "type": "string",
+      "defaultValue": "",
+      "required": true,
+      "description": "Chemin du nouveau dossier \u00E0 cr\u00E9er"
+    }
+  ]
+}

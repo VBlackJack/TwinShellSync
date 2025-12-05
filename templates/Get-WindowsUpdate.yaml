@@ -1,5 +1,0 @@
-id: 8e08a6a6-13b1-4fa3-a971-65afde31115f
-name: Get-WindowsUpdate
-platform: Windows
-commandPattern: powershell -Command "$UpdateSession = New-Object -ComObject Microsoft.Update.Session; $UpdateSearcher = $UpdateSession.CreateUpdateSearcher(); $SearchResult = $UpdateSearcher.Search('IsInstalled=0'); $SearchResult.Updates | Select-Object Title, IsDownloaded, IsMandatory | Format-Table -AutoSize"
-parameters: []

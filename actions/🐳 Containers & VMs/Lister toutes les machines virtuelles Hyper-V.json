@@ -1,0 +1,29 @@
+{
+  "id": "bfa2a3df-d6ab-4ff7-9656-a95964099a5b",
+  "title": "Lister toutes les machines virtuelles Hyper-V",
+  "description": "Affiche la liste compl\u00E8te de toutes les machines virtuelles configur\u00E9es dans Hyper-V avec leur \u00E9tat, m\u00E9moire allou\u00E9e et version de configuration.",
+  "category": "\uD83D\uDC33 Containers \u0026 VMs",
+  "platform": "Windows",
+  "level": "Info",
+  "tags": [
+    "hyperv",
+    "vm",
+    "virtual-machine",
+    "list",
+    "virtualization",
+    "inventory",
+    "diagnostic"
+  ],
+  "windowsTemplateId": "9ec76d82-d0ed-4d9c-abd5-b4bd90c5c10d",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "N\u00E9cessite le r\u00F4le Hyper-V install\u00E9 et des privil\u00E8ges administrateur. \u00C9tats possibles: Running, Off, Saved, Paused.",
+  "links": [
+    {
+      "title": "Documentation Get-VM",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/hyper-v/get-vm"
+    }
+  ],
+  "isUserCreated": false
+}

@@ -1,0 +1,27 @@
+{
+  "id": "9b04f8f8-a1da-4b73-8041-5da4210faa8f",
+  "title": "V\u00E9rifier l\u0027\u00E9tat de SELinux",
+  "description": "Affiche l\u0027\u00E9tat et le mode de SELinux (Security-Enhanced Linux)",
+  "category": "\uD83D\uDD12 Security \u0026 Encryption",
+  "platform": "Linux",
+  "level": "Info",
+  "tags": [
+    "selinux",
+    "security",
+    "mandatory",
+    "access",
+    "control"
+  ],
+  "linuxTemplateId": "28b34afd-30ad-4759-8d80-fc0f7a26c2f0",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Ne n\u00E9cessite pas sudo pour lecture. Principalement sur RHEL/CentOS/Fedora.",
+  "links": [
+    {
+      "title": "SELinux documentation",
+      "url": "https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/using_selinux/index"
+    }
+  ],
+  "isUserCreated": false
+}

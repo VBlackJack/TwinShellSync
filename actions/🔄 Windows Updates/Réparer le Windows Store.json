@@ -1,0 +1,20 @@
+{
+  "id": "af5dfa09-84d7-4951-b203-8a527534bad4",
+  "title": "R\u00E9parer le Windows Store",
+  "description": "R\u00E9initialise le cache du Windows Store qui peut affecter Windows Update",
+  "category": "\uD83D\uDD04 Windows Updates",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "windows-store",
+    "cache",
+    "repair"
+  ],
+  "windowsTemplateId": "79970b7b-f4fd-41fa-aace-64b16931377c",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Une fen\u00EAtre vide s\u0027ouvrira puis se fermera automatiquement. Ne n\u00E9cessite pas de droits administrateur.",
+  "links": [],
+  "isUserCreated": false
+}

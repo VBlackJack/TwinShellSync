@@ -1,0 +1,23 @@
+{
+  "id": "ea6f32f8-c9b5-489c-8733-c54db1a4d9e2",
+  "title": "D\u00E9sactiver l\u0027hibernation",
+  "description": "D\u00E9sactive l\u0027hibernation Windows et supprime le fichier hiberfil.sys pour lib\u00E9rer de l\u0027espace disque (souvent plusieurs Go).",
+  "category": "\uD83D\uDCBB Windows Optimization",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "performance",
+    "power",
+    "hibernation",
+    "disk-space",
+    "optimisation",
+    "windows"
+  ],
+  "windowsTemplateId": "a30820cf-a453-42a3-abc5-929584acfb87",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "D\u00E9sactiver l\u0027hibernation: lib\u00E8re de l\u0027espace disque \u00E9gal \u00E0 la RAM (8-32 Go typiquement). Supprime hiberfil.sys. Vous perdrez la fonctionnalit\u00E9 de mise en veille prolong\u00E9e. La mise en veille normale (RAM) reste disponible.",
+  "links": [],
+  "isUserCreated": false
+}

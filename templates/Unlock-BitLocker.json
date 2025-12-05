@@ -1,0 +1,24 @@
+{
+  "id": "c47a5a6b-f0ba-40c4-80af-57431a7fc7ee",
+  "name": "Unlock-BitLocker",
+  "platform": "Windows",
+  "commandPattern": "Unlock-BitLocker -MountPoint \u0022{driveLetter}:\u0022 -RecoveryPassword \u0022{recoveryPassword}\u0022",
+  "parameters": [
+    {
+      "name": "driveLetter",
+      "label": "Lettre du disque",
+      "type": "string",
+      "defaultValue": "D",
+      "required": true,
+      "description": "Lettre du volume verrouill\u00E9"
+    },
+    {
+      "name": "recoveryPassword",
+      "label": "Mot de passe de r\u00E9cup\u00E9ration",
+      "type": "string",
+      "defaultValue": "",
+      "required": true,
+      "description": "Mot de passe de r\u00E9cup\u00E9ration 48 chiffres"
+    }
+  ]
+}

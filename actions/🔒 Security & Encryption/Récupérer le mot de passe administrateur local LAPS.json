@@ -1,0 +1,26 @@
+{
+  "id": "f680605f-7e45-4a89-ad47-e90fecc144c9",
+  "title": "R\u00E9cup\u00E9rer le mot de passe administrateur local LAPS",
+  "description": "R\u00E9cup\u00E8re le mot de passe administrateur local g\u00E9r\u00E9 par LAPS pour un ordinateur du domaine.",
+  "category": "\uD83D\uDD12 Security \u0026 Encryption",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "laps",
+    "password",
+    "admin",
+    "security"
+  ],
+  "windowsTemplateId": "46a3bfd5-96b2-4188-af98-fc99f5e3059d",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "N\u00E9cessite: module LAPS PowerShell, droits de lecture sur attributs LAPS dans AD (ms-Mcs-AdmPwd). Le mot de passe affich\u00E9 est celui du compte administrateur local. \u26A0\uFE0F SENSIBLE: ne partagez jamais ce mot de passe par email/chat non chiffr\u00E9!",
+  "links": [
+    {
+      "title": "LAPS Documentation",
+      "url": "https://learn.microsoft.com/en-us/windows-server/identity/laps/laps-overview"
+    }
+  ],
+  "isUserCreated": false
+}

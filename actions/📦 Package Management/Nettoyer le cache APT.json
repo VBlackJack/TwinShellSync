@@ -1,0 +1,27 @@
+{
+  "id": "88a5b4af-d5a6-4655-9add-631debf7696c",
+  "title": "Nettoyer le cache APT",
+  "description": "Supprime les fichiers .deb t\u00E9l\u00E9charg\u00E9s du cache local",
+  "category": "\uD83D\uDCE6 Package Management",
+  "platform": "Linux",
+  "level": "Info",
+  "tags": [
+    "apt",
+    "clean",
+    "cache",
+    "disk",
+    "maintenance"
+  ],
+  "linuxTemplateId": "8c66b522-4a58-4254-817f-0e4c93c88a8b",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "N\u00E9cessite sudo. autoclean ne supprime que les paquets qui ne peuvent plus \u00EAtre t\u00E9l\u00E9charg\u00E9s.",
+  "links": [
+    {
+      "title": "APT cache management",
+      "url": "https://manpages.ubuntu.com/manpages/jammy/man8/apt.8.html"
+    }
+  ],
+  "isUserCreated": false
+}

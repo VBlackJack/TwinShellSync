@@ -1,5 +1,0 @@
-id: 9f97ff25-61b4-404c-bbe0-55a2c011da2e
-name: Get-NetTCPConnection
-platform: Windows
-commandPattern: Get-NetTCPConnection | Where-Object {$_.State -eq 'Established'} | Select-Object LocalAddress, LocalPort, RemoteAddress, RemotePort, State, @{Name='Process';Expression={(Get-Process -Id $_.OwningProcess).ProcessName}} | Format-Table -AutoSize
-parameters: []

@@ -1,0 +1,7 @@
+{
+  "id": "45c2f0ae-4a4b-4cb3-bba6-87804793577a",
+  "name": "Disable-ConsumerFeatures",
+  "platform": "Windows",
+  "commandPattern": "New-Item -Path \u0027HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\CloudContent\u0027 -Force | Out-Null; Set-ItemProperty -Path \u0027HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\CloudContent\u0027 -Name \u0027DisableWindowsConsumerFeatures\u0027 -Type DWord -Value 1",
+  "parameters": []
+}

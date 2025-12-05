@@ -1,0 +1,7 @@
+{
+  "id": "af9ef756-f9e1-4a00-87a7-7328f638e2d7",
+  "name": "Get-WmiObject",
+  "platform": "Windows",
+  "commandPattern": "Get-WmiObject -Namespace root\\ccm -Class SMS_Client | Select-Object ClientVersion,@{Name=\u0027SiteCode\u0027;Expression={(Get-WmiObject -Namespace root\\ccm -Class SMS_Authority).CurrentManagementPoint}},@{Name=\u0027LastPolicyRequest\u0027;Expression={(Get-WmiObject -Namespace root\\ccm\\Policy\\Machine -Class CCM_Policy_Policy5 -Filter \u0022PolicySource=\u0027SMS:$((Get-WmiObject -Namespace root\\ccm -Class SMS_Authority).Name.Split(\u0027:\u0027)[1])\u0027\u0022 | Select-Object -First 1 -ExpandProperty PolicyDownloadTime)}} | Format-List",
+  "parameters": []
+}

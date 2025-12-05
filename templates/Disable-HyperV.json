@@ -1,0 +1,7 @@
+{
+  "id": "52f9dad4-5726-45d8-a689-6b5327c9e2fd",
+  "name": "Disable-HyperV",
+  "platform": "Windows",
+  "commandPattern": "Disable-WindowsOptionalFeature -Online -FeatureName \u0027Microsoft-Hyper-V-All\u0027 -NoRestart",
+  "parameters": []
+}

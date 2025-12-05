@@ -1,0 +1,26 @@
+{
+  "id": "a52ad6ad-99d3-4c3a-aeab-c13d4ec8999c",
+  "title": "G\u00E9n\u00E9rer un rapport complet LAPS",
+  "description": "G\u00E9n\u00E8re un rapport CSV de tous les ordinateurs LAPS avec mots de passe et dates d\u0027expiration.",
+  "category": "\uD83D\uDD12 Security \u0026 Encryption",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "laps",
+    "report",
+    "export",
+    "audit"
+  ],
+  "windowsTemplateId": "a0387d25-ad92-437e-b677-3ad00734b9c6",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "\u26A0\uFE0F S\u00C9CURIT\u00C9 MAXIMALE: Ce rapport contient TOUS les mots de passe admin locaux! Stockez-le dans un coffre-fort chiffr\u00E9 (gestionnaire de mots de passe, Azure Key Vault, coffre physique). NE JAMAIS envoyer par email non chiffr\u00E9. Supprimez apr\u00E8s consultation. Auditez qui g\u00E9n\u00E8re ces rapports.",
+  "links": [
+    {
+      "title": "LAPS Reporting",
+      "url": "https://learn.microsoft.com/en-us/windows-server/identity/laps/laps-management-policy-settings"
+    }
+  ],
+  "isUserCreated": false
+}

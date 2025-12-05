@@ -1,0 +1,25 @@
+{
+  "id": "b4b49286-701a-4d53-b283-5b7708e0def6",
+  "title": "Modifier les permissions de fichiers",
+  "description": "Modifie les permissions NTFS d\u0027un fichier ou dossier.",
+  "category": "\uD83D\uDCC1 Files \u0026 Storage",
+  "platform": "Both",
+  "level": "Run",
+  "tags": [
+    "icacls",
+    "chmod",
+    "linux",
+    "windows",
+    "permissions",
+    "s\u00E9curit\u00E9",
+    "acl"
+  ],
+  "windowsTemplateId": "6713aa69-cc5b-47e5-abfc-2d2e07c20f45",
+  "linuxTemplateId": "0fdb3617-3fcb-4a18-8941-f5614fab6152",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Windows: /T pour r\u00E9cursif. Permissions: F (Full), M (Modify), RX (ReadExecute), R (Read), W (Write).\nLinux: 755=rwxr-xr-x, 644=rw-r--r--, 777=rwxrwxrwx. -R pour r\u00E9cursif. u=user, g=group, o=others, a=all.",
+  "links": [],
+  "isUserCreated": false
+}

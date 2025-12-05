@@ -1,0 +1,26 @@
+{
+  "id": "98b58d1d-e3ee-43a0-bef4-91e48ea84114",
+  "title": "Lancer une analyse rapide Windows Defender",
+  "description": "Lance une analyse rapide des zones syst\u00E8me critiques (m\u00E9moire, d\u00E9marrage, fichiers actifs).",
+  "category": "\uD83D\uDD12 Security \u0026 Encryption",
+  "platform": "Windows",
+  "level": "Info",
+  "tags": [
+    "defender",
+    "scan",
+    "quick",
+    "antivirus"
+  ],
+  "windowsTemplateId": "1237e0f3-4e35-4180-be85-200f07808b87",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "QuickScan: analyse rapide (zones critiques uniquement, ~5-15 min). FullScan: analyse compl\u00E8te (tous les fichiers, plusieurs heures). CustomScan: analyse d\u0027un dossier sp\u00E9cifique. L\u0027analyse s\u0027ex\u00E9cute en arri\u00E8re-plan.",
+  "links": [
+    {
+      "title": "Start-MpScan Documentation",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/defender/start-mpscan"
+    }
+  ],
+  "isUserCreated": false
+}

@@ -1,0 +1,16 @@
+{
+  "id": "c61d4249-d859-4fd7-8d27-ecd906a7a426",
+  "name": "Show-WindowsUpdate",
+  "platform": "Windows",
+  "commandPattern": "Show-WindowsUpdate -KBArticleID {kbNumber}",
+  "parameters": [
+    {
+      "name": "kbNumber",
+      "label": "Num\u00E9ro KB",
+      "type": "string",
+      "defaultValue": "KB5001234",
+      "required": true,
+      "description": "Num\u00E9ro KB de la mise \u00E0 jour \u00E0 r\u00E9afficher"
+    }
+  ]
+}

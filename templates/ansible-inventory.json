@@ -1,0 +1,16 @@
+{
+  "id": "f4a13516-797c-4b93-9cd0-306934464c0b",
+  "name": "ansible-inventory",
+  "platform": "Windows",
+  "commandPattern": "ansible-inventory --list -i {inventory}",
+  "parameters": [
+    {
+      "name": "inventory",
+      "label": "Inventaire",
+      "type": "string",
+      "defaultValue": "inventory.ini",
+      "required": true,
+      "description": "Fichier d\u0027inventaire"
+    }
+  ]
+}

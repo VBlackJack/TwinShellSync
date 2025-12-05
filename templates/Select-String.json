@@ -1,0 +1,32 @@
+{
+  "id": "b4cc5929-53e2-4488-bf7c-5577e2a005e0",
+  "name": "Select-String",
+  "platform": "Windows",
+  "commandPattern": "Get-ChildItem -Path \u0022{searchPath}\u0022 -Filter \u0022{filePattern}\u0022 -Recurse | Select-String -Pattern \u0022{searchTerm}\u0022",
+  "parameters": [
+    {
+      "name": "searchPath",
+      "label": "Chemin de recherche",
+      "type": "string",
+      "defaultValue": ".",
+      "required": true,
+      "description": "Dossier o\u00F9 chercher"
+    },
+    {
+      "name": "filePattern",
+      "label": "Type de fichiers",
+      "type": "string",
+      "defaultValue": "*.txt",
+      "required": true,
+      "description": "Motif de fichiers (ex: *.txt, *.log)"
+    },
+    {
+      "name": "searchTerm",
+      "label": "Terme recherch\u00E9",
+      "type": "string",
+      "defaultValue": "",
+      "required": true,
+      "description": "Texte ou regex \u00E0 rechercher"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "ed86b526-d40c-48d5-b43b-e86bf03dd8be",
+  "title": "Lister les membres d\u0027un groupe AD",
+  "description": "Affiche tous les membres d\u0027un groupe Active Directory.",
+  "category": "\uD83C\uDFE2 Active Directory \u0026 GPO",
+  "platform": "Windows",
+  "level": "Info",
+  "tags": [
+    "ad",
+    "group",
+    "members",
+    "list"
+  ],
+  "windowsTemplateId": "d8d305cd-5dd8-4ddb-9bf7-41f525ea5328",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Affiche les membres directs uniquement. Pour inclure les membres des groupes imbriqu\u00E9s, utiliser -Recursive.",
+  "links": [
+    {
+      "title": "Documentation Get-ADGroupMember",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/activedirectory/get-adgroupmember"
+    }
+  ],
+  "isUserCreated": false
+}

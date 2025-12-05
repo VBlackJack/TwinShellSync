@@ -1,0 +1,28 @@
+{
+  "id": "a26a4ea3-3dbb-4c2a-b27d-0b98e2b131cb",
+  "title": "Activer le plan Ultimate Performance",
+  "description": "Active le plan d\u0027alimentation Ultimate Performance de Windows pour maximiser les performances (d\u00E9conseill\u00E9 sur portable).",
+  "category": "\uD83D\uDCBB Windows Optimization",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "performance",
+    "power",
+    "alimentation",
+    "ultimate",
+    "optimisation",
+    "windows"
+  ],
+  "windowsTemplateId": "636e6571-b812-47cd-b5d2-0729a11715e2",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Plan Ultimate Performance: \u00E9limine les micro-latences, d\u00E9sactive les \u00E9conomies d\u0027\u00E9nergie. Augmente la consommation \u00E9lectrique de 5-10%. Recommand\u00E9 uniquement pour PC fixes gaming/workstation. Sur portable: r\u00E9duit consid\u00E9rablement l\u0027autonomie.",
+  "links": [
+    {
+      "title": "Ultimate Performance Power Plan",
+      "url": "https://learn.microsoft.com/en-us/windows-hardware/customize/desktop/customize-power-slider"
+    }
+  ],
+  "isUserCreated": false
+}

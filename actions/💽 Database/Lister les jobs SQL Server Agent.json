@@ -1,0 +1,30 @@
+{
+  "id": "96b1e650-b60a-4af2-869e-2af06e625782",
+  "title": "Lister les jobs SQL Server Agent",
+  "description": "Affiche tous les jobs configur\u00E9s dans SQL Server Agent avec leur statut, derni\u00E8re ex\u00E9cution et prochaine planification.",
+  "category": "\uD83D\uDCBD Database",
+  "platform": "Windows",
+  "level": "Info",
+  "tags": [
+    "sql",
+    "agent",
+    "jobs",
+    "scheduler",
+    "automation",
+    "monitoring",
+    "mssql",
+    "task"
+  ],
+  "windowsTemplateId": "8f26960c-829b-4e7c-a8f0-6d75c605c5ef",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Le service SQL Server Agent doit \u00EAtre d\u00E9marr\u00E9. Les jobs d\u00E9sactiv\u00E9s n\u0027apparaissent pas dans les planifications actives.",
+  "links": [
+    {
+      "title": "Documentation SQL Server Agent",
+      "url": "https://learn.microsoft.com/en-us/sql/ssms/agent/sql-server-agent"
+    }
+  ],
+  "isUserCreated": false
+}

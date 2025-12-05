@@ -1,0 +1,27 @@
+{
+  "id": "81120c19-572f-4901-aa74-e77a365977ad",
+  "title": "Lister les services Windows",
+  "description": "Affiche tous les services Windows avec leur \u00E9tat (Running, Stopped, etc.)",
+  "category": "\u2699\uFE0F Services \u0026 Automation",
+  "platform": "Windows",
+  "level": "Info",
+  "tags": [
+    "service",
+    "windows",
+    "status",
+    "automation",
+    "management"
+  ],
+  "windowsTemplateId": "dfd5a6ad-7be0-4f8d-9baf-f7cee9ea72a1",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Essentiel pour Windows Core. Voir aussi Start-Service, Stop-Service, Restart-Service pour contr\u00F4ler les services.",
+  "links": [
+    {
+      "title": "Get-Service Documentation",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-service"
+    }
+  ],
+  "isUserCreated": false
+}

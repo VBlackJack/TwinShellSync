@@ -1,0 +1,7 @@
+{
+  "id": "8a3a5a3d-f65e-4f36-8ede-ec4050c586cb",
+  "name": "Disable-WindowsSearch",
+  "platform": "Windows",
+  "commandPattern": "Stop-Service -Name \u0027WSearch\u0027 -Force -ErrorAction SilentlyContinue; Set-Service -Name \u0027WSearch\u0027 -StartupType Disabled; Write-Host \u0022Windows Search Indexing d\u00E9sactiv\u00E9\u0022 -ForegroundColor Green; Write-Warning \u0022La recherche de fichiers sera plus lente mais le CPU/disque sera lib\u00E9r\u00E9\u0022",
+  "parameters": []
+}

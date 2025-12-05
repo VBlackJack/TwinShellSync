@@ -1,0 +1,26 @@
+{
+  "id": "f08cc37e-f6ee-45b1-9b8b-bf80376e2a1b",
+  "title": "Afficher une mise \u00E0 jour masqu\u00E9e",
+  "description": "R\u00E9affiche une mise \u00E0 jour pr\u00E9c\u00E9demment masqu\u00E9e pour permettre son installation",
+  "category": "\uD83D\uDD04 Windows Updates",
+  "platform": "Windows",
+  "level": "Info",
+  "tags": [
+    "windows-update",
+    "show",
+    "unhide",
+    "pswindowsupdate"
+  ],
+  "windowsTemplateId": "c61d4249-d859-4fd7-8d27-ecd906a7a426",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "N\u00E9cessite le module PSWindowsUpdate.",
+  "links": [
+    {
+      "title": "PSWindowsUpdate Module",
+      "url": "https://www.powershellgallery.com/packages/PSWindowsUpdate"
+    }
+  ],
+  "isUserCreated": false
+}

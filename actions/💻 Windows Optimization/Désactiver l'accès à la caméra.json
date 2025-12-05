@@ -1,0 +1,23 @@
+{
+  "id": "ea55334a-5607-4a87-92d1-f4a26c8c15df",
+  "title": "D\u00E9sactiver l\u0027acc\u00E8s \u00E0 la cam\u00E9ra",
+  "description": "D\u00E9sactive l\u0027acc\u00E8s des applications \u00E0 la cam\u00E9ra de l\u0027appareil pour renforcer la s\u00E9curit\u00E9. Conforme RGPD.",
+  "category": "\uD83D\uDCBB Windows Optimization",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "privacy",
+    "confidentialit\u00E9",
+    "rgpd",
+    "permissions",
+    "cam\u00E9ra",
+    "windows"
+  ],
+  "windowsTemplateId": "eedd7258-ed13-47f7-b87d-6f9839b8d0d7",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Emp\u00EAche les applications d\u0027acc\u00E9der \u00E0 la webcam. Conforme RGPD Article 25 (protection des donn\u00E9es d\u00E8s la conception). Les applications de visioconf\u00E9rence n\u00E9cessiteront une r\u00E9activation.",
+  "links": [],
+  "isUserCreated": false
+}

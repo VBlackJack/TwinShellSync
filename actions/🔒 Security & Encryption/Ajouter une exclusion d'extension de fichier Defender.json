@@ -1,0 +1,25 @@
+{
+  "id": "867966b3-40b5-4114-a893-c8767b5f6d11",
+  "title": "Ajouter une exclusion d\u0027extension de fichier Defender",
+  "description": "Exclut tous les fichiers d\u0027une extension sp\u00E9cifique de l\u0027analyse Defender.",
+  "category": "\uD83D\uDD12 Security \u0026 Encryption",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "defender",
+    "exclusion",
+    "extension"
+  ],
+  "windowsTemplateId": "bd078c5b-b595-4da7-b018-3880ac7cf4bb",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "\u26A0\uFE0F DANGER: N\u0027excluez JAMAIS les extensions ex\u00E9cutables (.exe, .dll, .bat, .ps1, .vbs, .js, .msi, .scr). Exclusions s\u00FBres: .tmp, .bak, .log, .cache, .obj. Chaque exclusion augmente le risque de s\u00E9curit\u00E9!",
+  "links": [
+    {
+      "title": "Defender Extension Exclusions",
+      "url": "https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/configure-extension-file-exclusions-microsoft-defender-antivirus"
+    }
+  ],
+  "isUserCreated": false
+}

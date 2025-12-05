@@ -1,5 +1,0 @@
-id: 04c9788c-8c95-4972-acf0-89739029eddb
-name: ipconfig
-platform: Windows
-commandPattern: ipconfig /flushdns
-parameters: []

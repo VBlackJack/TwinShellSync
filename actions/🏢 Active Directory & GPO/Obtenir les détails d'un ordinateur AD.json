@@ -1,0 +1,21 @@
+{
+  "id": "0c3f2596-ab2e-4117-a113-638faee5586f",
+  "title": "Obtenir les d\u00E9tails d\u0027un ordinateur AD",
+  "description": "Affiche toutes les propri\u00E9t\u00E9s d\u00E9taill\u00E9es d\u0027un compte ordinateur.",
+  "category": "\uD83C\uDFE2 Active Directory \u0026 GPO",
+  "platform": "Windows",
+  "level": "Info",
+  "tags": [
+    "ad",
+    "computer",
+    "details",
+    "properties"
+  ],
+  "windowsTemplateId": "9673c13f-7dd1-46f6-9518-4c32360e52a8",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Affiche toutes les propri\u00E9t\u00E9s disponibles incluant l\u0027OS, la date de dernier logon, etc.",
+  "links": [],
+  "isUserCreated": false
+}

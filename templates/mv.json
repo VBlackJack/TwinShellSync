@@ -1,0 +1,24 @@
+{
+  "id": "20bc744d-491e-4797-a655-acf10cced733",
+  "name": "mv",
+  "platform": "Linux",
+  "commandPattern": "mv \u0022{sourcePath}\u0022 \u0022{destinationPath}\u0022",
+  "parameters": [
+    {
+      "name": "sourcePath",
+      "label": "Chemin source",
+      "type": "string",
+      "defaultValue": "",
+      "required": true,
+      "description": "Chemin du fichier ou dossier \u00E0 d\u00E9placer"
+    },
+    {
+      "name": "destinationPath",
+      "label": "Chemin destination",
+      "type": "string",
+      "defaultValue": "",
+      "required": true,
+      "description": "Nouveau chemin ou nom"
+    }
+  ]
+}

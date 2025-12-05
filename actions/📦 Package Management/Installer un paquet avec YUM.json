@@ -1,0 +1,27 @@
+{
+  "id": "573f8c75-0df9-44f5-b275-88dd0cd5d5af",
+  "title": "Installer un paquet avec YUM",
+  "description": "Installe un paquet avec YUM sur RHEL/CentOS (anciennes versions)",
+  "category": "\uD83D\uDCE6 Package Management",
+  "platform": "Linux",
+  "level": "Run",
+  "tags": [
+    "yum",
+    "install",
+    "rhel",
+    "centos",
+    "package"
+  ],
+  "linuxTemplateId": "07fafc04-072c-4cb7-9a95-870650514489",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "N\u00E9cessite sudo. Sur RHEL 8\u002B/CentOS 8\u002B, utiliser dnf au lieu de yum.",
+  "links": [
+    {
+      "title": "YUM documentation",
+      "url": "https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/system_administrators_guide/ch-yum"
+    }
+  ],
+  "isUserCreated": false
+}

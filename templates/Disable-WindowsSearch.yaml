@@ -1,5 +1,0 @@
-id: 8a3a5a3d-f65e-4f36-8ede-ec4050c586cb
-name: Disable-WindowsSearch
-platform: Windows
-commandPattern: Stop-Service -Name 'WSearch' -Force -ErrorAction SilentlyContinue; Set-Service -Name 'WSearch' -StartupType Disabled; Write-Host "Windows Search Indexing désactivé" -ForegroundColor Green; Write-Warning "La recherche de fichiers sera plus lente mais le CPU/disque sera libéré"
-parameters: []

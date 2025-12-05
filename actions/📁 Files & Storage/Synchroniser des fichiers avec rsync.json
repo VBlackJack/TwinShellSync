@@ -1,0 +1,27 @@
+{
+  "id": "064a1e6b-ce4c-4968-8e4e-fb8bf08ab4bb",
+  "title": "Synchroniser des fichiers avec rsync",
+  "description": "Synchronise et copie des fichiers localement ou \u00E0 distance de mani\u00E8re incr\u00E9mentale",
+  "category": "\uD83D\uDCC1 Files \u0026 Storage",
+  "platform": "Linux",
+  "level": "Run",
+  "tags": [
+    "rsync",
+    "backup",
+    "sync",
+    "copy",
+    "transfer"
+  ],
+  "linuxTemplateId": "a6683c2d-6c41-4aaf-88af-b8b028cb5558",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Le / final sur source change le comportement. --delete supprime les fichiers manquants. Tr\u00E8s efficace.",
+  "links": [
+    {
+      "title": "rsync documentation",
+      "url": "https://man7.org/linux/man-pages/man1/rsync.1.html"
+    }
+  ],
+  "isUserCreated": false
+}

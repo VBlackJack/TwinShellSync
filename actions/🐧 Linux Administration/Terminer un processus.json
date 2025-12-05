@@ -1,0 +1,21 @@
+{
+  "id": "2e915676-fc6c-41bb-8c5b-9d3376a03cb1",
+  "title": "Terminer un processus",
+  "description": "Force l\u0027arr\u00EAt d\u0027un processus sp\u00E9cifique par son ID ou son nom.",
+  "category": "\uD83D\uDC27 Linux Administration",
+  "platform": "Both",
+  "level": "Dangerous",
+  "tags": [
+    "process",
+    "kill",
+    "terminate"
+  ],
+  "windowsTemplateId": "496fcb61-a328-4a42-a310-c41fa25bc749",
+  "linuxTemplateId": "41a6d443-6fa3-4ab0-9972-7ff8ed22b7da",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "\u26A0\uFE0F ATTENTION : Peut causer une perte de donn\u00E9es non sauvegard\u00E9es. -9 (SIGKILL) est un arr\u00EAt forc\u00E9.",
+  "links": [],
+  "isUserCreated": false
+}

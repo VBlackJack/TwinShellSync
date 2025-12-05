@@ -1,0 +1,22 @@
+{
+  "id": "8d6034ad-9c6f-48ed-aa40-869e88365459",
+  "title": "D\u00E9sinstaller OneDrive (complet)",
+  "description": "\u26A0\uFE0F DANGEROUS: D\u00E9sinstallation compl\u00E8te de OneDrive avec nettoyage du registre et des fichiers (30\u002B \u00E9tapes).",
+  "category": "\uD83D\uDCBB Windows Optimization",
+  "platform": "Windows",
+  "level": "Dangerous",
+  "tags": [
+    "debloat",
+    "onedrive",
+    "dangerous",
+    "registry",
+    "windows"
+  ],
+  "windowsTemplateId": "fec53cac-dcf0-4213-8ecd-98d133258053",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "\u26A0\uFE0F ATTENTION: Cette action est irr\u00E9versible. Sauvegarde syst\u00E8me recommand\u00E9e. D\u00E9sactive la synchronisation cloud OneDrive. Inclut nettoyage registre et fichiers.",
+  "links": [],
+  "isUserCreated": false
+}

@@ -1,5 +1,0 @@
-id: 54680172-9784-4c81-bbf2-39736467938b
-name: regsvr32
-platform: Windows
-commandPattern: regsvr32 /s wuaueng.dll && regsvr32 /s wuapi.dll && regsvr32 /s wups.dll && regsvr32 /s wups2.dll && regsvr32 /s wucltux.dll && regsvr32 /s wuwebv.dll && regsvr32 /s qmgr.dll && regsvr32 /s qmgrprxy.dll
-parameters: []

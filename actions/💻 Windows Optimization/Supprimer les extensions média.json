@@ -1,0 +1,22 @@
+{
+  "id": "1aa190db-684e-4aec-935f-68942c646ae1",
+  "title": "Supprimer les extensions m\u00E9dia",
+  "description": "Supprime les extensions m\u00E9dia optionnelles (HEIF, VP9, WebP, AV1) pour lib\u00E9rer de l\u0027espace.",
+  "category": "\uD83D\uDCBB Windows Optimization",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "debloat",
+    "media",
+    "codecs",
+    "extensions",
+    "windows"
+  ],
+  "windowsTemplateId": "f2316779-adae-4824-9687-68b8d02d6745",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Supprime les codecs m\u00E9dia optionnels. V\u00E9rifiez vos besoins avant de supprimer.",
+  "links": [],
+  "isUserCreated": false
+}

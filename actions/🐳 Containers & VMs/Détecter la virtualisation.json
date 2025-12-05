@@ -1,0 +1,27 @@
+{
+  "id": "846a22fd-f020-4cc8-b636-6f0ed0cedc66",
+  "title": "D\u00E9tecter la virtualisation",
+  "description": "D\u00E9tecte si le syst\u00E8me tourne dans un environnement virtualis\u00E9",
+  "category": "\uD83D\uDC33 Containers \u0026 VMs",
+  "platform": "Linux",
+  "level": "Info",
+  "tags": [
+    "systemd",
+    "virtualization",
+    "container",
+    "vm",
+    "detection"
+  ],
+  "linuxTemplateId": "1122ea9d-2a95-4681-a8f1-0fa67cfadeeb",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Retourne: none, kvm, qemu, vmware, docker, lxc, etc. Code retour 0 si virtualis\u00E9.",
+  "links": [
+    {
+      "title": "systemd-detect-virt",
+      "url": "https://www.freedesktop.org/software/systemd/man/systemd-detect-virt.html"
+    }
+  ],
+  "isUserCreated": false
+}

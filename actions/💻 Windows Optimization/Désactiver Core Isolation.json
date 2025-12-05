@@ -1,0 +1,29 @@
+{
+  "id": "06edd414-1929-4017-a5a3-6f5c353af786",
+  "title": "D\u00E9sactiver Core Isolation",
+  "description": "D\u00E9sactive l\u0027isolation des c\u0153urs (Memory Integrity/VBS) pour am\u00E9liorer les performances en jeu (perte de 5-10% FPS avec VBS actif).",
+  "category": "\uD83D\uDCBB Windows Optimization",
+  "platform": "Windows",
+  "level": "Run",
+  "tags": [
+    "performance",
+    "security",
+    "vbs",
+    "gaming",
+    "core-isolation",
+    "optimisation",
+    "windows"
+  ],
+  "windowsTemplateId": "2849d5be-571d-40b1-898c-333b5f13a3ac",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "\u26A0\uFE0F Core Isolation (VBS/Memory Integrity): protection contre exploits kernel via virtualisation. Impact performances: -5 \u00E0 -10% FPS en jeu. D\u00E9sactiver am\u00E9liore perfs mais r\u00E9duit s\u00E9curit\u00E9. Recommand\u00E9 pour PC gaming d\u00E9di\u00E9, d\u00E9conseill\u00E9 pour usage professionnel/sensible.",
+  "links": [
+    {
+      "title": "VBS Performance Impact",
+      "url": "https://www.tomshardware.com/news/windows-11-vbs-performance-impact"
+    }
+  ],
+  "isUserCreated": false
+}

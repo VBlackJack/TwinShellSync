@@ -1,0 +1,27 @@
+{
+  "id": "9e350a42-8fb1-48b4-a21f-1df1c00d54f5",
+  "title": "Rechercher les fichiers SUID/SGID",
+  "description": "Liste tous les fichiers avec bits SUID ou SGID (potentiellement dangereux)",
+  "category": "\uD83D\uDD12 Security \u0026 Encryption",
+  "platform": "Linux",
+  "level": "Info",
+  "tags": [
+    "find",
+    "suid",
+    "sgid",
+    "security",
+    "permissions"
+  ],
+  "linuxTemplateId": "edf29f22-0689-4749-a913-f5d890fc4f7e",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "N\u00E9cessite sudo pour tout le syst\u00E8me. SUID/SGID peuvent \u00EAtre des risques de s\u00E9curit\u00E9.",
+  "links": [
+    {
+      "title": "SUID security",
+      "url": "https://man7.org/linux/man-pages/man1/find.1.html"
+    }
+  ],
+  "isUserCreated": false
+}

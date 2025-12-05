@@ -1,0 +1,20 @@
+{
+  "id": "d1e7cacb-e176-4610-8b65-e7dc0d8f1a85",
+  "title": "Afficher l\u0027historique Windows Update",
+  "description": "Liste les 50 derni\u00E8res mises \u00E0 jour install\u00E9es avec leur statut",
+  "category": "\uD83D\uDD04 Windows Updates",
+  "platform": "Windows",
+  "level": "Info",
+  "tags": [
+    "windows-update",
+    "history",
+    "diagnostic"
+  ],
+  "windowsTemplateId": "088cf013-d4ba-4e2a-b78c-5b6024229070",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "Ne n\u00E9cessite pas de droits administrateur. Affiche les KB install\u00E9s avec leur date.",
+  "links": [],
+  "isUserCreated": false
+}

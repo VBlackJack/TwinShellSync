@@ -1,5 +1,0 @@
-id: dfa66df4-8828-4c91-8681-6ccfe4a46424
-name: Get-IISAppPool
-platform: Windows
-commandPattern: Import-Module WebAdministration; Get-IISAppPool | Select-Object Name, State, @{Name='Runtime';Expression={$_.ManagedRuntimeVersion}}, @{Name='Pipeline';Expression={$_.ManagedPipelineMode}}, @{Name='Identity';Expression={$_.ProcessModel.IdentityType}} | Format-Table -AutoSize
-parameters: []

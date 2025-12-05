@@ -1,0 +1,21 @@
+{
+  "id": "c3a5a5a9-aca0-4e97-867e-9261d8e2ffcf",
+  "title": "R\u00E9initialiser compl\u00E8tement Windows Update",
+  "description": "Arr\u00EAte les services WU, supprime les caches SoftwareDistribution et Catroot2, puis red\u00E9marre les services",
+  "category": "\uD83D\uDD04 Windows Updates",
+  "platform": "Windows",
+  "level": "Dangerous",
+  "tags": [
+    "windows-update",
+    "troubleshooting",
+    "cache",
+    "reset"
+  ],
+  "windowsTemplateId": "552b814b-92be-4def-a3d6-c753a04a1576",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "\u26A0\uFE0F N\u00E9cessite red\u00E9marrage du PC apr\u00E8s ex\u00E9cution. Supprime tout l\u0027historique de mises \u00E0 jour. Commande \u00E0 ex\u00E9cuter avec droits administrateur.",
+  "links": [],
+  "isUserCreated": false
+}

@@ -1,0 +1,26 @@
+{
+  "id": "faa79160-27a7-4e23-b340-502854e3da83",
+  "title": "D\u00E9marrer un service systemd",
+  "description": "D\u00E9marre imm\u00E9diatement un service systemd",
+  "category": "\u2699\uFE0F Services \u0026 Automation",
+  "platform": "Linux",
+  "level": "Run",
+  "tags": [
+    "systemctl",
+    "systemd",
+    "service",
+    "start"
+  ],
+  "linuxTemplateId": "1e3086ef-05cd-4707-bcc2-ddb84a285709",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "N\u00E9cessite sudo. Le service ne persiste pas au red\u00E9marrage sans \u0027enable\u0027.",
+  "links": [
+    {
+      "title": "systemctl documentation",
+      "url": "https://www.freedesktop.org/software/systemd/man/systemctl.html"
+    }
+  ],
+  "isUserCreated": false
+}

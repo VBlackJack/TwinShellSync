@@ -1,0 +1,7 @@
+{
+  "id": "24c78cd7-56ce-430e-8ea3-1df039d95e6c",
+  "name": "Disable-GameDVR",
+  "platform": "Windows",
+  "commandPattern": "New-Item -Path \u0027HKCU:\\System\\GameConfigStore\u0027 -Force | Out-Null; Set-ItemProperty -Path \u0027HKCU:\\System\\GameConfigStore\u0027 -Name \u0027GameDVR_Enabled\u0027 -Type DWord -Value 0; New-Item -Path \u0027HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\GameDVR\u0027 -Force | Out-Null; Set-ItemProperty -Path \u0027HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\GameDVR\u0027 -Name \u0027AllowGameDVR\u0027 -Type DWord -Value 0",
+  "parameters": []
+}

@@ -1,0 +1,31 @@
+{
+  "id": "66373046-1377-4b35-938f-ba4b32859b52",
+  "title": "Monitorer les connexions r\u00E9seau actives",
+  "description": "Affiche toutes les connexions r\u00E9seau TCP/UDP actives avec les ports locaux/distants, \u00E9tat et processus associ\u00E9.",
+  "category": "\u26A1 Performance",
+  "platform": "Both",
+  "level": "Info",
+  "tags": [
+    "network",
+    "connections",
+    "tcp",
+    "udp",
+    "monitoring",
+    "diagnostic",
+    "ports",
+    "netstat"
+  ],
+  "windowsTemplateId": "9f97ff25-61b4-404c-bbe0-55a2c011da2e",
+  "linuxTemplateId": "ed5667cd-71ee-4e21-ba40-13d28d800102",
+  "examples": [],
+  "windowsExamples": [],
+  "linuxExamples": [],
+  "notes": "\u00C9tats TCP: Established, Listen, TimeWait, CloseWait. Pour UDP, utilisez Get-NetUDPEndpoint. ss est plus rapide que netstat sur Linux.",
+  "links": [
+    {
+      "title": "Documentation Get-NetTCPConnection",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/nettcpip/get-nettcpconnection"
+    }
+  ],
+  "isUserCreated": false
+}
