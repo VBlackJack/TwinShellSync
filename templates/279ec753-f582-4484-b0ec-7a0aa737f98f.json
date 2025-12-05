@@ -1,0 +1,7 @@
+{
+  "id": "fe18e57d-3394-4a8e-8569-47dbb8e15ede",
+  "name": "",
+  "platform": "Windows",
+  "commandPattern": "Get-NetFirewallRule | Where-Object {$_.Enabled -eq \u0027True\u0027} | Select-Object DisplayName,Direction,Action,Profile | Sort-Object Direction,DisplayName | Format-Table -AutoSize",
+  "parameters": []
+}
