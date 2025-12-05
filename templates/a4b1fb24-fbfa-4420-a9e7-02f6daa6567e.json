@@ -1,0 +1,22 @@
+{
+  "id": "2c9ad814-2199-400b-947f-97c2e6512f5b",
+  "name": "",
+  "platform": "Linux",
+  "commandPattern": "journalctl -p {priority} -n {count}",
+  "parameters": [
+    {
+      "name": "priority",
+      "label": "Priorit\u00E9 (0-7)",
+      "type": "string",
+      "defaultValue": "err",
+      "required": true
+    },
+    {
+      "name": "count",
+      "label": "Nombre d\u0027entr\u00E9es",
+      "type": "integer",
+      "defaultValue": "20",
+      "required": true
+    }
+  ]
+}

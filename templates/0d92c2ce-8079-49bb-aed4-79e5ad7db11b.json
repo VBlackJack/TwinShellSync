@@ -1,0 +1,7 @@
+{
+  "id": "ded04d4e-0458-4a4d-96a9-840a4efa8061",
+  "name": "",
+  "platform": "Linux",
+  "commandPattern": "free -h",
+  "parameters": []
+}

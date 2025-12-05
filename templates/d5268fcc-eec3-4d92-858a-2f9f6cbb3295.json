@@ -1,0 +1,7 @@
+{
+  "id": "738a1942-ddd4-46f0-a01c-be8bba2ca4bc",
+  "name": "",
+  "platform": "Linux",
+  "commandPattern": "ip route show",
+  "parameters": []
+}
