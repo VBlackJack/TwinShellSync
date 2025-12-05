@@ -1,0 +1,21 @@
+id: a59328b5-ef38-420d-acdd-376dd014eadc
+title: Profiler les performances CPU
+description: Analyse les performances CPU et identifie les hotspots
+category: ⚡ Performance
+platform: Linux
+level: Run
+tags:
+- perf
+- profiling
+- cpu
+- performance
+- analysis
+linuxTemplateId: 83a4ce4c-7fc3-4c7d-b327-fdb7915a27f4
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Nécessite sudo et package linux-tools. Très puissant pour l'analyse de performance.
+links:
+- title: perf documentation
+  url: https://perf.wiki.kernel.org/index.php/Tutorial
+isUserCreated: false

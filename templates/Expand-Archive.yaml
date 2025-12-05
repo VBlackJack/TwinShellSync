@@ -1,0 +1,17 @@
+id: f40b0e0c-3f61-45ce-8e11-307e9b4cb891
+name: Expand-Archive
+platform: Windows
+commandPattern: Expand-Archive -Path "{zipPath}" -DestinationPath "{destinationPath}" -Force
+parameters:
+- name: zipPath
+  label: Fichier ZIP
+  type: string
+  defaultValue: ''
+  required: true
+  description: Chemin du fichier ZIP
+- name: destinationPath
+  label: Destination
+  type: string
+  defaultValue: .
+  required: true
+  description: Dossier de destination

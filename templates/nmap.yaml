@@ -1,0 +1,17 @@
+id: acc77546-9414-4d73-b856-bd632a0062b6
+name: nmap
+platform: Linux
+commandPattern: nmap {options} {target}
+parameters:
+- name: options
+  label: Options
+  type: string
+  defaultValue: -sT
+  required: true
+  description: Options de scan (-sT=TCP, -sU=UDP, -p=ports, -A=aggressive)
+- name: target
+  label: Cible
+  type: string
+  defaultValue: localhost
+  required: true
+  description: IP ou réseau à scanner

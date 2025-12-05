@@ -1,0 +1,5 @@
+id: a9405cfd-a0ab-42f6-a209-f1bfc4925903
+name: top
+platform: Linux
+commandPattern: top -b -n 1 | head -n 20
+parameters: []

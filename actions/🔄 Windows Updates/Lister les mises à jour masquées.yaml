@@ -1,0 +1,20 @@
+id: 772b6bbe-ab57-48cb-9333-ca11cf923564
+title: Lister les mises à jour masquées
+description: Affiche toutes les mises à jour Windows qui ont été masquées
+category: "\U0001F504 Windows Updates"
+platform: Windows
+level: Info
+tags:
+- windows-update
+- hidden
+- list
+- pswindowsupdate
+windowsTemplateId: 23636862-cc8e-448c-a272-151f16353cb4
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Permet de voir quelles mises à jour ont été volontairement exclues. Nécessite PSWindowsUpdate.
+links:
+- title: PSWindowsUpdate Module
+  url: https://www.powershellgallery.com/packages/PSWindowsUpdate
+isUserCreated: false

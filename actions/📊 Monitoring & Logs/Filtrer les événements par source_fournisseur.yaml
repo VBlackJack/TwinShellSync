@@ -1,0 +1,20 @@
+id: 6488b5c9-7f75-4fda-9dff-07fbb734d8cc
+title: Filtrer les événements par source/fournisseur
+description: Recherche tous les événements provenant d'une source spécifique (ProviderName)
+category: "\U0001F4CA Monitoring & Logs"
+platform: Windows
+level: Info
+tags:
+- eventlog
+- filter
+- source
+- provider
+windowsTemplateId: 59b59810-fa4d-4fab-9c9d-5a3a9258a221
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: 'Pour lister tous les fournisseurs disponibles: (Get-WinEvent -ListLog *).ProviderNames | Sort-Object -Unique'
+links:
+- title: Get-WinEvent Filtering
+  url: https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.diagnostics/get-winevent
+isUserCreated: false

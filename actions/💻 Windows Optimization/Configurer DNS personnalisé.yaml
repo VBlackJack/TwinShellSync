@@ -1,0 +1,20 @@
+id: 6459ad3a-9c9b-44b2-bdbc-a538a0432cd5
+title: Configurer DNS personnalisé
+description: Configure des serveurs DNS personnalisés avec adresses primaire et secondaire au choix.
+category: "\U0001F4BB Windows Optimization"
+platform: Windows
+level: Run
+tags:
+- performance
+- dns
+- network
+- custom
+- optimisation
+- windows
+windowsTemplateId: e7664573-2696-483f-bc36-1f7298b5f722
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Permet de configurer n'importe quels serveurs DNS. Utile pour DNS d'entreprise, serveurs locaux (pi-hole, AdGuard Home) ou combinaisons personnalisées.
+links: []
+isUserCreated: false

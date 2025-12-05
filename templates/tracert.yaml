@@ -1,0 +1,11 @@
+id: 19483b16-9e60-45c1-be51-0960ccc78bc5
+name: tracert
+platform: Windows
+commandPattern: tracert {target}
+parameters:
+- name: target
+  label: Cible
+  type: string
+  defaultValue: ''
+  required: true
+  description: Adresse IP ou nom d'hôte

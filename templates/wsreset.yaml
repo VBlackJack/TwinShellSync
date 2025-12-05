@@ -1,0 +1,5 @@
+id: 79970b7b-f4fd-41fa-aace-64b16931377c
+name: wsreset
+platform: Windows
+commandPattern: wsreset.exe
+parameters: []

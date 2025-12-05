@@ -1,0 +1,11 @@
+id: 8026ca98-7173-45cb-aeab-f1f53f1a9aa3
+name: Remove-MpPreference
+platform: Windows
+commandPattern: Remove-MpPreference -ExclusionPath "{folderPath}"
+parameters:
+- name: folderPath
+  label: Chemin à retirer
+  type: string
+  defaultValue: ''
+  required: true
+  description: Chemin du dossier à retirer des exclusions

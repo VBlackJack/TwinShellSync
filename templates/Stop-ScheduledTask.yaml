@@ -1,0 +1,17 @@
+id: eef92f36-8f1a-4ca0-a292-b2014c2e02b6
+name: Stop-ScheduledTask
+platform: Windows
+commandPattern: Stop-ScheduledTask -TaskName '{taskname}' {taskpath}
+parameters:
+- name: taskname
+  label: Nom de la tâche
+  type: string
+  defaultValue: MyTask
+  required: true
+  description: Nom de la tâche à arrêter
+- name: taskpath
+  label: Chemin
+  type: string
+  defaultValue: ''
+  required: false
+  description: Chemin de la tâche

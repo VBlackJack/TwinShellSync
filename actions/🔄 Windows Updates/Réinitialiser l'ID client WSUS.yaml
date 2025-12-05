@@ -1,0 +1,17 @@
+id: 748e1c81-c698-44bf-b6df-eca2d805bcc6
+title: Réinitialiser l'ID client WSUS
+description: Supprime le SusClientId pour forcer la re-création lors de la prochaine connexion
+category: "\U0001F504 Windows Updates"
+platform: Windows
+level: Run
+tags:
+- wsus
+- reset
+- client-id
+windowsTemplateId: 5a8d3690-c576-4cd0-a8a3-35603b93e086
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Droits administrateur requis. Utile quand un PC cloné apparaît en double dans WSUS.
+links: []
+isUserCreated: false

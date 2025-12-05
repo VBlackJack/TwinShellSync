@@ -1,0 +1,21 @@
+id: 39936be3-4962-4f3f-89b5-fae2e5e046bc
+title: Désactiver une tâche planifiée
+description: Désactive une tâche planifiée pour empêcher son exécution automatique
+category: ⚙️ Services & Automation
+platform: Windows
+level: Info
+tags:
+- taskscheduler
+- disable
+- deactivate
+- automation
+- windows
+windowsTemplateId: 1f035e21-ffac-4f4d-8d96-928eede5b92f
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Change l'état à Disabled. La tâche ne s'exécutera plus jusqu'à réactivation.
+links:
+- title: Disable-ScheduledTask Documentation
+  url: https://learn.microsoft.com/en-us/powershell/module/scheduledtasks/disable-scheduledtask
+isUserCreated: false

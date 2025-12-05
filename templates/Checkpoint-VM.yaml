@@ -1,0 +1,17 @@
+id: f5b2b250-a5dc-4d09-9f03-efc54c41998d
+name: Checkpoint-VM
+platform: Windows
+commandPattern: Checkpoint-VM -Name '{vmName}' -SnapshotName '{snapshotName}'
+parameters:
+- name: vmName
+  label: Nom de la VM
+  type: string
+  defaultValue: ''
+  required: true
+  description: Nom de la machine virtuelle
+- name: snapshotName
+  label: Nom du snapshot
+  type: string
+  defaultValue: Checkpoint-$(Get-Date -Format 'yyyy-MM-dd_HH-mm')
+  required: true
+  description: Nom du point de contrôle

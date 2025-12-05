@@ -1,0 +1,11 @@
+id: ad1fe16c-e3b7-4587-85c7-8efc564f95c9
+name: Get-ADGroup
+platform: Windows
+commandPattern: Get-ADGroup -Filter "Name -like '*{searchTerm}*'" -Properties Description | Select-Object Name,Description,GroupCategory,GroupScope
+parameters:
+- name: searchTerm
+  label: Terme de recherche
+  type: string
+  defaultValue: ''
+  required: true
+  description: Terme à rechercher dans le nom du groupe

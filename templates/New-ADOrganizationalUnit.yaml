@@ -1,0 +1,23 @@
+id: a482478a-91a3-47d5-b534-0c328df30051
+name: New-ADOrganizationalUnit
+platform: Windows
+commandPattern: New-ADOrganizationalUnit -Name "{ouName}" -Path "{parentPath}" -Description "{description}" -ProtectedFromAccidentalDeletion $true
+parameters:
+- name: ouName
+  label: Nom de l'OU
+  type: string
+  defaultValue: ''
+  required: true
+  description: Nom de la nouvelle OU
+- name: parentPath
+  label: Chemin parent
+  type: string
+  defaultValue: DC=contoso,DC=com
+  required: true
+  description: Distinguished Name de l'OU parente ou du domaine
+- name: description
+  label: Description
+  type: string
+  defaultValue: ''
+  required: false
+  description: Description de l'OU

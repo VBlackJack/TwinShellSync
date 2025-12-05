@@ -1,0 +1,19 @@
+id: 8f899610-74d0-4507-85ae-1692694f8ac1
+title: Désactiver Consumer Features
+description: Désactive l'installation automatique d'applications suggérées et de bloatware Microsoft.
+category: "\U0001F4BB Windows Optimization"
+platform: Windows
+level: Run
+tags:
+- debloat
+- consumer-features
+- suggestions
+- registry
+- windows
+windowsTemplateId: 45c2f0ae-4a4b-4cb3-bba6-87804793577a
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Empêche Windows d'installer automatiquement des apps suggérées. Nécessite des droits administrateur.
+links: []
+isUserCreated: false

@@ -1,0 +1,19 @@
+id: b037bd51-1cf6-4a23-86dc-6361d7521a3a
+title: Lister tous les groupes AD
+description: Affiche la liste de tous les groupes Active Directory avec leurs propriétés.
+category: "\U0001F3E2 Active Directory & GPO"
+platform: Windows
+level: Info
+tags:
+- ad
+- groups
+- list
+windowsTemplateId: 7c946e94-7f90-4cdb-bd31-1b0aeac3e86e
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Peut être lent sur de gros domaines. Pour filtrer par type, utiliser -Filter {GroupCategory -eq 'Security'}.
+links:
+- title: Documentation Get-ADGroup
+  url: https://learn.microsoft.com/en-us/powershell/module/activedirectory/get-adgroup
+isUserCreated: false

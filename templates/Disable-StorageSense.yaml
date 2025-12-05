@@ -1,0 +1,5 @@
+id: b6e7faac-5c43-46b1-9adc-1d822d38effc
+name: Disable-StorageSense
+platform: Windows
+commandPattern: Set-ItemProperty -Path 'HKCU:\Software\Microsoft\Windows\CurrentVersion\StorageSense\Parameters\StoragePolicy' -Name '01' -Type DWord -Value 0 -ErrorAction SilentlyContinue; New-Item -Path 'HKCU:\Software\Microsoft\Windows\CurrentVersion\StorageSense\Parameters\StoragePolicy' -Force -ErrorAction SilentlyContinue | Out-Null; Set-ItemProperty -Path 'HKCU:\Software\Microsoft\Windows\CurrentVersion\StorageSense\Parameters\StoragePolicy' -Name '01' -Type DWord -Value 0; Write-Host "Storage Sense désactivé" -ForegroundColor Green
+parameters: []

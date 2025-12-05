@@ -1,0 +1,21 @@
+id: 2050940a-37b0-45b0-a52c-22617f8f90fd
+title: Désinstaller un paquet APT
+description: Supprime un paquet installé tout en conservant les fichiers de configuration
+category: "\U0001F4E6 Package Management"
+platform: Linux
+level: Run
+tags:
+- apt
+- remove
+- uninstall
+- debian
+- ubuntu
+linuxTemplateId: c05348e8-f47d-491b-9c6e-ee8f37013c1a
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Nécessite sudo. Utiliser purge au lieu de remove pour supprimer aussi la configuration.
+links:
+- title: APT remove vs purge
+  url: https://manpages.ubuntu.com/manpages/jammy/man8/apt.8.html
+isUserCreated: false

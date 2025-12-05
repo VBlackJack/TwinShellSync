@@ -1,0 +1,11 @@
+id: 8ca27a2c-0b0f-472e-a802-b10b5a198794
+name: blkid
+platform: Linux
+commandPattern: blkid {device}
+parameters:
+- name: device
+  label: Périphérique
+  type: string
+  defaultValue: ''
+  required: false
+  description: Périphérique spécifique (vide = tous)

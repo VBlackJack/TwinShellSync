@@ -1,0 +1,17 @@
+id: b74d16c7-dcb2-4eea-8618-91098fc5f88d
+name: userdel
+platform: Linux
+commandPattern: userdel {options} {username}
+parameters:
+- name: options
+  label: Options
+  type: string
+  defaultValue: -r
+  required: false
+  description: Options (-r supprime aussi le home)
+- name: username
+  label: Nom d'utilisateur
+  type: string
+  defaultValue: john
+  required: true
+  description: Utilisateur à supprimer

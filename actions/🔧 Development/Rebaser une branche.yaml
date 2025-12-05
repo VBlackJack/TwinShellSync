@@ -1,0 +1,20 @@
+id: 05f11619-0679-4221-b7b6-7aed65f49dfb
+title: Rebaser une branche
+description: Réapplique des commits sur une nouvelle base
+category: "\U0001F527 Development"
+platform: Both
+level: Dangerous
+tags:
+- git
+- rebase
+- history
+windowsTemplateId: 6a94287f-fcee-46bd-a34a-2f7899c9b424
+linuxTemplateId: f8d78b2b-3c05-43bb-bcbd-04724743895c
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: 'ATTENTION : Ne rebasez jamais des commits déjà poussés sur un dépôt public. Utilisez -i pour un rebase interactif.'
+links:
+- title: Git Rebase Documentation
+  url: https://git-scm.com/docs/git-rebase
+isUserCreated: false

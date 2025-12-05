@@ -1,0 +1,17 @@
+id: 45388b60-b027-4b51-902c-7ed02adc653f
+name: chmod
+platform: Linux
+commandPattern: chmod {mode} {path}
+parameters:
+- name: mode
+  label: Mode
+  type: string
+  defaultValue: 755
+  required: true
+  description: Permissions (755, 644, +x, u+w, etc.)
+- name: path
+  label: Chemin
+  type: string
+  defaultValue: /path/to/file
+  required: true
+  description: Fichier ou répertoire à modifier

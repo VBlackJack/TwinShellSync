@@ -1,0 +1,21 @@
+id: 650b115a-4b5b-48b8-823f-e0a2372fd537
+title: Afficher les détails d'un package Winget
+description: Affiche les informations détaillées d'un package spécifique (version, éditeur, description, etc.).
+category: "\U0001F4E6 Package Management"
+platform: Windows
+level: Info
+tags:
+- winget
+- package
+- info
+- details
+- windows
+windowsTemplateId: 44ff637d-8b50-470d-b860-3ee6bbdd21af
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Affiche version, éditeur, licence, description et dépendances du package.
+links:
+- title: Winget show documentation
+  url: https://learn.microsoft.com/en-us/windows/package-manager/winget/show
+isUserCreated: false

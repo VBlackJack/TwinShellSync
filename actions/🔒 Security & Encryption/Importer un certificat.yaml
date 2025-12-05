@@ -1,0 +1,24 @@
+id: 2723537c-1ee0-4684-b3d4-531e45fd5678
+title: Importer un certificat
+description: Importe un certificat (.cer, .pfx, .p12) dans un magasin de certificats Windows spécifique.
+category: "\U0001F512 Security & Encryption"
+platform: Windows
+level: Run
+tags:
+- certificate
+- import
+- ssl
+- tls
+- security
+- pfx
+- cer
+- installation
+windowsTemplateId: 53f33582-c008-4bec-bd4a-a56595375c6b
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Privilèges administrateur requis pour LocalMachine. Les fichiers PFX nécessitent un mot de passe. Utilisez Import-PfxCertificate pour les .pfx.
+links:
+- title: Documentation Import-Certificate
+  url: https://learn.microsoft.com/en-us/powershell/module/pki/import-certificate
+isUserCreated: false

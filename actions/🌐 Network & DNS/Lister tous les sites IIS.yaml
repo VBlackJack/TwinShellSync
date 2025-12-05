@@ -1,0 +1,23 @@
+id: 5b57da3e-30a3-4782-8b1c-119126debbd4
+title: Lister tous les sites IIS
+description: Affiche la liste complète de tous les sites web configurés dans Internet Information Services avec leur état, bindings et pool d'application associé.
+category: "\U0001F310 Network & DNS"
+platform: Windows
+level: Info
+tags:
+- iis
+- web
+- sites
+- list
+- diagnostic
+- webserver
+- internet-information-services
+windowsTemplateId: d4a589ef-9d80-466c-a9d2-da3e531102a8
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Nécessite le module WebAdministration. Doit être exécuté avec des privilèges administrateur.
+links:
+- title: Documentation Get-IISSite
+  url: https://learn.microsoft.com/en-us/powershell/module/iisadministration/get-iissite
+isUserCreated: false

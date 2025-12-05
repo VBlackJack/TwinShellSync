@@ -1,0 +1,23 @@
+id: 80901644-110e-4b3e-a81d-39dd7c0b0e1a
+title: Lister tous les pools d'application IIS
+description: Affiche tous les pools d'application (Application Pools) configurés dans IIS avec leur état, version .NET et mode de pipeline.
+category: "\U0001F310 Network & DNS"
+platform: Windows
+level: Info
+tags:
+- iis
+- apppool
+- application-pool
+- list
+- diagnostic
+- .net
+- runtime
+windowsTemplateId: dfa66df4-8828-4c91-8681-6ccfe4a46424
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Les pools en état 'Stopped' peuvent indiquer un problème. Runtime 'v4.0' = .NET Framework 4.x, '' = .NET Core/5+.
+links:
+- title: Documentation Get-IISAppPool
+  url: https://learn.microsoft.com/en-us/powershell/module/iisadministration/get-iisapppool
+isUserCreated: false

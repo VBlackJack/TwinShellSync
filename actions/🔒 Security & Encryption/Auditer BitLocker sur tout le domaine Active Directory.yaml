@@ -1,0 +1,21 @@
+id: 9042ab43-b832-4346-9113-be3d0680a503
+title: Auditer BitLocker sur tout le domaine Active Directory
+description: Génère un rapport complet de tous les ordinateurs du domaine avec leur statut BitLocker (chiffré/non chiffré).
+category: "\U0001F512 Security & Encryption"
+platform: Windows
+level: Run
+tags:
+- bitlocker
+- ad
+- audit
+- compliance
+- domain-admin
+windowsTemplateId: 1c62f01e-a8ef-44c9-bebf-92a60e75fcdb
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: '⚠️ CONFORMITÉ CRITIQUE: Cette commande audit TOUT le domaine AD. Sur gros domaines (1000+ PCs): peut prendre plusieurs minutes. Utilisez -SearchBase pour limiter à une OU. Ordinateurs sans clés BitLocker = NON CONFORMES (risque sécurité!). Exécutez régulièrement (hebdo/mensuel) pour surveiller la conformité.'
+links:
+- title: BitLocker Compliance Monitoring
+  url: https://learn.microsoft.com/en-us/windows/security/operating-system-security/data-protection/bitlocker/operations-guide
+isUserCreated: false

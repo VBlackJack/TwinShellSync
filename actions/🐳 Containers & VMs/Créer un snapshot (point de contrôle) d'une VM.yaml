@@ -1,0 +1,23 @@
+id: 9dfce42e-8d8a-40c8-a235-2a9a043ff2fb
+title: Créer un snapshot (point de contrôle) d'une VM
+description: Crée un point de contrôle (snapshot) d'une machine virtuelle Hyper-V, capturant son état actuel pour une restauration ultérieure.
+category: "\U0001F433 Containers & VMs"
+platform: Windows
+level: Run
+tags:
+- hyperv
+- snapshot
+- checkpoint
+- backup
+- vm
+- restore
+- virtualization
+windowsTemplateId: f5b2b250-a5dc-4d09-9f03-efc54c41998d
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Les snapshots consomment de l'espace disque. Supprimez les anciens snapshots régulièrement. Évitez trop de snapshots en chaîne (impact performance).
+links:
+- title: Documentation Checkpoint-VM
+  url: https://learn.microsoft.com/en-us/powershell/module/hyper-v/checkpoint-vm
+isUserCreated: false

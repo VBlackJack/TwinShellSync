@@ -1,0 +1,18 @@
+id: b9f1b404-022e-407b-ae6a-917d05f92e88
+title: Arrêter un service (Linux)
+description: Arrête un service systemd en cours d'exécution.
+category: ⚙️ Services & Automation
+platform: Linux
+level: Run
+tags:
+- linux
+- systemd
+- service
+- stop
+linuxTemplateId: 27d50c7d-3d03-4c1c-ba10-8bd43e544d1a
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Nécessite les droits sudo. Peut affecter les services dépendants.
+links: []
+isUserCreated: false

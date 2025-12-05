@@ -1,0 +1,20 @@
+id: e24c9fbc-9238-44e5-a97d-da05e896c0d3
+title: Afficher l'historique des connexions
+description: Liste les dernières connexions utilisateurs au système
+category: "\U0001F4CA Monitoring & Logs"
+platform: Linux
+level: Info
+tags:
+- last
+- login
+- users
+- audit
+linuxTemplateId: 25b4d277-fefe-48c7-bb30-0033867be035
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: lastb affiche les bad logins. Les données proviennent de /var/log/wtmp et /var/log/btmp.
+links:
+- title: last command
+  url: https://man7.org/linux/man-pages/man1/last.1.html
+isUserCreated: false

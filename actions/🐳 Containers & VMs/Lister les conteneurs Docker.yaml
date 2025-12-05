@@ -1,0 +1,22 @@
+id: f1416388-20e8-4e0e-8e78-8bbe7ceaf6e7
+title: Lister les conteneurs Docker
+description: Affiche la liste des conteneurs Docker en cours d'exécution
+category: "\U0001F433 Containers & VMs"
+platform: Both
+level: Info
+tags:
+- docker
+- containers
+- list
+- ps
+- windows
+windowsTemplateId: c1a13af3-bd53-4cfa-be16-4c59fbeb4bfa
+linuxTemplateId: 1e6dbff4-8278-4a10-b840-a097a5529833
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: 'Windows & Linux: Nécessite accès au daemon Docker. -a pour voir aussi les conteneurs arrêtés.'
+links:
+- title: Docker ps documentation
+  url: https://docs.docker.com/engine/reference/commandline/ps/
+isUserCreated: false

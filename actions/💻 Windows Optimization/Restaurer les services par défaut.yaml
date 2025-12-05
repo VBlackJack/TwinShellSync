@@ -1,0 +1,19 @@
+id: 24a0bcd9-376a-4073-917e-ae350ca799c9
+title: Restaurer les services par défaut
+description: Restaure tous les services Windows à leur configuration par défaut (annule WIN-PERF-201).
+category: "\U0001F4BB Windows Optimization"
+platform: Windows
+level: Run
+tags:
+- performance
+- services
+- restore
+- rollback
+- windows
+windowsTemplateId: 172a53d3-1e7b-4999-9fdd-5defeb502dd0
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Restaure les services les plus courants à leur état par défaut. Annule les modifications de WIN-PERF-201 et WIN-PERF-202. Redémarrage recommandé après restauration.
+links: []
+isUserCreated: false

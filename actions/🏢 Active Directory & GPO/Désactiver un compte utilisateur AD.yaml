@@ -1,0 +1,18 @@
+id: 72ca25a2-dd06-4499-b5c4-1b0439a3e10c
+title: Désactiver un compte utilisateur AD
+description: Désactive un compte utilisateur Active Directory sans le supprimer.
+category: "\U0001F3E2 Active Directory & GPO"
+platform: Windows
+level: Dangerous
+tags:
+- ad
+- disable
+- account
+- user
+windowsTemplateId: 031507c5-939e-4fd0-90e8-62c173a07aeb
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: L'utilisateur ne pourra plus se connecter. Le compte peut être réactivé avec Enable-ADAccount.
+links: []
+isUserCreated: false

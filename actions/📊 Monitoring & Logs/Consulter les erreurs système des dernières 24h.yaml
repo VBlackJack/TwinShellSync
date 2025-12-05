@@ -1,0 +1,20 @@
+id: 24353537-139f-4459-a936-f60fff7cecd6
+title: Consulter les erreurs système des dernières 24h
+description: Affiche tous les messages d'erreur et critiques du journal systemd des dernières 24 heures
+category: "\U0001F4CA Monitoring & Logs"
+platform: Linux
+level: Info
+tags:
+- journalctl
+- logs
+- errors
+- systemd
+linuxTemplateId: ae640fe7-d9ec-4547-a845-9e4f901dbbb6
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: 'Nécessite les privilèges sudo pour voir tous les logs. Priorités disponibles: 0=emerg, 1=alert, 2=crit, 3=err, 4=warning, 5=notice, 6=info, 7=debug'
+links:
+- title: Man page journalctl
+  url: https://man7.org/linux/man-pages/man1/journalctl.1.html
+isUserCreated: false

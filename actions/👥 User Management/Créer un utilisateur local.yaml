@@ -1,0 +1,29 @@
+id: abf6d085-0167-4538-860e-eee3ef0d03b7
+title: Créer un utilisateur local
+description: Crée un nouveau compte utilisateur local sur le système.
+category: "\U0001F465 User Management"
+platform: Both
+level: Run
+tags:
+- user
+- account
+- create
+- useradd
+- new-localuser
+- windows
+- linux
+windowsTemplateId: 002b6bdb-88b0-4803-b7e2-ad9a4a4c4487
+linuxTemplateId: 096ddcbd-112a-47a0-a23e-de2f3c79ae8b
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: >-
+  Windows: New-LocalUser crée un utilisateur local (pas AD). -NoPassword pour compte sans mot de passe.
+
+  Linux: useradd nécessite sudo. -m crée le répertoire home. Utiliser passwd ensuite pour définir le mot de passe.
+links:
+- title: useradd documentation
+  url: https://man7.org/linux/man-pages/man8/useradd.8.html
+- title: New-LocalUser documentation
+  url: https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.localaccounts/new-localuser
+isUserCreated: false

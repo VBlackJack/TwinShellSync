@@ -1,0 +1,21 @@
+id: c11c31ca-0989-4497-87ce-256fc9ef16ad
+title: Rechercher un package Chocolatey
+description: Recherche des packages disponibles dans le dépôt Chocolatey.
+category: "\U0001F4E6 Package Management"
+platform: Windows
+level: Info
+tags:
+- chocolatey
+- package
+- search
+- find
+- windows
+windowsTemplateId: 68ceba52-1e46-40e7-aeec-bedcca4a5f20
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Recherche dans le dépôt community.chocolatey.org par défaut. Utiliser --exact pour correspondance exacte.
+links:
+- title: Chocolatey search documentation
+  url: https://docs.chocolatey.org/en-us/choco/commands/search
+isUserCreated: false

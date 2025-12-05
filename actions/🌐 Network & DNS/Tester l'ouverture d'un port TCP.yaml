@@ -1,0 +1,29 @@
+id: 4719da40-f342-45a2-bafa-50c206dcc639
+title: Tester l'ouverture d'un port TCP
+description: Vérifie si un port TCP spécifique est ouvert et accessible sur un hôte distant
+category: "\U0001F310 Network & DNS"
+platform: Both
+level: Info
+tags:
+- network
+- port
+- tcp
+- connectivity
+- linux
+- netcat
+- nc
+windowsTemplateId: 14a8bec9-ecc9-457a-a211-18d972a25884
+linuxTemplateId: 6b6e2494-49e4-4d87-9f14-2c9bbebfda05
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: >-
+  Windows: TcpTestSucceeded=$true signifie que le port est ouvert. Test-NetConnection plus verbeux.
+
+  Linux: nc (netcat) avec -z (scan) et -v (verbose). Retourne 0 si succès.
+links:
+- title: Test-NetConnection Port Testing
+  url: https://lazyadmin.nl/powershell/test-netconnection/
+- title: Netcat (nc) documentation
+  url: https://man7.org/linux/man-pages/man1/nc.1.html
+isUserCreated: false

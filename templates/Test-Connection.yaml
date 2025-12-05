@@ -1,0 +1,17 @@
+id: 8c247e1b-9cbd-4220-b3f5-5f71b272f021
+name: Test-Connection
+platform: Windows
+commandPattern: Test-Connection -ComputerName {target} -Count {count}
+parameters:
+- name: target
+  label: Cible
+  type: string
+  defaultValue: ''
+  required: true
+  description: Adresse IP ou nom d'hôte à tester
+- name: count
+  label: Nombre de paquets
+  type: int
+  defaultValue: 4
+  required: false
+  description: Nombre de requêtes ping à envoyer

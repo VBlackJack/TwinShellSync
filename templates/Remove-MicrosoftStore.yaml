@@ -1,0 +1,5 @@
+id: 35b8aea8-447e-46fb-9009-6dd917de73e1
+name: Remove-MicrosoftStore
+platform: Windows
+commandPattern: Get-AppxPackage *WindowsStore* | Remove-AppxPackage -ErrorAction SilentlyContinue; Get-AppxPackage *StorePurchaseApp* | Remove-AppxPackage -ErrorAction SilentlyContinue
+parameters: []

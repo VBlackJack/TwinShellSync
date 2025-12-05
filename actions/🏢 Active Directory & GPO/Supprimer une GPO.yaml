@@ -1,0 +1,20 @@
+id: 896e5b76-b563-4e66-b258-497c5d361991
+title: Supprimer une GPO
+description: Supprime une stratégie de groupe du domaine.
+category: "\U0001F3E2 Active Directory & GPO"
+platform: Windows
+level: Dangerous
+tags:
+- gpo
+- delete
+- remove
+- group-policy
+windowsTemplateId: bb84b1cc-11c5-4c72-991a-64ca6657f31d
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: 'ATTENTION: Suppression définitive. Faire une sauvegarde avant. Tous les liens sont également supprimés.'
+links:
+- title: Documentation Remove-GPO
+  url: https://learn.microsoft.com/en-us/powershell/module/grouppolicy/remove-gpo
+isUserCreated: false

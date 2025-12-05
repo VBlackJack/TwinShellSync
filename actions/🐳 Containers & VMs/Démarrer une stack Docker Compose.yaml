@@ -1,0 +1,22 @@
+id: 8dbb9b80-ba01-47c0-a130-3ff3975f0603
+title: Démarrer une stack Docker Compose
+description: Lance tous les services définis dans un fichier docker-compose.yml
+category: "\U0001F433 Containers & VMs"
+platform: Both
+level: Run
+tags:
+- docker
+- compose
+- orchestration
+- stack
+- windows
+windowsTemplateId: 22d3b31a-2ed2-4c70-96e8-03e42766a473
+linuxTemplateId: 27105169-15ed-4b3b-b70a-8f3162d61bdb
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: 'Windows & Linux: Doit être exécuté dans le répertoire contenant docker-compose.yml. -d pour detached mode.'
+links:
+- title: Docker Compose documentation
+  url: https://docs.docker.com/compose/reference/up/
+isUserCreated: false

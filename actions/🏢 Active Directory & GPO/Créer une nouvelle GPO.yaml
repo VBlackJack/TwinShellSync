@@ -1,0 +1,20 @@
+id: dab75e86-09e9-42d9-af83-63fe09e67768
+title: Créer une nouvelle GPO
+description: Crée une nouvelle stratégie de groupe (GPO) dans le domaine.
+category: "\U0001F3E2 Active Directory & GPO"
+platform: Windows
+level: Run
+tags:
+- gpo
+- create
+- new
+- group-policy
+windowsTemplateId: a2f37aa8-4301-4917-a027-c13c90d6d830
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Nécessite le module Group Policy. La GPO est créée mais n'est pas encore liée à une OU.
+links:
+- title: Documentation New-GPO
+  url: https://learn.microsoft.com/en-us/powershell/module/grouppolicy/new-gpo
+isUserCreated: false

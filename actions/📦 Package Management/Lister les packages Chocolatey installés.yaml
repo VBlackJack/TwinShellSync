@@ -1,0 +1,21 @@
+id: 49f6723b-3ca9-45a8-9688-74823d0347b2
+title: Lister les packages Chocolatey installés
+description: Affiche la liste de tous les packages installés via Chocolatey.
+category: "\U0001F4E6 Package Management"
+platform: Windows
+level: Info
+tags:
+- chocolatey
+- package
+- list
+- inventory
+- windows
+windowsTemplateId: 654629af-e89c-4b31-9025-9c37b12f0ce3
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: L'option --local-only affiche uniquement les packages installés sur cette machine.
+links:
+- title: Chocolatey list documentation
+  url: https://docs.chocolatey.org/en-us/choco/commands/list
+isUserCreated: false

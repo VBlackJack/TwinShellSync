@@ -1,0 +1,19 @@
+id: 2c24b4a8-bee9-448d-b805-dd73744178e4
+title: Lister tous les ordinateurs AD
+description: Affiche la liste de tous les comptes ordinateur dans Active Directory.
+category: "\U0001F3E2 Active Directory & GPO"
+platform: Windows
+level: Info
+tags:
+- ad
+- computers
+- list
+windowsTemplateId: d88274c3-a768-4948-a519-192ac6241e5b
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Peut être lent sur de gros domaines. Pour filtrer par OS, utiliser -Filter {OperatingSystem -like '*Windows*'}.
+links:
+- title: Documentation Get-ADComputer
+  url: https://learn.microsoft.com/en-us/powershell/module/activedirectory/get-adcomputer
+isUserCreated: false

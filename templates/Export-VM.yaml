@@ -1,0 +1,17 @@
+id: 7f3a0d9d-89f0-4130-bb7f-d9ee8b1007df
+name: Export-VM
+platform: Windows
+commandPattern: Export-VM -Name '{vmName}' -Path '{exportPath}'
+parameters:
+- name: vmName
+  label: Nom de la VM
+  type: string
+  defaultValue: ''
+  required: true
+  description: Nom de la VM à exporter
+- name: exportPath
+  label: Chemin d'export
+  type: string
+  defaultValue: D:\VM-Exports
+  required: true
+  description: Dossier de destination de l'export

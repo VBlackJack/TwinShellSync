@@ -1,0 +1,17 @@
+id: 3cbcbdd6-a675-46b0-a674-c8f1aa281994
+name: Export-Certificate
+platform: Windows
+commandPattern: $cert = Get-ChildItem -Path Cert:\LocalMachine\My\{thumbprint}; Export-Certificate -Cert $cert -FilePath '{exportPath}'
+parameters:
+- name: thumbprint
+  label: Empreinte du certificat
+  type: string
+  defaultValue: ''
+  required: true
+  description: Thumbprint (empreinte SHA-1) du certificat
+- name: exportPath
+  label: Chemin d'export
+  type: string
+  defaultValue: C:\Export\certificate.cer
+  required: true
+  description: Chemin du fichier de destination

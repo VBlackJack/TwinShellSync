@@ -1,0 +1,20 @@
+id: 1c410cad-292c-4897-a585-2d76da6a62fc
+title: Rechercher un paquet dans les dépôts
+description: Recherche des paquets disponibles par nom ou description
+category: "\U0001F4E6 Package Management"
+platform: Linux
+level: Info
+tags:
+- apt
+- search
+- find
+- package
+linuxTemplateId: 8c297ef2-451b-4167-ae7e-74ae2f68a58b
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Ne nécessite pas sudo. apt-cache search fonctionne aussi. Recherche dans les noms et descriptions.
+links:
+- title: APT search
+  url: https://manpages.ubuntu.com/manpages/jammy/man8/apt.8.html
+isUserCreated: false

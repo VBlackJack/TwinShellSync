@@ -1,0 +1,5 @@
+id: 013c3799-6e6c-4fde-8862-f1f851add0b7
+name: npm install
+platform: Windows
+commandPattern: npm install
+parameters: []

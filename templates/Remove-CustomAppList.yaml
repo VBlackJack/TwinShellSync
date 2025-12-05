@@ -1,0 +1,11 @@
+id: 199d6690-937c-43e1-98f4-283b26736275
+name: Remove-CustomAppList
+platform: Windows
+commandPattern: $appList = '{appList}'.Split(','); foreach ($app in $appList) { Get-AppxPackage $app.Trim() | Remove-AppxPackage -ErrorAction SilentlyContinue }
+parameters:
+- name: appList
+  label: Liste d'applications
+  type: string
+  defaultValue: ''
+  required: true
+  description: "Liste d'apps séparées par des virgules (ex: Microsoft.BingNews,Microsoft.SkypeApp)"

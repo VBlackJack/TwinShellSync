@@ -1,0 +1,20 @@
+id: d458688b-f296-40d3-bbcc-1aed5cefb2a8
+title: Rechercher des événements par EventID spécifique
+description: Recherche tous les événements correspondant à un EventID spécifique dans un journal donné
+category: "\U0001F4CA Monitoring & Logs"
+platform: Windows
+level: Info
+tags:
+- eventlog
+- eventid
+- search
+- diagnostic
+windowsTemplateId: e7851d44-8075-4e1f-9d33-e1cc3934735b
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: EventID 1074 = arrêt système, 1000 = crash application, 4625 = échec authentification. Liste complète sur Microsoft Docs.
+links:
+- title: Windows Event IDs
+  url: https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4625
+isUserCreated: false

@@ -1,0 +1,11 @@
+id: 3121fd2c-ea75-4e93-9125-108e77a1a599
+name: Get-ADOrganizationalUnit
+platform: Windows
+commandPattern: Get-ADOrganizationalUnit -Identity "{ouDN}" -Properties *
+parameters:
+- name: ouDN
+  label: DN de l'OU
+  type: string
+  defaultValue: ''
+  required: true
+  description: Distinguished Name de l'OU

@@ -1,0 +1,21 @@
+id: 5f8db9f8-9590-405a-ab14-92a63694383c
+title: Arrêter une tâche planifiée
+description: Arrête l'exécution en cours d'une tâche planifiée
+category: ⚙️ Services & Automation
+platform: Windows
+level: Run
+tags:
+- taskscheduler
+- stop
+- kill
+- automation
+- windows
+windowsTemplateId: eef92f36-8f1a-4ca0-a292-b2014c2e02b6
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Termine immédiatement l'exécution. Utilisez avec prudence sur les tâches critiques.
+links:
+- title: Stop-ScheduledTask Documentation
+  url: https://learn.microsoft.com/en-us/powershell/module/scheduledtasks/stop-scheduledtask
+isUserCreated: false

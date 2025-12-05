@@ -1,0 +1,47 @@
+id: 1a0a84dd-f1c1-4717-81df-bd1c6c4139d6
+name: New-ADUser
+platform: Windows
+commandPattern: New-ADUser -Name "{fullName}" -SamAccountName {username} -UserPrincipalName {username}@{domain} -GivenName "{firstName}" -Surname "{lastName}" -DisplayName "{fullName}" -Path "{ouPath}" -AccountPassword (ConvertTo-SecureString "{password}" -AsPlainText -Force) -Enabled $true
+parameters:
+- name: fullName
+  label: Nom complet
+  type: string
+  defaultValue: ''
+  required: true
+  description: "Nom complet de l'utilisateur (ex: Jean Dupont)"
+- name: username
+  label: Nom d'utilisateur
+  type: string
+  defaultValue: ''
+  required: true
+  description: 'SamAccountName (ex: jdupont)'
+- name: domain
+  label: Domaine
+  type: string
+  defaultValue: contoso.com
+  required: true
+  description: 'Domaine AD (ex: contoso.com)'
+- name: firstName
+  label: Prénom
+  type: string
+  defaultValue: ''
+  required: true
+  description: Prénom de l'utilisateur
+- name: lastName
+  label: Nom
+  type: string
+  defaultValue: ''
+  required: true
+  description: Nom de famille de l'utilisateur
+- name: ouPath
+  label: Chemin OU
+  type: string
+  defaultValue: OU=Users,DC=contoso,DC=com
+  required: true
+  description: Distinguished Name de l'OU de destination
+- name: password
+  label: Mot de passe
+  type: string
+  defaultValue: ''
+  required: true
+  description: Mot de passe initial (doit respecter la politique)

@@ -1,0 +1,21 @@
+id: 6e71c3ff-af24-4310-9812-6a11cc3a3aa5
+title: Démarrer une tâche planifiée
+description: Démarre immédiatement l'exécution d'une tâche planifiée
+category: ⚙️ Services & Automation
+platform: Windows
+level: Run
+tags:
+- taskscheduler
+- start
+- run
+- automation
+- windows
+windowsTemplateId: d4f6ceec-ae1a-47c4-81d6-4b4b9c0bc6f8
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Exécute immédiatement sans attendre le déclencheur. Vérifiez l'état avec Get-ScheduledTaskInfo.
+links:
+- title: Start-ScheduledTask Documentation
+  url: https://learn.microsoft.com/en-us/powershell/module/scheduledtasks/start-scheduledtask
+isUserCreated: false

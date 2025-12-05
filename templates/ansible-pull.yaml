@@ -1,0 +1,17 @@
+id: 4c5edf3b-603d-4488-84bd-0c5fb83f8a66
+name: ansible-pull
+platform: Windows
+commandPattern: ansible-pull -U {repoUrl} {playbookPath}
+parameters:
+- name: repoUrl
+  label: URL du dépôt Git
+  type: string
+  defaultValue: https://github.com/user/ansible-repo.git
+  required: true
+  description: URL du dépôt Git contenant les playbooks
+- name: playbookPath
+  label: Playbook
+  type: string
+  defaultValue: local.yml
+  required: true
+  description: Nom du playbook à exécuter

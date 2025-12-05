@@ -1,0 +1,20 @@
+id: 62e673f5-6145-4e4a-a98d-796e426ed323
+title: Créer un nouvel utilisateur AD
+description: Crée un nouveau compte utilisateur dans Active Directory avec les paramètres de base.
+category: "\U0001F3E2 Active Directory & GPO"
+platform: Windows
+level: Run
+tags:
+- ad
+- user
+- create
+- new
+windowsTemplateId: 1a0a84dd-f1c1-4717-81df-bd1c6c4139d6
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Nécessite des droits d'administration AD. Le mot de passe doit respecter la politique de domaine. L'utilisateur est activé par défaut.
+links:
+- title: Documentation New-ADUser
+  url: https://learn.microsoft.com/en-us/powershell/module/activedirectory/new-aduser
+isUserCreated: false

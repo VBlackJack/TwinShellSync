@@ -1,0 +1,18 @@
+id: 39cc2a91-9571-441c-8d85-533ea1b927c7
+title: Lister les liens d'une GPO
+description: Affiche toutes les OUs auxquelles une GPO est liée.
+category: "\U0001F3E2 Active Directory & GPO"
+platform: Windows
+level: Info
+tags:
+- gpo
+- links
+- ou
+- group-policy
+windowsTemplateId: 7968b4cd-4f75-445f-a797-f7b08f269d47
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Affiche le chemin de chaque OU liée, si le lien est activé et s'il est forcé (Enforced).
+links: []
+isUserCreated: false

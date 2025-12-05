@@ -1,0 +1,17 @@
+id: 396d0a19-7f9c-44c8-9a4e-668aa915efd8
+name: Set-Service
+platform: Windows
+commandPattern: Set-Service -Name '{servicename}' -StartupType {startuptype}
+parameters:
+- name: servicename
+  label: Nom du service
+  type: string
+  defaultValue: wuauserv
+  required: true
+  description: Nom du service à configurer
+- name: startuptype
+  label: Type de démarrage
+  type: string
+  defaultValue: Automatic
+  required: true
+  description: Automatic, Manual, Disabled, ou AutomaticDelayedStart

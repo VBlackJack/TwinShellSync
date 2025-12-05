@@ -1,0 +1,21 @@
+id: 4c9f7942-eb93-4e28-8efc-70b9e675c1f7
+title: Créer une archive tar
+description: Crée une archive compressée de fichiers et répertoires
+category: "\U0001F4C1 Files & Storage"
+platform: Linux
+level: Info
+tags:
+- tar
+- archive
+- compress
+- backup
+- gzip
+linuxTemplateId: 74a31291-b71c-4e41-a6db-e3ce8ea1f5ee
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: c=create, x=extract, t=list, z=gzip, j=bzip2, f=file. .tar.gz ou .tgz pour gzip.
+links:
+- title: tar command
+  url: https://man7.org/linux/man-pages/man1/tar.1.html
+isUserCreated: false

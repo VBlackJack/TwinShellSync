@@ -1,0 +1,18 @@
+id: 950191d7-0b9c-4213-8c41-615d47afa932
+title: Lister les GPO appliquées à une machine
+description: Affiche toutes les stratégies de groupe appliquées à un ordinateur spécifique.
+category: "\U0001F3E2 Active Directory & GPO"
+platform: Windows
+level: Run
+tags:
+- gpo
+- diagnostic
+- windows
+- gpresult
+windowsTemplateId: 4fa2ddf5-0b51-4c2d-a436-990248fbde12
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: À lancer avec droits administrateur. Utiliser /H pour générer un rapport HTML.
+links: []
+isUserCreated: false

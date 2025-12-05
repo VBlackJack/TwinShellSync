@@ -1,0 +1,5 @@
+id: 5c3e8e0c-17a3-4896-a362-b79f322a4d53
+name: ss
+platform: Linux
+commandPattern: ss -tn state established
+parameters: []

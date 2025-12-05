@@ -1,0 +1,26 @@
+id: a2d269d5-e729-4226-b184-7da900763f3f
+title: Rechercher des fichiers par nom
+description: Recherche des fichiers ou dossiers par nom ou motif.
+category: "\U0001F4C1 Files & Storage"
+platform: Both
+level: Info
+tags:
+- linux
+- windows
+- fichier
+- find
+- search
+- recherche
+windowsTemplateId: 7a9d690e-e058-4af4-9239-0a959a5287a4
+linuxTemplateId: 7d7d7d31-a931-4b98-8de8-c9ce1af6b00c
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: >-
+  Windows: -Recurse cherche dans les sous-dossiers. -ErrorAction SilentlyContinue ignore les erreurs d'accès.
+
+  Linux: -name sensible à la casse, -iname insensible. -type f pour fichiers, -type d pour dossiers.
+links:
+- title: Documentation Get-ChildItem
+  url: https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-childitem
+isUserCreated: false

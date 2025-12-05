@@ -1,0 +1,19 @@
+id: 622d3801-0fd3-4756-a26f-17fe35a90be6
+title: Monter un système de fichiers
+description: Monte une partition ou un périphérique sur un point de montage
+category: "\U0001F427 Linux Administration"
+platform: Linux
+level: Run
+tags:
+- mount
+- filesystem
+- partition
+linuxTemplateId: 675f4d3f-3647-45e8-a70c-4bbc5772e1d6
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Nécessite sudo. Le répertoire de montage doit exister. Éditer /etc/fstab pour montage automatique.
+links:
+- title: mount command
+  url: https://man7.org/linux/man-pages/man8/mount.8.html
+isUserCreated: false

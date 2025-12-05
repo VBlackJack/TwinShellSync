@@ -1,0 +1,19 @@
+id: dcae8103-d13a-4a03-ba49-7002f39e5e94
+title: Supprimer un protecteur de clé BitLocker
+description: Retire un protecteur de clé spécifique (TPM, Password, RecoveryPassword, etc.) d'un volume BitLocker.
+category: "\U0001F512 Security & Encryption"
+platform: Windows
+level: Dangerous
+tags:
+- bitlocker
+- protector
+- remove
+windowsTemplateId: 8619ea44-056b-4a5e-a9eb-256dc75e8270
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: "⚠️ ATTENTION: Ne supprimez JAMAIS tous les protecteurs! Gardez toujours au moins un RecoveryPassword. Cas d'usage: nettoyer les anciens protecteurs, retirer TPM avant changement matériel, réorganiser les méthodes de déverrouillage."
+links:
+- title: Remove-BitLockerKeyProtector Documentation
+  url: https://learn.microsoft.com/en-us/powershell/module/bitlocker/remove-bitlockerkeyprotector
+isUserCreated: false

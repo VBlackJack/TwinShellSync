@@ -1,0 +1,19 @@
+id: 079be25a-425a-42ab-873e-a1be04a611d2
+title: Ajouter un protecteur TPM à BitLocker
+description: Ajoute une protection TPM (Trusted Platform Module) à un volume BitLocker existant.
+category: "\U0001F512 Security & Encryption"
+platform: Windows
+level: Dangerous
+tags:
+- bitlocker
+- tpm
+- protector
+windowsTemplateId: dd8499a8-933f-4801-afb1-d37f6e596ed9
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: "TPM: déverrouillage transparent au boot (pratique mais moins sécurisé). TPM+PIN: saisie d'un code au démarrage (équilibre sécurité/praticité). TPM+StartupKey: nécessite une clé USB au démarrage (haute sécurité). Le PC doit avoir un TPM 1.2+ activé dans le BIOS."
+links:
+- title: Add-BitLockerKeyProtector Documentation
+  url: https://learn.microsoft.com/en-us/powershell/module/bitlocker/add-bitlockerkeyprotector
+isUserCreated: false

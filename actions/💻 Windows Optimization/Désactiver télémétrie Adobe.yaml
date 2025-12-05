@@ -1,0 +1,20 @@
+id: cc066c87-9c38-46f6-8752-53e141b8e1c2
+title: Désactiver télémétrie Adobe
+description: Désactive la télémétrie et le reporting d'Adobe Creative Cloud (Photoshop, Illustrator, etc.).
+category: "\U0001F4BB Windows Optimization"
+platform: Windows
+level: Run
+tags:
+- privacy
+- confidentialité
+- télémétrie
+- adobe
+- third-party
+- windows
+windowsTemplateId: 7261da0e-2916-4080-b621-71fdd4c6f5a1
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Désactive la collecte de données Adobe Creative Cloud, Analytics et services de mise à jour. Bloque les services de télémétrie Adobe. Réduit l'utilisation de ressources système.
+links: []
+isUserCreated: false

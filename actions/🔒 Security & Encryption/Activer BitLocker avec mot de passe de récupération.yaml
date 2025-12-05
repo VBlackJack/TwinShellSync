@@ -1,0 +1,20 @@
+id: 258eebd9-4241-4c1a-9b2e-e81450b22ffa
+title: Activer BitLocker avec mot de passe de récupération
+description: Active le chiffrement BitLocker sur un volume avec protection par mot de passe de récupération.
+category: "\U0001F512 Security & Encryption"
+platform: Windows
+level: Dangerous
+tags:
+- bitlocker
+- enable
+- encryption
+- recovery
+windowsTemplateId: f6e999d6-b446-44cc-8b75-8d1e76fda54e
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: "⚠️ IMPORTANT: Sauvegardez immédiatement le mot de passe de récupération après activation! UsedSpaceOnly: chiffre uniquement l'espace utilisé (rapide). Sans cette option: chiffre tout le disque (lent mais plus sécurisé). EncryptionMethod: XtsAes256 recommandé pour Windows 10/11."
+links:
+- title: Enable-BitLocker Documentation
+  url: https://learn.microsoft.com/en-us/powershell/module/bitlocker/enable-bitlocker
+isUserCreated: false

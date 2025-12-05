@@ -1,0 +1,5 @@
+id: 9942ccf7-d30b-485e-a90f-83c063c78434
+name: ''
+platform: Windows
+commandPattern: Get-NetTCPConnection -State Listen | Select-Object LocalAddress,LocalPort,@{Name='ProcessName';Expression={(Get-Process -Id $_.OwningProcess).ProcessName}},OwningProcess | Sort-Object LocalPort | Format-Table -AutoSize
+parameters: []

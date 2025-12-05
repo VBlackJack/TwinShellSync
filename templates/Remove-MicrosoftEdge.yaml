@@ -1,0 +1,5 @@
+id: 13349ffb-f7cb-40a1-b770-0ce3ae0fa503
+name: Remove-MicrosoftEdge
+platform: Windows
+commandPattern: $edgePath = "${env:ProgramFiles(x86)}\Microsoft\Edge\Application"; if (Test-Path $edgePath) { $setupPath = Get-ChildItem -Path $edgePath -Filter 'setup.exe' -Recurse | Select-Object -First 1; if ($setupPath) { Start-Process -FilePath $setupPath.FullName -ArgumentList '--uninstall', '--system-level', '--verbose-logging', '--force-uninstall' -Wait } }
+parameters: []

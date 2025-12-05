@@ -1,0 +1,18 @@
+id: fe523959-5356-4827-82e0-2ead3531ac88
+title: Désactiver un service au démarrage (Linux)
+description: Empêche un service systemd de démarrer automatiquement au boot.
+category: ⚙️ Services & Automation
+platform: Linux
+level: Dangerous
+tags:
+- linux
+- systemd
+- service
+- disable
+linuxTemplateId: 02449870-b23c-4bdb-8f5e-7d828a39cbec
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: N'arrête pas le service actuellement en cours, seulement le démarrage automatique.
+links: []
+isUserCreated: false

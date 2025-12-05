@@ -1,0 +1,18 @@
+id: 9662358d-2b46-4b45-9b8c-2ae074aa42de
+title: Obtenir la politique de verrouillage de compte
+description: Affiche les paramètres de verrouillage de compte du domaine.
+category: "\U0001F3E2 Active Directory & GPO"
+platform: Windows
+level: Info
+tags:
+- ad
+- lockout
+- policy
+- security
+windowsTemplateId: fab24600-4ffb-4948-a0e6-84ea7fc906de
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: 'LockoutThreshold: nombre de tentatives échouées. LockoutDuration: durée du verrouillage.'
+links: []
+isUserCreated: false

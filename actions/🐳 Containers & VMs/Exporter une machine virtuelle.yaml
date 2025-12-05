@@ -1,0 +1,23 @@
+id: f8a14c5a-e644-41f7-9417-36172cf3a21c
+title: Exporter une machine virtuelle
+description: Exporte une VM Hyper-V complète (configuration, disques virtuels, snapshots) vers un dossier pour sauvegarde ou migration.
+category: "\U0001F433 Containers & VMs"
+platform: Windows
+level: Run
+tags:
+- hyperv
+- export
+- backup
+- migration
+- vm
+- disaster-recovery
+- clone
+windowsTemplateId: 7f3a0d9d-89f0-4130-bb7f-d9ee8b1007df
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: L'export peut être long selon la taille de la VM. Vérifiez l'espace disque disponible. Utilisez Import-VM pour restaurer.
+links:
+- title: Documentation Export-VM
+  url: https://learn.microsoft.com/en-us/powershell/module/hyper-v/export-vm
+isUserCreated: false

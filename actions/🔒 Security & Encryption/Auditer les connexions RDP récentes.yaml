@@ -1,0 +1,21 @@
+id: 22ceb5d8-ea0a-485e-a007-3b9bff24e43f
+title: Auditer les connexions RDP récentes
+description: Liste les événements de connexion Bureau à distance (RDP) réussies et échouées
+category: "\U0001F512 Security & Encryption"
+platform: Windows
+level: Info
+tags:
+- security
+- rdp
+- audit
+- sessions
+- login
+windowsTemplateId: c0a6d7a4-b698-4b23-929c-8fa3ce7e0640
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: EventID 4624 = connexion réussie, 4625 = échec. LogonType 10 = RemoteInteractive (RDP), 3 = Network. Surveillez les échecs répétés (attaque).
+links:
+- title: Audit RDP Sessions
+  url: https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4624
+isUserCreated: false

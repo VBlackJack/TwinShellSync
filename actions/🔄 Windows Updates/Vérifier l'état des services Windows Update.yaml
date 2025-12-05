@@ -1,0 +1,20 @@
+id: 699ce3cd-dca0-44e7-bcea-7f35f6e5b5df
+title: Vérifier l'état des services Windows Update
+description: Vérifie l'état et le type de démarrage des services critiques pour Windows Update
+category: "\U0001F504 Windows Updates"
+platform: Windows
+level: Info
+tags:
+- windows-update
+- services
+- diagnostic
+- wuauserv
+windowsTemplateId: 13a7262c-4712-4c36-b105-af851cf56969
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: 'Services critiques: wuauserv (Windows Update), bits (Background Intelligent Transfer), cryptsvc (Cryptographic Services), msiserver (Windows Installer).'
+links:
+- title: Windows Update Services
+  url: https://learn.microsoft.com/en-us/troubleshoot/windows-server/installing-updates-features-roles/fix-windows-update-errors
+isUserCreated: false

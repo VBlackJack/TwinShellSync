@@ -1,0 +1,20 @@
+id: 44792e4b-b805-4e27-aa38-a6a6bb7f290d
+title: Limiter Windows Defender CPU à 25%
+description: Limite l'utilisation CPU de Windows Defender lors des analyses pour éviter les ralentissements.
+category: "\U0001F4BB Windows Optimization"
+platform: Windows
+level: Run
+tags:
+- performance
+- defender
+- antivirus
+- cpu
+- optimisation
+- windows
+windowsTemplateId: 2fabf9e1-ddc8-48ea-9a4e-f96d17a621f5
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Par défaut Defender peut utiliser 50-100% CPU lors des analyses, ralentissant le PC. Limiter à 25% (ou 10-15% pour CPU faibles) améliore la fluidité pendant les scans. Les analyses seront plus longues mais moins intrusives.
+links: []
+isUserCreated: false

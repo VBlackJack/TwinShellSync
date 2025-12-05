@@ -1,0 +1,5 @@
+id: 108e5d5b-12e0-4f12-a62d-2ada8cf6ed95
+name: Invoke-WmiMethod
+platform: Windows
+commandPattern: powershell -Command "Invoke-WmiMethod -Namespace root\ccm -Class SMS_Client -Name TriggerSchedule -ArgumentList '{00000000-0000-0000-0000-000000000113}'"
+parameters: []

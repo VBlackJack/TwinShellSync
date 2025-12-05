@@ -1,0 +1,19 @@
+id: 28ba7787-3103-4280-b800-58677fe9b919
+title: Restaurer un fichier de quarantaine Defender
+description: Restaure un fichier précédemment mis en quarantaine par Windows Defender.
+category: "\U0001F512 Security & Encryption"
+platform: Windows
+level: Dangerous
+tags:
+- defender
+- quarantine
+- restore
+windowsTemplateId: 4617080e-bd2f-40ed-ac53-71385be66280
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: "⚠️ ATTENTION: Restaurer un fichier détecté peut réinfecter votre système! Ne restaurez que si vous êtes CERTAIN qu'il s'agit d'un faux positif. Pour restaurer via GUI: Windows Security > Protection contre les virus > Historique de protection > Restaurer. PowerShell a des capacités limitées pour la restauration."
+links:
+- title: Defender Quarantine Management
+  url: https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/restore-quarantined-files-microsoft-defender-antivirus
+isUserCreated: false

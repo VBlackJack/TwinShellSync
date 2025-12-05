@@ -1,0 +1,17 @@
+id: de96b54f-0334-4f70-aff9-fd4bb3d00e1d
+name: Get-GPOReport
+platform: Windows
+commandPattern: Get-GPOReport -Name "{gpoName}" -ReportType Xml -Path "{outputPath}"
+parameters:
+- name: gpoName
+  label: Nom de la GPO
+  type: string
+  defaultValue: ''
+  required: true
+  description: Nom de la GPO
+- name: outputPath
+  label: Fichier de sortie
+  type: string
+  defaultValue: C:\GPOReports\report.xml
+  required: true
+  description: Chemin complet du fichier XML à créer

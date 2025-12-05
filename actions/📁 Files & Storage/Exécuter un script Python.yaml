@@ -1,0 +1,19 @@
+id: d79f76ba-623b-421b-9303-106addaf399a
+title: Exécuter un script Python
+description: Lance un script Python.
+category: "\U0001F4C1 Files & Storage"
+platform: Both
+level: Info
+tags:
+- python
+- run
+- script
+- development
+windowsTemplateId: 2bae8cba-b4f5-4d63-9a4b-cb460cab12c4
+linuxTemplateId: af10ad18-7a38-4227-94b1-dbb67a14d1ad
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: python3 pour Linux/Mac, python pour Windows. -m pour exécuter un module.
+links: []
+isUserCreated: false

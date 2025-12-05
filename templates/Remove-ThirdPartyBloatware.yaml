@@ -1,0 +1,5 @@
+id: 442071f5-cd43-4c6f-835d-109c321eca68
+name: Remove-ThirdPartyBloatware
+platform: Windows
+commandPattern: $bloatware = @('CandyCrush', 'Spotify', 'Disney', 'Netflix', 'Twitter', 'Facebook'); Get-AppxPackage | Where-Object { $bloatware -match $_.Name } | Remove-AppxPackage -ErrorAction SilentlyContinue
+parameters: []

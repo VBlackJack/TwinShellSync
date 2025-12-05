@@ -1,0 +1,20 @@
+id: eec05ade-63c6-4683-a6e8-a8ea546ec7a6
+title: Vérifier si un redémarrage est nécessaire
+description: Vérifie si des mises à jour en attente nécessitent un redémarrage système
+category: "\U0001F504 Windows Updates"
+platform: Windows
+level: Info
+tags:
+- windows-update
+- reboot
+- restart
+- pswindowsupdate
+windowsTemplateId: e8b22feb-5877-45af-b19d-a9acbd6ff674
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Utile avant de planifier des maintenances. Nécessite PSWindowsUpdate.
+links:
+- title: PSWindowsUpdate Module
+  url: https://www.powershellgallery.com/packages/PSWindowsUpdate
+isUserCreated: false

@@ -1,0 +1,19 @@
+id: 8b97baf6-2beb-4cf4-abe8-b86246d47421
+title: Construire un projet Gradle
+description: Compile et package un projet avec Gradle.
+category: "\U0001F527 Development"
+platform: Both
+level: Info
+tags:
+- gradle
+- java
+- build
+- development
+windowsTemplateId: 37408b7e-c493-40d5-9585-d2e0b8491a76
+linuxTemplateId: 38f6cd87-80f8-42af-8d9e-0acd8f0e09eb
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Préférer ./gradlew (wrapper) pour la portabilité. --no-daemon pour CI/CD.
+links: []
+isUserCreated: false

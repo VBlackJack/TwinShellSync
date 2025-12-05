@@ -1,0 +1,17 @@
+id: 4420880e-aa93-4cb9-9a13-8ed2d3e1cd7f
+name: Get-ScheduledTask
+platform: Windows
+commandPattern: Get-ScheduledTask {taskname} {taskpath} | Format-Table TaskName, State, LastRunTime, NextRunTime -AutoSize
+parameters:
+- name: taskname
+  label: Nom de la tâche
+  type: string
+  defaultValue: ''
+  required: false
+  description: Nom de la tâche (laissez vide pour toutes)
+- name: taskpath
+  label: Chemin
+  type: string
+  defaultValue: ''
+  required: false
+  description: "Chemin de la tâche (ex: -TaskPath '\\Microsoft\\Windows\\')"

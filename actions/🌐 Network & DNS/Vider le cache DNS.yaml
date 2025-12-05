@@ -1,0 +1,20 @@
+id: e63cdc14-486a-4fbd-9c73-fa0c6446d820
+title: Vider le cache DNS
+description: Vide le cache DNS du client pour forcer une nouvelle résolution des noms de domaine
+category: "\U0001F310 Network & DNS"
+platform: Windows
+level: Info
+tags:
+- network
+- dns
+- cache
+- flush
+windowsTemplateId: e7787b33-3e17-4075-a15b-f4bb51353f02
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Utile après modification DNS ou en cas de problèmes de résolution. Les nouvelles résolutions DNS seront mises en cache après ce vidage.
+links:
+- title: Clear-DnsClientCache Documentation
+  url: https://learn.microsoft.com/en-us/powershell/module/dnsclient/clear-dnsclientcache
+isUserCreated: false

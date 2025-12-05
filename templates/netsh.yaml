@@ -1,0 +1,17 @@
+id: d6fd6925-5fe3-4128-8711-e67a171e1937
+name: netsh
+platform: Windows
+commandPattern: netsh trace start capture=yes tracefile={outputPath} maxSize={maxSizeMB}
+parameters:
+- name: outputPath
+  label: Fichier de sortie
+  type: string
+  defaultValue: C:\Temp\networktrace.etl
+  required: true
+  description: Chemin complet du fichier de trace (.etl)
+- name: maxSizeMB
+  label: Taille maximale (MB)
+  type: number
+  defaultValue: 250
+  required: true
+  description: Taille maximale du fichier en MB

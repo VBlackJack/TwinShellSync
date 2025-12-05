@@ -1,0 +1,17 @@
+id: 6e007ba9-4ed7-49ef-8ac4-6f4c9d1c5e44
+name: Copy-Item
+platform: Windows
+commandPattern: Copy-Item -Path "{sourcePath}" -Destination "{destinationPath}" -Recurse -Force
+parameters:
+- name: sourcePath
+  label: Chemin source
+  type: string
+  defaultValue: ''
+  required: true
+  description: Chemin du fichier ou dossier à copier
+- name: destinationPath
+  label: Chemin destination
+  type: string
+  defaultValue: ''
+  required: true
+  description: Chemin de destination

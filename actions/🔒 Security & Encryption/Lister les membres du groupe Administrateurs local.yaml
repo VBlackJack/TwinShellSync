@@ -1,0 +1,20 @@
+id: 78ffbd98-5ac1-45a2-ab58-446150574a60
+title: Lister les membres du groupe Administrateurs local
+description: Affiche tous les utilisateurs et groupes membres du groupe Administrateurs local
+category: "\U0001F512 Security & Encryption"
+platform: Windows
+level: Info
+tags:
+- security
+- administrators
+- group
+- audit
+windowsTemplateId: b83e20f8-3af2-44e1-b7f5-3a95647a9449
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: "Vérifiez régulièrement ce groupe. ObjectClass: User (utilisateur) ou Group (groupe). PrincipalSource: Local ou ActiveDirectory. Limitez le nombre d'administrateurs."
+links:
+- title: Get-LocalGroupMember Documentation
+  url: https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.localaccounts/get-localgroupmember
+isUserCreated: false

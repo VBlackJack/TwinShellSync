@@ -1,0 +1,20 @@
+id: b10f44f3-72a0-4a46-adef-bd9174975be9
+title: Désactiver les services non essentiels
+description: 'Désactive plus de 200 services Windows non essentiels pour maximiser les performances (ATTENTION: réservé aux utilisateurs avancés).'
+category: "\U0001F4BB Windows Optimization"
+platform: Windows
+level: Dangerous
+tags:
+- performance
+- services
+- advanced
+- dangerous
+- optimisation
+- windows
+windowsTemplateId: a3520c98-0812-499e-b7b9-0d16b0938f41
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: '⚠️ DANGER: Désactive plus de 200 services (télémétrie, diagnostics, Bluetooth, impression, Xbox, biométrie, services réseau avancés, etc.). Réservé aux PC dédiés gaming/performance pure. CRÉE UN POINT DE RESTAURATION AVANT! Services critiques préservés: réseau de base, stockage, sécurité système.'
+links: []
+isUserCreated: false

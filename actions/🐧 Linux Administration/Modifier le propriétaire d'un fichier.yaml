@@ -1,0 +1,21 @@
+id: d36bea02-0cd8-4937-a449-bd56511f5867
+title: Modifier le propriétaire d'un fichier
+description: Change le propriétaire (user et/ou group) d'un fichier ou répertoire
+category: "\U0001F427 Linux Administration"
+platform: Linux
+level: Run
+tags:
+- chown
+- owner
+- permissions
+- user
+- group
+linuxTemplateId: 68178457-6aa4-449d-abe1-6776ed917715
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Nécessite sudo. -R pour récursif. user:group ou user seul ou :group seul.
+links:
+- title: chown documentation
+  url: https://man7.org/linux/man-pages/man1/chown.1.html
+isUserCreated: false

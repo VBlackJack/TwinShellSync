@@ -1,0 +1,17 @@
+id: 6da57654-1815-455a-b575-b5893980e6a9
+name: Move-Item
+platform: Windows
+commandPattern: Move-Item -Path "{sourcePath}" -Destination "{destinationPath}" -Force
+parameters:
+- name: sourcePath
+  label: Chemin source
+  type: string
+  defaultValue: ''
+  required: true
+  description: Chemin du fichier ou dossier à déplacer
+- name: destinationPath
+  label: Chemin destination
+  type: string
+  defaultValue: ''
+  required: true
+  description: Nouveau chemin ou nom

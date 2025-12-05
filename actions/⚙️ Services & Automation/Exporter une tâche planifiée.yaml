@@ -1,0 +1,21 @@
+id: be9e36d3-808f-4c29-8ef9-b823eb863833
+title: Exporter une tâche planifiée
+description: Exporte la définition d'une tâche planifiée au format XML pour sauvegarde ou migration
+category: ⚙️ Services & Automation
+platform: Windows
+level: Info
+tags:
+- taskscheduler
+- export
+- backup
+- xml
+- automation
+windowsTemplateId: 758f0d15-4274-46be-9603-6766a6f92767
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Utile pour migration entre serveurs ou sauvegarde. Utilisez Register-ScheduledTask avec -Xml pour réimporter.
+links:
+- title: Export-ScheduledTask Documentation
+  url: https://learn.microsoft.com/en-us/powershell/module/scheduledtasks/export-scheduledtask
+isUserCreated: false

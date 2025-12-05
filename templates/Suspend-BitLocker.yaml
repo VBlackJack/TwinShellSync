@@ -1,0 +1,17 @@
+id: ab10ca25-f181-4f59-9dfe-c95cada7d684
+name: Suspend-BitLocker
+platform: Windows
+commandPattern: Suspend-BitLocker -MountPoint "{driveLetter}:" -RebootCount {rebootCount}
+parameters:
+- name: driveLetter
+  label: Lettre du disque
+  type: string
+  defaultValue: C
+  required: true
+  description: 'Lettre du volume (ex: C)'
+- name: rebootCount
+  label: Nombre de redémarrages
+  type: string
+  defaultValue: 1
+  required: false
+  description: Nombre de redémarrages avant réactivation automatique

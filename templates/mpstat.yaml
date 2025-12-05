@@ -1,0 +1,17 @@
+id: a7163bb3-7646-42c1-9794-7906d9d806f6
+name: mpstat
+platform: Linux
+commandPattern: mpstat {interval} {count}
+parameters:
+- name: interval
+  label: Intervalle
+  type: number
+  defaultValue: 5
+  required: true
+  description: Intervalle en secondes
+- name: count
+  label: Nombre
+  type: number
+  defaultValue: 3
+  required: true
+  description: Nombre de mesures

@@ -1,0 +1,17 @@
+id: 399a2e39-fe98-4b45-ab2d-97cd52e83fb3
+name: journalctl
+platform: Linux
+commandPattern: journalctl -u {unit} --since "{since}" -o json-pretty --no-pager
+parameters:
+- name: unit
+  label: Unité systemd
+  type: string
+  defaultValue: nginx.service
+  required: true
+  description: Nom de l'unité systemd
+- name: since
+  label: Depuis
+  type: string
+  defaultValue: 1 hour ago
+  required: true
+  description: Période à exporter

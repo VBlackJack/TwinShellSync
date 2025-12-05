@@ -1,0 +1,17 @@
+id: e87f4b19-22e9-4a40-9d8d-6a68d0f86e46
+title: Afficher les mises à jour en attente
+description: Liste toutes les mises à jour disponibles mais non installées
+category: "\U0001F504 Windows Updates"
+platform: Windows
+level: Info
+tags:
+- windows-update
+- pending
+- diagnostic
+windowsTemplateId: 8e08a6a6-13b1-4fa3-a971-65afde31115f
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Utilise l'API COM de Windows Update. Peut prendre quelques secondes.
+links: []
+isUserCreated: false

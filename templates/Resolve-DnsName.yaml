@@ -1,0 +1,23 @@
+id: 7b5c9f08-c112-483d-8a1c-7633a162c2b5
+name: Resolve-DnsName
+platform: Windows
+commandPattern: Resolve-DnsName -Name {hostname} -Type {recordType} -Server {dnsServer} -DnsOnly
+parameters:
+- name: hostname
+  label: Nom d'hôte
+  type: string
+  defaultValue: google.com
+  required: true
+  description: Nom d'hôte à résoudre
+- name: recordType
+  label: Type d'enregistrement
+  type: string
+  defaultValue: A
+  required: true
+  description: Type d'enregistrement DNS (A, AAAA, MX, TXT, etc.)
+- name: dnsServer
+  label: Serveur DNS
+  type: string
+  defaultValue: 8.8.8.8
+  required: false
+  description: Serveur DNS à interroger (optionnel)

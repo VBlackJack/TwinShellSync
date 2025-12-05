@@ -1,0 +1,5 @@
+id: e455012f-a72a-4587-a23e-73f2f8845fff
+name: Stop-Service
+platform: Windows
+commandPattern: Stop-Service -Name wuauserv,bits -Force; Remove-Item -Path C:\Windows\SoftwareDistribution\Download\* -Recurse -Force -ErrorAction SilentlyContinue; Start-Service -Name wuauserv,bits
+parameters: []

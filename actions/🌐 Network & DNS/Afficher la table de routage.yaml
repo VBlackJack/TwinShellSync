@@ -1,0 +1,20 @@
+id: 29f28132-4e23-4ffe-85fd-18e4a53c27dd
+title: Afficher la table de routage
+description: Affiche la table de routage IP complète avec les routes par défaut et statiques
+category: "\U0001F310 Network & DNS"
+platform: Both
+level: Info
+tags:
+- network
+- routing
+- route
+- gateway
+- diagnostic
+- ip
+windowsTemplateId: a81c75b8-e66c-4fe3-9bfc-95818b392c94
+linuxTemplateId: 738a1942-ddd4-46f0-a01c-be8bba2ca4bc
+examples: []
+windowsExamples: []
+linuxExamples: []
+links: []
+isUserCreated: false

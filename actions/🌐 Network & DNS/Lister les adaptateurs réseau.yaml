@@ -1,0 +1,20 @@
+id: 160134ac-0cd6-4221-b404-9cd74cad5eab
+title: Lister les adaptateurs réseau
+description: Affiche tous les adaptateurs réseau avec leur état, vitesse et adresses IP
+category: "\U0001F310 Network & DNS"
+platform: Windows
+level: Info
+tags:
+- network
+- adapters
+- interfaces
+- diagnostic
+windowsTemplateId: 716d3f2a-5e27-4806-ab7f-ec6cba30c6d5
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Remplace ipconfig /all. Status 'Up' = connecté, 'Disabled' = désactivé. LinkSpeed affiche la vitesse de liaison (1 Gbps, 100 Mbps, etc.).
+links:
+- title: Get-NetAdapter Documentation
+  url: https://learn.microsoft.com/en-us/powershell/module/netadapter/get-netadapter
+isUserCreated: false

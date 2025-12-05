@@ -1,0 +1,25 @@
+id: 8267bbbb-0a32-438b-ad66-0d6c6e6f3a6e
+title: Vérifier l'espace disque
+description: Affiche l'utilisation de l'espace disque pour les volumes.
+category: "\U0001F4C1 Files & Storage"
+platform: Both
+level: Info
+tags:
+- espace
+- windows
+- linux
+- disque
+- usage
+- df
+- disk
+windowsTemplateId: 5b7e710a-9347-4495-8071-f69479580406
+linuxTemplateId: 898c435e-9149-4bca-a60e-378e2fc6f50c
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: >-
+  Windows: Affiche l'espace utilisé et libre pour chaque volume.
+
+  Linux: -h pour format lisible (GB, MB). -i pour voir les inodes.
+links: []
+isUserCreated: false

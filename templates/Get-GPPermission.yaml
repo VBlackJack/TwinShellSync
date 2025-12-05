@@ -1,0 +1,11 @@
+id: e4a9a80e-8e0f-4c1a-9c46-740c27b6e432
+name: Get-GPPermission
+platform: Windows
+commandPattern: Get-GPPermission -Name "{gpoName}" -All | Where-Object {$_.Permission -eq 'GpoApply'} | Select-Object Trustee
+parameters:
+- name: gpoName
+  label: Nom de la GPO
+  type: string
+  defaultValue: ''
+  required: true
+  description: Nom de la GPO

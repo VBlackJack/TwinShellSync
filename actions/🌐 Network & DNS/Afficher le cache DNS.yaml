@@ -1,0 +1,17 @@
+id: 555d857e-beea-4826-90fa-5640c8d3bec0
+title: Afficher le cache DNS
+description: Affiche le contenu actuel du cache DNS local.
+category: "\U0001F310 Network & DNS"
+platform: Windows
+level: Info
+tags:
+- dns
+- cache
+- view
+windowsTemplateId: db3311f1-5ce4-4a21-88f9-01ccdf6b5129
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Commande Windows uniquement. Sortie volumineuse, pensez à filtrer avec | findstr.
+links: []
+isUserCreated: false

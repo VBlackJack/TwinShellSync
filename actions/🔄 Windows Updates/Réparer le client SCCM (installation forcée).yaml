@@ -1,0 +1,19 @@
+id: d2633ce3-13d7-4c81-98b6-3483e938017a
+title: Réparer le client SCCM (installation forcée)
+description: Lance la réparation forcée du client Configuration Manager avec réinstallation
+category: "\U0001F504 Windows Updates"
+platform: Windows
+level: Run
+tags:
+- sccm
+- repair
+- configuration-manager
+windowsTemplateId: 174b0118-b042-4832-9bbe-556a0d28c1d7
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Droits administrateur requis. /forceinstall réinstalle le client même s'il est déjà présent.
+links:
+- title: SCCM Client Installation
+  url: https://learn.microsoft.com/en-us/mem/configmgr/core/clients/deploy/about-client-installation-properties
+isUserCreated: false

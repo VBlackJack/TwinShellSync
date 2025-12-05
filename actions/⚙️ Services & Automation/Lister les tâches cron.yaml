@@ -1,0 +1,21 @@
+id: 752f7cc4-dbf9-4bb4-8d93-ded404efd548
+title: Lister les tâches cron
+description: Affiche les tâches planifiées cron de l'utilisateur
+category: ⚙️ Services & Automation
+platform: Linux
+level: Info
+tags:
+- cron
+- crontab
+- scheduler
+- automation
+- tasks
+linuxTemplateId: 14e3c0ca-33bd-4c8b-a22f-8084586ca130
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: 'Format: min hour day month weekday command. -e pour éditer. Logs dans /var/log/syslog.'
+links:
+- title: Crontab documentation
+  url: https://man7.org/linux/man-pages/man5/crontab.5.html
+isUserCreated: false

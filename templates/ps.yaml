@@ -1,0 +1,11 @@
+id: b9c7c0a1-d931-4c0f-9854-702106d8da6f
+name: ps
+platform: Linux
+commandPattern: ps {options}
+parameters:
+- name: options
+  label: Options
+  type: string
+  defaultValue: aux
+  required: true
+  description: Options ps (aux, -ef, -u username, etc.)

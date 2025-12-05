@@ -1,0 +1,5 @@
+id: 09dec823-80e2-4356-8145-dc6d56fdffee
+name: Disable-AllAppPermissions
+platform: Windows
+commandPattern: $permissions = @('location', 'webcam', 'microphone', 'documentsLibrary', 'broadFileSystemAccess', 'contacts', 'appointments', 'email', 'userNotificationListener', 'phoneCall', 'radios', 'chat'); foreach ($perm in $permissions) { $path = "HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\$perm"; New-Item -Path $path -Force | Out-Null; Set-ItemProperty -Path $path -Name 'Value' -Type String -Value 'Deny' -ErrorAction SilentlyContinue }
+parameters: []

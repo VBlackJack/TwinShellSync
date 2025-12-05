@@ -1,0 +1,17 @@
+id: 61fc4582-28a5-49a8-865d-a40ae681503f
+title: Désactiver un compte ordinateur AD
+description: Désactive un compte ordinateur Active Directory.
+category: "\U0001F3E2 Active Directory & GPO"
+platform: Windows
+level: Dangerous
+tags:
+- ad
+- computer
+- disable
+windowsTemplateId: 275917ab-2635-4505-a2bc-9ade4e924726
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: L'ordinateur ne pourra plus communiquer avec le domaine. Utile pour les machines retirées du service.
+links: []
+isUserCreated: false

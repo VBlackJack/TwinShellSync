@@ -1,0 +1,22 @@
+id: 54ea58ea-a8c9-4b49-aac2-cfc013d0586b
+title: Supprimer un rôle installé
+description: Supprime un rôle Ansible Galaxy installé localement
+category: ⚙️ Services & Automation
+platform: Both
+level: Info
+tags:
+- ansible
+- galaxy
+- remove
+- uninstall
+- role
+windowsTemplateId: 28f257de-35bf-4559-b7c8-9b6e12fe5c1e
+linuxTemplateId: eca9876e-febf-46bc-bdbc-154545188e54
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Cette commande supprime définitivement le rôle du système de fichiers local.
+links:
+- title: Ansible Galaxy
+  url: https://galaxy.ansible.com/
+isUserCreated: false

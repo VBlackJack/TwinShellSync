@@ -1,0 +1,21 @@
+id: a799948e-f550-4d96-a306-7073aeec23d8
+title: Exécuter un playbook Ansible
+description: Exécute un playbook Ansible sur les hôtes définis dans l'inventaire
+category: ⚙️ Services & Automation
+platform: Both
+level: Run
+tags:
+- ansible
+- playbook
+- automation
+- configuration
+windowsTemplateId: 978a9b6a-c50a-438d-8f6e-7941a7155af7
+linuxTemplateId: 9c1a52d1-e80c-4a12-8755-cfbd94465c15
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Utiliser --check pour un dry-run, --diff pour voir les changements, -v/-vv/-vvv pour plus de verbosité.
+links:
+- title: Ansible Playbooks
+  url: https://docs.ansible.com/ansible/latest/user_guide/playbooks.html
+isUserCreated: false

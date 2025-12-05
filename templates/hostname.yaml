@@ -1,0 +1,11 @@
+id: 153a207e-248b-4551-8382-d7c8cdb632eb
+name: hostname
+platform: Linux
+commandPattern: hostname {options}
+parameters:
+- name: options
+  label: Options
+  type: string
+  defaultValue: ''
+  required: false
+  description: Options (-I=all IPs, -f=FQDN, -s=short)

@@ -1,0 +1,17 @@
+id: c5cd31d4-cfc4-4257-9140-27baefe6a695
+name: Set-ItemProperty
+platform: Windows
+commandPattern: $WSUSServer = '{wsusServer}'; $WSUSPort = {wsusPort}; Set-ItemProperty -Path 'HKLM:\Software\Policies\Microsoft\Windows\WindowsUpdate' -Name 'WUServer' -Value "http://$WSUSServer`:$WSUSPort" -Type String -Force; Set-ItemProperty -Path 'HKLM:\Software\Policies\Microsoft\Windows\WindowsUpdate' -Name 'WUStatusServer' -Value "http://$WSUSServer`:$WSUSPort" -Type String -Force; Set-ItemProperty -Path 'HKLM:\Software\Policies\Microsoft\Windows\WindowsUpdate\AU' -Name 'UseWUServer' -Value 1 -Type DWord -Force; Restart-Service wuauserv
+parameters:
+- name: wsusServer
+  label: Serveur WSUS
+  type: string
+  defaultValue: wsus.domain.local
+  required: true
+  description: Nom d'hôte ou IP du serveur WSUS
+- name: wsusPort
+  label: Port WSUS
+  type: number
+  defaultValue: 8530
+  required: true
+  description: Port du serveur WSUS (8530 HTTP ou 8531 HTTPS)

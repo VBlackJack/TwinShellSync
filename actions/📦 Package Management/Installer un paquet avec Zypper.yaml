@@ -1,0 +1,21 @@
+id: bd25bd05-78a9-4810-872a-316d9f1b665a
+title: Installer un paquet avec Zypper
+description: Installe un paquet avec Zypper (openSUSE/SLES)
+category: "\U0001F4E6 Package Management"
+platform: Linux
+level: Run
+tags:
+- zypper
+- install
+- suse
+- opensuse
+- package
+linuxTemplateId: efee560d-3a20-4eef-a319-449e13427302
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Nécessite sudo. 'in' est un alias de 'install'. Gestionnaire de paquets de SUSE.
+links:
+- title: Zypper documentation
+  url: https://en.opensuse.org/SDB:Zypper_usage
+isUserCreated: false

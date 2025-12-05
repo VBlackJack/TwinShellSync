@@ -1,0 +1,21 @@
+id: cb311d49-72f9-4fba-90dd-d4d37eca5369
+title: Installer un paquet avec APT
+description: Installe un ou plusieurs paquets avec leurs dépendances (Debian/Ubuntu)
+category: "\U0001F4E6 Package Management"
+platform: Linux
+level: Run
+tags:
+- apt
+- install
+- package
+- debian
+- ubuntu
+linuxTemplateId: 9278b496-ad6f-41bd-b5d8-c1e33f952410
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Nécessite sudo. -y pour confirmer automatiquement. Installer les dépendances automatiquement.
+links:
+- title: APT package management
+  url: https://ubuntu.com/server/docs/package-management
+isUserCreated: false

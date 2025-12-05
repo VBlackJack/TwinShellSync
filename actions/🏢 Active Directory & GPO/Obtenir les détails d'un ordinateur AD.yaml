@@ -1,0 +1,18 @@
+id: 0c3f2596-ab2e-4117-a113-638faee5586f
+title: Obtenir les détails d'un ordinateur AD
+description: Affiche toutes les propriétés détaillées d'un compte ordinateur.
+category: "\U0001F3E2 Active Directory & GPO"
+platform: Windows
+level: Info
+tags:
+- ad
+- computer
+- details
+- properties
+windowsTemplateId: 9673c13f-7dd1-46f6-9518-4c32360e52a8
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Affiche toutes les propriétés disponibles incluant l'OS, la date de dernier logon, etc.
+links: []
+isUserCreated: false

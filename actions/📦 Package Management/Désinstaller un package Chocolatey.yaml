@@ -1,0 +1,21 @@
+id: acd453f5-6497-471c-aa84-e580f22c1044
+title: Désinstaller un package Chocolatey
+description: Désinstalle un package précédemment installé via Chocolatey.
+category: "\U0001F4E6 Package Management"
+platform: Windows
+level: Dangerous
+tags:
+- chocolatey
+- package
+- uninstall
+- remove
+- windows
+windowsTemplateId: b34fc80d-eb97-4480-b7a6-462bb0e612b3
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: '⚠️ ATTENTION : Cette action supprime le package du système. Assurez-vous de sauvegarder vos données.'
+links:
+- title: Chocolatey uninstall documentation
+  url: https://docs.chocolatey.org/en-us/choco/commands/uninstall
+isUserCreated: false

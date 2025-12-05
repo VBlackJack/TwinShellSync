@@ -1,0 +1,20 @@
+id: aa4a1a8d-d08a-4c4b-8409-58782e574c96
+title: Modifier les permissions d'un fichier
+description: Change les permissions (lecture, écriture, exécution) d'un fichier ou répertoire
+category: "\U0001F427 Linux Administration"
+platform: Linux
+level: Run
+tags:
+- chmod
+- permissions
+- access
+- security
+linuxTemplateId: 45388b60-b027-4b51-902c-7ed02adc653f
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: 755=rwxr-xr-x, 644=rw-r--r--. -R pour récursif. u=user, g=group, o=others, a=all.
+links:
+- title: chmod guide
+  url: https://man7.org/linux/man-pages/man1/chmod.1.html
+isUserCreated: false

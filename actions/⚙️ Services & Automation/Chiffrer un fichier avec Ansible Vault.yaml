@@ -1,0 +1,21 @@
+id: dbd37ff3-bd28-47ab-ae0e-6b32065dd91f
+title: Chiffrer un fichier avec Ansible Vault
+description: Chiffre un fichier contenant des données sensibles avec Ansible Vault
+category: ⚙️ Services & Automation
+platform: Both
+level: Run
+tags:
+- ansible
+- vault
+- encryption
+- security
+windowsTemplateId: 219792fb-697e-42d6-a355-f2988c70839a
+linuxTemplateId: 648b8861-3d2b-430d-83f5-1743eac8e7ee
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Utilisez un mot de passe fort et stockez-le de manière sécurisée. Pour exécuter un playbook avec des fichiers chiffrés, utilisez --ask-vault-pass.
+links:
+- title: Ansible Vault
+  url: https://docs.ansible.com/ansible/latest/user_guide/vault.html
+isUserCreated: false

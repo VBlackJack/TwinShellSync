@@ -1,0 +1,18 @@
+id: 2e915676-fc6c-41bb-8c5b-9d3376a03cb1
+title: Terminer un processus
+description: Force l'arrêt d'un processus spécifique par son ID ou son nom.
+category: "\U0001F427 Linux Administration"
+platform: Both
+level: Dangerous
+tags:
+- process
+- kill
+- terminate
+windowsTemplateId: 496fcb61-a328-4a42-a310-c41fa25bc749
+linuxTemplateId: 41a6d443-6fa3-4ab0-9972-7ff8ed22b7da
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: '⚠️ ATTENTION : Peut causer une perte de données non sauvegardées. -9 (SIGKILL) est un arrêt forcé.'
+links: []
+isUserCreated: false

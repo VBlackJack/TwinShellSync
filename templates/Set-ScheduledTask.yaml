@@ -1,0 +1,17 @@
+id: cb8acd00-7b69-4ebc-83a8-f9cc856c19ba
+name: Set-ScheduledTask
+platform: Windows
+commandPattern: Set-ScheduledTask -TaskName '{taskname}' {parameters}
+parameters:
+- name: taskname
+  label: Nom de la tâche
+  type: string
+  defaultValue: MyTask
+  required: true
+  description: Nom de la tâche à modifier
+- name: parameters
+  label: Paramètres à modifier
+  type: string
+  defaultValue: -Trigger (New-ScheduledTaskTrigger -Daily -At 3:00AM)
+  required: true
+  description: Propriétés à modifier (-Trigger, -Action, -User, etc.)

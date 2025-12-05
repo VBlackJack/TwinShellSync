@@ -1,0 +1,20 @@
+id: dad349c5-1a84-4424-8c9c-e67f2b81409d
+title: Afficher l'historique des mises à jour (PSWindowsUpdate)
+description: Liste l'historique détaillé de toutes les mises à jour Windows installées avec dates et statuts
+category: "\U0001F504 Windows Updates"
+platform: Windows
+level: Info
+tags:
+- windows-update
+- history
+- pswindowsupdate
+- diagnostic
+windowsTemplateId: e548d23b-3180-465f-9fa3-4833b2ebefc6
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Nécessite le module PSWindowsUpdate. Fournit plus de détails que Get-HotFix.
+links:
+- title: PSWindowsUpdate Module
+  url: https://www.powershellgallery.com/packages/PSWindowsUpdate
+isUserCreated: false

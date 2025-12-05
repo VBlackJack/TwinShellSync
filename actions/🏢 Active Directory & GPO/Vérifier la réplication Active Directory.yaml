@@ -1,0 +1,18 @@
+id: eb13b2d1-a360-463b-aa60-cffb0cb4fbe9
+title: Vérifier la réplication Active Directory
+description: Vérifie l'état de la réplication entre les contrôleurs de domaine.
+category: "\U0001F3E2 Active Directory & GPO"
+platform: Windows
+level: Info
+tags:
+- ad
+- replication
+- diagnostic
+- dc
+windowsTemplateId: ad5af088-f3a4-4c95-813f-a7c2d3c927fe
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: 'À exécuter sur un contrôleur de domaine. Pour vérifier tous les DCs: repadmin /replsummary.'
+links: []
+isUserCreated: false

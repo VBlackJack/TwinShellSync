@@ -1,0 +1,24 @@
+id: 2d33ba0f-2dcb-4db9-9910-442eabb61e20
+title: Désactiver les services biométriques
+description: Désactive la collecte de données biométriques (empreintes digitales, reconnaissance faciale Windows Hello).
+category: "\U0001F4BB Windows Optimization"
+platform: Windows
+level: Dangerous
+tags:
+- privacy
+- confidentialité
+- rgpd
+- télémétrie
+- biometric
+- hello
+- fingerprint
+- windows
+windowsTemplateId: c92f4baf-eff0-41cb-a773-3aa5d78ffda9
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: 'ATTENTION: Désactive Windows Hello et tous les services biométriques. Protège contre la collecte de données biométriques sensibles (RGPD Article 9 - données sensibles). Vous devrez utiliser PIN ou mot de passe.'
+links:
+- title: RGPD - Article 9 - Traitement des données sensibles
+  url: https://gdpr.eu/article-9-processing-special-categories-of-personal-data-prohibited/
+isUserCreated: false

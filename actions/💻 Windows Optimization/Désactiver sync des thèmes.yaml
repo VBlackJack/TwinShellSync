@@ -1,0 +1,21 @@
+id: 6858585a-c8ad-4944-8329-f8526bdc557c
+title: Désactiver sync des thèmes
+description: Désactive la synchronisation des thèmes, fonds d'écran et personnalisation Windows.
+category: "\U0001F4BB Windows Optimization"
+platform: Windows
+level: Run
+tags:
+- privacy
+- confidentialité
+- rgpd
+- sync
+- themes
+- personalization
+- windows
+windowsTemplateId: e7784a35-016d-4612-9530-38f19fd24b7c
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Empêche la synchronisation des thèmes et de la personnalisation. Les fonds d'écran personnels ne seront pas envoyés au cloud.
+links: []
+isUserCreated: false

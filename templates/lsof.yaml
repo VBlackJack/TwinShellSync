@@ -1,0 +1,11 @@
+id: 835336b2-fc33-43c2-8604-43deb662d159
+name: lsof
+platform: Linux
+commandPattern: lsof {filter}
+parameters:
+- name: filter
+  label: Filtre
+  type: string
+  defaultValue: -i
+  required: false
+  description: Filtre (-i=network, -u user, -p PID, /path)

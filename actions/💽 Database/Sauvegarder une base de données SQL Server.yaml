@@ -1,0 +1,23 @@
+id: f0d3c2c8-2c8c-4716-b368-12ea502caa10
+title: Sauvegarder une base de données SQL Server
+description: Effectue une sauvegarde complète (FULL) d'une base de données SQL Server vers un fichier .bak spécifié.
+category: "\U0001F4BD Database"
+platform: Windows
+level: Dangerous
+tags:
+- sql
+- backup
+- sauvegarde
+- database
+- mssql
+- protection
+- recovery
+windowsTemplateId: 1a6e55d8-7da5-4272-88aa-5af849067154
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: "ATTENTION: Vérifiez l'espace disque disponible. La compression réduit la taille de ~50%. Le compte SQL Server doit avoir accès au chemin de backup."
+links:
+- title: Documentation Backup-SqlDatabase
+  url: https://learn.microsoft.com/en-us/powershell/module/sqlserver/backup-sqldatabase
+isUserCreated: false

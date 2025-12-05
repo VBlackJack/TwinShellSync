@@ -1,0 +1,20 @@
+id: 77d6ccbb-f58d-41be-acdc-8316bb432c4a
+title: Installer une mise à jour spécifique par KB
+description: Installe uniquement une mise à jour Windows spécifique identifiée par son numéro KB
+category: "\U0001F504 Windows Updates"
+platform: Windows
+level: Run
+tags:
+- windows-update
+- install
+- kb
+- pswindowsupdate
+windowsTemplateId: 1cb46797-8635-49c1-977c-ad5b1a28f982
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Utile pour installer une mise à jour précise. Peut nécessiter un redémarrage. Nécessite PSWindowsUpdate.
+links:
+- title: Install Specific Windows Update
+  url: https://woshub.com/pswindowsupdate-module/
+isUserCreated: false

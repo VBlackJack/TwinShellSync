@@ -1,0 +1,5 @@
+id: 34e8d90c-c558-4ac8-812d-d90f16a24690
+name: Disable-SettingsSync
+platform: Windows
+commandPattern: New-Item -Path 'HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\SettingSync\Groups\Windows' -Force | Out-Null; Set-ItemProperty -Path 'HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\SettingSync\Groups\Windows' -Name 'Enabled' -Type DWord -Value 0; New-Item -Path 'HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\SettingSync\Groups\Accessibility' -Force | Out-Null; Set-ItemProperty -Path 'HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\SettingSync\Groups\Accessibility' -Name 'Enabled' -Type DWord -Value 0
+parameters: []

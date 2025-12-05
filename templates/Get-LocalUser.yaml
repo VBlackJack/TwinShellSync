@@ -1,0 +1,5 @@
+id: bb2d4399-e00f-4bca-b3e9-ca8822922de9
+name: Get-LocalUser
+platform: Windows
+commandPattern: Get-LocalUser | Select-Object Name,Enabled,LastLogon,PasswordLastSet,PasswordExpires,UserMayChangePassword | Format-Table -AutoSize
+parameters: []

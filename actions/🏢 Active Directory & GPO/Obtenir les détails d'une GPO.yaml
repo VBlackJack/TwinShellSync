@@ -1,0 +1,18 @@
+id: cf23ed6a-f231-48e5-89cd-050e150f19ca
+title: Obtenir les détails d'une GPO
+description: Affiche toutes les propriétés détaillées d'une stratégie de groupe.
+category: "\U0001F3E2 Active Directory & GPO"
+platform: Windows
+level: Info
+tags:
+- gpo
+- details
+- properties
+- group-policy
+windowsTemplateId: b22fbfbc-70b3-456a-9d5f-688340825fad
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Affiche le GUID, le statut, les dates de création/modification, la version, etc.
+links: []
+isUserCreated: false

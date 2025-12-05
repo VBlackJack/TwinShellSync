@@ -1,0 +1,11 @@
+id: 21338dec-0761-4adb-a57e-a5dfbd602dbf
+name: docker
+platform: Windows
+commandPattern: docker stats {options}
+parameters:
+- name: options
+  label: Options
+  type: string
+  defaultValue: ''
+  required: false
+  description: Options (--no-stream, --format, container_name)

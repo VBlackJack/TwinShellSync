@@ -1,0 +1,17 @@
+id: 2aa57fc9-fcc3-400f-8fee-5031d6936abd
+title: Rechercher des ordinateurs AD
+description: Recherche des ordinateurs Active Directory par nom ou système d'exploitation.
+category: "\U0001F3E2 Active Directory & GPO"
+platform: Windows
+level: Info
+tags:
+- ad
+- computer
+- search
+windowsTemplateId: d35637a0-75be-4e02-919e-7c0e4ff3eff8
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: "Pour rechercher par OS, modifier le filtre: -Filter {OperatingSystem -like '*Windows 11*'}."
+links: []
+isUserCreated: false

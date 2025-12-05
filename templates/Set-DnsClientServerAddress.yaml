@@ -1,0 +1,11 @@
+id: cf8148f3-f981-406e-b8dc-56a6e22ca690
+name: Set-DnsClientServerAddress
+platform: Windows
+commandPattern: $interface = Get-NetAdapter | Where-Object {$_.Status -eq 'Up' -and $_.Name -like '*{InterfaceName}*'} | Select-Object -First 1; if ($interface) { Set-DnsClientServerAddress -InterfaceIndex $interface.ifIndex -ResetServerAddresses; Write-Host "DNS automatique restauré sur l'interface $($interface.Name)" -ForegroundColor Green; ipconfig /flushdns } else { Write-Host "Interface réseau non trouvée" -ForegroundColor Red }
+parameters:
+- name: InterfaceName
+  label: Nom de l'interface réseau
+  type: string
+  defaultValue: Ethernet
+  required: false
+  description: Nom de l'interface réseau (Ethernet, Wi-Fi, etc.)

@@ -1,0 +1,17 @@
+id: 20bc744d-491e-4797-a655-acf10cced733
+name: mv
+platform: Linux
+commandPattern: mv "{sourcePath}" "{destinationPath}"
+parameters:
+- name: sourcePath
+  label: Chemin source
+  type: string
+  defaultValue: ''
+  required: true
+  description: Chemin du fichier ou dossier à déplacer
+- name: destinationPath
+  label: Chemin destination
+  type: string
+  defaultValue: ''
+  required: true
+  description: Nouveau chemin ou nom

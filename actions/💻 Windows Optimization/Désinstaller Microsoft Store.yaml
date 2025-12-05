@@ -1,0 +1,19 @@
+id: 216e635e-4a2d-49df-a9b4-df32624414b0
+title: Désinstaller Microsoft Store
+description: '⚠️ DANGEROUS: Désinstalle complètement le Microsoft Store. Cette action est difficilement réversible.'
+category: "\U0001F4BB Windows Optimization"
+platform: Windows
+level: Dangerous
+tags:
+- debloat
+- store
+- dangerous
+- system-component
+- windows
+windowsTemplateId: 35b8aea8-447e-46fb-9009-6dd917de73e1
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: "⚠️ ATTENTION: Cette action est irréversible. Sauvegarde système recommandée. Vous ne pourrez plus installer d'apps du Store."
+links: []
+isUserCreated: false

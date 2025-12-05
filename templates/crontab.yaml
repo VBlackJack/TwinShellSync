@@ -1,0 +1,17 @@
+id: 14e3c0ca-33bd-4c8b-a22f-8084586ca130
+name: crontab
+platform: Linux
+commandPattern: crontab -{option} {user}
+parameters:
+- name: option
+  label: Option
+  type: string
+  defaultValue: l
+  required: true
+  description: Option (l=list, e=edit, r=remove, -u user)
+- name: user
+  label: Utilisateur
+  type: string
+  defaultValue: ''
+  required: false
+  description: Utilisateur (nécessite sudo)

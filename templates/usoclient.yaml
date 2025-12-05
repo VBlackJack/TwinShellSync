@@ -1,0 +1,5 @@
+id: 0f85b67a-5aed-4ddc-bc16-926c08509b6b
+name: usoclient
+platform: Windows
+commandPattern: wuauclt /detectnow /reportnow
+parameters: []

@@ -1,0 +1,11 @@
+id: d8d305cd-5dd8-4ddb-9bf7-41f525ea5328
+name: Get-ADGroupMember
+platform: Windows
+commandPattern: Get-ADGroupMember -Identity "{groupName}" | Select-Object Name,SamAccountName,objectClass | Format-Table -AutoSize
+parameters:
+- name: groupName
+  label: Nom du groupe
+  type: string
+  defaultValue: ''
+  required: true
+  description: Nom du groupe AD

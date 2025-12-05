@@ -1,0 +1,19 @@
+id: 5e6f6156-9cb2-47b1-8ccb-bb1cc9f2bf07
+title: Supprimer une menace détectée manuellement
+description: Supprime manuellement une menace spécifique détectée par Windows Defender.
+category: "\U0001F512 Security & Encryption"
+platform: Windows
+level: Dangerous
+tags:
+- defender
+- threat
+- remove
+windowsTemplateId: 56c053c2-404d-4929-bb0f-8f2d8217fe57
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: 'Remove-MpThreat supprime définitivement la menace de la quarantaine. ThreatID: identifiant unique de chaque détection. Généralement Defender nettoie automatiquement, utilisez Remove-MpThreat uniquement si nécessaire. Pour voir les actions effectuées: Get-MpThreatDetection.'
+links:
+- title: Remove-MpThreat Documentation
+  url: https://learn.microsoft.com/en-us/powershell/module/defender/remove-mpthreat
+isUserCreated: false

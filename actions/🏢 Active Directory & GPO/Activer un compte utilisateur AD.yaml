@@ -1,0 +1,20 @@
+id: fadd8d82-a06c-405f-aeae-29fd800c390c
+title: Activer un compte utilisateur AD
+description: Active un compte utilisateur Active Directory qui a été désactivé.
+category: "\U0001F3E2 Active Directory & GPO"
+platform: Windows
+level: Run
+tags:
+- ad
+- enable
+- account
+- user
+windowsTemplateId: cc5650aa-0148-4347-96ea-43cfc1eadb7d
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Nécessite des droits d'administration AD. L'utilisateur pourra se connecter immédiatement après activation.
+links:
+- title: Documentation Enable-ADAccount
+  url: https://learn.microsoft.com/en-us/powershell/module/activedirectory/enable-adaccount
+isUserCreated: false

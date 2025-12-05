@@ -1,0 +1,5 @@
+id: 64bfb90d-df40-4ddc-8ed2-38b73207eaf8
+name: Remove-CommunicationApps
+platform: Windows
+commandPattern: $comms = @('Microsoft.SkypeApp', 'Microsoft.People', 'microsoft.windowscommunicationsapps'); foreach ($comm in $comms) { Get-AppxPackage $comm | Remove-AppxPackage -ErrorAction SilentlyContinue }
+parameters: []

@@ -1,0 +1,19 @@
+id: d9c337c8-ac92-4efb-be97-3a53aba36a32
+title: Suivre les logs système en temps réel (Linux)
+description: Affiche en continu les nouvelles entrées du journal système Linux.
+category: "\U0001F4CA Monitoring & Logs"
+platform: Linux
+level: Info
+tags:
+- logs
+- syslog
+- tail
+- monitoring
+- linux
+linuxTemplateId: 6d14a2f2-6c60-478b-8199-63cb27197942
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Sur certaines distributions, le fichier peut être /var/log/messages. Utiliser Ctrl+C pour arrêter.
+links: []
+isUserCreated: false

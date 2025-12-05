@@ -1,0 +1,5 @@
+id: bdfa91e5-52a8-4c37-829e-9f8da464eb4e
+name: Get-WUServiceManager
+platform: Windows
+commandPattern: Get-WUServiceManager
+parameters: []

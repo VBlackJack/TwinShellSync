@@ -1,0 +1,17 @@
+id: f0e126b9-8bba-48e7-98a4-deb544b434ee
+name: pkill
+platform: Linux
+commandPattern: pkill {options} {pattern}
+parameters:
+- name: options
+  label: Options
+  type: string
+  defaultValue: ''
+  required: false
+  description: Options (-9=SIGKILL, -u user, -f=full command)
+- name: pattern
+  label: Pattern
+  type: string
+  defaultValue: nginx
+  required: true
+  description: Pattern à rechercher dans le nom du processus

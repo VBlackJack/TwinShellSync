@@ -1,0 +1,20 @@
+id: 36f234fc-1d2d-4e58-8fcc-068f144bc958
+title: Afficher l'espace disque disponible
+description: Affiche l'espace disque utilisé et disponible sur les partitions
+category: "\U0001F4C1 Files & Storage"
+platform: Both
+level: Info
+tags:
+- disk
+- space
+- storage
+- partition
+- free
+- usage
+windowsTemplateId: dd44ecec-9998-45a6-9577-e4ccb7dd2056
+linuxTemplateId: 1abc4ff2-fdc3-49ae-bf57-cc7dad797a0b
+examples: []
+windowsExamples: []
+linuxExamples: []
+links: []
+isUserCreated: false

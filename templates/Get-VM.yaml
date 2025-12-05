@@ -1,0 +1,5 @@
+id: 9ec76d82-d0ed-4d9c-abd5-b4bd90c5c10d
+name: Get-VM
+platform: Windows
+commandPattern: Get-VM | Select-Object Name, State, CPUUsage, @{Name='MemoryAssignedMB';Expression={$_.MemoryAssigned/1MB}}, @{Name='MemoryDemandMB';Expression={$_.MemoryDemand/1MB}}, Uptime, Status, Version | Format-Table -AutoSize
+parameters: []

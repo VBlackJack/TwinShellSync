@@ -1,0 +1,20 @@
+id: 7c262b1d-f9ec-4ad7-8737-e999633197dc
+title: Obtenir le statut complet de Windows Defender
+description: Affiche l'état détaillé de Windows Defender (protection temps réel, définitions, dernière analyse, etc.).
+category: "\U0001F512 Security & Encryption"
+platform: Windows
+level: Info
+tags:
+- defender
+- antivirus
+- status
+- security
+windowsTemplateId: 63871ae7-cfb8-47a5-9f06-978c35515312
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: "RealTimeProtectionEnabled: protection en temps réel. BehaviorMonitorEnabled: surveillance comportementale. IoavProtectionEnabled: inspection à l'accès. NISEnabled: système d'inspection réseau. QuickScanAge/FullScanAge: nombre de jours depuis dernière analyse."
+links:
+- title: Get-MpComputerStatus Documentation
+  url: https://learn.microsoft.com/en-us/powershell/module/defender/get-mpcomputerstatus
+isUserCreated: false

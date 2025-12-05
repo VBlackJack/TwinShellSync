@@ -1,0 +1,21 @@
+id: b7913f6a-578f-42a6-8c1d-c441957aede6
+title: Auditer l'état de Windows Defender sur tout le domaine
+description: Vérifie l'état de Windows Defender (protection active/inactive) sur tous les ordinateurs du domaine via requêtes à distance.
+category: "\U0001F512 Security & Encryption"
+platform: Windows
+level: Run
+tags:
+- defender
+- ad
+- audit
+- domain-admin
+- compliance
+windowsTemplateId: 692635d9-983f-474a-b828-47e30992bfd3
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: '⚠️ PERFORMANCE: Sur gros domaines, cette commande prend du temps (requêtes à distance). Optimisation: limitez avec -SearchBase à une OU. Nécessite: WinRM activé, droits admin sur machines cibles. Offline/Error: PC éteints, WinRM désactivé, firewall bloqué. COMPLIANCE: 100% protection temps réel obligatoire!'
+links:
+- title: Remote Defender Management
+  url: https://learn.microsoft.com/en-us/powershell/module/defender/
+isUserCreated: false

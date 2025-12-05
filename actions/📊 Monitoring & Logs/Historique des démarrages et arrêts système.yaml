@@ -1,0 +1,21 @@
+id: 69be4808-2504-4199-bb20-170b129bf858
+title: Historique des démarrages et arrêts système
+description: Liste tous les événements de démarrage (EventID 6005) et arrêt (EventID 6006) du système
+category: "\U0001F4CA Monitoring & Logs"
+platform: Windows
+level: Info
+tags:
+- eventlog
+- startup
+- shutdown
+- system
+- uptime
+windowsTemplateId: 83fb1553-19ff-4917-bf84-59f07600b904
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: EventID 6005 = démarrage Event Log service, 6006 = arrêt Event Log service, 1074 = arrêt initié par utilisateur/application.
+links:
+- title: System Event IDs
+  url: https://learn.microsoft.com/en-us/windows/win32/eventlog/event-logging
+isUserCreated: false

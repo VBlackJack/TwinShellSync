@@ -1,0 +1,20 @@
+id: 81c93981-69b1-4a42-84a8-8d2b90936b4d
+title: Restaurer une GPO
+description: Restaure une stratégie de groupe à partir d'une sauvegarde.
+category: "\U0001F3E2 Active Directory & GPO"
+platform: Windows
+level: Run
+tags:
+- gpo
+- restore
+- recovery
+- group-policy
+windowsTemplateId: aeda8e6d-c9a1-4774-98da-852fc2df4f85
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Écrase la GPO actuelle avec les paramètres de la sauvegarde. Utiliser avec précaution.
+links:
+- title: Documentation Restore-GPO
+  url: https://learn.microsoft.com/en-us/powershell/module/grouppolicy/restore-gpo
+isUserCreated: false

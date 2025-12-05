@@ -1,0 +1,11 @@
+id: f6c34f3a-b00b-4c2d-93cc-0a4aa00f3f7a
+name: Get-Process
+platform: Windows
+commandPattern: Get-Process | Sort-Object Handles -Descending | Select-Object -First {topCount} ProcessName, Id, Handles, @{Name='Threads';Expression={$_.Threads.Count}}, @{Name='MemoryMB';Expression={[Math]::Round($_.WorkingSet/1MB,2)}}, StartTime | Format-Table -AutoSize
+parameters:
+- name: topCount
+  label: Nombre de processus
+  type: string
+  defaultValue: 15
+  required: true
+  description: Nombre de processus à afficher

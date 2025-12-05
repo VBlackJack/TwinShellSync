@@ -1,0 +1,25 @@
+id: b4b49286-701a-4d53-b283-5b7708e0def6
+title: Modifier les permissions de fichiers
+description: Modifie les permissions NTFS d'un fichier ou dossier.
+category: "\U0001F4C1 Files & Storage"
+platform: Both
+level: Run
+tags:
+- icacls
+- chmod
+- linux
+- windows
+- permissions
+- sécurité
+- acl
+windowsTemplateId: 6713aa69-cc5b-47e5-abfc-2d2e07c20f45
+linuxTemplateId: 0fdb3617-3fcb-4a18-8941-f5614fab6152
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: >-
+  Windows: /T pour récursif. Permissions: F (Full), M (Modify), RX (ReadExecute), R (Read), W (Write).
+
+  Linux: 755=rwxr-xr-x, 644=rw-r--r--, 777=rwxrwxrwx. -R pour récursif. u=user, g=group, o=others, a=all.
+links: []
+isUserCreated: false

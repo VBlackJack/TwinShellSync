@@ -1,0 +1,20 @@
+id: ca02e110-5429-4d49-986f-a6b8dfd8775e
+title: Masquer une mise à jour spécifique
+description: Masque une mise à jour Windows pour empêcher son installation automatique
+category: "\U0001F504 Windows Updates"
+platform: Windows
+level: Run
+tags:
+- windows-update
+- hide
+- pswindowsupdate
+- management
+windowsTemplateId: 9ef2e557-9a05-4449-a87f-1c949abe04cb
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: 'ATTENTION: Masquer des mises à jour de sécurité peut créer des vulnérabilités. Nécessite PSWindowsUpdate.'
+links:
+- title: Hide Windows Updates
+  url: https://woshub.com/pswindowsupdate-module/
+isUserCreated: false

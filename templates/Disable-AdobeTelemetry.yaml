@@ -1,0 +1,5 @@
+id: 7261da0e-2916-4080-b621-71fdd4c6f5a1
+name: Disable-AdobeTelemetry
+platform: Windows
+commandPattern: New-Item -Path 'HKLM:\SOFTWARE\Policies\Adobe\Adobe Acrobat\DC\FeatureLockDown' -Force | Out-Null; Set-ItemProperty -Path 'HKLM:\SOFTWARE\Policies\Adobe\Adobe Acrobat\DC\FeatureLockDown' -Name 'bUsageMeasurement' -Type DWord -Value 0 -ErrorAction SilentlyContinue; New-Item -Path 'HKLM:\SOFTWARE\Adobe\Adobe Desktop Common\ADS' -Force | Out-Null; Set-ItemProperty -Path 'HKLM:\SOFTWARE\Adobe\Adobe Desktop Common\ADS' -Name 'AdobeAnalyticsOptOut' -Type DWord -Value 1 -ErrorAction SilentlyContinue; New-Item -Path 'HKLM:\SOFTWARE\Adobe\SuiteCloud' -Force | Out-Null; Set-ItemProperty -Path 'HKLM:\SOFTWARE\Adobe\SuiteCloud' -Name 'OptOut' -Type DWord -Value 1 -ErrorAction SilentlyContinue; $adobeServices = @('AdobeUpdateService', 'AGMService', 'AGSService', 'AdobeARMservice'); foreach ($service in $adobeServices) { Stop-Service -Name $service -Force -ErrorAction SilentlyContinue; Set-Service -Name $service -StartupType Disabled -ErrorAction SilentlyContinue }
+parameters: []

@@ -1,0 +1,21 @@
+id: 886c78bc-4cfb-4f32-9907-4b53101963d9
+title: Calculer la taille d'un répertoire
+description: Calcule l'espace disque utilisé par un répertoire et ses sous-répertoires
+category: "\U0001F4CA Monitoring & Logs"
+platform: Linux
+level: Info
+tags:
+- du
+- disk
+- size
+- directory
+- storage
+linuxTemplateId: 09e4b777-0df7-42a2-99c4-3fc40026c8ea
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Ne nécessite pas sudo (sauf répertoires protégés). -s=summary, -h=human-readable.
+links:
+- title: du command
+  url: https://man7.org/linux/man-pages/man1/du.1.html
+isUserCreated: false

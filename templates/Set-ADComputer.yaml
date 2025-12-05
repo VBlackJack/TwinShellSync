@@ -1,0 +1,17 @@
+id: 8aeae0ac-a558-4766-a995-06040fa4281c
+name: Set-ADComputer
+platform: Windows
+commandPattern: $expDate = (Get-Date).AddDays({days}).ToFileTime(); Set-ADComputer -Identity {computerName} -Replace @{'ms-Mcs-AdmPwdExpirationTime'=$expDate}
+parameters:
+- name: computerName
+  label: Nom de l'ordinateur
+  type: string
+  defaultValue: ''
+  required: true
+  description: Nom NetBIOS de l'ordinateur
+- name: days
+  label: Jours avant expiration
+  type: string
+  defaultValue: 30
+  required: true
+  description: 'Nombre de jours avant expiration (ex: 30, 60, 90)'

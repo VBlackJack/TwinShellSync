@@ -1,0 +1,20 @@
+id: 1e4d7536-2688-40f5-8489-e4872445330b
+title: Lister les processus consommant le plus de CPU
+description: Affiche les processus classés par utilisation CPU décroissante
+category: ⚡ Performance
+platform: Windows
+level: Info
+tags:
+- performance
+- processes
+- cpu
+- top
+windowsTemplateId: c2f40f62-5947-40cd-9f41-ef7597d423ae
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: CPU = temps CPU cumulé depuis le démarrage du processus. WorkingSet = mémoire RAM utilisée. Triez par WS pour voir l'utilisation mémoire.
+links:
+- title: Get-Process Documentation
+  url: https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-process
+isUserCreated: false

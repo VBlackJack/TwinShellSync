@@ -1,0 +1,20 @@
+id: ca8dd71c-12d8-4879-bb52-a63806a9001e
+title: Configurer le client WSUS via le registre
+description: Configure les paramètres du client WSUS en modifiant les clés de registre appropriées
+category: "\U0001F504 Windows Updates"
+platform: Windows
+level: Dangerous
+tags:
+- wsus
+- client
+- configuration
+- registry
+windowsTemplateId: c5cd31d4-cfc4-4257-9140-27baefe6a695
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: 'ATTENTION: Modifie le registre. Port 8530=HTTP, 8531=HTTPS. Nécessite redémarrage du service wuauserv. À utiliser pour machines hors domaine.'
+links:
+- title: Configure WSUS Client
+  url: https://blog.wapnet.nl/2022/05/configure-wsus-client-with-powershell-and-regedit/
+isUserCreated: false

@@ -1,0 +1,19 @@
+id: 73523e34-fa15-4e57-a88c-12d2495a6c10
+title: Déverrouiller un volume BitLocker avec mot de passe
+description: Déverrouille un volume BitLocker chiffré en utilisant le mot de passe de récupération.
+category: "\U0001F512 Security & Encryption"
+platform: Windows
+level: Dangerous
+tags:
+- bitlocker
+- unlock
+- recovery
+windowsTemplateId: c47a5a6b-f0ba-40c4-80af-57431a7fc7ee
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: "Le mot de passe de récupération est composé de 48 chiffres groupés par 6 (8 groupes). Scénarios d'usage: disque déplacé vers un autre PC, panne TPM, changement de carte mère. Le déverrouillage est temporaire jusqu'au prochain redémarrage."
+links:
+- title: Unlock-BitLocker Documentation
+  url: https://learn.microsoft.com/en-us/powershell/module/bitlocker/unlock-bitlocker
+isUserCreated: false

@@ -1,0 +1,17 @@
+id: 0053dac4-b3f5-443e-b67d-16ca04cec4cc
+title: Lister toutes les GPO du domaine
+description: Affiche la liste complète des stratégies de groupe (GPO) configurées dans le domaine.
+category: "\U0001F3E2 Active Directory & GPO"
+platform: Windows
+level: Info
+tags:
+- gpo
+- list
+- group-policy
+windowsTemplateId: 7040f48b-95e9-4579-b57d-c4d149c2bd13
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Nécessite le module Group Policy PowerShell.
+links: []
+isUserCreated: false

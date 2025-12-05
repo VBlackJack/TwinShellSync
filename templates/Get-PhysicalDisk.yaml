@@ -1,0 +1,5 @@
+id: d6062d40-b270-4e6c-86bc-48773c04261f
+name: Get-PhysicalDisk
+platform: Windows
+commandPattern: Get-PhysicalDisk | Select-Object FriendlyName, MediaType, OperationalStatus, HealthStatus, @{Name='SizeGB';Expression={[Math]::Round($_.Size/1GB,2)}}, BusType, SpindleSpeed | Format-Table -AutoSize
+parameters: []

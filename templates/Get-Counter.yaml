@@ -1,0 +1,17 @@
+id: 72680ea4-1590-466b-8070-5aa24045cfdf
+name: Get-Counter
+platform: Windows
+commandPattern: Get-Counter -Counter '\PhysicalDisk(_Total)\% Disk Time','\PhysicalDisk(_Total)\Disk Reads/sec','\PhysicalDisk(_Total)\Disk Writes/sec' -SampleInterval {intervalSeconds} -MaxSamples {maxSamples} | ForEach-Object {$_.CounterSamples | Select-Object Path,@{Name='Value';Expression={[math]::Round($_.CookedValue,2)}}} | Format-Table -AutoSize
+parameters:
+- name: intervalSeconds
+  label: Intervalle (secondes)
+  type: number
+  defaultValue: 2
+  required: true
+  description: Intervalle entre échantillons
+- name: maxSamples
+  label: Nombre d'échantillons
+  type: number
+  defaultValue: 5
+  required: true
+  description: Nombre d'échantillons

@@ -1,0 +1,19 @@
+id: bee69386-8442-43e4-9a13-e92240928b4b
+title: Activer/Désactiver la protection temps réel Defender
+description: Active ou désactive la protection en temps réel de Windows Defender.
+category: "\U0001F512 Security & Encryption"
+platform: Windows
+level: Dangerous
+tags:
+- defender
+- realtime
+- protection
+windowsTemplateId: bdc13a1e-7409-4c36-85bf-9c346b98cafe
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: '⚠️ SÉCURITÉ CRITIQUE: Ne désactivez JAMAIS la protection temps réel sauf pour dépannage temporaire! Votre système est VULNÉRABLE sans cette protection. DisableRealtimeMonitoring $true = DÉSACTIVE (dangereux). $false = ACTIVE (recommandé). Sur Windows 10/11, la protection peut se réactiver automatiquement.'
+links:
+- title: Set-MpPreference Documentation
+  url: https://learn.microsoft.com/en-us/powershell/module/defender/set-mppreference
+isUserCreated: false

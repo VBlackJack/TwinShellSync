@@ -1,0 +1,20 @@
+id: e71fb3f8-e917-4e21-ba5e-3ccb6f91f4b8
+title: Désinstaller une mise à jour Windows
+description: Désinstalle une mise à jour Windows spécifique par son numéro KB
+category: "\U0001F504 Windows Updates"
+platform: Windows
+level: Dangerous
+tags:
+- windows-update
+- uninstall
+- remove
+- pswindowsupdate
+windowsTemplateId: 09ca43b3-3229-432d-a175-5afface104b5
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: 'DANGER: Peut nécessiter un redémarrage. Peut créer des instabilités système. Nécessite droits administrateur et PSWindowsUpdate.'
+links:
+- title: Uninstall Windows Updates
+  url: https://woshub.com/pswindowsupdate-module/
+isUserCreated: false

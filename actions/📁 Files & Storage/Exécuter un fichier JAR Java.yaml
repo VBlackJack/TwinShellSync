@@ -1,0 +1,19 @@
+id: 339a5a9e-8a94-45b2-8eb1-70d3437a645d
+title: Exécuter un fichier JAR Java
+description: Lance une application Java packagée en JAR.
+category: "\U0001F4C1 Files & Storage"
+platform: Both
+level: Info
+tags:
+- java
+- jar
+- run
+- execute
+windowsTemplateId: d90bd27f-f137-42fd-8597-af760fd9cdbb
+linuxTemplateId: 2487c8c5-a35d-4a9e-9377-41b79eb4f475
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: -Xmx définit la mémoire max. -Xms définit la mémoire initiale. Les arguments après le JAR sont passés à l'app.
+links: []
+isUserCreated: false

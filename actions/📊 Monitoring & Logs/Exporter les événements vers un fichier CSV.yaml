@@ -1,0 +1,20 @@
+id: c34ee2f9-373e-4fc1-939a-0c36f15f3584
+title: Exporter les événements vers un fichier CSV
+description: Exporte les événements d'un journal spécifique vers un fichier CSV pour analyse
+category: "\U0001F4CA Monitoring & Logs"
+platform: Windows
+level: Info
+tags:
+- eventlog
+- export
+- csv
+- report
+windowsTemplateId: ef14bfeb-df19-4e89-9ff9-a853726e5a4a
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Assurez-vous que le répertoire de destination existe. Le fichier CSV peut être importé dans Excel pour analyse.
+links:
+- title: Export-Csv Documentation
+  url: https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/export-csv
+isUserCreated: false

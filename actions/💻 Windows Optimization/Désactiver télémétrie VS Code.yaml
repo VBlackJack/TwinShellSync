@@ -1,0 +1,23 @@
+id: f9fd4b77-658d-4834-bdc8-92f3de57722b
+title: Désactiver télémétrie VS Code
+description: Désactive la télémétrie de Visual Studio Code et les rapports d'erreurs Microsoft.
+category: "\U0001F4BB Windows Optimization"
+platform: Windows
+level: Run
+tags:
+- privacy
+- confidentialité
+- télémétrie
+- vscode
+- microsoft
+- third-party
+- windows
+windowsTemplateId: 14678b7d-e70d-4f2b-8c18-99ca4a332b04
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Modifie les paramètres VS Code pour désactiver toute télémétrie. Empêche l'envoi de données d'utilisation à Microsoft. Nécessite VS Code installé.
+links:
+- title: VS Code - Disable telemetry reporting
+  url: https://code.visualstudio.com/docs/getstarted/telemetry
+isUserCreated: false

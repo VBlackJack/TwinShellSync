@@ -1,0 +1,17 @@
+id: df873d55-b097-4f06-bf6e-5ccc47516203
+name: Remove-ADGroupMember
+platform: Windows
+commandPattern: Remove-ADGroupMember -Identity "{groupName}" -Members {username} -Confirm:$false
+parameters:
+- name: groupName
+  label: Nom du groupe
+  type: string
+  defaultValue: ''
+  required: true
+  description: Nom du groupe AD
+- name: username
+  label: Nom d'utilisateur
+  type: string
+  defaultValue: ''
+  required: true
+  description: SamAccountName de l'utilisateur à retirer

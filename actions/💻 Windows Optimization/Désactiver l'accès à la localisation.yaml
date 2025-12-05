@@ -1,0 +1,22 @@
+id: 7218f327-63b8-4979-bf89-5d4f1f0e1563
+title: Désactiver l'accès à la localisation
+description: Désactive l'accès des applications à la localisation de l'appareil pour protéger la vie privée. Conforme RGPD.
+category: "\U0001F4BB Windows Optimization"
+platform: Windows
+level: Run
+tags:
+- privacy
+- confidentialité
+- rgpd
+- permissions
+- localisation
+- windows
+windowsTemplateId: d5ad4dc9-4fd2-4124-8f36-5ea2198e8d50
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Désactive l'accès à la localisation GPS. Améliore la confidentialité et la conformité RGPD. Les applications de navigation peuvent être affectées.
+links:
+- title: RGPD - Protection des données de localisation
+  url: https://gdpr.eu/article-6-how-to-process-personal-data-legally/
+isUserCreated: false

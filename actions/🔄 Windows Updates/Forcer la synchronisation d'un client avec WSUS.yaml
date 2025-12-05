@@ -1,0 +1,20 @@
+id: fc0262f4-336a-4cf0-adc1-12aa911f13ab
+title: Forcer la synchronisation d'un client avec WSUS
+description: Force le client Windows Update à se synchroniser immédiatement avec le serveur WSUS
+category: "\U0001F504 Windows Updates"
+platform: Windows
+level: Info
+tags:
+- wsus
+- sync
+- client
+- update
+windowsTemplateId: 0f85b67a-5aed-4ddc-bc16-926c08509b6b
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: wuauclt est l'outil classique, usoclient est recommandé pour Windows 10/11. Le client signalera son état au serveur WSUS immédiatement.
+links:
+- title: WSUS Client Commands
+  url: https://techdirectarchive.com/2020/02/05/handy-windows-server-update-services-commands-wauaclt-powershell-and-usoclient/
+isUserCreated: false

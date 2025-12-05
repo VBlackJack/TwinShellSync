@@ -1,0 +1,20 @@
+id: f08cc37e-f6ee-45b1-9b8b-bf80376e2a1b
+title: Afficher une mise à jour masquée
+description: Réaffiche une mise à jour précédemment masquée pour permettre son installation
+category: "\U0001F504 Windows Updates"
+platform: Windows
+level: Info
+tags:
+- windows-update
+- show
+- unhide
+- pswindowsupdate
+windowsTemplateId: c61d4249-d859-4fd7-8d27-ecd906a7a426
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Nécessite le module PSWindowsUpdate.
+links:
+- title: PSWindowsUpdate Module
+  url: https://www.powershellgallery.com/packages/PSWindowsUpdate
+isUserCreated: false

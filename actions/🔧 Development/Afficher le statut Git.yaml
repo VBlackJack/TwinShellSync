@@ -1,0 +1,20 @@
+id: 378f738c-cb79-4280-aec4-079f76cc4a0f
+title: Afficher le statut Git
+description: Affiche l'état des fichiers dans le répertoire de travail et l'index
+category: "\U0001F527 Development"
+platform: Both
+level: Info
+tags:
+- git
+- status
+- working-directory
+windowsTemplateId: 451d2d36-89f0-438e-b96d-0e7b852a8167
+linuxTemplateId: 7cfdf905-cdfa-40af-b8d6-a91cee75fcd7
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Utilisez -s pour un format court, -b pour voir la branche actuelle.
+links:
+- title: Git Status Documentation
+  url: https://git-scm.com/docs/git-status
+isUserCreated: false

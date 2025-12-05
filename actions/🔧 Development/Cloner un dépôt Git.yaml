@@ -1,0 +1,20 @@
+id: a6736b27-b78f-4085-814c-b91bfd2f28fe
+title: Cloner un dépôt Git
+description: Clone un dépôt Git distant vers un répertoire local
+category: "\U0001F527 Development"
+platform: Both
+level: Info
+tags:
+- git
+- clone
+- repository
+windowsTemplateId: 54334951-3042-4ff8-9aee-48d398872a93
+linuxTemplateId: d7dd2067-cb26-490b-9ca7-1e4b1e926c2e
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Utilisez --depth 1 pour un clone superficiel si vous n'avez pas besoin de l'historique complet.
+links:
+- title: Git Clone Documentation
+  url: https://git-scm.com/docs/git-clone
+isUserCreated: false

@@ -1,0 +1,17 @@
+id: a21a2997-7b49-4551-9659-4c6baed9388c
+title: Rechercher un utilisateur AD par nom
+description: Recherche un utilisateur spécifique dans Active Directory par son nom ou prénom.
+category: "\U0001F3E2 Active Directory & GPO"
+platform: Windows
+level: Info
+tags:
+- ad
+- search
+- user
+windowsTemplateId: db9030e4-5ff2-44b4-9b57-48a85f27b4f2
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Utilise une recherche avec wildcard (*). Pour une recherche exacte, retirer les astérisques.
+links: []
+isUserCreated: false

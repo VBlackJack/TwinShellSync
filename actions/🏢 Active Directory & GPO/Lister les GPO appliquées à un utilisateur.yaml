@@ -1,0 +1,18 @@
+id: a73bad62-ad0a-45e0-afb4-9264a1f95fc3
+title: Lister les GPO appliquées à un utilisateur
+description: Affiche toutes les GPO appliquées à un utilisateur spécifique.
+category: "\U0001F3E2 Active Directory & GPO"
+platform: Windows
+level: Info
+tags:
+- gpo
+- user
+- applied
+- diagnostic
+windowsTemplateId: e9ff398f-9ef4-4942-941b-09134d7c5d8a
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Pour un rapport HTML détaillé, utiliser /H au lieu de /R. Nécessite des droits administrateur.
+links: []
+isUserCreated: false

@@ -1,0 +1,11 @@
+id: e34411b4-b6c9-4a8a-b24a-18a989bd9792
+name: podman
+platform: Linux
+commandPattern: podman ps {options}
+parameters:
+- name: options
+  label: Options
+  type: string
+  defaultValue: -a
+  required: false
+  description: Options (-a=all, -q=quiet, --pod, etc.)

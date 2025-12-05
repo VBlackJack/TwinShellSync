@@ -1,0 +1,22 @@
+id: 731c0c1a-ad1d-49ac-89bd-61b50fc32e29
+title: Vérifier les mises à jour Windows en attente
+description: Liste toutes les mises à jour Windows disponibles mais non encore installées
+category: "\U0001F504 Windows Updates"
+platform: Windows
+level: Info
+tags:
+- windows-update
+- pending
+- diagnostic
+- pswindowsupdate
+windowsTemplateId: 710dd6c3-c552-49d8-bfd3-a806230dc5d3
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Nécessite le module PSWindowsUpdate (Install-Module PSWindowsUpdate). Droits administrateur requis.
+links:
+- title: PSWindowsUpdate Module
+  url: https://www.powershellgallery.com/packages/PSWindowsUpdate
+- title: Documentation PSWindowsUpdate
+  url: https://woshub.com/pswindowsupdate-module/
+isUserCreated: false

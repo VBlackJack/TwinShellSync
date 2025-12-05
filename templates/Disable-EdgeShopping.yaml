@@ -1,0 +1,5 @@
+id: 2aaafbde-f5f7-4e49-becf-1c15aef2895a
+name: Disable-EdgeShopping
+platform: Windows
+commandPattern: New-Item -Path 'HKLM:\SOFTWARE\Policies\Microsoft\Edge' -Force | Out-Null; Set-ItemProperty -Path 'HKLM:\SOFTWARE\Policies\Microsoft\Edge' -Name 'EdgeShoppingAssistantEnabled' -Type DWord -Value 0
+parameters: []

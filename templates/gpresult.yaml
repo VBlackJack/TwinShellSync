@@ -1,0 +1,11 @@
+id: 4fcc07a0-cf33-4a34-a4e0-9f60bcf47c76
+name: gpresult
+platform: Windows
+commandPattern: gpresult /H "{outputPath}" /F
+parameters:
+- name: outputPath
+  label: Fichier de sortie
+  type: string
+  defaultValue: C:\GPOReports\rsop.html
+  required: true
+  description: Chemin complet du fichier HTML à créer

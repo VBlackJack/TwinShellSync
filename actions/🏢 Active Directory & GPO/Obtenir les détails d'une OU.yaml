@@ -1,0 +1,18 @@
+id: 88eac98d-189e-4e01-98f5-7ca709645d5d
+title: Obtenir les détails d'une OU
+description: Affiche toutes les propriétés détaillées d'une unité d'organisation.
+category: "\U0001F3E2 Active Directory & GPO"
+platform: Windows
+level: Info
+tags:
+- ad
+- ou
+- details
+- organizational-unit
+windowsTemplateId: 3121fd2c-ea75-4e93-9125-108e77a1a599
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Affiche toutes les propriétés incluant les GPO liées, la protection, etc.
+links: []
+isUserCreated: false

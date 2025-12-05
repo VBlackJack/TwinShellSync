@@ -1,0 +1,24 @@
+id: c8dd3d47-345e-4dce-a498-f7dc040ef740
+title: Démarrer, arrêter ou suspendre une VM
+description: "Permet de contrôler l'état d'une machine virtuelle Hyper-V: démarrage, arrêt propre, arrêt forcé, suspension ou reprise."
+category: "\U0001F433 Containers & VMs"
+platform: Windows
+level: Run
+tags:
+- hyperv
+- vm
+- start
+- stop
+- suspend
+- control
+- management
+- virtualization
+windowsTemplateId: 3f14e373-ef1b-4d5e-bfcd-04c233c06f91
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Stop-VM sans -Force tente un arrêt propre via Integration Services. Save-VM libère la RAM mais conserve l'état. -TurnOff équivaut à -Force.
+links:
+- title: Documentation Hyper-V VM Management
+  url: https://learn.microsoft.com/en-us/powershell/module/hyper-v/
+isUserCreated: false

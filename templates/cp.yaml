@@ -1,0 +1,17 @@
+id: ebbc59c8-9b53-4317-b687-a57614f58e98
+name: cp
+platform: Linux
+commandPattern: cp -r "{sourcePath}" "{destinationPath}"
+parameters:
+- name: sourcePath
+  label: Chemin source
+  type: string
+  defaultValue: ''
+  required: true
+  description: Chemin du fichier ou dossier à copier
+- name: destinationPath
+  label: Chemin destination
+  type: string
+  defaultValue: ''
+  required: true
+  description: Chemin de destination

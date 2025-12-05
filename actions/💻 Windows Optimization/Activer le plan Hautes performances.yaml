@@ -1,0 +1,20 @@
+id: 856b53d1-e730-417d-9ca0-4ebf158aa852
+title: Activer le plan Hautes performances
+description: Active le plan d'alimentation Hautes performances (équilibre entre performance et consommation).
+category: "\U0001F4BB Windows Optimization"
+platform: Windows
+level: Run
+tags:
+- performance
+- power
+- alimentation
+- high-performance
+- optimisation
+- windows
+windowsTemplateId: 77ce9d82-30cd-4acf-ab6d-4f3d1b025343
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: 'Plan Hautes performances: bon compromis entre performance et consommation. Maintient le CPU à fréquence maximale. Acceptable sur portables branchés sur secteur. Moins agressif que Ultimate Performance.'
+links: []
+isUserCreated: false

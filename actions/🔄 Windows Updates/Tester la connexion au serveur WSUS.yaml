@@ -1,0 +1,17 @@
+id: 30a92012-05ed-476a-8530-e6a82e68a44d
+title: Tester la connexion au serveur WSUS
+description: Vérifie la configuration et la connectivité au serveur WSUS
+category: "\U0001F504 Windows Updates"
+platform: Windows
+level: Info
+tags:
+- wsus
+- connectivity
+- diagnostics
+windowsTemplateId: dac6896b-77bc-451a-b66d-35d7255b9b37
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Vérifie la configuration du registre et teste la connectivité réseau. Port 8530 = HTTP, 8531 = HTTPS.
+links: []
+isUserCreated: false

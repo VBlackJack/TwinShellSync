@@ -1,0 +1,24 @@
+id: a16987ea-1c8b-4853-9ce2-a5f75033a1fc
+title: Créer un certificat auto-signé
+description: Génère un nouveau certificat auto-signé pour des tests, développement ou usage interne. Non recommandé pour la production publique.
+category: "\U0001F512 Security & Encryption"
+platform: Windows
+level: Run
+tags:
+- certificate
+- self-signed
+- create
+- ssl
+- tls
+- development
+- testing
+- crypto
+windowsTemplateId: e71f8098-4f0d-4a0e-b086-9ed62f86d569
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Les certificats auto-signés génèrent des avertissements de sécurité dans les navigateurs. Pour IIS, liez le certificat au site après création.
+links:
+- title: Documentation New-SelfSignedCertificate
+  url: https://learn.microsoft.com/en-us/powershell/module/pki/new-selfsignedcertificate
+isUserCreated: false

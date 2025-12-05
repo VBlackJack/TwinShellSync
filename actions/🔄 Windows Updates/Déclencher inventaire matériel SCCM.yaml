@@ -1,0 +1,17 @@
+id: cfe57003-ef9a-4c36-8718-c38e58e3a7f8
+title: Déclencher inventaire matériel SCCM
+description: Force l'exécution immédiate d'un cycle d'inventaire matériel
+category: "\U0001F504 Windows Updates"
+platform: Windows
+level: Info
+tags:
+- sccm
+- inventory
+- hardware
+windowsTemplateId: d4d4e90f-3b5f-4977-bc8e-067d25e24c9e
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Droits administrateur requis. GUID {00000000-0000-0000-0000-000000000001} = Hardware Inventory.
+links: []
+isUserCreated: false

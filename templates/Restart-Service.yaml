@@ -1,0 +1,17 @@
+id: 0fb2c892-b91c-4bfc-a337-ea30241e1a72
+name: Restart-Service
+platform: Windows
+commandPattern: Restart-Service -Name '{servicename}' {force}
+parameters:
+- name: servicename
+  label: Nom du service
+  type: string
+  defaultValue: wuauserv
+  required: true
+  description: Nom du service à redémarrer
+- name: force
+  label: Forcer
+  type: string
+  defaultValue: -Force
+  required: false
+  description: Forcer l'arrêt (-Force)

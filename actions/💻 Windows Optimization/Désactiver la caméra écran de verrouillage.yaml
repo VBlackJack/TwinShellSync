@@ -1,0 +1,21 @@
+id: 34c53168-f50d-4535-a32c-17d1cfbb95f0
+title: Désactiver la caméra écran de verrouillage
+description: Désactive l'accès à la caméra depuis l'écran de verrouillage Windows. Sécurité renforcée.
+category: "\U0001F4BB Windows Optimization"
+platform: Windows
+level: Run
+tags:
+- privacy
+- confidentialité
+- rgpd
+- security
+- caméra
+- lockscreen
+- windows
+windowsTemplateId: e2a94338-241b-43e3-8698-188bf63c7367
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Empêche l'accès à la caméra depuis l'écran de verrouillage. Améliore la sécurité en empêchant la prise de photos sans déverrouillage.
+links: []
+isUserCreated: false

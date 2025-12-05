@@ -1,0 +1,24 @@
+id: 874cf801-9e8f-4230-bd99-542486eff4d6
+title: Démarrer ou arrêter un site IIS
+description: Permet de démarrer, arrêter ou redémarrer un site web IIS spécifique. Utile pour la maintenance ou le troubleshooting.
+category: "\U0001F310 Network & DNS"
+platform: Windows
+level: Run
+tags:
+- iis
+- web
+- site
+- start
+- stop
+- restart
+- control
+- webserver
+windowsTemplateId: be30aa39-68dc-42af-8966-90ebf6553955
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Privilèges administrateur requis. Pour redémarrer, utilisez Stop puis Start, ou recyclez le pool d'application.
+links:
+- title: Documentation WebAdministration
+  url: https://learn.microsoft.com/en-us/powershell/module/webadministration/
+isUserCreated: false

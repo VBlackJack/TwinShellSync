@@ -1,0 +1,21 @@
+id: 3189151b-2ac4-4c1b-b59d-b35fe33f1f7f
+title: Vérifier l'état de Fail2ban
+description: Affiche l'état des jails Fail2ban et les IP bannies
+category: "\U0001F512 Security & Encryption"
+platform: Linux
+level: Info
+tags:
+- fail2ban
+- security
+- firewall
+- ban
+- intrusion
+linuxTemplateId: 4895e4c6-c91a-4627-9a19-8496b90ecced
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Nécessite sudo et fail2ban installé. Protège contre les attaques brute-force.
+links:
+- title: Fail2ban documentation
+  url: https://www.fail2ban.org/wiki/index.php/Main_Page
+isUserCreated: false

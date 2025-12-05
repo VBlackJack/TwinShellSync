@@ -1,0 +1,17 @@
+id: 6b6e2494-49e4-4d87-9f14-2c9bbebfda05
+name: nc
+platform: Linux
+commandPattern: nc -zv {hostname} {port}
+parameters:
+- name: hostname
+  label: Nom d'hôte ou IP
+  type: string
+  defaultValue: google.com
+  required: true
+  description: Nom d'hôte ou adresse IP
+- name: port
+  label: Port TCP
+  type: number
+  defaultValue: 443
+  required: true
+  description: Numéro de port TCP à tester

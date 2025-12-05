@@ -1,0 +1,5 @@
+id: 28b34afd-30ad-4759-8d80-fc0f7a26c2f0
+name: getenforce
+platform: Linux
+commandPattern: getenforce
+parameters: []

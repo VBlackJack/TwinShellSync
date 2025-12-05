@@ -1,0 +1,11 @@
+id: 002b6bdb-88b0-4803-b7e2-ad9a4a4c4487
+name: New-LocalUser
+platform: Windows
+commandPattern: New-LocalUser -Name "{username}" -NoPassword
+parameters:
+- name: username
+  label: Nom d'utilisateur
+  type: string
+  defaultValue: newuser
+  required: true
+  description: Nom du nouvel utilisateur

@@ -1,0 +1,21 @@
+id: 10531868-0732-41be-afc5-09b9fb8e1364
+title: Exécuter une commande à distance
+description: Exécute une commande PowerShell sur un ou plusieurs ordinateurs distants via PSRemoting
+category: ⚙️ Services & Automation
+platform: Windows
+level: Run
+tags:
+- remote
+- psremoting
+- automation
+- windows
+- invoke
+windowsTemplateId: 4393bfab-9603-4b33-8895-115b53e4e0c8
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Nécessite WinRM activé (Enable-PSRemoting). Essentiel pour gérer Windows Core à distance. Utilisez Enter-PSSession pour session interactive.
+links:
+- title: Invoke-Command Documentation
+  url: https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/invoke-command
+isUserCreated: false

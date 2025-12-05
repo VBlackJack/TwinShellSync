@@ -1,0 +1,21 @@
+id: 5785da3e-6360-41c3-aaf4-dc4e51f32614
+title: Lister les rôles installés
+description: Affiche la liste de tous les rôles Ansible installés localement
+category: ⚙️ Services & Automation
+platform: Both
+level: Info
+tags:
+- ansible
+- galaxy
+- list
+- role
+windowsTemplateId: 1525944b-85f8-47b7-8fa9-1916861b8e02
+linuxTemplateId: 3d14a5ae-0139-4ef9-96bb-216a16ea2a48
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Par défaut, les rôles sont installés dans ~/.ansible/roles ou /etc/ansible/roles.
+links:
+- title: Ansible Galaxy
+  url: https://galaxy.ansible.com/
+isUserCreated: false

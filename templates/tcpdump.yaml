@@ -1,0 +1,23 @@
+id: 4f0ff570-8c7b-4e37-a759-684e028a3988
+name: tcpdump
+platform: Linux
+commandPattern: tcpdump -i {interface} -c {count} {filter}
+parameters:
+- name: interface
+  label: Interface
+  type: string
+  defaultValue: any
+  required: true
+  description: Interface réseau (any, eth0, wlan0, etc.)
+- name: count
+  label: Nombre de paquets
+  type: number
+  defaultValue: 100
+  required: true
+  description: Nombre de paquets à capturer
+- name: filter
+  label: Filtre
+  type: string
+  defaultValue: ''
+  required: false
+  description: Filtre BPF (port 80, host 192.168.1.1, etc.)

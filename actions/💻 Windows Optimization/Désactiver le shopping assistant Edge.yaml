@@ -1,0 +1,19 @@
+id: 0ddd9d2f-eba7-456b-83b0-217455f420bf
+title: Désactiver le shopping assistant Edge
+description: Désactive l'assistant shopping et les coupons dans Microsoft Edge.
+category: "\U0001F4BB Windows Optimization"
+platform: Windows
+level: Run
+tags:
+- debloat
+- edge
+- shopping
+- assistant
+- windows
+windowsTemplateId: 2aaafbde-f5f7-4e49-becf-1c15aef2895a
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Désactive les notifications de coupons et l'assistant shopping. Nécessite des droits administrateur.
+links: []
+isUserCreated: false

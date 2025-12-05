@@ -1,0 +1,17 @@
+id: bf05c3e2-e4c8-4dbc-9ab4-6fb756034ead
+name: mkfs
+platform: Linux
+commandPattern: mkfs.{fstype} {device}
+parameters:
+- name: fstype
+  label: Type de filesystem
+  type: string
+  defaultValue: ext4
+  required: true
+  description: Type (ext4, xfs, ext3, btrfs, etc.)
+- name: device
+  label: Périphérique
+  type: string
+  defaultValue: /dev/sdb1
+  required: true
+  description: Partition à formater

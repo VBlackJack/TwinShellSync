@@ -1,0 +1,21 @@
+id: 441b92a9-4f63-49da-be0d-3ba47ae88396
+title: Gérer les tags Git
+description: Crée, liste ou supprime des tags (versions)
+category: "\U0001F527 Development"
+platform: Both
+level: Info
+tags:
+- git
+- tag
+- version
+- release
+windowsTemplateId: 8288a0d4-d3a5-4854-854f-1cf1b7d0e66f
+linuxTemplateId: b64b2183-ef36-4884-ab74-72646e3c6032
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Utilisez -a pour créer des tags annotés (recommandé). N'oubliez pas de pousser les tags avec 'git push --tags'.
+links:
+- title: Git Tag Documentation
+  url: https://git-scm.com/docs/git-tag
+isUserCreated: false

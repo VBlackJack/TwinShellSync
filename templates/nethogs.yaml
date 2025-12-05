@@ -1,0 +1,11 @@
+id: 35410b6e-4ab2-46dd-8989-4aa42b05e268
+name: nethogs
+platform: Linux
+commandPattern: nethogs {interface}
+parameters:
+- name: interface
+  label: Interface
+  type: string
+  defaultValue: ''
+  required: false
+  description: Interface réseau (vide = toutes)

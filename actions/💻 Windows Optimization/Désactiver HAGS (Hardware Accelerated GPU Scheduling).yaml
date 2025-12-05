@@ -1,0 +1,23 @@
+id: 1849955a-1014-4637-92df-9d89520f3f43
+title: Désactiver HAGS (Hardware Accelerated GPU Scheduling)
+description: Désactive l'ordonnancement GPU accéléré par matériel (peut causer des micro-stutters dans certains jeux).
+category: "\U0001F4BB Windows Optimization"
+platform: Windows
+level: Run
+tags:
+- performance
+- gpu
+- gaming
+- hags
+- graphics
+- optimisation
+- windows
+windowsTemplateId: a153e61e-9970-4c7b-9f3a-9c509ff13cc1
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: "HAGS (Windows 10 2004+): délègue l'ordonnancement GPU au matériel. Théoriquement améliore les perfs, mais cause des micro-stutters sur certaines configs (surtout Nvidia). Tester avec/sans pour voir l'impact. Désactiver souvent améliore la fluidité en jeu."
+links:
+- title: HAGS explanation
+  url: https://devblogs.microsoft.com/directx/hardware-accelerated-gpu-scheduling/
+isUserCreated: false

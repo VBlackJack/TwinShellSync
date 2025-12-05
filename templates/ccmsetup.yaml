@@ -1,0 +1,17 @@
+id: 174b0118-b042-4832-9bbe-556a0d28c1d7
+name: ccmsetup
+platform: Windows
+commandPattern: C:\Windows\ccmsetup\ccmsetup.exe /mp:{mp_server} SMSSITECODE={site_code} /forceinstall
+parameters:
+- name: mp_server
+  label: Serveur MP SCCM
+  type: string
+  defaultValue: ''
+  required: true
+  description: FQDN du serveur Management Point SCCM
+- name: site_code
+  label: Code du site
+  type: string
+  defaultValue: ''
+  required: true
+  description: Code du site SCCM (3 caractères)

@@ -1,0 +1,20 @@
+id: 2f731322-d7ef-4856-8a40-4408bf19b97a
+title: Lier une GPO à une OU
+description: Lie une stratégie de groupe à une unité d'organisation.
+category: "\U0001F3E2 Active Directory & GPO"
+platform: Windows
+level: Run
+tags:
+- gpo
+- link
+- ou
+- group-policy
+windowsTemplateId: d36871c3-c3de-4beb-87c9-a9473ef85321
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Le lien est activé par défaut. Pour créer un lien désactivé, utiliser -LinkEnabled No.
+links:
+- title: Documentation New-GPLink
+  url: https://learn.microsoft.com/en-us/powershell/module/grouppolicy/new-gplink
+isUserCreated: false

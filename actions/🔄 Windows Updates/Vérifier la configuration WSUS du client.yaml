@@ -1,0 +1,20 @@
+id: a039bf4f-336e-4472-8984-e3dbd2a1a79c
+title: Vérifier la configuration WSUS du client
+description: Affiche la configuration actuelle du client WSUS en lisant le registre
+category: "\U0001F504 Windows Updates"
+platform: Windows
+level: Info
+tags:
+- wsus
+- client
+- status
+- diagnostic
+windowsTemplateId: 759f21b2-b77d-4b6b-850c-b4ee1044e105
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Vérifie la configuration WSUS dans le registre. Si les valeurs sont vides, le client utilise Windows Update public.
+links:
+- title: WSUS Client Registry Keys
+  url: https://learn.microsoft.com/en-us/windows/deployment/update/waas-wu-settings
+isUserCreated: false

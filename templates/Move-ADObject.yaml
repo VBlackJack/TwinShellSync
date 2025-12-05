@@ -1,0 +1,17 @@
+id: c3249d82-15b5-4d10-bc7d-3756bbd7d6db
+name: Move-ADObject
+platform: Windows
+commandPattern: Move-ADObject -Identity "{objectDN}" -TargetPath "{targetOU}"
+parameters:
+- name: objectDN
+  label: DN de l'objet
+  type: string
+  defaultValue: ''
+  required: true
+  description: Distinguished Name complet de l'objet à déplacer
+- name: targetOU
+  label: OU de destination
+  type: string
+  defaultValue: ''
+  required: true
+  description: Distinguished Name de l'OU de destination

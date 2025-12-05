@@ -1,0 +1,17 @@
+id: f1f2c21c-c4ca-467e-b920-5f307f3ef514
+name: strace
+platform: Linux
+commandPattern: strace {options} {command}
+parameters:
+- name: options
+  label: Options
+  type: string
+  defaultValue: -c
+  required: false
+  description: Options (-c=stats, -p PID, -e=filter, -o=output)
+- name: command
+  label: Commande
+  type: string
+  defaultValue: ls
+  required: true
+  description: Commande à tracer ou -p PID

@@ -1,0 +1,21 @@
+id: 437c7833-b053-4566-959e-dfc1c2bb292d
+title: Redémarrer un service Windows
+description: Arrête puis redémarre un service Windows
+category: ⚙️ Services & Automation
+platform: Windows
+level: Run
+tags:
+- service
+- restart
+- windows
+- automation
+- management
+windowsTemplateId: 0fb2c892-b91c-4bfc-a337-ea30241e1a72
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Nécessite des privilèges admin. -Force arrête les services dépendants. Utile pour résoudre des problèmes.
+links:
+- title: Restart-Service Documentation
+  url: https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/restart-service
+isUserCreated: false

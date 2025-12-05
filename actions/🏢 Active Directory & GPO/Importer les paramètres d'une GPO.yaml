@@ -1,0 +1,20 @@
+id: c8f84c82-581b-49ef-a672-08a841ef74b8
+title: Importer les paramètres d'une GPO
+description: Importe les paramètres d'une sauvegarde GPO dans une GPO existante ou nouvelle.
+category: "\U0001F3E2 Active Directory & GPO"
+platform: Windows
+level: Run
+tags:
+- gpo
+- import
+- settings
+- group-policy
+windowsTemplateId: 691915b0-d2d3-4d47-8e29-6b680b32b1ab
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: 'Pour obtenir le BackupId: Get-GPOReport -BackupDirectory. Utile pour migrer des GPO entre domaines.'
+links:
+- title: Documentation Import-GPO
+  url: https://learn.microsoft.com/en-us/powershell/module/grouppolicy/import-gpo
+isUserCreated: false

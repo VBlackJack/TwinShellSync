@@ -1,0 +1,11 @@
+id: 0100d35f-1e0e-4391-a8b7-4b5afa6cec0e
+name: traceroute
+platform: Linux
+commandPattern: traceroute {host}
+parameters:
+- name: host
+  label: Hôte
+  type: string
+  defaultValue: google.com
+  required: true
+  description: Adresse IP ou nom d'hôte de destination

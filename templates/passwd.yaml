@@ -1,0 +1,11 @@
+id: 0630091c-1252-4af0-9757-f8d6dcd8a996
+name: passwd
+platform: Linux
+commandPattern: passwd {username}
+parameters:
+- name: username
+  label: Nom d'utilisateur
+  type: string
+  defaultValue: ''
+  required: false
+  description: Utilisateur (vide = utilisateur actuel)

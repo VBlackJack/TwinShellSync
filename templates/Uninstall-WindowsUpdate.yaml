@@ -1,0 +1,11 @@
+id: 09ca43b3-3229-432d-a175-5afface104b5
+name: Uninstall-WindowsUpdate
+platform: Windows
+commandPattern: Uninstall-WindowsUpdate -KBArticleID {kbNumber} -Confirm:$false
+parameters:
+- name: kbNumber
+  label: Numéro KB
+  type: string
+  defaultValue: KB5001234
+  required: true
+  description: Numéro KB de la mise à jour à désinstaller

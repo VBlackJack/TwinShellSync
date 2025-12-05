@@ -1,0 +1,20 @@
+id: 7c1cf889-4314-402c-8478-1c687ebdf26c
+title: Lister les conteneurs Podman
+description: Affiche les conteneurs Podman (alternative rootless à Docker)
+category: "\U0001F433 Containers & VMs"
+platform: Linux
+level: Info
+tags:
+- podman
+- containers
+- rootless
+- docker
+linuxTemplateId: e34411b4-b6c9-4a8a-b24a-18a989bd9792
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Podman est compatible Docker mais ne nécessite pas de daemon. Rootless par défaut.
+links:
+- title: Podman documentation
+  url: https://docs.podman.io/en/latest/Commands.html
+isUserCreated: false

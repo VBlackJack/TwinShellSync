@@ -1,0 +1,11 @@
+id: 90d643c7-6547-4b53-9e0e-e95c80b8f687
+name: Remove-LocalUser
+platform: Windows
+commandPattern: Remove-LocalUser -Name "{username}"
+parameters:
+- name: username
+  label: Nom d'utilisateur
+  type: string
+  defaultValue: john
+  required: true
+  description: Utilisateur à supprimer

@@ -1,0 +1,5 @@
+id: c1e05e84-f641-4113-9235-ea4f0eab52a2
+name: Get-WsusUpdate
+platform: Windows
+commandPattern: Get-WsusUpdate -Classification Critical -Approval Unapproved -Status Any | Select-Object Title,Classification,Approval,CreationDate | Format-Table -AutoSize
+parameters: []

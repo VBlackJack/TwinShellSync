@@ -1,0 +1,11 @@
+id: 460dbb6d-4079-4be1-bf26-2ddc8c0545cd
+name: tree
+platform: Windows
+commandPattern: tree "{path}" /F /A
+parameters:
+- name: path
+  label: Chemin
+  type: string
+  defaultValue: .
+  required: false
+  description: Dossier à afficher

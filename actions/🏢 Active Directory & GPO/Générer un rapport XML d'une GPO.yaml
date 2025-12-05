@@ -1,0 +1,18 @@
+id: f06acebd-c8db-42c5-a036-b436005fe846
+title: Générer un rapport XML d'une GPO
+description: Génère un rapport XML détaillé des paramètres d'une stratégie de groupe.
+category: "\U0001F3E2 Active Directory & GPO"
+platform: Windows
+level: Info
+tags:
+- gpo
+- report
+- xml
+- documentation
+windowsTemplateId: de96b54f-0334-4f70-aff9-fd4bb3d00e1d
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Le format XML est utile pour le traitement automatisé et l'analyse par scripts.
+links: []
+isUserCreated: false

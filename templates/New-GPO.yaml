@@ -1,0 +1,17 @@
+id: a2f37aa8-4301-4917-a027-c13c90d6d830
+name: New-GPO
+platform: Windows
+commandPattern: New-GPO -Name "{gpoName}" -Comment "{comment}"
+parameters:
+- name: gpoName
+  label: Nom de la GPO
+  type: string
+  defaultValue: ''
+  required: true
+  description: Nom de la nouvelle GPO
+- name: comment
+  label: Commentaire
+  type: string
+  defaultValue: ''
+  required: false
+  description: Description de la GPO

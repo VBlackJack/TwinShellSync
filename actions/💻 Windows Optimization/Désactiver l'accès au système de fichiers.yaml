@@ -1,0 +1,20 @@
+id: c9d8adf4-9d2e-4c4d-a893-753d148ab4b7
+title: Désactiver l'accès au système de fichiers
+description: Restreint l'accès des applications au système de fichiers complet. Protection des données sensibles.
+category: "\U0001F4BB Windows Optimization"
+platform: Windows
+level: Run
+tags:
+- privacy
+- confidentialité
+- rgpd
+- permissions
+- fichiers
+- windows
+windowsTemplateId: ddff350d-01a6-484a-a5b2-79d4a8010665
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Limite l'accès aux bibliothèques de documents et au système de fichiers complet. Certaines applications peuvent nécessiter une réactivation.
+links: []
+isUserCreated: false

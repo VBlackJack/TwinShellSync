@@ -1,0 +1,20 @@
+id: b02d2c2a-604d-4145-9c62-19fa93f1a70e
+title: Recharger la configuration systemd
+description: Recharge tous les fichiers d'unités systemd après modification
+category: ⚙️ Services & Automation
+platform: Linux
+level: Run
+tags:
+- systemctl
+- systemd
+- daemon-reload
+- config
+linuxTemplateId: 0361f81f-583e-4097-a596-2819d76acc83
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Nécessite sudo. À exécuter après création ou modification d'un fichier .service.
+links:
+- title: systemctl daemon-reload
+  url: https://www.freedesktop.org/software/systemd/man/systemctl.html
+isUserCreated: false

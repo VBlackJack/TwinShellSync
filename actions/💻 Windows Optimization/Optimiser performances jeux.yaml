@@ -1,0 +1,19 @@
+id: feb24c15-cf88-4a6f-9020-51b831e20606
+title: Optimiser performances jeux
+description: Active le Game Mode et optimise les paramètres Windows pour le gaming (priorité CPU/GPU aux jeux).
+category: "\U0001F4BB Windows Optimization"
+platform: Windows
+level: Run
+tags:
+- performance
+- gaming
+- game-mode
+- optimisation
+- windows
+windowsTemplateId: bdbc19ab-7bff-4d1c-a03e-ab198cd8c58b
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Active Game Mode (priorité ressources aux jeux), désactive Game DVR/enregistrement (économise CPU/GPU), optimise mode plein écran. Améliore FPS et stabilité. Aucun inconvénient, recommandé pour tous les gamers.
+links: []
+isUserCreated: false

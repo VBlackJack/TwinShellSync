@@ -1,0 +1,5 @@
+id: 2849d5be-571d-40b1-898c-333b5f13a3ac
+name: Disable-CoreIsolation
+platform: Windows
+commandPattern: "Set-ItemProperty -Path 'HKLM:\\SYSTEM\\CurrentControlSet\\Control\\DeviceGuard\\Scenarios\\HypervisorEnforcedCodeIntegrity' -Name 'Enabled' -Type DWord -Value 0 -ErrorAction SilentlyContinue; bcdedit /set hypervisorlaunchtype off; Write-Host \"Core Isolation désactivé\" -ForegroundColor Green; Write-Warning \"Redémarrage requis. Impact sécurité: protection contre exploits kernel réduite\""
+parameters: []

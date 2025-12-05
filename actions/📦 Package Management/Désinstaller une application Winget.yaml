@@ -1,0 +1,21 @@
+id: 82ea35c1-a718-4e16-a402-e1a3b634b89c
+title: Désinstaller une application Winget
+description: Désinstalle une application précédemment installée via Winget.
+category: "\U0001F4E6 Package Management"
+platform: Windows
+level: Dangerous
+tags:
+- winget
+- package
+- uninstall
+- remove
+- windows
+windowsTemplateId: c3b6a7a5-4ccf-4913-a968-fbbb6c450316
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: "⚠️ ATTENTION : Cette action supprime l'application du système. Assurez-vous de sauvegarder vos données."
+links:
+- title: Winget uninstall documentation
+  url: https://learn.microsoft.com/en-us/windows/package-manager/winget/uninstall
+isUserCreated: false

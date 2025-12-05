@@ -1,0 +1,21 @@
+id: 06dfabe8-4fd6-40d8-8b43-37e495ebc360
+title: Terminer des processus par pattern
+description: Envoie un signal aux processus correspondant à un pattern de nom
+category: "\U0001F4CA Monitoring & Logs"
+platform: Linux
+level: Run
+tags:
+- pkill
+- pgrep
+- process
+- kill
+- pattern
+linuxTemplateId: f0e126b9-8bba-48e7-98a4-deb544b434ee
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Peut nécessiter sudo. pgrep pour lister sans tuer. -9 force la terminaison.
+links:
+- title: pkill documentation
+  url: https://man7.org/linux/man-pages/man1/pkill.1.html
+isUserCreated: false

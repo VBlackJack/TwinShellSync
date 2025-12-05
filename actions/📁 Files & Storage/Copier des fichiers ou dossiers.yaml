@@ -1,0 +1,26 @@
+id: 35a492ce-a0e2-4640-95a1-525d1cf9c30d
+title: Copier des fichiers ou dossiers
+description: Copie des fichiers ou des répertoires avec leurs sous-dossiers.
+category: "\U0001F4C1 Files & Storage"
+platform: Both
+level: Info
+tags:
+- linux
+- windows
+- fichier
+- cp
+- copy
+- copie
+windowsTemplateId: 6e007ba9-4ed7-49ef-8ac4-6f4c9d1c5e44
+linuxTemplateId: ebbc59c8-9b53-4317-b687-a57614f58e98
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: >-
+  Windows: -Recurse copie les sous-dossiers. -Force écrase les fichiers existants.
+
+  Linux: -r pour récursif (dossiers), -v pour verbeux, -p pour préserver les permissions.
+links:
+- title: Documentation Copy-Item
+  url: https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/copy-item
+isUserCreated: false

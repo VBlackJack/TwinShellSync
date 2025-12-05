@@ -1,0 +1,20 @@
+id: 72bf4084-46fe-40d8-a4ed-ba2b6f3f68bf
+title: Obtenir la politique de mot de passe du domaine
+description: Affiche les paramètres de la politique de mot de passe du domaine.
+category: "\U0001F3E2 Active Directory & GPO"
+platform: Windows
+level: Info
+tags:
+- ad
+- password
+- policy
+- security
+windowsTemplateId: b8221090-f4d2-4293-b5ac-20513fcc028b
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Affiche la longueur minimale, la complexité requise, l'historique, la durée de vie maximale, etc.
+links:
+- title: Documentation Get-ADDefaultDomainPasswordPolicy
+  url: https://learn.microsoft.com/en-us/powershell/module/activedirectory/get-addefaultdomainpasswordpolicy
+isUserCreated: false

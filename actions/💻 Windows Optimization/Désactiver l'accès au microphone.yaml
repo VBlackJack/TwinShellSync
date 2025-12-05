@@ -1,0 +1,20 @@
+id: 3f58056e-9ceb-47ca-ae2a-244cd1154cad
+title: Désactiver l'accès au microphone
+description: Désactive l'accès des applications au microphone pour éviter l'écoute non autorisée. Conforme RGPD.
+category: "\U0001F4BB Windows Optimization"
+platform: Windows
+level: Run
+tags:
+- privacy
+- confidentialité
+- rgpd
+- permissions
+- microphone
+- windows
+windowsTemplateId: a79b0639-6cb3-4c2e-a78e-aa64d21d0303
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Bloque l'accès au microphone. Protège contre l'enregistrement non autorisé. Les assistants vocaux seront désactivés.
+links: []
+isUserCreated: false

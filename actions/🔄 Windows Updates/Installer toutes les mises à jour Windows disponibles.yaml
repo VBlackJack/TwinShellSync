@@ -1,0 +1,20 @@
+id: cb7a7362-fa32-48e3-a467-4e8061e330f9
+title: Installer toutes les mises à jour Windows disponibles
+description: Télécharge et installe automatiquement toutes les mises à jour Windows disponibles
+category: "\U0001F504 Windows Updates"
+platform: Windows
+level: Run
+tags:
+- windows-update
+- install
+- patch
+- pswindowsupdate
+windowsTemplateId: 29a9a0d9-868d-4a2e-b8bd-7d6068105617
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: 'ATTENTION: Cette commande peut nécessiter un redémarrage. Utilisez -IgnoreReboot pour empêcher le redémarrage automatique. Nécessite PSWindowsUpdate.'
+links:
+- title: Install Windows Updates with PowerShell
+  url: https://www.alitajran.com/install-windows-updates-powershell/
+isUserCreated: false

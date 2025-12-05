@@ -1,0 +1,20 @@
+id: 03340c2a-0528-4fad-9c9a-3d3bf352f55f
+title: Désactiver Prefetch
+description: Désactive le Prefetch Windows via le registre pour réduire les accès disque.
+category: "\U0001F4BB Windows Optimization"
+platform: Windows
+level: Run
+tags:
+- performance
+- prefetch
+- registry
+- ssd
+- optimisation
+- windows
+windowsTemplateId: ff1fa85d-bf0d-421c-9841-c276dc0d32eb
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: 'Prefetch: enregistre les fichiers chargés au démarrage pour accélérer les futurs lancements. Minimal sur SSD. Désactiver réduit les écritures disque et nettoie C:\Windows\Prefetch. Recommandé sur SSD, déconseillé sur HDD.'
+links: []
+isUserCreated: false

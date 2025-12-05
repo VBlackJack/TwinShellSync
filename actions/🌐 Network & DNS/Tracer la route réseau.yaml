@@ -1,0 +1,19 @@
+id: d7042577-96e2-4219-8893-ac0609c234ce
+title: Tracer la route réseau
+description: Affiche le chemin complet des paquets réseau vers une destination.
+category: "\U0001F310 Network & DNS"
+platform: Both
+level: Info
+tags:
+- network
+- traceroute
+- diagnostic
+- routing
+windowsTemplateId: 19483b16-9e60-45c1-be51-0960ccc78bc5
+linuxTemplateId: 178b9c67-ecb6-41f2-be5b-e9360dde1acf
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: 'Peut être lent. Sur Linux, installer traceroute si non disponible : sudo apt install traceroute'
+links: []
+isUserCreated: false

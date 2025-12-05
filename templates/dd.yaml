@@ -1,0 +1,23 @@
+id: 8e316abe-4ee1-40c6-9766-27440d4ba4b3
+name: dd
+platform: Linux
+commandPattern: dd if={input} of={output} bs={blocksize} status=progress
+parameters:
+- name: input
+  label: Entrée
+  type: string
+  defaultValue: /dev/sda
+  required: true
+  description: Source (device, fichier, /dev/zero, etc.)
+- name: output
+  label: Sortie
+  type: string
+  defaultValue: /backup/disk.img
+  required: true
+  description: Destination (fichier ou device)
+- name: blocksize
+  label: Taille de bloc
+  type: string
+  defaultValue: 4M
+  required: true
+  description: Taille des blocs (1M, 4M, etc.)

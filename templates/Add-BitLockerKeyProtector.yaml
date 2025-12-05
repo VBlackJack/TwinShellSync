@@ -1,0 +1,11 @@
+id: dd8499a8-933f-4801-afb1-d37f6e596ed9
+name: Add-BitLockerKeyProtector
+platform: Windows
+commandPattern: Add-BitLockerKeyProtector -MountPoint "{driveLetter}:" -TpmProtector
+parameters:
+- name: driveLetter
+  label: Lettre du disque
+  type: string
+  defaultValue: C
+  required: true
+  description: Lettre du volume

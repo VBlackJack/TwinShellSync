@@ -1,0 +1,19 @@
+id: a6667ef7-0138-4d3b-a69f-17e5c5dda65c
+title: Vérifier la date d'expiration du mot de passe LAPS
+description: Affiche la date d'expiration du mot de passe administrateur local géré par LAPS.
+category: "\U0001F512 Security & Encryption"
+platform: Windows
+level: Info
+tags:
+- laps
+- expiration
+- password
+windowsTemplateId: cf399a52-1f5f-49d3-a358-bf68a6541ed5
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: 'ExpirationTimestamp: date/heure de prochaine rotation automatique. Par défaut LAPS rotate tous les 30 jours. Si expiré, le mot de passe sera renouvelé au prochain redémarrage ou au prochain intervalle de mise à jour GPO.'
+links:
+- title: LAPS Password Expiration
+  url: https://learn.microsoft.com/en-us/windows-server/identity/laps/laps-management-policy-settings
+isUserCreated: false

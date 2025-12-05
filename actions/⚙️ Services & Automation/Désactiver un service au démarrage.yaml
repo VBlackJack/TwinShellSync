@@ -1,0 +1,20 @@
+id: 6f7bc415-03a8-4558-abd0-09c9b545775f
+title: Désactiver un service au démarrage
+description: Empêche un service de démarrer automatiquement au boot
+category: ⚙️ Services & Automation
+platform: Linux
+level: Run
+tags:
+- systemctl
+- systemd
+- disable
+- boot
+linuxTemplateId: c0c3a4d3-6970-4244-a397-2412b5bac765
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Nécessite sudo. N'arrête pas le service s'il est en cours d'exécution (sauf avec --now).
+links:
+- title: systemctl disable
+  url: https://www.freedesktop.org/software/systemd/man/systemctl.html
+isUserCreated: false

@@ -1,0 +1,23 @@
+id: 4393bfab-9603-4b33-8895-115b53e4e0c8
+name: Invoke-Command
+platform: Windows
+commandPattern: Invoke-Command -ComputerName {computername} -ScriptBlock { {scriptblock} } {credential}
+parameters:
+- name: computername
+  label: Ordinateur distant
+  type: string
+  defaultValue: Server01
+  required: true
+  description: Nom ou IP du serveur distant (ou plusieurs séparés par virgule)
+- name: scriptblock
+  label: Commande à exécuter
+  type: string
+  defaultValue: Get-Service
+  required: true
+  description: Commande PowerShell à exécuter à distance
+- name: credential
+  label: Identifiants
+  type: string
+  defaultValue: ''
+  required: false
+  description: 'Identifiants (ex: -Credential (Get-Credential))'

@@ -1,0 +1,11 @@
+id: 1f9834a8-4133-4bd2-ab2e-dd6e8f4f4d2f
+name: lvs
+platform: Linux
+commandPattern: '{command}'
+parameters:
+- name: command
+  label: Commande
+  type: string
+  defaultValue: lvs
+  required: true
+  description: Commande LVM (lvs, vgs, pvs)

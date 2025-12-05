@@ -1,0 +1,22 @@
+id: 05dd6ac0-2aa0-481e-80b5-463a16e98b8a
+title: Désactiver sync des mots de passe
+description: Désactive la synchronisation des mots de passe et identifiants Windows. Sécurité maximale.
+category: "\U0001F4BB Windows Optimization"
+platform: Windows
+level: Dangerous
+tags:
+- privacy
+- confidentialité
+- rgpd
+- sync
+- passwords
+- credentials
+- security
+- windows
+windowsTemplateId: 6eeeffd5-a8c3-44ff-a691-bf5c692bc64a
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: 'IMPORTANT: Empêche la synchronisation des identifiants et mots de passe vers le cloud Microsoft. Améliore la sécurité mais nécessite de retenir ou stocker localement les mots de passe.'
+links: []
+isUserCreated: false

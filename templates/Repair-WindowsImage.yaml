@@ -1,0 +1,5 @@
+id: cd577d6e-7d24-42cb-9534-765e96ea1358
+name: Repair-WindowsImage
+platform: Windows
+commandPattern: Repair-WindowsImage -Online -RestoreHealth -Verbose
+parameters: []

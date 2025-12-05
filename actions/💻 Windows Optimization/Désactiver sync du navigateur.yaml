@@ -1,0 +1,21 @@
+id: 1c85b5c7-02cd-4a83-b538-3806c3d744e5
+title: Désactiver sync du navigateur
+description: Désactive la synchronisation des paramètres de navigateur (favoris, historique, onglets).
+category: "\U0001F4BB Windows Optimization"
+platform: Windows
+level: Run
+tags:
+- privacy
+- confidentialité
+- rgpd
+- sync
+- browser
+- edge
+- windows
+windowsTemplateId: 3c06e5bb-99ec-4e37-8aab-417c033bfe64
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Empêche la synchronisation des favoris, historique et onglets du navigateur. L'historique de navigation reste privé et local.
+links: []
+isUserCreated: false

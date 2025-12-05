@@ -1,0 +1,20 @@
+id: 211b1667-fc6e-4b94-9bd4-bc9f9dc4e312
+title: Lister tous les contrôleurs de domaine
+description: Affiche la liste de tous les contrôleurs de domaine Active Directory.
+category: "\U0001F3E2 Active Directory & GPO"
+platform: Windows
+level: Info
+tags:
+- ad
+- dc
+- domain-controller
+- list
+windowsTemplateId: 17bab482-c91d-4b26-95a3-1f70e48c9c42
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Affiche tous les DCs du domaine avec leur OS et adresse IP.
+links:
+- title: Documentation Get-ADDomainController
+  url: https://learn.microsoft.com/en-us/powershell/module/activedirectory/get-addomaincontroller
+isUserCreated: false

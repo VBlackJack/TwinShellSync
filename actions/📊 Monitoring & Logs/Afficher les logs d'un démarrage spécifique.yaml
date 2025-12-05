@@ -1,0 +1,20 @@
+id: 2fc2c3ba-8b90-4024-8472-5f5e6deaec93
+title: Afficher les logs d'un démarrage spécifique
+description: Liste les logs d'une session de boot spécifique du système
+category: "\U0001F4CA Monitoring & Logs"
+platform: Linux
+level: Info
+tags:
+- journalctl
+- boot
+- logs
+- startup
+linuxTemplateId: 46b0e56a-fb0f-47fa-96b4-f0d3f2998373
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Utile pour diagnostiquer les problèmes au démarrage. --list-boots affiche l'historique des boots.
+links:
+- title: journalctl boot logs
+  url: https://www.freedesktop.org/software/systemd/man/journalctl.html
+isUserCreated: false

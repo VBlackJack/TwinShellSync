@@ -1,0 +1,20 @@
+id: 1da954ae-9a1d-4aaa-aa75-0f07782e096e
+title: Désactiver l'accès aux notifications
+description: Bloque l'accès des applications au système de notifications. Réduit les distractions et tracking.
+category: "\U0001F4BB Windows Optimization"
+platform: Windows
+level: Run
+tags:
+- privacy
+- confidentialité
+- rgpd
+- permissions
+- notifications
+- windows
+windowsTemplateId: 4232810f-dad4-4c2b-9afa-53f073a0b9c5
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Empêche les applications de lire ou d'envoyer des notifications. Améliore la confidentialité et réduit les distractions.
+links: []
+isUserCreated: false

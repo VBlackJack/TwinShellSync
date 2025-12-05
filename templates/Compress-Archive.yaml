@@ -1,0 +1,17 @@
+id: b8d166ad-8f32-455b-bcbb-3a732c9b7051
+name: Compress-Archive
+platform: Windows
+commandPattern: Compress-Archive -Path "{sourcePath}" -DestinationPath "{zipPath}" -CompressionLevel Optimal -Force
+parameters:
+- name: sourcePath
+  label: Source
+  type: string
+  defaultValue: ''
+  required: true
+  description: Fichiers ou dossiers à compresser
+- name: zipPath
+  label: Fichier ZIP
+  type: string
+  defaultValue: ''
+  required: true
+  description: Chemin du fichier ZIP à créer

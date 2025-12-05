@@ -1,0 +1,11 @@
+id: c6c7a1a1-aace-4311-a7e9-cb0ab5611fd3
+name: lsblk
+platform: Linux
+commandPattern: lsblk {options}
+parameters:
+- name: options
+  label: Options
+  type: string
+  defaultValue: -f
+  required: false
+  description: Options (-f=filesystems, -o=columns, -a=all)

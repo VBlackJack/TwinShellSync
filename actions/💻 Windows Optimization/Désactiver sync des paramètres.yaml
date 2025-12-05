@@ -1,0 +1,20 @@
+id: 8afe22c1-d3bb-43bd-94eb-2cbd39d8b73f
+title: Désactiver sync des paramètres
+description: Désactive uniquement la synchronisation des paramètres Windows (préférences, accessibilité, etc.).
+category: "\U0001F4BB Windows Optimization"
+platform: Windows
+level: Run
+tags:
+- privacy
+- confidentialité
+- rgpd
+- sync
+- settings
+- windows
+windowsTemplateId: 34e8d90c-c558-4ac8-812d-d90f16a24690
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Désactive la synchronisation des préférences et paramètres Windows. Les autres éléments (thèmes, mots de passe) peuvent encore être synchronisés.
+links: []
+isUserCreated: false

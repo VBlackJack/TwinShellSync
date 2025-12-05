@@ -1,0 +1,23 @@
+id: c196289d-7947-442d-bb1a-c63b9f955c6f
+title: Configuration minimale de télémétrie
+description: Configure la télémétrie Windows au niveau minimal (Security). Protection maximale des données. RGPD strict.
+category: "\U0001F4BB Windows Optimization"
+platform: Windows
+level: Dangerous
+tags:
+- privacy
+- confidentialité
+- rgpd
+- télémétrie
+- diagnostic
+- microsoft
+- windows
+windowsTemplateId: 4a307c4e-6404-4069-a8d0-f15cd017cc18
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: 'IMPORTANT: Configure la télémétrie au minimum absolu (niveau Security - 0). Désactive 50+ clés de registre et tâches planifiées. Conforme RGPD strict. Niveau recommandé pour entreprises européennes.'
+links:
+- title: Microsoft - Configure Windows diagnostic data
+  url: https://learn.microsoft.com/en-us/windows/privacy/configure-windows-diagnostic-data-in-your-organization
+isUserCreated: false

@@ -1,0 +1,17 @@
+id: 1b80de48-f3d2-402f-85f6-951ba748d9b9
+name: dmesg
+platform: Linux
+commandPattern: dmesg --level={level} --human --color=always | tail -n {lines}
+parameters:
+- name: level
+  label: Niveau
+  type: string
+  defaultValue: err,warn
+  required: true
+  description: Niveau de sévérité (emerg, alert, crit, err, warn, notice, info, debug)
+- name: lines
+  label: Nombre de lignes
+  type: number
+  defaultValue: 100
+  required: true
+  description: Nombre de lignes à afficher

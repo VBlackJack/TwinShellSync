@@ -1,0 +1,21 @@
+id: dec98c30-377d-47fd-a51e-aafb9dcdaac0
+title: Planifier une tâche ponctuelle
+description: Planifie l'exécution d'une commande à une date/heure précise (usage unique)
+category: ⚙️ Services & Automation
+platform: Linux
+level: Run
+tags:
+- at
+- scheduler
+- task
+- once
+- automation
+linuxTemplateId: f20773ec-d7a8-4688-bee0-7deef7cb0794
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Pour tâches ponctuelles uniquement. atq liste, atrm supprime. Format temps flexible.
+links:
+- title: at command
+  url: https://man7.org/linux/man-pages/man1/at.1p.html
+isUserCreated: false

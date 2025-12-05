@@ -1,0 +1,11 @@
+id: ee2b2fb4-8090-4f88-8eac-869f36d7b148
+name: ansible-vault
+platform: Windows
+commandPattern: ansible-vault rekey {filePath}
+parameters:
+- name: filePath
+  label: Fichier à rechiffrer
+  type: string
+  defaultValue: secrets.yml
+  required: true
+  description: Chemin du fichier à rechiffrer avec un nouveau mot de passe

@@ -1,0 +1,29 @@
+id: befd57ac-8119-4fb4-aee3-29fd528ce063
+name: New-IISSite
+platform: Windows
+commandPattern: Import-Module WebAdministration; New-Website -Name '{siteName}' -PhysicalPath '{physicalPath}' -Port {port} -HostHeader '{hostHeader}'
+parameters:
+- name: siteName
+  label: Nom du site
+  type: string
+  defaultValue: ''
+  required: true
+  description: Nom du nouveau site IIS
+- name: physicalPath
+  label: Chemin physique
+  type: string
+  defaultValue: C:\inetpub\wwwroot
+  required: true
+  description: Chemin du dossier contenant le site
+- name: port
+  label: Port
+  type: string
+  defaultValue: 80
+  required: true
+  description: Port d'écoute HTTP
+- name: hostHeader
+  label: Host Header
+  type: string
+  defaultValue: ''
+  required: false
+  description: "En-tête d'hôte (ex: www.example.com)"

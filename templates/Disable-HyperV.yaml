@@ -1,0 +1,5 @@
+id: 52f9dad4-5726-45d8-a689-6b5327c9e2fd
+name: Disable-HyperV
+platform: Windows
+commandPattern: Disable-WindowsOptionalFeature -Online -FeatureName 'Microsoft-Hyper-V-All' -NoRestart
+parameters: []

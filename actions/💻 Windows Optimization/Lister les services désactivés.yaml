@@ -1,0 +1,20 @@
+id: f970495d-cc06-42ea-aca4-235f622d2dda
+title: Lister les services désactivés
+description: Affiche la liste de tous les services Windows actuellement désactivés pour vérification.
+category: "\U0001F4BB Windows Optimization"
+platform: Windows
+level: Info
+tags:
+- performance
+- services
+- diagnostic
+- list
+- info
+- windows
+windowsTemplateId: e492c63a-51dd-4a0a-99e1-ebd47236dcf2
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Commande d'information uniquement. Permet de vérifier quels services ont été désactivés après l'exécution de WIN-PERF-201 ou autres optimisations. Aucune modification système.
+links: []
+isUserCreated: false

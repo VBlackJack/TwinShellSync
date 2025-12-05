@@ -1,0 +1,20 @@
+id: 96338b29-d89a-4ac0-82e9-0fe06333a9ec
+title: Afficher les différences
+description: Affiche les différences entre commits, branches ou fichiers
+category: "\U0001F527 Development"
+platform: Both
+level: Info
+tags:
+- git
+- diff
+- changes
+windowsTemplateId: ca329e1b-a628-436d-b944-b022e23d75c4
+linuxTemplateId: 6ab0e936-fe7b-4e89-87ad-da50f05403cb
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Utilisez --staged pour voir ce qui sera commité, --stat pour un résumé.
+links:
+- title: Git Diff Documentation
+  url: https://git-scm.com/docs/git-diff
+isUserCreated: false

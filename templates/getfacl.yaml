@@ -1,0 +1,11 @@
+id: eeee3da6-b744-43b0-9d81-390d3f75bf58
+name: getfacl
+platform: Linux
+commandPattern: getfacl {path}
+parameters:
+- name: path
+  label: Chemin
+  type: string
+  defaultValue: /path/to/file
+  required: true
+  description: Fichier ou répertoire à examiner

@@ -1,0 +1,5 @@
+id: 1abc4ff2-fdc3-49ae-bf57-cc7dad797a0b
+name: ''
+platform: Linux
+commandPattern: df -h
+parameters: []

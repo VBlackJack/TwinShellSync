@@ -1,0 +1,17 @@
+id: 525dce0e-39f0-434f-b33c-5d9ffba054d8
+title: Déclencher scan des mises à jour SCCM
+description: Force la recherche immédiate des mises à jour disponibles
+category: "\U0001F504 Windows Updates"
+platform: Windows
+level: Info
+tags:
+- sccm
+- updates
+- scan
+windowsTemplateId: 108e5d5b-12e0-4f12-a62d-2ada8cf6ed95
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Droits administrateur requis. GUID {00000000-0000-0000-0000-000000000113} = Software Updates Scan.
+links: []
+isUserCreated: false

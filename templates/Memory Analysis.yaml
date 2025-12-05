@@ -1,0 +1,8 @@
+id: dd844cee-ad52-4832-ac55-4dc666df49da
+name: Memory Analysis
+platform: Windows
+commandPattern: >-
+  $os = Get-CimInstance Win32_OperatingSystem; $totalGB = [Math]::Round($os.TotalVisibleMemorySize/1MB, 2); $freeGB = [Math]::Round($os.FreePhysicalMemory/1MB, 2); $usedGB = $totalGB - $freeGB; $usedPct = [Math]::Round(($usedGB/$totalGB)*100, 2); Write-Host "=== Memory Summary ==="; Write-Host "Total: $totalGB GB"; Write-Host "Used: $usedGB GB ($usedPct%)"; Write-Host "Free: $freeGB GB"; Write-Host "
+
+  === Top 10 Processes by Memory ==="; Get-Process | Sort-Object WorkingSet -Descending | Select-Object -First 10 ProcessName, Id, @{Name='MemoryMB';Expression={[Math]::Round($_.WorkingSet/1MB,2)}} | Format-Table -AutoSize
+parameters: []

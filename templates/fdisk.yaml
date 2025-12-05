@@ -1,0 +1,11 @@
+id: ecdb5761-90e3-4573-93de-bbded4173db6
+name: fdisk
+platform: Linux
+commandPattern: fdisk -l {device}
+parameters:
+- name: device
+  label: Périphérique
+  type: string
+  defaultValue: ''
+  required: false
+  description: Disque à examiner (vide = tous)

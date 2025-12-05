@@ -1,0 +1,20 @@
+id: 2d135fb6-eaa0-401a-aaeb-ee256920b705
+title: Consulter les logs d'un service spécifique
+description: Affiche les logs journald d'une unité systemd spécifique (service, timer, etc.)
+category: "\U0001F4CA Monitoring & Logs"
+platform: Linux
+level: Info
+tags:
+- journalctl
+- logs
+- systemd
+- service
+linuxTemplateId: decef02d-77b1-4886-9760-66f133b5c333
+examples: []
+windowsExamples: []
+linuxExamples: []
+notes: Utiliser -f pour suivre les logs en temps réel. L'extension .service peut souvent être omise.
+links:
+- title: systemd unit files
+  url: https://www.freedesktop.org/software/systemd/man/systemd.unit.html
+isUserCreated: false

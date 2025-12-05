@@ -1,0 +1,5 @@
+id: 50fac242-adc6-441f-b9e4-82915cc467e0
+name: Get-ComputerInfo
+platform: Windows
+commandPattern: $os = Get-CimInstance Win32_OperatingSystem; $cpu = Get-Counter '\Processor(_Total)\% Processor Time'; $mem = Get-Counter '\Memory\Available MBytes'; [PSCustomObject]@{ComputerName=$env:COMPUTERNAME;OS=$os.Caption;LastBoot=$os.LastBootUpTime;Uptime=(New-TimeSpan -Start $os.LastBootUpTime -End (Get-Date)).ToString();CPU_Usage_Percent=[math]::Round($cpu.CounterSamples.CookedValue,2);Memory_Available_MB=[math]::Round($mem.CounterSamples.CookedValue,2);Memory_Total_MB=[math]::Round($os.TotalVisibleMemorySize/1KB,2);Disk_C_Free_GB=[math]::Round((Get-Volume -DriveLetter C).SizeRemaining/1GB,2);Failed_Services=(Get-Service | Where-Object {$_.StartType -eq 'Automatic' -and $_.Status -ne 'Running'}).Count} | Format-List
+parameters: []

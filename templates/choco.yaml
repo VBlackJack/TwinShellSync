@@ -1,0 +1,17 @@
+id: ce5d4f95-842e-4aed-837c-58452637e238
+name: choco
+platform: Windows
+commandPattern: choco source add --name={name} --source={url}
+parameters:
+- name: name
+  label: Nom de la source
+  type: string
+  defaultValue: ''
+  required: true
+  description: Nom à donner à la source
+- name: url
+  label: URL de la source
+  type: string
+  defaultValue: ''
+  required: true
+  description: URL du dépôt de packages
