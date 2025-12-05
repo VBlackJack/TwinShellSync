@@ -15,8 +15,6 @@
     "ports",
     "netstat"
   ],
-  "windowsTemplateId": "9f97ff25-61b4-404c-bbe0-55a2c011da2e",
-  "linuxTemplateId": "ed5667cd-71ee-4e21-ba40-13d28d800102",
   "examples": [],
   "windowsExamples": [],
   "linuxExamples": [],

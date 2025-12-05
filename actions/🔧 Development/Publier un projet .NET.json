@@ -12,8 +12,6 @@
     "deployment",
     "development"
   ],
-  "windowsTemplateId": "91a9e7a2-4499-4c99-81ce-273f2fd15cf2",
-  "linuxTemplateId": "07b612f8-cce7-405d-84d8-6f564caed0e4",
   "examples": [],
   "windowsExamples": [],
   "linuxExamples": [],

@@ -1,0 +1,7 @@
+{
+  "id": "16684759-8902-4925-b43d-d20b01956d66",
+  "name": "",
+  "platform": "Windows",
+  "commandPattern": "$mem = Get-CimInstance Win32_OperatingSystem; [PSCustomObject]@{Total_GB=[math]::Round($mem.TotalVisibleMemorySize/1MB,2);Free_GB=[math]::Round($mem.FreePhysicalMemory/1MB,2);Used_GB=[math]::Round(($mem.TotalVisibleMemorySize-$mem.FreePhysicalMemory)/1MB,2);Used_Percent=[math]::Round((($mem.TotalVisibleMemorySize-$mem.FreePhysicalMemory)/$mem.TotalVisibleMemorySize)*100,2)} | Format-List",
+  "parameters": []
+}

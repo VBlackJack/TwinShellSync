@@ -12,8 +12,6 @@
     "service",
     "systemd"
   ],
-  "windowsTemplateId": "8d4f3909-a8be-4187-ae32-108b509ae1aa",
-  "linuxTemplateId": "3b639697-63f1-4916-ae0a-385f7bd84da1",
   "examples": [],
   "windowsExamples": [],
   "linuxExamples": [],

@@ -12,8 +12,6 @@
     "debug",
     "windows"
   ],
-  "windowsTemplateId": "b2080cb3-b4c9-4223-8976-2fefa84b928c",
-  "linuxTemplateId": "d4e1c9aa-c432-4534-803e-d2b4ba3ff48e",
   "examples": [],
   "windowsExamples": [],
   "linuxExamples": [],

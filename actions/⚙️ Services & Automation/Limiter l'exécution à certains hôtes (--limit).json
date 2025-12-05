@@ -11,8 +11,6 @@
     "limit",
     "hosts"
   ],
-  "windowsTemplateId": "efe266ac-c9b2-4a97-8c0a-9d71b4fbe7ed",
-  "linuxTemplateId": "9043cdaf-b111-456f-a21d-47c815136ef2",
   "examples": [],
   "windowsExamples": [],
   "linuxExamples": [],

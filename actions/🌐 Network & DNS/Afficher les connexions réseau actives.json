@@ -13,8 +13,6 @@
     "netstat",
     "diagnostic"
   ],
-  "windowsTemplateId": "9942ccf7-d30b-485e-a90f-83c063c78434",
-  "linuxTemplateId": "135018b0-3bfe-4a39-8cd8-a0643830c1a0",
   "examples": [],
   "windowsExamples": [],
   "linuxExamples": [],

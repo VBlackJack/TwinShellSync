@@ -13,8 +13,6 @@
     "resources",
     "windows"
   ],
-  "windowsTemplateId": "21338dec-0761-4adb-a57e-a5dfbd602dbf",
-  "linuxTemplateId": "0cb0fd6f-113f-43be-9689-ec10cd793167",
   "examples": [],
   "windowsExamples": [],
   "linuxExamples": [],

@@ -1,0 +1,7 @@
+{
+  "id": "a81c75b8-e66c-4fe3-9bfc-95818b392c94",
+  "name": "",
+  "platform": "Windows",
+  "commandPattern": "Get-NetRoute -AddressFamily IPv4 | Where-Object {$_.NextHop -ne \u00270.0.0.0\u0027} | Select-Object DestinationPrefix,NextHop,RouteMetric,InterfaceAlias | Sort-Object RouteMetric | Format-Table -AutoSize",
+  "parameters": []
+}

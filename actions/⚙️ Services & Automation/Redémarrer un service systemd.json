@@ -11,7 +11,6 @@
     "service",
     "restart"
   ],
-  "linuxTemplateId": "48485d1e-b701-4e27-a99c-515f726180de",
   "examples": [],
   "windowsExamples": [],
   "linuxExamples": [],

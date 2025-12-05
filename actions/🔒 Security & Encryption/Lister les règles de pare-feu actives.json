@@ -13,8 +13,6 @@
     "iptables",
     "netfirewall"
   ],
-  "windowsTemplateId": "fe18e57d-3394-4a8e-8569-47dbb8e15ede",
-  "linuxTemplateId": "ad6a14e8-e3db-4487-886e-460660ef0a27",
   "examples": [],
   "windowsExamples": [],
   "linuxExamples": [],

@@ -15,8 +15,6 @@
     "windows",
     "linux"
   ],
-  "windowsTemplateId": "90d643c7-6547-4b53-9e0e-e95c80b8f687",
-  "linuxTemplateId": "b74d16c7-dcb2-4eea-8618-91098fc5f88d",
   "examples": [],
   "windowsExamples": [],
   "linuxExamples": [],
